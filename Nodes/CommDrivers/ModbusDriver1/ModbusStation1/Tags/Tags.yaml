@@ -1,0 +1,55 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: I/I.yaml
+- File: Q/Q.yaml
+- File: R/R.yaml
+- File: DT/DT.yaml
+- Name: ImportExportModbusTagCsvFile
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ExportTags
+  - Class: Method
+    Name: ImportTags
+  - Name: CsvPath
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=30;%PROJECTDIR%/ModbasTagsRW.csv"
+  - Name: FieldSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ModbusDriver
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/CommunicationDriver/ModbusDriver"
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "12228df75f3c346c36d0f0e19e856840",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

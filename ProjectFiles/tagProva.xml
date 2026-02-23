@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UANodeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NamespaceUris>
+    <Uri>Cobem_MRM_01</Uri>
+    <Uri>urn:FTOptix:Modbus</Uri>
+  </NamespaceUris>
+  <Models>
+    <Model ModelUri="Cobem_MRM_01">
+      <RequiredModel ModelUri="http://opcfoundation.org/UA/"/>
+      <RequiredModel ModelUri="urn:FTOptix:Modbus" Version="1.0.9.89"/>
+    </Model>
+  </Models>
+  <Aliases/>
+  <UAVariable NodeId="ns=1;g=cf99ad3c-290b-117d-d73c-a71ff54436e9" ParentNodeId="ns=1;g=51ead553-93d2-f66a-d78d-1f1a36b62550" BrowseName="2:MemoryArea" WriteMask="594038" DataType="ns=2;i=1" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=51ead553-93d2-f66a-d78d-1f1a36b62550</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=51ead553-93d2-f66a-d78d-1f1a36b62550" BrowseName="1:Tag0" WriteMask="594038" DataType="i=4" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">ns=2;i=3</Reference>
+    </References>
+    <Value>
+      <uax:Int16>0</uax:Int16>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=cf147fe0-318c-0f72-ff40-beb318b3bc61" ParentNodeId="ns=1;g=51ead553-93d2-f66a-d78d-1f1a36b62550" BrowseName="2:NumRegister" WriteMask="594038" DataType="i=5" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=51ead553-93d2-f66a-d78d-1f1a36b62550</Reference>
+    </References>
+    <Value>
+      <uax:UInt16>0</uax:UInt16>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=140dffff-954b-1eab-f085-d875e654807b" ParentNodeId="ns=1;g=51ead553-93d2-f66a-d78d-1f1a36b62550" BrowseName="2:MaximumLength" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=51ead553-93d2-f66a-d78d-1f1a36b62550</Reference>
+    </References>
+    <Value>
+      <uax:Int32>1</uax:Int32>
+    </Value>
+  </UAVariable>
+</UANodeSet>

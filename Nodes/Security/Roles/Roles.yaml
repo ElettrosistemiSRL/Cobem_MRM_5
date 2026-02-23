@@ -1,0 +1,10 @@
+Name: Roles
+Id: g=168315c4ba704e70bb13e35de715eb03
+Type: RolesCategoryFolder
+Children:
+- Name: perm_admin
+  Id: g=3c938cea7e5f1ce765b55547742c5300
+  Type: ns=1;RoleType
+- Name: perm_service
+  Id: g=df4fa0561d48b544f0b1468c4df4c0d8
+  Type: ns=1;RoleType

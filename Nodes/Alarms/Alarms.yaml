@@ -1,0 +1,293 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- File: _AlmTypes/_AlmTypes.yaml
+- Name: ALM1
+  Id: g=5e6ca9ba42266b400efe83770bd6f1dd
+  Type: ImgAlm
+  Children:
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=bf9343bfb1dc876083cb13e7bfb6b673
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9df036d126339e4cfe83ef8f0a6270e9
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=32805ae7ce08c404ff2a4aff93c117a9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW0.0"
+      Children:
+      - Name: Mode
+        Id: g=fd55d730430553698b990378f43ca117
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0df93c7aba4b7ea4f25671adc78df158
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Message
+    Id: g=5c17b853ca1987888cfd105357aa4a9e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Children:
+    - Name: DynamicLink
+      Id: g=c109aaaad58f6c4500652c902e6698d5
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Id: g=13c3ef128074c6586c9dab51ff9db1cf
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=79141cab311433136b683886dfdfbf7e
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=5870cc0a78103ff8efde743572753bd3
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Id: g=dd9917395959a11d7931e4cd95d839c8
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=f8a7eafd7b9e5f010dba433015575481
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../AlmNum"
+        - Name: Source1
+          Id: g=4bdfacb6af37cd994819879dc3f7bd75
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: KeyValueConverter1
+            Id: g=559d6bac5bc1be8c9eeffa5862f5fc1c
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Id: g=c9dcfac8eb0e801dbb5085182c5055f3
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=c8b7e643975ab0d3637d0beaf94ac5f5
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+  - Name: AlmNum
+    Id: g=70edbc584dcb1c9b5575d494a0651377
+    Type: BaseDataVariableType
+    DataType: Int16
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=d20df6a2d61363eb431742b1445a3ee4
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Id: g=3c139ec2d2af6c66ddca719c13838538
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=a88d75244a7a2345dd83b610d82af049
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Active
+    Id: g=d04dbcaf7e055e0ff1d2c3024363efe8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+- Name: ALM2
+  Id: g=90fa62dd5c1708cfb9ab0c66db0efd8f
+  Type: ImgAlm
+  Children:
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=f0459b86a4bb26bdcd12f75d1b772110
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b32b26c2fc57de2f1ea8d8c0d919982a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b5e331ea7dd2b864a9ae58f43188f926
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/TestAlm2"
+      Children:
+      - Name: Mode
+        Id: g=854924de6bd79f69888a41c598adb5cf
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d2af13aaaf5071ee3fcc92a098ad3bf3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Message
+    Id: g=620726cca0945a56f8166a6a3acb325f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Children:
+    - Name: DynamicLink
+      Id: g=38b2bd01a3fa965d16a7400b44aa2373
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Id: g=7f0a95bb252b27c20a9d0f0bf3bd0a55
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=66ee2ff68c5fcc92f24c9424fc527d1d
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=50c6602c4c868ddc77e9759b7152b79f
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Id: g=cbdbe9db578e17ca4a9600006e7ed393
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=125f1753fd4a17462aa28f49a3b37e11
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../AlmNum"
+        - Name: Source1
+          Id: g=1a541c08efb74e194a07f8068c66fcbb
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: KeyValueConverter1
+            Id: g=85e2b2ca7db3cb2c3bf7cb819c224c18
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Id: g=1c2debba6321228d5c5d46080d6218f8
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=5b1c35850b621d2cedf45ad3e0daec01
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+  - Name: AlmNum
+    Id: g=3dba8d03227e4f751484b9df75c14832
+    Type: BaseDataVariableType
+    DataType: Int16
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=52bcf659ff7f2fd4884bd519fc7192eb
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Id: g=a048d5fabeff9e0c3507968d8caf5d1c
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=1e98d8e6ae6efcddabd8aabb46b814a0
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Active
+    Id: g=fe84b26e7053c1ac35ff1be2525631cb
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read

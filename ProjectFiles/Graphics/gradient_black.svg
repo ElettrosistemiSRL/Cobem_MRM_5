@@ -1,0 +1,15 @@
+﻿
+			<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect width="800" height="200" fill="url(#gradient-fill)"/>
+				<defs>
+					<linearGradient id="gradient-fill" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+						
+							<stop offset="0.16" stop-color="#ffffff" stop-opacity="0.00" />
+						
+							<stop offset="0.35" stop-color="#424242" stop-opacity="0.20"/>						
+						
+							<stop offset="1" stop-color="#000000" stop-opacity="1.00" />
+						
+					</linearGradient>
+				</defs>
+			</svg>

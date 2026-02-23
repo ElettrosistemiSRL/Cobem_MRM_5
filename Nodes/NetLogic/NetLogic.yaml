@@ -1,0 +1,34 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: LocalizedClockLogic
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Time
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: UTCTime
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: CurrentLocale
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Locale"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LocalizedTime
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: LocalizedDate
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

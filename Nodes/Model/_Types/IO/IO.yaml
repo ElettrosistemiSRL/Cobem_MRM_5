@@ -1,0 +1,70 @@
+Name: IO
+Type: FolderType
+Children:
+- Name: IO_Item
+  Id: g=5d9c23af7fc14aee90cbbeaa53d7503c
+  Supertype: BaseObjectType
+  Children:
+  - Name: Text
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: Out
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: En_Test
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Command
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Empty
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: En_Manual
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "{0}"
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I@NodeId"
+  - Name: Manual
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"0"}
+- Name: Input_MRM_Var
+  Id: g=29519db22c0a66157d999d29eb15deda
+  Supertype: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "..@BrowseName"

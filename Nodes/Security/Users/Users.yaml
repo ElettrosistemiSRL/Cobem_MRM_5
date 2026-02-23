@@ -1,0 +1,66 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: steap
+  Id: g=eb5a3a001ac436b290e168e45e0ad65e
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=559c9ad2ba68089d1c13ad7836922f5f
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=466c818c5819c7251827c377e024f0e9
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [252,137,253,232,109,67,177,139,124,116,6,172,142,106,195,49,125,128,145,241,27,139,188,51,170,45,171,188,82,147,77,169],
+         "Salt": [248,128,191,197,64,173,172,26,100,188,224,211,218,68,139,254,167,35,202,163,162,124,43,116,220,246,159,47,177,238,114,89]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=b20ae7e496ef003c55debd9da18802b0
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2026-01-28T21:26:25.7623747"
+    - Name: History
+      Id: g=a996e0e44ddeeed8e1e88b018de784e0
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[252,137,253,232,109,67,177,139,124,116,6,172,142,106,195,49,125,128,145,241,27,139,188,51,170,45,171,188,82,147,77,169],"Salt":[248,128,191,197,64,173,172,26,100,188,224,211,218,68,139,254,167,35,202,163,162,124,43,116,220,246,159,47,177,238,114,89]}}]
+  - Name: LocaleId
+    Id: g=3e2b0a4a8933cf8a6fa6d8aa57aeb5cd
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: Language
+    Id: g=27fa54afbfd88e46e53e4518e9057d30
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: MeasurementSystem
+    Id: g=6d2260010398bf6aaf12112ea5a395f2
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=00ede4771a7aad468f723427bfc0b0da

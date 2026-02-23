@@ -1,0 +1,1775 @@
+Name: AutoInsacchettatrice
+Type: FolderType
+Children:
+- Name: Auto_Insacchetta
+  Id: g=205ad1d891733f2046d9f7e98fd08c7a
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: VerticalLayout2
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: HorizontalLayout3
+      Type: RowLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"NamespaceIndex":30,"TextId":"06-INSACCHETTATRICE"}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 22.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 20.0
+        - Name: FontWeight
+          Type: BaseDataVariableType
+          DataType: FontWeightEnum
+          ModellingRule: Optional
+          Value: 950
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: HorizontalLayout1
+      Type: RowLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: HorizontalGap
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: Insacchetta_1
+        Type: Insacchetta_1
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: VerticalLayout1
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: Rectangle2
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: Rectangle3
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: Rectangle4
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: Rectangle5
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: Rectangle6
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+            - Name: VerticalLayout2
+              Type: ColumnLayout
+              Children:
+              - Name: HorizontalLayout1
+                Type: RowLayout
+                Children:
+                - Name: ToggleButtonInsacchettatrice
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Active"
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                - Name: VerticalGap
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+              - Name: HorizontalLayout2
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 40.0
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: HorizontalLayout3
+                Type: RowLayout
+                Children:
+                - Name: ToggleButtonTacca
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Active"
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                - Name: Label1
+                  Type: Label
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: HorizontalLayout4
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 40.0
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: HorizontalLayout5
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 40.0
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 2.0
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: HorizontalLayout6
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 40.0
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+              - Name: VerticalGap
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 10.0
+            - Name: VerticalLayout3
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"it-IT","Text":""}
+              - Name: Rectangle2
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"it-IT","Text":""}
+              - Name: Rectangle3
+                Type: Rectangle
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 120.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 37.0
+              - Name: Rectangle4
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"it-IT","Text":""}
+              - Name: Rectangle5
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"it-IT","Text":""}
+              - Name: Rectangle6
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"it-IT","Text":""}
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 140.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 10.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+      - Name: Insacchetta_2
+        Type: Insacchetta_2
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: VerticalLayout1
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 14.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+              - Name: Rectangle2
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 16.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+              - Name: Rectangle3
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 16.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+              - Name: Rectangle4
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 16.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+            - Name: VerticalLayout2
+              Type: ColumnLayout
+              Children:
+              - Name: HorizontalLayout1
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                  - Name: ButtonStyle
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default"
+                  - Name: InputBoxStyle
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default"
+                  - Name: Editable
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: Optional
+                    Value: true
+              - Name: HorizontalLayout2
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                  - Name: ButtonStyle
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default"
+                  - Name: InputBoxStyle
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default"
+                  - Name: Editable
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: Optional
+                    Value: true
+              - Name: HorizontalLayout3
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                  - Name: ButtonStyle
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default"
+                  - Name: InputBoxStyle
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default"
+                  - Name: Editable
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: Optional
+                    Value: true
+              - Name: HorizontalLayout4
+                Type: RowLayout
+          - Name: HorizontalLayout2
+            Type: RowLayout
+            Children:
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 20.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 10.0
+            - Name: SpinBox1
+              Type: SpinBox
+              Children:
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Double
+            - Name: Button1
+              Type: Button
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+    - Name: HorizontalLayout2
+      Type: RowLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: HorizontalGap
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: Insacchetta_1
+        Type: Insacchetta_3
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: VerticalLayout4
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+              - Name: Rectangle2
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 16.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                - Name: CHIUSURA
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Active"
+              - Name: Rectangle3
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 16.0
+                - Name: VERTICALE
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Active"
+              - Name: Rectangle4
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 14.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                - Name: ALTA_BASSA
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Active"
+              - Name: Rectangle5
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 16.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                - Name: EUROSLOT
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Active"
+              - Name: Rectangle6
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 10.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 16.0
+                - Name: RINFORZO
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Active"
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: VerticalLayout1
+                Type: ColumnLayout
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 8.0
+                - Name: Rectangle2
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle3
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle4
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle5
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle6
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+            - Name: Rectangle2
+              Type: Rectangle
+              Children:
+              - Name: VerticalLayout1
+                Type: ColumnLayout
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 8.0
+                    - Name: FontSize
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 12.0
+                - Name: Rectangle2
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle3
+                  Type: Rectangle
+                - Name: Rectangle5
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle6
+                  Type: Rectangle
+                - Name: Rectangle4
+                  Type: Rectangle
+            - Name: Rectangle3
+              Type: Rectangle
+              Children:
+              - Name: VerticalLayout1
+                Type: ColumnLayout
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: FontSize
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 12.0
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TextVerticalAlignment
+                      Type: BaseVariableType
+                      DataType: TextVerticalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 8.0
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TextHorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: TextHorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"NamespaceIndex":30,"TextId":"08-IMPOSTA START"}
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                  - Name: BottomMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: -1.0
+                - Name: Rectangle2
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle3
+                  Type: Rectangle
+                - Name: Rectangle4
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle5
+                  Type: Rectangle
+                - Name: Rectangle6
+                  Type: Rectangle
+                - Name: BottomMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 8.0
+                - Name: VerticalGap
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+            - Name: Rectangle4
+              Type: Rectangle
+              Children:
+              - Name: VerticalLayout1
+                Type: ColumnLayout
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"NamespaceIndex":30,"TextId":"08-ATTUALE °C"}
+                    - Name: FontSize
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 14.0
+                    - Name: TextVerticalAlignment
+                      Type: BaseVariableType
+                      DataType: TextVerticalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 8.0
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TextHorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: TextHorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                - Name: Rectangle2
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle3
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle4
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle5
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                - Name: Rectangle6
+                  Type: Rectangle
+                  Children:
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+      - Name: Insacchetta_2
+        Type: Insacchetta_4
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: VerticalLayout1
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"09-SACCHETTI VUOTI"}
+              - Name: Rectangle2
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+              - Name: Rectangle3
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+              - Name: Rectangle4
+                Type: Rectangle
+              - Name: Rectangle5
+                Type: Rectangle
+              - Name: Rectangle6
+                Type: Rectangle
+            - Name: VerticalLayout2
+              Type: ColumnLayout
+              Children:
+              - Name: HorizontalLayout1
+                Type: RowLayout
+                Children:
+                - Name: ToggleButton1
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Active"
+              - Name: HorizontalLayout2
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+              - Name: HorizontalLayout3
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+              - Name: HorizontalLayout4
+                Type: RowLayout
+              - Name: HorizontalLayout5
+                Type: RowLayout
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: HorizontalGap
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: VerticalGap
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 8.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 8.0
+- Name: Auto_Cartone
+  Id: g=3c3c5d76c819b59ee801b1fd6365433c
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: VerticalLayout2
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: HorizontalLayout3
+      Type: RowLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"NamespaceIndex":30,"TextId":"10-CARTONE"}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 22.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 20.0
+        - Name: FontWeight
+          Type: BaseDataVariableType
+          DataType: FontWeightEnum
+          ModellingRule: Optional
+          Value: 950
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: HorizontalLayout1
+      Type: RowLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: HorizontalGap
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: _10_Cartone1
+        Type: _10_Cartone
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: VerticalLayout1
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+              - Name: Rectangle2
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+              - Name: Rectangle3
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+              - Name: Rectangle4
+                Type: Rectangle
+                Children:
+                - Name: Label1
+                  Type: Label
+              - Name: Rectangle5
+                Type: Rectangle
+              - Name: Rectangle6
+                Type: Rectangle
+              - Name: Rectangle7
+                Type: Rectangle
+            - Name: VerticalLayout2
+              Type: ColumnLayout
+              Children:
+              - Name: HorizontalLayout1
+                Type: RowLayout
+                Children:
+                - Name: ToggleButton1
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Active"
+              - Name: HorizontalLayout2
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+              - Name: HorizontalLayout3
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+              - Name: HorizontalLayout4
+                Type: RowLayout
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+              - Name: HorizontalLayout5
+                Type: RowLayout
+              - Name: HorizontalLayout6
+                Type: RowLayout
+              - Name: HorizontalLayout7
+                Type: RowLayout
+      - Name: Manual_Empty1
+        Type: Manual_Empty
+        Children:
+        - Name: Label1
+          Type: Label
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: VerticalLayout1
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+            - Name: VerticalLayout2
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+              - Name: Rectangle3
+                Type: Rectangle
+            - Name: VerticalLayout3
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+              - Name: Rectangle2
+                Type: Rectangle
+              - Name: Rectangle3
+                Type: Rectangle
+    - Name: HorizontalLayout2
+      Type: RowLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: HorizontalGap
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: Manual_Empty1
+        Type: Manual_Empty
+        Children:
+        - Name: Label1
+          Type: Label
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: VerticalLayout1
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+            - Name: VerticalLayout2
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+              - Name: Rectangle3
+                Type: Rectangle
+            - Name: VerticalLayout3
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+              - Name: Rectangle2
+                Type: Rectangle
+              - Name: Rectangle3
+                Type: Rectangle
+      - Name: Manual_Empty2
+        Type: Manual_Empty
+        Children:
+        - Name: Label1
+          Type: Label
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: VerticalLayout1
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+            - Name: VerticalLayout2
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+              - Name: Rectangle3
+                Type: Rectangle
+            - Name: VerticalLayout3
+              Type: ColumnLayout
+              Children:
+              - Name: Rectangle1
+                Type: Rectangle
+              - Name: Rectangle2
+                Type: Rectangle
+              - Name: Rectangle3
+                Type: Rectangle
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: HorizontalGap
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: VerticalGap
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 8.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 8.0

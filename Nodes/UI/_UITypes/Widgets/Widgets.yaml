@@ -1,0 +1,9 @@
+Name: Widgets
+Type: FolderType
+Children:
+- File: IO_List/IO_List.yaml
+- File: LoginForm/LoginForm.yaml
+- File: MRM_manual/MRM_manual.yaml
+- File: Auto/Auto.yaml
+- File: Auto_Insacchettatrice/Auto_Insacchettatrice.yaml
+- File: UserEditor/UserEditor.yaml

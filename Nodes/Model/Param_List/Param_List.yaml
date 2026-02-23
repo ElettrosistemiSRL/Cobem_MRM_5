@@ -1,0 +1,1404 @@
+Name: Param_List
+Type: FolderType
+Children:
+- Name: Param_Item1
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Setpoint file su pozzetto prima di ribaltare la scatola"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item2
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo fila su pozzetto"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item3
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Filtro lettura cartucce"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item10
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tempo mantenimento On Valvole"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item11
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tempo rilassamento cartone.- Viene ripetuta la schiusura becche"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item20
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tempo di aspirazione venturi"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item21
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo avvio rotazione dopo perdita sensore alto"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item22
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo venturi in aspirazione con scatola formata"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item23
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo dopo formatura scatola SC25"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item24
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tentativi formazione scatola SC25"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item25
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo EV3B dopo aver formato la scatolina"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item40
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo apertura blocco cartucce dopo aver perso il sensore P2"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item61
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Valore corrente tentativi peso non corretto"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+- Name: Param_Item67
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo riposo Ev13 dopo Ev14"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item68
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo apertura cilindri per chiusura scatola"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item80
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo dopo uscita SC250 da FT4"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item81
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo uscita ev26 in appoggio durante il ribaltamento sc250"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item82
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo chiusura Ev21 dopo sfogliastore sx"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item83
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo Ev 20 dopo sfogliatore 1"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item84
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo traslazione scatola dopo ribaltamento"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item85
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Valore attuale tentativi formatura SC250"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+- Name: Param_Item86
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo chiusura sfogliatore 1"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item91
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Setpoint file dentro scatola di cartone"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item101
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo partenza traslatore uscita EV28"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item102
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ritardo ascensore su dopo traslatore avanti"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item60
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Attesa start dopo deposito scatola"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cs"
+- Name: Param_Item13
+  Type: Param_Item
+  Children:
+  - Name: Val
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number@Value"
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+  - Name: Description
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Abilitazione lettura data matrix"
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: MeasureUnit
+    Type: BaseDataVariableType
+    DataType: String
