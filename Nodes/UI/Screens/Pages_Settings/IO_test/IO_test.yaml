@@ -158,15 +158,20 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
-                Value: "/Objects/Cobem_MRM_5/Model/IO_List/X00"
+                Value: "/Objects/Cobem_MRM_5/Model/IO_List/CPU/I-X0"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -354,6 +359,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -361,7 +371,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -554,6 +564,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -561,7 +576,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -754,6 +769,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -761,7 +781,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -954,6 +974,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -961,7 +986,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1154,6 +1179,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -1161,7 +1191,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1354,6 +1384,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -1361,7 +1396,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1554,6 +1589,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -1561,7 +1601,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1754,6 +1794,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -1761,7 +1806,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1954,6 +1999,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -1961,7 +2011,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -2154,6 +2204,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -2161,7 +2216,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -2354,6 +2409,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -2361,7 +2421,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -2554,6 +2614,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -2561,7 +2626,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -2754,6 +2819,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -2761,7 +2831,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -2954,6 +3024,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -2961,7 +3036,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -3154,6 +3229,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -3161,7 +3241,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -3357,6 +3437,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -3364,7 +3449,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -3557,6 +3642,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -3564,7 +3654,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -3757,6 +3847,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -3764,7 +3859,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -3957,6 +4052,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -3964,7 +4064,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -4157,6 +4257,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -4164,7 +4269,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -4357,6 +4462,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -4364,7 +4474,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -4557,6 +4667,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -4564,7 +4679,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -4757,6 +4872,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -4764,7 +4884,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -4957,6 +5077,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -4964,7 +5089,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -5157,6 +5282,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -5164,7 +5294,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -5357,6 +5487,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -5364,7 +5499,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -5557,6 +5692,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -5564,7 +5704,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -5757,6 +5897,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -5764,7 +5909,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -5957,6 +6102,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -5964,7 +6114,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -6157,6 +6307,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -6164,7 +6319,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -6357,6 +6512,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -6364,7 +6524,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -6581,6 +6741,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -6588,7 +6753,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -6781,6 +6946,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -6788,7 +6958,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -6981,6 +7151,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -6988,7 +7163,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -7181,6 +7356,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -7188,7 +7368,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -7381,6 +7561,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -7388,7 +7573,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -7581,6 +7766,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -7588,7 +7778,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -7781,6 +7971,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -7788,7 +7983,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -7981,6 +8176,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -7988,7 +8188,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -8181,6 +8381,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -8188,7 +8393,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -8381,6 +8586,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -8388,7 +8598,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -8581,6 +8791,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -8588,7 +8803,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -8781,6 +8996,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -8788,7 +9008,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -8981,6 +9201,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -8988,7 +9213,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -9181,6 +9406,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -9188,7 +9418,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -9381,6 +9611,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -9388,7 +9623,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -9581,6 +9816,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -9588,7 +9828,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -9784,6 +10024,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -9791,7 +10036,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -9984,6 +10229,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -9991,7 +10241,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -10184,6 +10434,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -10191,7 +10446,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -10384,6 +10639,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -10391,7 +10651,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -10584,6 +10844,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -10591,7 +10856,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -10784,6 +11049,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -10791,7 +11061,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -10984,6 +11254,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -10991,7 +11266,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -11184,6 +11459,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -11191,7 +11471,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -11384,6 +11664,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -11391,7 +11676,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -11584,6 +11869,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -11591,7 +11881,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -11784,6 +12074,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -11791,7 +12086,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -11984,6 +12279,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -11991,7 +12291,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -12184,6 +12484,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -12191,7 +12496,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -12384,6 +12689,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -12391,7 +12701,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -12584,6 +12894,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -12591,7 +12906,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -12784,6 +13099,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -12791,7 +13111,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -13004,6 +13324,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -13011,7 +13336,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -13204,6 +13529,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -13211,7 +13541,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -13404,6 +13734,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -13411,7 +13746,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -13604,6 +13939,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -13611,7 +13951,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -13804,6 +14144,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -13811,7 +14156,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -14004,6 +14349,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -14011,7 +14361,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -14204,6 +14554,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -14211,7 +14566,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -14404,6 +14759,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -14411,7 +14771,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -14604,6 +14964,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -14611,7 +14976,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -14804,6 +15169,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -14811,7 +15181,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -15004,6 +15374,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -15011,7 +15386,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -15204,6 +15579,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -15211,7 +15591,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -15404,6 +15784,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -15411,7 +15796,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -15604,6 +15989,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -15611,7 +16001,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -15804,6 +16194,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -15811,7 +16206,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -16004,6 +16399,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -16011,7 +16411,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -16224,6 +16624,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -16231,7 +16636,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -16424,6 +16829,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -16431,7 +16841,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -16624,6 +17034,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -16631,7 +17046,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -16824,6 +17239,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -16831,7 +17251,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -17024,6 +17444,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -17031,7 +17456,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -17224,6 +17649,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -17231,7 +17661,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -17424,6 +17854,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -17431,7 +17866,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -17624,6 +18059,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -17631,7 +18071,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -17824,6 +18264,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -17831,7 +18276,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -18024,6 +18469,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -18031,7 +18481,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -18224,6 +18674,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -18231,7 +18686,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -18424,6 +18879,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -18431,7 +18891,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -18624,6 +19084,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -18631,7 +19096,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -18824,6 +19289,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -18831,7 +19301,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -19024,6 +19494,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -19031,7 +19506,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -19224,6 +19699,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -19231,7 +19711,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -19427,6 +19907,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -19434,7 +19919,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -19627,6 +20112,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -19634,7 +20124,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -19827,6 +20317,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -19834,7 +20329,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -20087,6 +20582,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -20094,7 +20594,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -20287,6 +20787,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -20294,7 +20799,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -20487,6 +20992,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -20494,7 +21004,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -20687,6 +21197,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -20694,7 +21209,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -20887,6 +21402,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -20894,7 +21414,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -21087,6 +21607,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -21094,7 +21619,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -21287,6 +21812,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -21294,7 +21824,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -21487,6 +22017,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -21494,7 +22029,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -21759,6 +22294,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -21766,7 +22306,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -21959,6 +22499,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -21966,7 +22511,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -22159,6 +22704,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -22166,7 +22716,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -22359,6 +22909,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -22366,7 +22921,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -22559,6 +23114,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -22566,7 +23126,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -22759,6 +23319,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -22766,7 +23331,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -22959,6 +23524,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -22966,7 +23536,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -23159,6 +23729,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -23166,7 +23741,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -23359,6 +23934,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -23366,7 +23946,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -23559,6 +24139,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -23566,7 +24151,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -23759,6 +24344,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -23766,7 +24356,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -23959,6 +24549,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -23966,7 +24561,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -24159,6 +24754,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -24166,7 +24766,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -24359,6 +24959,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -24366,7 +24971,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -24559,6 +25164,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -24566,7 +25176,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -24759,6 +25369,11 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Alias_Input}@BrowseName"
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
@@ -24766,7 +25381,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: "/Objects/Cobem_MRM_5/Model/_Types/IO/Input_MRM_Var"
+                  Value: "/Objects/Cobem_MRM_5/Model/Input_MRM_type_"
               - Name: LED
                 Type: ScaleLayout
                 WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel

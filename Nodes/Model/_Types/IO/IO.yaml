@@ -52,19 +52,3 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"it-IT","Text":"0"}
-- Name: Input_MRM_Var
-  Id: g=29519db22c0a66157d999d29eb15deda
-  Supertype: Input_MRM_type_
-  Children:
-  - Name: ON
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: Label
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "..@BrowseName"

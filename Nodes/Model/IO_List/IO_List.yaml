@@ -1,19 +1,9 @@
 Name: IO_List
 Type: FolderType
 Children:
-- Name: X00
-  Id: g=dcfeb3062be94901ba2ba37d8d9d17cf
-  Type: Input_MRM_Var
-  Children:
-  - Name: ON
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: Label
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "..@BrowseName"
+- File: EXP1/EXP1.yaml
+- File: EXP2/EXP2.yaml
+- File: EXP3/EXP3.yaml
+- File: CPU/CPU.yaml
+- File: SLV/SLV.yaml
+- File: CPU_CARTONCINO/CPU_CARTONCINO.yaml
