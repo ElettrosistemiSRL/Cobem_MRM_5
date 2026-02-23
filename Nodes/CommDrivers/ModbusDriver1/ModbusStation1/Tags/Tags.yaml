@@ -20,7 +20,7 @@ Children:
   - Name: CsvPath
     Type: BaseDataVariableType
     DataType: ResourceUri
-    Value: "ns=30;%PROJECTDIR%/ModbasTagsRW.csv"
+    Value: "ns=30;%PROJECTDIR%/ModbusTagsDTD2.csv"
   - Name: FieldSeparator
     Type: BaseDataVariableType
     DataType: String

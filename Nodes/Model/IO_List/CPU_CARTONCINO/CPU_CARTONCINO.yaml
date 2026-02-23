@@ -2,6 +2,7 @@ Name: CPU_CARTONCINO
 Type: FolderType
 Children:
 - Name: 'I-X0'
+  Id: g=1521692cf249037b1972bf6e8b775182
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -27,6 +28,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X1'
+  Id: g=f26cb49ee7cedbc88753374e8c2f11c4
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -52,6 +54,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X2'
+  Id: g=0b682d3c4dcc32bae2499b5eedbd76ed
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -77,6 +80,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X3'
+  Id: g=92aaae293ef7f2cb36fcd9e406b4859d
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -102,6 +106,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X4'
+  Id: g=8fe5f6b8047067a83c191fad7de902a1
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -127,6 +132,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X5'
+  Id: g=d7ceb86e87fe65d758cea317fbdf4b98
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -152,6 +158,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X6'
+  Id: g=c7177504b33c8144784922cfd4f8eba4
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -177,6 +184,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X7'
+  Id: g=eb0656c29d7fb15ebdb8fe9f95608d31
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -202,6 +210,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X8'
+  Id: g=1706bf88c67bee475c9416ccbed1d402
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -227,6 +236,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X9'
+  Id: g=893559d95c31dedc920ad247268167cc
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -252,6 +262,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XA'
+  Id: g=703a0d94517c7a81231551623d33bc1f
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -277,6 +288,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XB'
+  Id: g=82a7ea40d43c6e143eb7f81787d83594
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -302,6 +314,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XC'
+  Id: g=8dabd5a73d7e634dc27647f318c6a3b6
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -327,6 +340,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XD'
+  Id: g=9da5239bce4cb194e46dd70572bed4c6
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -352,6 +366,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XE'
+  Id: g=cec191d9b8f730f61f88b243b59b6572
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -377,6 +392,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XF'
+  Id: g=63fc5e8803ccf74e207432f1570571df
   Type: Input_MRM_type_
   Children:
   - Name: ON

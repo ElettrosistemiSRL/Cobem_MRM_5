@@ -3338,11 +3338,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{Session}/Roles/perm_service"
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
