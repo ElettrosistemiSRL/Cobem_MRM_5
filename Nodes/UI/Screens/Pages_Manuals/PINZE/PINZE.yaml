@@ -22,7 +22,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Cobem_MRM_5/UI/Screens/Pages_Manuals/PINZE/Pinza_Superiore"
+          Value: {"IdType":2,"Id":"a9824058559e541411ce0f84bf7d8987","Namespace":30}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -395,6 +395,29 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../EnLedOpen"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 100.0
         - Name: Chiudi
           Type: MomentaryButton
           Children:
@@ -1024,6 +1047,29 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../EnLedOpen"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 100.0
         - Name: Chiudi
           Type: MomentaryButton
           Children:
@@ -1690,6 +1736,29 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../EnLedOpen"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 100.0
         - Name: Chiudi
           Type: MomentaryButton
           Children:
@@ -2309,6 +2378,29 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../EnLedOpen"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 100.0
         - Name: Chiudi
           Type: MomentaryButton
           Children:
@@ -2728,7 +2820,7 @@ Children:
       ModellingRule: Optional
       Value: 2
 - Name: Pinza_Superiore
-  Id: g=a9824058559e541411ce0f84bf7d8987
+  Id: g=b13e68838a1e3a1828a19714be6d3f40
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
@@ -3010,6 +3102,29 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../EnLedOpen"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 100.0
         - Name: Chiudi
           Type: MomentaryButton
           Children:
@@ -3639,6 +3754,29 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../EnLedOpen"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 100.0
         - Name: Chiudi
           Type: MomentaryButton
           Children:
@@ -4305,6 +4443,29 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../EnLedOpen"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 100.0
         - Name: Chiudi
           Type: MomentaryButton
           Children:
@@ -4924,6 +5085,29 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../EnLedOpen"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 100.0
         - Name: Chiudi
           Type: MomentaryButton
           Children:
@@ -5892,6 +6076,22 @@ Children:
                                 Type: DynamicLink
                                 DataType: NodePath
                                 Value: "../../../../../../On"
+                  - Name: LibraryReference
+                    Type: ObjectLibraryReference
+                    DataType: ObjectLibraryReferenceDataType
+                    Value: 
+                     {
+                      "TypeId": {
+                       "Id": 72,
+                       "Namespace": 17
+                      },
+                      "Body": {
+                       "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
+                       "objectGuid": "e87fc2e91c848c1a579d463de1b3bca8",
+                       "objectVersion": 1,
+                       "highestIgnoredVersion": 0
+                      }
+                     }
               - Name: Rectangle3
                 Type: Rectangle
                 Children:
@@ -6496,6 +6696,22 @@ Children:
                                 Type: DynamicLink
                                 DataType: NodePath
                                 Value: "../../../../../../On"
+                  - Name: LibraryReference
+                    Type: ObjectLibraryReference
+                    DataType: ObjectLibraryReferenceDataType
+                    Value: 
+                     {
+                      "TypeId": {
+                       "Id": 72,
+                       "Namespace": 17
+                      },
+                      "Body": {
+                       "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
+                       "objectGuid": "e87fc2e91c848c1a579d463de1b3bca8",
+                       "objectVersion": 1,
+                       "highestIgnoredVersion": 0
+                      }
+                     }
               - Name: Rectangle3
                 Type: Rectangle
                 Children:

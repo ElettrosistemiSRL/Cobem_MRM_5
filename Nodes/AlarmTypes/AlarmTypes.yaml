@@ -164,6 +164,9 @@ Children:
     - Class: Reference
       Type: HasTrueSubState
       Target: ns=0;i=9093
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: ActiveState
     Type: TwoStateVariableType
     DataType: LocalizedText

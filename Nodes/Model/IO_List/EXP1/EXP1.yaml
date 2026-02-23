@@ -1,2 +1,497 @@
 Name: EXP1
 Type: FolderType
+Children:
+- Name: 'I-X20'
+  Id: g=d1a1818a01b3e35e21b9f78a887ca8d9
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.0"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X21'
+  Id: g=dfedb46620de04b7ac7c3ce3c4075bf7
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X22'
+  Id: g=10e6c86bdc97e62edf9e2e3399cbe65c
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X23'
+  Id: g=e238b69add56b6a5080ea09ef30c76b4
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.3"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X24'
+  Id: g=0fd829e007f073dbc1f6d34bb65e7dc0
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.4"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X25'
+  Id: g=e02b29f7f96c78720d6c46f35fe7a8ef
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.5"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X26'
+  Id: g=fa630c2c17618e88eb20e17aebe8b919
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.6"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X27'
+  Id: g=44b06050df6680b94166e9bb6d81fe46
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.7"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X28'
+  Id: g=1bdc151d95fdf3f8735a73c1f3f785dc
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.8"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X29'
+  Id: g=e30c05fdf3a88569106de7aa64c66c05
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.9"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X2A'
+  Id: g=d52d959c3bf76454404a84ef113c3bc5
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.10"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X2B'
+  Id: g=b3fc50e20d6d6c57ec9a07607ac69b5e
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.11"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X2C'
+  Id: g=29b100896e3d5f915e1bd71bdbda3a8e
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.12"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X2D'
+  Id: g=554375d1caead32733bdfc7fffc32829
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.13"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X2E'
+  Id: g=9aa7c46e2788199f61ace5f8619dc12e
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.14"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X2F'
+  Id: g=49015590c5d61831c07049539fc82a87
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.15"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X40'
+  Id: g=fc74c6329dd750771fed215a7e757f07
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW4.0"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X41'
+  Id: g=f9ef26763ae013b051e6c18cf5a2c376
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW4.1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"
+- Name: 'I-X42'
+  Id: g=def60a10a1327b0d63b0f4a7ae2ed0d7
+  Type: Input_MRM_type_
+  Children:
+  - Name: ON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW4.2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Label
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Alias_Input}@BrowseName"

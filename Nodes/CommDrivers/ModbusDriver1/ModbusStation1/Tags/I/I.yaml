@@ -91,3 +91,35 @@ Children:
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
     Value: 1
+- Name: XW34
+  Type: ModbusTag
+  DataType: UInt16
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 3
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 34
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+    Value: 1
+- Name: XW35
+  Type: ModbusTag
+  DataType: UInt16
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 3
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 35
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+    Value: 1

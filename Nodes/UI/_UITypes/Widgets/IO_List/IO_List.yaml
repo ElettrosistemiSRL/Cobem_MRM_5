@@ -36433,6 +36433,16 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "{Alias_Input}@BrowseName"
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 56.0
   - Name: Alias_Input
     Type: Alias
     DataType: NodeId

@@ -25552,11 +25552,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_250"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -25661,11 +25672,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_252"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -25770,11 +25792,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_254"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -25879,11 +25912,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_256"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -25988,11 +26032,23 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Value: "NaN"
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_258"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -26097,11 +26153,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_260"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -26148,7 +26215,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 580.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -26324,11 +26391,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_280"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -26433,11 +26511,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_282"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -26542,11 +26631,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_284"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -26651,11 +26751,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_286"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -26760,11 +26871,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_288"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -26811,7 +26933,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 620.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -26834,7 +26956,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"58: PAR.ESTRAZIONE -ESAGONO"}
+                Value: {"NamespaceIndex":30,"TextId":"52: PARAMETRI  -PINZA INFERIORE -"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -26977,11 +27099,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_290"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -27096,11 +27229,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_292"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -27205,11 +27349,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_294"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -27314,11 +27469,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_296"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -27423,11 +27589,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_298"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -27474,7 +27651,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 780.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -27654,11 +27831,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_300"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -27768,11 +27956,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_302"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -27877,11 +28076,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_304"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -27986,11 +28196,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_306"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -28095,11 +28316,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_308"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -28204,11 +28436,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_310"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -28255,7 +28498,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 660.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -28427,11 +28670,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_414"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -28536,11 +28790,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_416"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -28645,11 +28910,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_418"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -28754,11 +29030,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_420"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -28863,11 +29150,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_430"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -28929,385 +29227,32 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                - Name: Label1
-                  Type: Label
-                  Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"54-MEM MOP"}
-                  - Name: Width
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 80.0
-                  - Name: Height
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 30.0
-                  - Name: FontSize
-                    Type: BaseDataVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 20.0
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 3
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: BottomMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: TextVerticalAlignment
-                    Type: BaseVariableType
-                    DataType: TextVerticalAlignment
-                    ModellingRule: Optional
-                    Value: 1
-                - Name: Rectangle1
-                  Type: Rectangle
+                - Name: HorizontalLayout4
+                  Type: RowLayout
                   Children:
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 110.0
+                    Value: 50.0
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 30.0
-                  - Name: Label2
+                    Value: 50.0
+                  - Name: Label1
                     Type: Label
                     Children:
                     - Name: Text
                       Type: BaseDataVariableType
                       DataType: LocalizedText
                       ModellingRule: Optional
-                      Value: {"NamespaceIndex":30,"TextId":"54-C"}
+                      Value: {"NamespaceIndex":30,"TextId":"54-MEM MOP"}
                     - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 22.0
-                    - Name: Height
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 30.0
-                    - Name: FontSize
-                      Type: BaseDataVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 2
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 10.0
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 8.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                  - Name: SpinBox1
-                    Type: SpinBox
-                    Children:
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Double
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 80.0
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                    - Name: ShowButtons
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                    - Name: Editable
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: true
-                    - Name: RightMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
                       Value: 100.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 30.0
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 2
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: FontSize
-                      Type: BaseDataVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                  - Name: BorderColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    ModellingRule: Optional
-                    Value: "#ffffff"
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 198.0
-                  - Name: TopMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 2
-                  - Name: BottomMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: HorizontalAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    ModellingRule: Optional
-                    Value: 1
-                  - Name: RightMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 400.0
-                - Name: Rectangle2
-                  Type: Rectangle
-                  Children:
-                  - Name: Width
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 110.0
-                  - Name: Height
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 30.0
-                  - Name: Label3
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      ModellingRule: Optional
-                      Value: {"NamespaceIndex":30,"TextId":"54-M"}
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 21.0
-                    - Name: Height
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 30.0
-                    - Name: FontSize
-                      Type: BaseDataVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 2
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 8.0
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 8.0
-                  - Name: SpinBox2
-                    Type: SpinBox
-                    Children:
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Double
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 80.0
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                    - Name: ShowButtons
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                    - Name: Editable
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: true
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 50.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 30.0
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 2
-                    - Name: Enabled
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: true
-                    - Name: FontSize
-                      Type: BaseDataVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                  - Name: BorderColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    ModellingRule: Optional
-                    Value: "#ffffff"
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 40.0
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 2
-                  - Name: TopMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: BottomMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: HorizontalAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    ModellingRule: Optional
-                    Value: 1
-                  - Name: Visible
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ModellingRule: Optional
-                    Value: true
-                  - Name: RightMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 200.0
-                - Name: Rectangle3
-                  Type: Rectangle
-                  Children:
-                  - Name: Width
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 110.0
-                  - Name: Height
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 30.0
-                  - Name: Label4
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      ModellingRule: Optional
-                      Value: {"NamespaceIndex":30,"TextId":"54-S"}
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
                     - Name: Height
                       Type: BaseVariableType
                       DataType: Size
@@ -29327,108 +29272,511 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 13.0
+                    - Name: BottomMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
                     - Name: TextVerticalAlignment
                       Type: BaseVariableType
                       DataType: TextVerticalAlignment
                       ModellingRule: Optional
                       Value: 1
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
                     - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 8.0
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                  - Name: SpinBox3
-                    Type: SpinBox
-                    Children:
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Double
-                    - Name: Width
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
                       Value: 80.0
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: HorizontalLayout1
+                    Type: Rectangle
+                    Children:
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 190.0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
                     - Name: HorizontalAlignment
                       Type: BaseVariableType
                       DataType: HorizontalAlignment
                       ModellingRule: Optional
-                    - Name: ShowButtons
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                    - Name: Editable
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: true
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 31.0
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
+                      Value: 3
                     - Name: VerticalAlignment
                       Type: BaseVariableType
                       DataType: VerticalAlignment
                       ModellingRule: Optional
                       Value: 2
+                    - Name: Label2
+                      Type: Label
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        ModellingRule: Optional
+                        Value: {"NamespaceIndex":30,"TextId":"54-C"}
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: Height
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TextVerticalAlignment
+                        Type: BaseVariableType
+                        DataType: TextVerticalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 8.0
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TextHorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: TextHorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                    - Name: SpinBox1
+                      Type: SpinBox
+                      Children:
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_422"
+                          Children:
+                          - Name: Mode
+                            Type: BaseVariableType
+                            DataType: DynamicLinkMode
+                            ModellingRule: Optional
+                            Value: 2
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 160.0
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: ShowButtons
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                      - Name: Editable
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                    - Name: BorderColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                    - Name: FillColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                    - Name: LeftMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                  - Name: HorizontalLayout2
+                    Type: Rectangle
+                    Children:
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 190.0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 2
+                    - Name: Label3
+                      Type: Label
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        ModellingRule: Optional
+                        Value: {"NamespaceIndex":30,"TextId":"54-M"}
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: Height
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TextVerticalAlignment
+                        Type: BaseVariableType
+                        DataType: TextVerticalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 8.0
+                      - Name: TextHorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: TextHorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                    - Name: SpinBox2
+                      Type: SpinBox
+                      Children:
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_423"
+                          Children:
+                          - Name: Mode
+                            Type: BaseVariableType
+                            DataType: DynamicLinkMode
+                            ModellingRule: Optional
+                            Value: 2
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 160.0
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: ShowButtons
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                      - Name: Editable
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: Enabled
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                    - Name: BorderColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                    - Name: FillColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                    - Name: LeftMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 8.0
+                  - Name: HorizontalLayout3
+                    Type: Rectangle
+                    Children:
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 210.0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 2
+                    - Name: Label4
+                      Type: Label
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        ModellingRule: Optional
+                        Value: {"NamespaceIndex":30,"TextId":"54-S"}
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: Height
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TextVerticalAlignment
+                        Type: BaseVariableType
+                        DataType: TextVerticalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                      - Name: TextHorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: TextHorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                    - Name: SpinBox3
+                      Type: SpinBox
+                      Children:
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_424"
+                          Children:
+                          - Name: Mode
+                            Type: BaseVariableType
+                            DataType: DynamicLinkMode
+                            ModellingRule: Optional
+                            Value: 2
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 160.0
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: ShowButtons
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                      - Name: Editable
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
                     - Name: TopMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                    - Name: FontSize
-                      Type: BaseDataVariableType
+                    - Name: BottomMargin
+                      Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 20.0
-                  - Name: BorderColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    ModellingRule: Optional
-                    Value: "#ffffff"
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 40.0
+                    - Name: BorderColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                    - Name: FillColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                    - Name: LeftMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 2
-                  - Name: BottomMargin
-                    Type: BaseVariableType
+                  - Name: HorizontalGap
+                    Type: BaseDataVariableType
                     DataType: Size
                     ModellingRule: Optional
-                  - Name: HorizontalAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    ModellingRule: Optional
-                    Value: 1
+                    Value: 20.0
               - Name: HorizontalLayout7
                 Type: Panel
                 Children:
@@ -29451,385 +29799,37 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                - Name: Label1
-                  Type: Label
+                - Name: HorizontalLayout1
+                  Type: RowLayout
                   Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"54-MEM SCARTO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 50.0
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 30.0
-                  - Name: FontSize
-                    Type: BaseDataVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 20.0
-                  - Name: VerticalAlignment
+                    Value: 50.0
+                  - Name: HorizontalAlignment
                     Type: BaseVariableType
-                    DataType: VerticalAlignment
+                    DataType: HorizontalAlignment
                     ModellingRule: Optional
                     Value: 3
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: BottomMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: TextVerticalAlignment
-                    Type: BaseVariableType
-                    DataType: TextVerticalAlignment
-                    ModellingRule: Optional
-                    Value: 1
-                - Name: Rectangle1
-                  Type: Rectangle
-                  Children:
-                  - Name: Width
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 110.0
-                  - Name: Height
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 30.0
-                  - Name: Label2
+                  - Name: Label1
                     Type: Label
                     Children:
                     - Name: Text
                       Type: BaseDataVariableType
                       DataType: LocalizedText
                       ModellingRule: Optional
-                      Value: {"LocaleId":"it-IT","Text":"M"}
+                      Value: {"NamespaceIndex":30,"TextId":"54-MEM SCARTO"}
                     - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 22.0
-                    - Name: Height
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 30.0
-                    - Name: FontSize
-                      Type: BaseDataVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 2
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 9.0
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 8.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                  - Name: SpinBox1
-                    Type: SpinBox
-                    Children:
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Double
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 80.0
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                    - Name: ShowButtons
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                    - Name: Editable
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: true
-                    - Name: RightMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
                       Value: 100.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 30.0
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 2
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: FontSize
-                      Type: BaseDataVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                  - Name: BorderColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    ModellingRule: Optional
-                    Value: "#ffffff"
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 198.0
-                  - Name: TopMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 2
-                  - Name: BottomMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: HorizontalAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    ModellingRule: Optional
-                    Value: 1
-                  - Name: RightMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 400.0
-                - Name: Rectangle2
-                  Type: Rectangle
-                  Children:
-                  - Name: Width
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 110.0
-                  - Name: Height
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 30.0
-                  - Name: Label3
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      ModellingRule: Optional
-                      Value: {"LocaleId":"it-IT","Text":"S"}
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 21.0
-                    - Name: Height
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 30.0
-                    - Name: FontSize
-                      Type: BaseDataVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 2
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 10.0
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 8.0
-                  - Name: SpinBox2
-                    Type: SpinBox
-                    Children:
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Double
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 80.0
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                    - Name: ShowButtons
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                    - Name: Editable
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: true
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 50.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 30.0
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 2
-                    - Name: Enabled
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: true
-                    - Name: FontSize
-                      Type: BaseDataVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                  - Name: BorderColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    ModellingRule: Optional
-                    Value: "#ffffff"
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 40.0
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 2
-                  - Name: TopMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: BottomMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: HorizontalAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    ModellingRule: Optional
-                    Value: 1
-                  - Name: Visible
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ModellingRule: Optional
-                    Value: true
-                  - Name: RightMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 200.0
-                - Name: Rectangle3
-                  Type: Rectangle
-                  Children:
-                  - Name: Width
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 110.0
-                  - Name: Height
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 30.0
-                  - Name: Label4
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      ModellingRule: Optional
-                      Value: {"LocaleId":"it-IT","Text":"E"}
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
                     - Name: Height
                       Type: BaseVariableType
                       DataType: Size
@@ -29849,13 +29849,159 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 13.0
+                    - Name: BottomMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
                     - Name: TextVerticalAlignment
                       Type: BaseVariableType
                       DataType: TextVerticalAlignment
                       ModellingRule: Optional
                       Value: 1
-                    - Name: BottomMargin
+                    - Name: RightMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 80.0
+                  - Name: Rectangle1
+                    Type: Rectangle
+                    Children:
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 110.0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: Label2
+                      Type: Label
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        ModellingRule: Optional
+                        Value: {"LocaleId":"it-IT","Text":"M"}
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: Height
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TextVerticalAlignment
+                        Type: BaseVariableType
+                        DataType: TextVerticalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 8.0
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TextHorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: TextHorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                    - Name: SpinBox1
+                      Type: SpinBox
+                      Children:
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_432"
+                          Children:
+                          - Name: Mode
+                            Type: BaseVariableType
+                            DataType: DynamicLinkMode
+                            ModellingRule: Optional
+                            Value: 2
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 160.0
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: ShowButtons
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                      - Name: Editable
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                    - Name: BorderColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                    - Name: LeftMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
@@ -29863,52 +30009,172 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                    - Name: RightMargin
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 2
+                    - Name: BottomMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 8.0
                     - Name: HorizontalAlignment
                       Type: BaseVariableType
                       DataType: HorizontalAlignment
                       ModellingRule: Optional
-                  - Name: SpinBox3
-                    Type: SpinBox
-                    Children:
-                    - Name: Value
+                      Value: 3
+                    - Name: RightMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                    - Name: FillColor
                       Type: BaseDataVariableType
-                      DataType: Double
+                      DataType: Color
+                      ModellingRule: Optional
+                  - Name: Rectangle2
+                    Type: Rectangle
+                    Children:
                     - Name: Width
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 80.0
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                    - Name: ShowButtons
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                    - Name: Editable
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: true
-                    - Name: RightMargin
+                      Value: 110.0
+                    - Name: Height
                       Type: BaseVariableType
                       DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: Label3
+                      Type: Label
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        ModellingRule: Optional
+                        Value: {"LocaleId":"it-IT","Text":"S"}
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: Height
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TextVerticalAlignment
+                        Type: BaseVariableType
+                        DataType: TextVerticalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 8.0
+                      - Name: TextHorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: TextHorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                    - Name: SpinBox2
+                      Type: SpinBox
+                      Children:
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_433"
+                          Children:
+                          - Name: Mode
+                            Type: BaseVariableType
+                            DataType: DynamicLinkMode
+                            ModellingRule: Optional
+                            Value: 2
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 160.0
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: ShowButtons
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                      - Name: Editable
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: Enabled
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                    - Name: BorderColor
+                      Type: BaseDataVariableType
+                      DataType: Color
                       ModellingRule: Optional
                     - Name: LeftMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 31.0
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
+                      Value: 8.0
                     - Name: VerticalAlignment
                       Type: BaseVariableType
                       DataType: VerticalAlignment
@@ -29918,39 +30184,202 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                    - Name: FontSize
-                      Type: BaseDataVariableType
+                    - Name: BottomMargin
+                      Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 20.0
-                  - Name: BorderColor
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: Visible
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: Optional
+                      Value: true
+                    - Name: RightMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                    - Name: FillColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                  - Name: Rectangle3
+                    Type: Rectangle
+                    Children:
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 110.0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: Label4
+                      Type: Label
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        ModellingRule: Optional
+                        Value: {"LocaleId":"it-IT","Text":"E"}
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: Height
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TextVerticalAlignment
+                        Type: BaseVariableType
+                        DataType: TextVerticalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 8.0
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                      - Name: TextHorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: TextHorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                    - Name: SpinBox3
+                      Type: SpinBox
+                      Children:
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_434"
+                          Children:
+                          - Name: Mode
+                            Type: BaseVariableType
+                            DataType: DynamicLinkMode
+                            ModellingRule: Optional
+                            Value: 2
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 160.0
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: ShowButtons
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                      - Name: Editable
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 31.0
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 2
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                      - Name: FontSize
+                        Type: BaseDataVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 20.0
+                    - Name: BorderColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                    - Name: LeftMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 2
+                    - Name: BottomMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: FillColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                  - Name: HorizontalGap
                     Type: BaseDataVariableType
-                    DataType: Color
-                    ModellingRule: Optional
-                    Value: "#ffffff"
-                  - Name: LeftMargin
-                    Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 40.0
+                    Value: 20.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 2
-                  - Name: BottomMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                  - Name: HorizontalAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    ModellingRule: Optional
-                    Value: 1
               - Name: HorizontalLayout8
                 Type: Panel
                 Children:
@@ -30016,11 +30445,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_440"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -30067,7 +30507,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 740.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -30239,11 +30679,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_330"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -30348,11 +30799,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_331"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -30457,11 +30919,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_332"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -30566,11 +31039,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_333"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -30675,11 +31159,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_334"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -30784,11 +31279,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_335"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -30893,11 +31399,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_337"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -30944,7 +31461,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 680.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -31116,11 +31633,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_340"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -31225,11 +31753,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_341"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -31334,11 +31873,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_342"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -31443,11 +31993,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_343"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -31552,11 +32113,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_344"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -31661,11 +32233,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_347"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -31770,11 +32353,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_346"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -31821,7 +32415,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 640.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -31993,11 +32587,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_350"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -32102,11 +32707,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_351"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -32211,11 +32827,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_352"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -32320,11 +32947,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_353"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -32429,11 +33067,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_354"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -32538,11 +33187,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_338"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -32589,7 +33249,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 640.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -32612,7 +33272,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"58: PAR.ESTRAZIONE -ESAGONO"}
+                Value: {"NamespaceIndex":30,"TextId":"58: PAR.ESTARZIONE -ESAGONO"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -32761,11 +33421,158 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DT_370
+                      Type: ModbusTag
+                      DataType: Int16
+                      Children:
+                      - Name: BitOffset
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        ModellingRule: Optional
+                      - Name: NumCoil
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                      - Name: NumDiscreteInput
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                      - Name: MaximumLength
+                        Type: BaseDataVariableType
+                        DataType: Int32
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: NumRegister
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                        Value: 370
+                      - Name: ArrayUpdateMode
+                        Type: BaseDataVariableType
+                        DataType: TagArrayUpdateMode
+                        ModellingRule: Optional
+                      - Name: MemoryArea
+                        Type: BaseDataVariableType
+                        DataType: ModbusMemoryArea
+                        ModellingRule: Optional
+                    - Name: DT_371
+                      Type: ModbusTag
+                      DataType: Int16
+                      Children:
+                      - Name: BitOffset
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        ModellingRule: Optional
+                      - Name: NumCoil
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                      - Name: NumDiscreteInput
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                      - Name: MaximumLength
+                        Type: BaseDataVariableType
+                        DataType: Int32
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: NumRegister
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                        Value: 371
+                      - Name: ArrayUpdateMode
+                        Type: BaseDataVariableType
+                        DataType: TagArrayUpdateMode
+                        ModellingRule: Optional
+                      - Name: MemoryArea
+                        Type: BaseDataVariableType
+                        DataType: ModbusMemoryArea
+                        ModellingRule: Optional
+                    - Name: DT_372
+                      Type: ModbusTag
+                      DataType: Int16
+                      Children:
+                      - Name: BitOffset
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        ModellingRule: Optional
+                      - Name: NumCoil
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                      - Name: NumDiscreteInput
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                      - Name: MaximumLength
+                        Type: BaseDataVariableType
+                        DataType: Int32
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: NumRegister
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                        Value: 372
+                      - Name: ArrayUpdateMode
+                        Type: BaseDataVariableType
+                        DataType: TagArrayUpdateMode
+                        ModellingRule: Optional
+                      - Name: MemoryArea
+                        Type: BaseDataVariableType
+                        DataType: ModbusMemoryArea
+                        ModellingRule: Optional
+                    - Name: DT_373
+                      Type: ModbusTag
+                      DataType: Int32
+                      Children:
+                      - Name: BitOffset
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        ModellingRule: Optional
+                      - Name: NumCoil
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                      - Name: NumDiscreteInput
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                      - Name: MaximumLength
+                        Type: BaseDataVariableType
+                        DataType: Int32
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: NumRegister
+                        Type: BaseDataVariableType
+                        DataType: UInt16
+                        ModellingRule: Optional
+                        Value: 376
+                      - Name: ArrayUpdateMode
+                        Type: BaseDataVariableType
+                        DataType: TagArrayUpdateMode
+                        ModellingRule: Optional
+                      - Name: MemoryArea
+                        Type: BaseDataVariableType
+                        DataType: ModbusMemoryArea
+                        ModellingRule: Optional
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_370"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -32870,11 +33677,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_371"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -32979,11 +33797,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_372"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -33088,11 +33917,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_373"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -33197,11 +34037,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_374"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -33306,11 +34157,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_375"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -33415,11 +34277,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_376"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -33466,7 +34339,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 580.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -33646,11 +34519,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_270"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -33755,11 +34639,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_272"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -33806,7 +34701,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 640.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -33986,11 +34881,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_360"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -34095,11 +35001,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_362"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -34204,6 +35121,17 @@ Children:
                   - Name: Checked
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW4.5"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -34288,11 +35216,22 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_236"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -34339,7 +35278,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 720.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -34823,7 +35762,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -34939,7 +35878,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35055,7 +35994,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35171,7 +36110,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35222,7 +36161,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35239,7 +36178,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 120.0
+                    Value: 200.0
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -35336,7 +36275,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35452,7 +36391,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35506,7 +36445,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35523,7 +36462,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 120.0
+                    Value: 200.0
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -35620,7 +36559,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35738,7 +36677,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35857,7 +36796,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -36071,7 +37010,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -36190,7 +37129,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -36309,7 +37248,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -36428,7 +37367,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -36547,7 +37486,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -36666,7 +37605,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -36785,7 +37724,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -36904,7 +37843,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37023,7 +37962,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37142,7 +38081,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37261,7 +38200,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37380,7 +38319,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37499,7 +38438,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37618,7 +38557,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37737,7 +38676,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37855,7 +38794,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37977,7 +38916,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -38028,7 +38967,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 980.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -38208,7 +39147,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -38317,7 +39256,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -38426,7 +39365,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -38540,7 +39479,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -38649,7 +39588,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 80.0
+                    Value: 160.0
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -38696,7 +39635,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 840.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
