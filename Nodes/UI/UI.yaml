@@ -134,6 +134,17 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#e4e4e4"
+    - Name: InputBoxParametriGreen
+      Type: InputBoxStyle
+      Children:
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#7affb5"
   - Name: SwitchStyles
     Type: BaseObjectType
     Children:
@@ -297,7 +308,6 @@ Children:
   - Name: Sessions
     Type: BaseObjectType
   - Name: Session
-    Id: g=3a1b842cbaa202b5438c6101aaeff2ee
     Type: NodePointer
     DataType: NodeId
 - Name: WebPresentationEngine
@@ -3483,7 +3493,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "../../../../../SpinBox1/Value"
+              Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_110"
           - Name: ns=5;Pairs
             Type: BaseObjectType
             ModellingRule: None
@@ -3498,9 +3508,9 @@ Children:
                 ModellingRule: None
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
-                Value: "PREMERE RESET EMERGENZA"
+                Value: {"LocaleId":"it-IT","Text":"00>CICLO OFF"}
             - Name: Pair1
               Type: ValueMapPair
               ModellingRule: None
@@ -3512,9 +3522,9 @@ Children:
                 Value: 1
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
-                Value: "MACCHINA PRONTA"
+                Value: {"NamespaceIndex":30,"TextId":"STS-01>CICLO IN CORSO...."}
             - Name: Pair2
               Type: ValueMapPair
               ModellingRule: None
@@ -3526,9 +3536,9 @@ Children:
                 Value: 2
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
-                Value: "MANCA SCATOLA SC 250"
+                Value: {"NamespaceIndex":30,"TextId":"STS-02>FASATURA"}
             - Name: Pair3
               Type: ValueMapPair
               ModellingRule: None
@@ -3540,9 +3550,9 @@ Children:
                 Value: 3
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
-                Value: "MANCA SCATOLA SC 25"
+                Value: {"NamespaceIndex":30,"TextId":"STS-03>STOP FINE ROTOLO"}
             - Name: Pair4
               Type: ValueMapPair
               ModellingRule: None
@@ -3554,9 +3564,9 @@ Children:
                 Value: 4
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
-                Value: "ATTESA FINE CICLO"
+                Value: {"NamespaceIndex":30,"TextId":"STS-04>ALLARME TAGLIERINA"}
             - Name: Pair5
               Type: ValueMapPair
               ModellingRule: None
@@ -3568,9 +3578,9 @@ Children:
                 Value: 5
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
-                Value: "CICLO IN CORSO"
+                Value: {"NamespaceIndex":30,"TextId":"STS-05>ESTRATTORE BLOCCATO"}
             - Name: Pair6
               Type: ValueMapPair
               ModellingRule: None
@@ -3582,9 +3592,9 @@ Children:
                 Value: 6
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
-                Value: "MODALITA' MANUALE ATTIVA"
+                Value: {"NamespaceIndex":30,"TextId":"STS-06>MANCANZA CAPPUCCI"}
             - Name: Pair7
               Type: ValueMapPair
               ModellingRule: None
@@ -3596,8 +3606,9 @@ Children:
                 Value: 7
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-07>MANCANZA GANCI"}
             - Name: Pair8
               Type: ValueMapPair
               ModellingRule: None
@@ -3609,8 +3620,9 @@ Children:
                 Value: 8
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-08>CAPPUCCIO NON CARICATO"}
             - Name: Pair9
               Type: ValueMapPair
               ModellingRule: None
@@ -3622,8 +3634,9 @@ Children:
                 Value: 9
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-09>MONTAGGIO NON AVVENUTO"}
             - Name: Pair10
               Type: ValueMapPair
               ModellingRule: None
@@ -3635,8 +3648,9 @@ Children:
                 Value: 10
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-10>EMERGENZA"}
             - Name: Pair11
               Type: ValueMapPair
               ModellingRule: None
@@ -3648,8 +3662,9 @@ Children:
                 Value: 11
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-11>AZZERAMENTO"}
             - Name: Pair12
               Type: ValueMapPair
               ModellingRule: None
@@ -3661,8 +3676,9 @@ Children:
                 Value: 12
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-12>FASATURA"}
             - Name: Pair13
               Type: ValueMapPair
               ModellingRule: None
@@ -3674,8 +3690,9 @@ Children:
                 Value: 13
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-13>CICLO SACCHETTI VUOTI ATTIVO"}
             - Name: Pair14
               Type: ValueMapPair
               ModellingRule: None
@@ -3687,8 +3704,9 @@ Children:
                 Value: 14
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-14>BATTERIA PLC SCARICA"}
             - Name: Pair15
               Type: ValueMapPair
               ModellingRule: None
@@ -3700,9 +3718,149 @@ Children:
                 Value: 15
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocalizedText
                 ModellingRule: None
-                Value: "ALLARME IN CORSO"
+                Value: {"NamespaceIndex":30,"TextId":"STS-15>ALLARME IN CORSO...."}
+            - Name: Pair16
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 16
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS16>ESEGUIRE FASATURA TAVOLA!!"}
+            - Name: Pair17
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 17
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"17>CARTONE PERSO"}
+            - Name: Pair18
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 18
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-18>MONTAGGIO DIFETTOSO>>GANCI<<"}
+            - Name: Pair19
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 19
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-19"}
+            - Name: Pair20
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 20
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-20>MANCANZA ESAGONI GUIDA"}
+            - Name: Pair21
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 21
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-21>ESAGONO NON SCARICATO"}
+            - Name: Pair22
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 22
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-22>DIFET.FOTOC.SCARICO ESAGONO"}
+            - Name: Pair23
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 23
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-23>CICLO SACCHETTI VUOTI ATTIVO"}
+            - Name: Pair24
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 24
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-24"}
+            - Name: Pair25
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 25
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: None
+                Value: {"NamespaceIndex":30,"TextId":"STS-25"}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment

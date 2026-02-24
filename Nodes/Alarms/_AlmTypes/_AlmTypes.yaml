@@ -490,3 +490,4 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "../../..@BrowseName"
+- File: AlarmsVar/AlarmsVar.yaml

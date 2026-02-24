@@ -18,7 +18,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"35: MANUALE -- CARTONE --"}
+          Value: {"LocaleId":"it-IT","Text":"35: MANUALE -- CARTONE --"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -135,7 +135,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"35: MANUALE -- CARTONE --"}
+          Value: {"LocaleId":"it-IT","Text":"35: MANUALE -- CARTONE --"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment

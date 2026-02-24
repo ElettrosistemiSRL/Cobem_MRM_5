@@ -12,7 +12,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.0"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.0"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -38,7 +38,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.1"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.1"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -64,7 +64,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.2"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.2"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -80,7 +80,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X3'
-  Id: g=92aaae293ef7f2cb36fcd9e406b4859d
+  Id: g=6ac2fc1d467b70bb8ce05ecf1fda570f
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -90,7 +90,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.3"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.3"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -106,7 +106,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X4'
-  Id: g=8fe5f6b8047067a83c191fad7de902a1
+  Id: g=60a4c49162ef9aab95c10cbbbf0f667c
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -116,7 +116,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.4"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.4"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -132,7 +132,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X5'
-  Id: g=d7ceb86e87fe65d758cea317fbdf4b98
+  Id: g=d3302fbfbacd49692c1c2baf0ccb050e
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -142,7 +142,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.5"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.5"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -158,7 +158,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X6'
-  Id: g=c7177504b33c8144784922cfd4f8eba4
+  Id: g=cd23be85089b9a9815a7c2f7fcf2291a
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -168,7 +168,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.6"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.6"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -184,7 +184,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X7'
-  Id: g=eb0656c29d7fb15ebdb8fe9f95608d31
+  Id: g=c2222a3df15bb44e72cb5381122e82ac
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -194,7 +194,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.7"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -210,7 +210,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X8'
-  Id: g=1706bf88c67bee475c9416ccbed1d402
+  Id: g=9128003e6f4bd124f726802b6ccfe12c
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -220,7 +220,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.8"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -236,7 +236,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-X9'
-  Id: g=893559d95c31dedc920ad247268167cc
+  Id: g=980a433f3adf9e19a468572496887e4d
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -246,7 +246,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.9"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -262,7 +262,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XA'
-  Id: g=703a0d94517c7a81231551623d33bc1f
+  Id: g=a963204ee209b0bf1aab4d923570a77d
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -272,7 +272,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.10"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -288,7 +288,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XB'
-  Id: g=82a7ea40d43c6e143eb7f81787d83594
+  Id: g=a09dc09a1e01c13119c2d021bda45331
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -298,7 +298,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.11"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -314,7 +314,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XC'
-  Id: g=8dabd5a73d7e634dc27647f318c6a3b6
+  Id: g=20fab893ace73529ceff327c5f5a373b
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -324,7 +324,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.12"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -340,7 +340,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XD'
-  Id: g=9da5239bce4cb194e46dd70572bed4c6
+  Id: g=79c24577e23b6e4d757668e04917a6e3
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -350,7 +350,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.13"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -366,7 +366,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XE'
-  Id: g=cec191d9b8f730f61f88b243b59b6572
+  Id: g=8e3695b86935e409effb35b25a27c47d
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -376,7 +376,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.14"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -392,7 +392,7 @@ Children:
       DataType: NodePath
       Value: "{Alias_Input}@BrowseName"
 - Name: 'I-XF'
-  Id: g=63fc5e8803ccf74e207432f1570571df
+  Id: g=e95ba28d250c6d754d93212d11d85ee5
   Type: Input_MRM_type_
   Children:
   - Name: ON
@@ -402,7 +402,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW0.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW150.15"
       Children:
       - Name: Mode
         Type: BaseVariableType

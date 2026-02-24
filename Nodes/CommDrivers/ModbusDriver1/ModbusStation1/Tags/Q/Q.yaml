@@ -47,7 +47,7 @@ Children:
   - Name: NumCoil
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 2
+    Value: 32
     Children:
     - Name: QW0
       Type: ModbusTag
@@ -84,7 +84,7 @@ Children:
   - Name: NumCoil
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 4
+    Value: 64
     Children:
     - Name: QW0
       Type: ModbusTag
@@ -121,7 +121,7 @@ Children:
   - Name: NumCoil
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 10
+    Value: 160
     Children:
     - Name: QW0
       Type: ModbusTag
@@ -158,7 +158,7 @@ Children:
   - Name: NumCoil
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 11
+    Value: 176
     Children:
     - Name: QW0
       Type: ModbusTag

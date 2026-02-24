@@ -37,7 +37,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../Alarms/ALM1/Active"
+            Value: "../../../../../../Alarms/_AlmTypes/AlarmsVar/ALM0/Active"
         - Name: ns=5;Source1
           Type: BaseDataVariableType
           DataType: BaseDataType
@@ -46,7 +46,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../Alarms/ALM2/Active"
+            Value: "../../../../../../Alarms/_AlmTypes/AlarmsVar/ALM1/Active"
 - Name: NomeLinea
   Id: g=d6a09172b4f0ee118a3476922b130b14
   Type: BaseDataVariableType
