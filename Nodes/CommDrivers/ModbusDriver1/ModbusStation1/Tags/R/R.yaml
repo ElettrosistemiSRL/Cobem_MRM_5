@@ -914,6 +914,7 @@ Children:
     DataType: ModbusMemoryArea
     Value: 1
 - Name: RW32
+  Id: g=6797baf847cc1999bf03047a9608f84d
   Type: ModbusTag
   DataType: UInt16
   Children:

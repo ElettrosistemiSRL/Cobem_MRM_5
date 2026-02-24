@@ -38,7 +38,7 @@ Children:
   - Name: NumDiscreteInput
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 2
+    Value: 32
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -54,7 +54,7 @@ Children:
   - Name: NumDiscreteInput
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 4
+    Value: 64
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -70,7 +70,7 @@ Children:
   - Name: NumDiscreteInput
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 10
+    Value: 160
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -86,7 +86,7 @@ Children:
   - Name: NumDiscreteInput
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 11
+    Value: 176
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -102,7 +102,7 @@ Children:
   - Name: NumDiscreteInput
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 34
+    Value: 544
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -118,7 +118,7 @@ Children:
   - Name: NumDiscreteInput
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 35
+    Value: 560
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
