@@ -1054,3 +1054,921 @@ Children:
   - Name: MemoryArea
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
+- Name: DT_1202
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1202
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1203
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1202
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1282
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1282
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1283
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1283
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1300
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1300
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1301
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1301
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1302
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1302
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1303
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1303
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1304
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1304
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1305
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1305
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1306
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1306
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1307
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1307
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1320
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1320
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1321
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1321
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1322
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1322
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_1323
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1323
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_380
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 380
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_381
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 381
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_382
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 382
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_383
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 382
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_384
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 384
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_385
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 385
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_386
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 386
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_387
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 387
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_388
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 388
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_389
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 389
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_110
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 110
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_111
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 111
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_410
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 410
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_411
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 411
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_412
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 412
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_413
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 413
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_442
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 442
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+- Name: DT_443
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 443
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea

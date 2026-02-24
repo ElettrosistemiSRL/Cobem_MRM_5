@@ -1,0 +1,12 @@
+Name: String
+Type: FolderType
+Children:
+- Name: DTS_10260
+  Type: ModbusTag
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 10260

@@ -796,7 +796,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"ON"}
+                  Value: {"LocaleId":"it-IT","Text":"ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -2860,7 +2860,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"I-ON"}
+                  Value: {"LocaleId":"it-IT","Text":"ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -3001,7 +3001,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"I-ON"}
+                  Value: {"LocaleId":"it-IT","Text":"ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -3142,7 +3142,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"I-ON"}
+                  Value: {"LocaleId":"it-IT","Text":"ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -3283,7 +3283,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"I-ON"}
+                  Value: {"LocaleId":"it-IT","Text":"ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -3424,7 +3424,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"I-ON"}
+                  Value: {"LocaleId":"it-IT","Text":"ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -6245,7 +6245,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"I-ON"}
+                  Value: {"LocaleId":"it-IT","Text":"ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText

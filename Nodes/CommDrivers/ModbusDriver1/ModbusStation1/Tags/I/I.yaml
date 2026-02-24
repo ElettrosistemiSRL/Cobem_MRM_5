@@ -20,13 +20,13 @@ Children:
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 3
-  - Name: NumDiscreteInput
-    Type: BaseDataVariableType
-    DataType: UInt16
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
     Value: 1
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
 - Name: XW2
   Type: ModbusTag
   DataType: UInt16

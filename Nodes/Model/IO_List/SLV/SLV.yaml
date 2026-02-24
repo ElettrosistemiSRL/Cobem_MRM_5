@@ -12,7 +12,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW600.0"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW60.0"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -38,7 +38,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW600.1"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW60.1"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -64,7 +64,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW600.2"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW60.2"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -116,7 +116,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW600.4"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW60.4"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -142,7 +142,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW600.5"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW60.5"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -168,7 +168,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW600.6"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW60.6"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -194,7 +194,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW600.7"
+      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW60.7"
       Children:
       - Name: Mode
         Type: BaseVariableType

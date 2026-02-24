@@ -13174,7 +13174,7 @@ Children:
               - Name: Alias_Input
                 Type: Alias
                 DataType: NodeId
-                Value: "/Objects/Cobem_MRM_5/Model/IO_List/CPU/I-XF"
+                Value: "/Objects/Cobem_MRM_5/Model/IO_List/EXP2/I-X11F"
                 Children:
                 - Name: Kind
                   Type: PropertyType

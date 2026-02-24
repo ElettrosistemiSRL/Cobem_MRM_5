@@ -1401,6 +1401,17 @@ Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/String/DTS_10260"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -1434,12 +1445,53 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 8.0
             - Name: SpinBox1
               Type: SpinBox
               Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Double
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_110"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 8.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: Editable
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ModellingRule: Optional
+                Value: true
+              - Name: InputBoxStyle
+                Type: BaseDataVariableType
+                DataType: String
+                ModellingRule: Optional
+                Value: "InputBoxParametriGreen"
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 4.0
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -1452,6 +1504,14 @@ Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Double
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
           - Name: Rectangle2
             Type: Rectangle
             Children:
@@ -1461,6 +1521,25 @@ Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Double
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_10250"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
           - Name: Rectangle3
             Type: Rectangle
             Children:
@@ -1470,6 +1549,35 @@ Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Double
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_232"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: Editable
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ModellingRule: Optional
+                Value: true
+              - Name: InputBoxStyle
+                Type: BaseDataVariableType
+                DataType: String
+                ModellingRule: Optional
+                Value: "InputBoxParametriGreen"
           - Name: Rectangle4
             Type: Rectangle
             Children:
@@ -1479,10 +1587,44 @@ Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Double
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_228"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: Editable
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ModellingRule: Optional
+                Value: true
+              - Name: InputBoxStyle
+                Type: BaseDataVariableType
+                DataType: String
+                ModellingRule: Optional
+                Value: "InputBoxParametriGreen"
           - Name: Rectangle5
             Type: Rectangle
           - Name: Rectangle6
             Type: Rectangle
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 4.0
   - Name: Produzione Oraria
     Type: 05
     Children:
@@ -1518,6 +1660,17 @@ Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Double
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_238"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
           - Name: HorizontalLayout3
             Type: RowLayout
         - Name: VerticalLayout3

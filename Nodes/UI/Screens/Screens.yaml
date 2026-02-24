@@ -6296,6 +6296,10 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 2
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -6520,7 +6524,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=30;%PROJECTDIR%/Graphics/Screenshot 2024-11-27 093938.jpg"
+          Value: "ns=30;%PROJECTDIR%/Graphics/Logo_bB.bmp"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6560,169 +6564,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
+          Value: 10.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 60.0
-    - Name: VerticalLayout1
-      Type: ColumnLayout
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 140.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 250.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: VerticalGap
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: BottomMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
-      - Name: Stop_Button
-        Type: MomentaryButton
-        Children:
-        - Name: Active
-          Type: BaseDataVariableType
-          DataType: Boolean
-          AccessLevel: Read
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/Cobem_MRM_5/CommDrivers/OMRONFinsDriver/PLC/Tags/Gen/Stop"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 1
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"FERMA MACCHINA"}
-        - Name: BackgroundColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#eb3636"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 174.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 70.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 22.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 700
-        - Name: WordWrap
-          Type: BaseDataVariableType
-          DataType: Boolean
-          ModellingRule: Optional
-          Value: true
-      - Name: Start_Button
-        Type: MomentaryButton
-        Children:
-        - Name: Active
-          Type: BaseDataVariableType
-          DataType: Boolean
-          AccessLevel: Read
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/Cobem_MRM_5/CommDrivers/OMRONFinsDriver/PLC/Tags/Gen/Start"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 1
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"AVVIA MACCHINA"}
-        - Name: BackgroundColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#32d18f"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 174.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 70.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 22.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 700
-        - Name: WordWrap
-          Type: BaseDataVariableType
-          DataType: Boolean
-          ModellingRule: Optional
-          Value: true
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -8980,7 +8827,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"35: MANUALE -- CARTONE --"}
+        Value: {"LocaleId":"it-IT","Text":"35: MANUALE -- CARTONE --"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
