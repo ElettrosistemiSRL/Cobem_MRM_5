@@ -274,6 +274,17 @@ Children:
                   - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.1"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -308,6 +319,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_1310"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -337,6 +359,17 @@ Children:
                   - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.0"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -372,6 +405,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_1276"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: VerticalAlignment
                     Type: BaseVariableType
                     DataType: VerticalAlignment
@@ -393,6 +437,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1305"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -422,6 +477,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1303"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -456,6 +522,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1302"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -515,6 +592,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_1214"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: RightMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -650,20 +738,6 @@ Children:
                     Value: 10.0
               - Name: Rectangle4
                 Type: Rectangle
-                Children:
-                - Name: Label1
-                  Type: Label
-                  Children:
-                  - Name: FontSize
-                    Type: BaseDataVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 16.0
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 10.0
             - Name: VerticalLayout2
               Type: ColumnLayout
               Children:
@@ -676,6 +750,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1321"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: ButtonStyle
                     Type: BaseDataVariableType
                     DataType: String
@@ -691,6 +776,10 @@ Children:
                     DataType: Boolean
                     ModellingRule: Optional
                     Value: true
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
               - Name: HorizontalLayout2
                 Type: RowLayout
                 Children:
@@ -700,6 +789,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1322"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: ButtonStyle
                     Type: BaseDataVariableType
                     DataType: String
@@ -724,6 +824,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1283"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: ButtonStyle
                     Type: BaseDataVariableType
                     DataType: String
@@ -763,8 +874,44 @@ Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Double
-            - Name: Button1
-              Type: Button
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1202"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: MinValue
+                Type: BaseDataVariableType
+                DataType: Double
+                ModellingRule: Optional
+              - Name: MaxValue
+                Type: BaseDataVariableType
+                DataType: Double
+                ModellingRule: Optional
+                Value: 100.0
+            - Name: MomentaryButton1
+              Type: MomentaryButton
+              Children:
+              - Name: Active
+                Type: BaseDataVariableType
+                DataType: Boolean
+                AccessLevel: Read
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.2"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -840,6 +987,17 @@ Children:
                   - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.10"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -878,6 +1036,17 @@ Children:
                   - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.11"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -916,6 +1085,17 @@ Children:
                   - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.12"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -954,6 +1134,17 @@ Children:
                   - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.13"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -992,6 +1183,17 @@ Children:
                   - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.14"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -1034,6 +1236,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1312"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle3
                   Type: Rectangle
                   Children:
@@ -1043,6 +1256,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1313"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle4
                   Type: Rectangle
                   Children:
@@ -1052,6 +1276,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1314"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle5
                   Type: Rectangle
                   Children:
@@ -1061,6 +1296,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1315"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle6
                   Type: Rectangle
                   Children:
@@ -1070,6 +1316,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1318"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
             - Name: Rectangle2
               Type: Rectangle
               Children:
@@ -1101,6 +1358,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1316"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle3
                   Type: Rectangle
                 - Name: Rectangle5
@@ -1112,6 +1380,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1317"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle6
                   Type: Rectangle
                 - Name: Rectangle4
@@ -1181,6 +1460,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1319"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle3
                   Type: Rectangle
                 - Name: Rectangle4
@@ -1192,6 +1482,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1320"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle5
                   Type: Rectangle
                 - Name: Rectangle6
@@ -1262,6 +1563,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1220"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle3
                   Type: Rectangle
                   Children:
@@ -1271,6 +1583,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1221"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle4
                   Type: Rectangle
                   Children:
@@ -1280,6 +1603,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1222"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle5
                   Type: Rectangle
                   Children:
@@ -1289,6 +1623,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1223"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
                 - Name: Rectangle6
                   Type: Rectangle
                   Children:
@@ -1298,6 +1643,17 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1224"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1353,6 +1709,17 @@ Children:
                   - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.6"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -1378,6 +1745,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1324"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
               - Name: HorizontalLayout3
                 Type: RowLayout
                 Children:
@@ -1387,6 +1765,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1226"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
               - Name: HorizontalLayout4
                 Type: RowLayout
               - Name: HorizontalLayout5
@@ -1462,7 +1851,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"10-CARTONE"}
+          Value: {"NamespaceIndex":30,"TextId":"80-PARAMETRI -CARTONE-"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -1549,6 +1938,12 @@ Children:
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"SCARICO CARTONE"}
               - Name: Rectangle2
                 Type: Rectangle
                 Children:
@@ -1582,6 +1977,17 @@ Children:
                   - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW255.15"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -1607,6 +2013,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_312"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
               - Name: HorizontalLayout3
                 Type: RowLayout
                 Children:
@@ -1616,6 +2033,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_214"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
               - Name: HorizontalLayout4
                 Type: RowLayout
                 Children:
@@ -1625,6 +2053,17 @@ Children:
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_302"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
               - Name: HorizontalLayout5
                 Type: RowLayout
               - Name: HorizontalLayout6

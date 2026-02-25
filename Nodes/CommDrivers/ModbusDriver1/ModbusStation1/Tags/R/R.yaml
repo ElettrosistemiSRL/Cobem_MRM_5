@@ -1138,3 +1138,32 @@ Children:
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 1
+- Name: RW152
+  Id: g=a9865c1c059bc37ad2c0f1f55d831250
+  Type: ModbusTag
+  DataType: UInt16
+  Children:
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4480
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 15
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1

@@ -657,43 +657,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 22.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -721,6 +684,43 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 22.0
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 950
+        - Name: Button1
+          Type: Button
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"it-IT","Text":"Button1"}
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 200.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 70.0
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -1784,7 +1784,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: Button3
           Type: Button
           Children:
           - Name: Text
@@ -1807,10 +1811,6 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -1821,10 +1821,6 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
         - Name: Button2
           Type: Button
           Children:
@@ -1858,7 +1854,7 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: Button3
+        - Name: Button1
           Type: Button
           Children:
           - Name: Text
@@ -1881,6 +1877,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -2278,43 +2278,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 22.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -2352,6 +2315,43 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
+        - Name: Button1
+          Type: Button
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"it-IT","Text":"Button1"}
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 200.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 70.0
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 950
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 22.0
       - Name: VerticalLayout3
         Type: ColumnLayout
         Children:
@@ -2739,65 +2739,27 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 22.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-        - Name: Button2
-          Type: Button
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
@@ -4242,33 +4204,32 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -4279,28 +4240,23 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: Button2
-          Type: Button
+        - Name: MomentaryButton2
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
@@ -5369,33 +5325,32 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -5406,10 +5361,6 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
         - Name: Rectangle3
           Type: Rectangle
           Children:
@@ -6160,33 +6111,32 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -6197,28 +6147,23 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: Button2
-          Type: Button
+        - Name: MomentaryButton2
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
@@ -6954,33 +6899,32 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -6991,28 +6935,23 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: Button2
-          Type: Button
+        - Name: MomentaryButton2
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
@@ -7790,33 +7729,32 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -7827,28 +7765,23 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: Button2
-          Type: Button
+        - Name: MomentaryButton2
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
@@ -9338,33 +9271,32 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: MomentaryButton2
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -9375,10 +9307,6 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
         - Name: Rectangle3
           Type: Rectangle
           Children:
@@ -9796,33 +9724,28 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -10697,124 +10620,6 @@ Children:
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
-      - Name: Button1
-        Type: Button
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"Button1"}
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 2
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 40.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 200.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 10.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 22.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 950
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-      - Name: Button2
-        Type: Button
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"Button1"}
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 2
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 40.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 200.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 22.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 950
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-      - Name: Button3
-        Type: Button
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"Button1"}
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 40.0
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 2
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 90.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 22.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 950
       - Name: HorizontalGap
         Type: BaseDataVariableType
         DataType: Size
@@ -10833,6 +10638,125 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
+      - Name: MomentaryButton1
+        Type: MomentaryButton
+        Children:
+        - Name: Active
+          Type: BaseDataVariableType
+          DataType: Boolean
+          AccessLevel: Read
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 22.0
+        - Name: FontWeight
+          Type: BaseDataVariableType
+          DataType: FontWeightEnum
+          ModellingRule: Optional
+          Value: 950
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 2
+      - Name: MomentaryButton2
+        Type: MomentaryButton
+        Children:
+        - Name: Active
+          Type: BaseDataVariableType
+          DataType: Boolean
+          AccessLevel: Read
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 22.0
+        - Name: FontWeight
+          Type: BaseDataVariableType
+          DataType: FontWeightEnum
+          ModellingRule: Optional
+          Value: 950
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 2
+      - Name: MomentaryButton3
+        Type: MomentaryButton
+        Children:
+        - Name: Active
+          Type: BaseDataVariableType
+          DataType: Boolean
+          AccessLevel: Read
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 22.0
+        - Name: FontWeight
+          Type: BaseDataVariableType
+          DataType: FontWeightEnum
+          ModellingRule: Optional
+          Value: 950
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 90.0
 - Name: Manual_1P_1S_1LC
   Id: g=dad7d4308a5bf6a4f9271bceea5a7802
   Supertype: Rectangle
@@ -11111,33 +11035,28 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 30.0
-        - Name: Button1
-          Type: Button
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -11918,43 +11837,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 22.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -11989,6 +11871,70 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
+          - Name: MomentaryButton1
+            Type: MomentaryButton
+            Children:
+            - Name: Active
+              Type: BaseDataVariableType
+              DataType: Boolean
+              AccessLevel: Read
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 22.0
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 950
+        - Name: MomentaryButton1
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 70.0
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 22.0
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 950
       - Name: VerticalLayout3
         Type: ColumnLayout
         Children:
@@ -14793,33 +14739,32 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: Button1
-          Type: Button
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -14830,28 +14775,23 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: Button2
-          Type: Button
+        - Name: MomentaryButton3
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
@@ -15369,6 +15309,49 @@ Children:
     DataType: VerticalAlignment
     ModellingRule: Optional
     Value: 3
+  - Name: BtnOpen
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: BtnClose
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LedOpen
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LedClose
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Spin
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: BorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#e4e4e4"
+  - Name: BtnOpenLamp
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: BtnCloseLamp
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: EnLedOpen
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: EnLedClose
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: EnSpin
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LedOpenDesc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: LedCloseDesc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
   - Name: HorizontalLayout1
     Type: RowLayout
     Children:
@@ -15392,6 +15375,20 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 30.0
+    - Name: ContentAlignment
+      Type: BaseVariableType
+      DataType: ContentHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
     - Name: SpinBox1
       Type: SpinBox
       Children:
@@ -15439,20 +15436,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 28.0
-    - Name: ContentAlignment
-      Type: BaseVariableType
-      DataType: ContentHorizontalAlignment
-      ModellingRule: Optional
-      Value: 1
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: RightMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
   - Name: GridLayout1
     Type: GridLayout
     Children:
@@ -15826,6 +15809,35 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../LedOpenDesc"
+    - Name: ItemsHorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: ItemsVerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: HorizontalGap
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: VerticalGap
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
     - Name: Chiudi
       Type: MomentaryButton
       Children:
@@ -16163,39 +16175,15 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../LedCloseDesc"
-    - Name: ItemsHorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: ItemsVerticalAlignment
+    - Name: Rectangle2
+      Type: Rectangle
+    - Name: Rectangle1
+      Type: Rectangle
+    - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 3
-    - Name: HorizontalGap
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: VerticalGap
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 16.0
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 1
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: Rectangle2
-      Type: Rectangle
-    - Name: RightMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 10.0
+      Value: 2
   - Name: Label1
     Type: Label
     Children:
@@ -16227,46 +16215,3 @@ Children:
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
       Value: 1
-  - Name: BtnOpen
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: BtnClose
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: LedOpen
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: LedClose
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: Spin
-    Type: BaseDataVariableType
-    DataType: Int32
-  - Name: BorderColor
-    Type: BaseDataVariableType
-    DataType: Color
-    ModellingRule: Optional
-    Value: "#e4e4e4"
-  - Name: BtnOpenLamp
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: BtnCloseLamp
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: EnLedOpen
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: EnLedClose
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: EnSpin
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: LedOpenDesc
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
-  - Name: LedCloseDesc
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
