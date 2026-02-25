@@ -308,6 +308,7 @@ Children:
   - Name: Sessions
     Type: BaseObjectType
   - Name: Session
+    Id: g=3a1b842cbaa202b5438c6101aaeff2ee
     Type: NodePointer
     DataType: NodeId
 - Name: WebPresentationEngine

@@ -176,3 +176,40 @@ Children:
         Type: BaseDataVariableType
         DataType: Int32
         Value: 15
+- Name: YW34
+  Type: ModbusTag
+  DataType: UInt16
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+    Value: 1
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 15
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 544
+    Children:
+    - Name: QW0
+      Type: ModbusTag
+      DataType: UInt16
+      Children:
+      - Name: MemoryArea
+        Type: BaseDataVariableType
+        DataType: ModbusMemoryArea
+        Value: 1
+      - Name: ArrayUpdateMode
+        Type: BaseDataVariableType
+        DataType: TagArrayUpdateMode
+        Value: 1
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 15
