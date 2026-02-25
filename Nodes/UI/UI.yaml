@@ -123,6 +123,9 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
     - Name: InputBoxParametri
       Type: InputBoxStyle
       Children:
@@ -270,6 +273,9 @@ Children:
     Children:
     - Name: Default
       Type: ScreenStyle
+  - Name: FontFamily
+    Type: BaseDataVariableType
+    DataType: Font
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
@@ -1927,7 +1933,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"Produzione"}
+        Value: {"LocaleId":"it-IT","Text":"Produzione"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -2399,7 +2405,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"MNU-HELP"}
+        Value: {"LocaleId":"it-IT","Text":"HELP"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -3524,7 +3530,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-01>CICLO IN CORSO...."}
+                Value: {"LocaleId":"it-IT","Text":"01>CICLO IN CORSO...."}
             - Name: Pair2
               Type: ValueMapPair
               ModellingRule: None
@@ -3538,7 +3544,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-02>FASATURA"}
+                Value: {"LocaleId":"it-IT","Text":"02>FASATURA"}
             - Name: Pair3
               Type: ValueMapPair
               ModellingRule: None
@@ -3552,7 +3558,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-03>STOP FINE ROTOLO"}
+                Value: {"LocaleId":"it-IT","Text":"03>STOP FINE ROTOLO"}
             - Name: Pair4
               Type: ValueMapPair
               ModellingRule: None
@@ -3566,7 +3572,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-04>ALLARME TAGLIERINA"}
+                Value: {"LocaleId":"it-IT","Text":"04>ALLARME TAGLIERINA"}
             - Name: Pair5
               Type: ValueMapPair
               ModellingRule: None
@@ -3580,7 +3586,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-05>ESTRATTORE BLOCCATO"}
+                Value: {"LocaleId":"it-IT","Text":"05>ESTRATTORE BLOCCATO"}
             - Name: Pair6
               Type: ValueMapPair
               ModellingRule: None
@@ -3594,7 +3600,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-06>MANCANZA CAPPUCCI"}
+                Value: {"LocaleId":"it-IT","Text":"06>MANCANZA CAPPUCCI"}
             - Name: Pair7
               Type: ValueMapPair
               ModellingRule: None
@@ -3608,7 +3614,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-07>MANCANZA GANCI"}
+                Value: {"LocaleId":"it-IT","Text":"07>MANCANZA GANCI"}
             - Name: Pair8
               Type: ValueMapPair
               ModellingRule: None
@@ -3622,7 +3628,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-08>CAPPUCCIO NON CARICATO"}
+                Value: {"LocaleId":"it-IT","Text":"08>CAPPUCCIO NON CARICATO"}
             - Name: Pair9
               Type: ValueMapPair
               ModellingRule: None
@@ -3636,7 +3642,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-09>MONTAGGIO NON AVVENUTO"}
+                Value: {"LocaleId":"it-IT","Text":"09>MONTAGGIO NON AVVENUTO"}
             - Name: Pair10
               Type: ValueMapPair
               ModellingRule: None
@@ -3650,7 +3656,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-10>EMERGENZA"}
+                Value: {"LocaleId":"it-IT","Text":"10>EMERGENZA"}
             - Name: Pair11
               Type: ValueMapPair
               ModellingRule: None
@@ -3664,7 +3670,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-11>AZZERAMENTO"}
+                Value: {"LocaleId":"it-IT","Text":"11>AZZERAMENTO"}
             - Name: Pair12
               Type: ValueMapPair
               ModellingRule: None
@@ -3678,7 +3684,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-12>FASATURA"}
+                Value: {"LocaleId":"it-IT","Text":"12>FASATURA"}
             - Name: Pair13
               Type: ValueMapPair
               ModellingRule: None
@@ -3692,7 +3698,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-13>CICLO SACCHETTI VUOTI ATTIVO"}
+                Value: {"LocaleId":"it-IT","Text":"13>CICLO SACCHETTI VUOTI ATTIVO"}
             - Name: Pair14
               Type: ValueMapPair
               ModellingRule: None
@@ -3706,7 +3712,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-14>BATTERIA PLC SCARICA"}
+                Value: {"LocaleId":"it-IT","Text":"14>BATTERIA PLC SCARICA"}
             - Name: Pair15
               Type: ValueMapPair
               ModellingRule: None
@@ -3720,7 +3726,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-15>ALLARME IN CORSO...."}
+                Value: {"LocaleId":"it-IT","Text":"15>ALLARME IN CORSO...."}
             - Name: Pair16
               Type: ValueMapPair
               ModellingRule: None
@@ -3734,7 +3740,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS16>ESEGUIRE FASATURA TAVOLA!!"}
+                Value: {"LocaleId":"it-IT","Text":"16>ESEGUIRE FASATURA TAVOLA!!"}
             - Name: Pair17
               Type: ValueMapPair
               ModellingRule: None
@@ -3748,7 +3754,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"17>CARTONE PERSO"}
+                Value: {"LocaleId":"it-IT","Text":"17>CARTONE PERSO"}
             - Name: Pair18
               Type: ValueMapPair
               ModellingRule: None
@@ -3762,7 +3768,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-18>MONTAGGIO DIFETTOSO>>GANCI<<"}
+                Value: {"LocaleId":"it-IT","Text":"18>MONTAGGIO DIFETTOSO>>GANCI<<"}
             - Name: Pair19
               Type: ValueMapPair
               ModellingRule: None
@@ -3776,7 +3782,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-19"}
+                Value: {"LocaleId":"it-IT","Text":"19"}
             - Name: Pair20
               Type: ValueMapPair
               ModellingRule: None
@@ -3790,7 +3796,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-20>MANCANZA ESAGONI GUIDA"}
+                Value: {"LocaleId":"it-IT","Text":"20>MANCANZA ESAGONI GUIDA"}
             - Name: Pair21
               Type: ValueMapPair
               ModellingRule: None
@@ -3804,7 +3810,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-21>ESAGONO NON SCARICATO"}
+                Value: {"LocaleId":"it-IT","Text":"21>ESAGONO NON SCARICATO"}
             - Name: Pair22
               Type: ValueMapPair
               ModellingRule: None
@@ -3818,7 +3824,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-22>DIFET.FOTOC.SCARICO ESAGONO"}
+                Value: {"LocaleId":"it-IT","Text":"22>DIFET.FOTOC.SCARICO ESAGONO"}
             - Name: Pair23
               Type: ValueMapPair
               ModellingRule: None
@@ -3832,7 +3838,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-23>CICLO SACCHETTI VUOTI ATTIVO"}
+                Value: {"LocaleId":"it-IT","Text":"23>CICLO SACCHETTI VUOTI ATTIVO"}
             - Name: Pair24
               Type: ValueMapPair
               ModellingRule: None
@@ -3846,7 +3852,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-24"}
+                Value: {"LocaleId":"it-IT","Text":"24"}
             - Name: Pair25
               Type: ValueMapPair
               ModellingRule: None
@@ -3860,7 +3866,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STS-25"}
+                Value: {"LocaleId":"it-IT","Text":"25"}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment

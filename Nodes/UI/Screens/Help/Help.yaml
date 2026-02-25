@@ -66,7 +66,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"11-Tavola posizione [0..2000]"}
+                    Value: {"LocaleId":"it-IT","Text":"Tavola posizione [0..2000]"}
               - Name: Rectangle2
                 Type: Rectangle
                 Children:

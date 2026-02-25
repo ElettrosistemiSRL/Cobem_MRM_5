@@ -18,7 +18,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"21- PINZA SUPERIORE"}
+          Value: {"LocaleId":"it-IT","Text":"PINZA SUPERIORE"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -34,7 +34,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"22: MANUALE -- PINZE INFERIORE --"}
+          Value: {"LocaleId":"it-IT","Text":"PINZA INFERIORE"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -50,7 +50,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"23-TRAINO"}
+          Value: {"LocaleId":"it-IT","Text":"TRAINO"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -200,31 +200,9 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW4.5"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW4.4"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: EnLedOpen
         Type: BaseDataVariableType
         DataType: Boolean
@@ -295,7 +273,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"APRI"}
+            Value: {"LocaleId":"it-IT","Text":"APRI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -529,6 +507,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -558,7 +545,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"CHIUDI"}
+            Value: {"LocaleId":"it-IT","Text":"CHIUDI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -762,12 +749,10 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 4.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -12.0
             - Name: BottomMargin
               Type: BaseVariableType
               DataType: Size
@@ -783,6 +768,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -832,7 +826,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW22.2"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW22.4"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -846,7 +840,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW22.3"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW22.5"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -891,35 +885,12 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW10.2"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW10.3"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: EnLedOpen
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: true
       - Name: EnLedClose
         Type: BaseDataVariableType
         DataType: Boolean
@@ -987,7 +958,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"AVANTI"}
+            Value: {"LocaleId":"it-IT","Text":"START"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1221,6 +1192,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1231,6 +1211,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"it-IT","Text":"STOP"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -1424,6 +1441,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -1438,43 +1464,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -1500,6 +1489,54 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
+      - Name: MomentaryButton1
+        Type: MomentaryButton
+        Children:
+        - Name: Active
+          Type: BaseDataVariableType
+          DataType: Boolean
+          AccessLevel: Read
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW22.6"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"it-IT","Text":"AFFILATURA"}
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 220.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 60.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 112.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 270.0
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 22.0
     - Name: Trasporto
       Type: Manual_Gen
       Children:
@@ -1510,7 +1547,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW22.0"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW22.2"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -1524,7 +1561,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW22.1"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW22.3"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -1538,7 +1575,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW10.3"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW11.1"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -1548,31 +1585,9 @@ Children:
       - Name: LedClose
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW10.1"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: Spin
         Type: BaseDataVariableType
         DataType: Int32
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_152"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -1623,11 +1638,9 @@ Children:
       - Name: EnLedClose
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: true
       - Name: EnSpin
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: true
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
@@ -1923,6 +1936,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1933,6 +1955,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -2126,6 +2185,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -2140,43 +2208,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -2230,6 +2261,664 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
+    - Name: Taglio
+      Type: Manual_Gen
+      Children:
+      - Name: BtnOpen
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW23.6"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: BtnClose
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW23.7"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: LedOpen
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW10.3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: LedClose
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW10.1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Spin
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: BtnOpenLamp
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: BtnCloseLamp
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: EnLedOpen
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: EnLedClose
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: EnSpin
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: LedOpenDesc
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "0"
+      - Name: LedCloseDesc
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "0"
+      - Name: HorizontalLayout1
+        Type: RowLayout
+        Children:
+        - Name: SpinBox1
+          Type: SpinBox
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Double
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../EnSpin"
+      - Name: GridLayout1
+        Type: GridLayout
+        Children:
+        - Name: Rows
+          Type: BaseDataVariableType
+          DataType: String
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: ["70","70","70"]
+        - Name: Columns
+          Type: BaseDataVariableType
+          DataType: String
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: ["300","50"]
+        - Name: Apri
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnOpen"
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"it-IT","Text":"AVANTI"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnOpenLamp"
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: LED1
+            Type: LED
+            Children:
+            - Name: FillColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#00ff00"
+            - Name: On
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../LedOpen"
+            - Name: LED_x5F_Top_x5F_View_x5F_Outline
+              Type: Image
+              Children:
+              - Name: Path
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Outline.svg"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: fill
+              Type: Ellipse
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff0000"
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../FillColor"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2
+              Type: Image
+              Children:
+              - Name: Path
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2.svg"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
+              Type: Image
+              Children:
+              - Name: Path
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1.svg"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: led_On1
+              Type: Ellipse
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff0000"
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../FillColor"
+              - Name: Opacity
+                Type: BaseVariableType
+                DataType: Float
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../../../../On"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: led_On2
+              Type: Ellipse
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff0000"
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../FillColor"
+              - Name: Opacity
+                Type: BaseVariableType
+                DataType: Float
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../../../../On"
+                  - Name: TrueValue
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    ReferenceType: HasParameter
+                    Value: 20.0
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
+              Children:
+              - Name: KeyValueConverter1
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../EnLedOpen"
+                - Name: Pairs
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Pair
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Float
+                  - Name: Pair1
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: true
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Float
+                      Value: 100.0
+          - Name: Label1
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"it-IT","Text":"INDIETRO"}
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+        - Name: VerticalLayout2
+          Type: ColumnLayout
+          Children:
+          - Name: LED2
+            Type: LED
+            Children:
+            - Name: FillColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#00ff00"
+            - Name: On
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../LedClose"
+            - Name: LED_x5F_Top_x5F_View_x5F_Outline
+              Type: Image
+              Children:
+              - Name: Path
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Outline.svg"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: fill
+              Type: Ellipse
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff0000"
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../FillColor"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2
+              Type: Image
+              Children:
+              - Name: Path
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2.svg"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
+              Type: Image
+              Children:
+              - Name: Path
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1.svg"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: led_On1
+              Type: Ellipse
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff0000"
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../FillColor"
+              - Name: Opacity
+                Type: BaseVariableType
+                DataType: Float
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../../../../On"
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: led_On2
+              Type: Ellipse
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff0000"
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../FillColor"
+              - Name: Opacity
+                Type: BaseVariableType
+                DataType: Float
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../../../../On"
+                  - Name: TrueValue
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    ReferenceType: HasParameter
+                    Value: 20.0
+              - Name: Visible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
+              Children:
+              - Name: KeyValueConverter1
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../EnLedClose"
+          - Name: Label1
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
+        - Name: Rectangle2
+          Type: Rectangle
+        - Name: Rectangle1
+          Type: Rectangle
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 102.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../..@BrowseName"
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 4.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 2
 - Name: Pinza_Superiore
   Id: g=b13e68838a1e3a1828a19714be6d3f40
   Supertype: Screen
@@ -2413,7 +3102,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"APRI"}
+            Value: {"LocaleId":"it-IT","Text":"APRI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -2647,6 +3336,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2657,6 +3355,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"it-IT","Text":"CHIUDI"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -2850,6 +3585,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -2864,43 +3608,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"CHIUDI"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -3029,7 +3736,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"04-AFFILATURA"}
+          Value: {"LocaleId":"it-IT","Text":"AFFILATURA"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3116,7 +3823,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"APRI"}
+            Value: {"LocaleId":"it-IT","Text":"START"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -3350,6 +4057,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3360,6 +4076,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"it-IT","Text":"STOP"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -3553,6 +4306,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -3567,43 +4329,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"CHIUDI"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -4028,6 +4753,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4038,6 +4772,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -4231,6 +5002,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -4245,43 +5025,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -4730,6 +5473,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4740,6 +5492,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -4933,6 +5722,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -4947,43 +5745,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -5042,1531 +5803,6 @@ Children:
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
-  - Name: VerticalLayout2
-    Type: ColumnLayout
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Visible
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-      Value: true
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: HorizontalLayout3
-      Type: RowLayout
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1280.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Label1
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"23: MANUALE -- TRAINO PINZE --"}
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 2
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 22.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 950
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 20.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-    - Name: HorizontalLayout1
-      Type: RowLayout
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: Manual_Control1
-        Type: Manual_2P_2L_Spin_L
-        Children:
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"23-TINFERIORE"}
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: VerticalLayout1
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: Label1
-                  Type: Label
-                  Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"23-SE24"}
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 40.0
-                  - Name: FontSize
-                    Type: BaseDataVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 20.0
-                  - Name: FontWeight
-                    Type: BaseDataVariableType
-                    DataType: FontWeightEnum
-                    ModellingRule: Optional
-                    Value: 950
-                - Name: LEDTopView1
-                  Type: ScaleLayout
-                  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-                  Children:
-                  - Name: FillColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    Value: "#00ff00"
-                  - Name: On
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW2.7"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: LED_x5F_Top_x5F_View_x5F_Outline
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Outline.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay.svg"
-                  - Name: fill
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1.svg"
-                  - Name: led_On1
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: led_On2
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-            - Name: VerticalLayout2
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: SpinBox1
-                  Type: SpinBox
-                  Children:
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_154"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 1
-                  - Name: MinValue
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    ModellingRule: Optional
-                  - Name: MaxValue
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    ModellingRule: Optional
-                    Value: 9999.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 20.0
-              - Name: Button2
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"INDIETRO"}
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW23.1"
-              - Name: Button1
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"AVANTI"}
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW23.0"
-            - Name: VerticalLayout3
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: BottomMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-              - Name: Rectangle2
-                Type: Rectangle
-                Children:
-                - Name: LEDTopView1
-                  Type: ScaleLayout
-                  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-                  Children:
-                  - Name: FillColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    Value: "#00ff00"
-                  - Name: On
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW11.7"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: LED_x5F_Top_x5F_View_x5F_Outline
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Outline.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay.svg"
-                  - Name: fill
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1.svg"
-                  - Name: led_On1
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: led_On2
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: LibraryReference
-                    Type: ObjectLibraryReference
-                    DataType: ObjectLibraryReferenceDataType
-                    Value: 
-                     {
-                      "TypeId": {
-                       "Id": 72,
-                       "Namespace": 17
-                      },
-                      "Body": {
-                       "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
-                       "objectGuid": "e87fc2e91c848c1a579d463de1b3bca8",
-                       "objectVersion": 1,
-                       "highestIgnoredVersion": 0
-                      }
-                     }
-              - Name: Rectangle3
-                Type: Rectangle
-                Children:
-                - Name: LEDTopView1
-                  Type: ScaleLayout
-                  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-                  Children:
-                  - Name: FillColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    Value: "#00ff00"
-                  - Name: On
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW10.4"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: LED_x5F_Top_x5F_View_x5F_Outline
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Outline.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay.svg"
-                  - Name: fill
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1.svg"
-                  - Name: led_On1
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: led_On2
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: LibraryReference
-                    Type: ObjectLibraryReference
-                    DataType: ObjectLibraryReferenceDataType
-                    Value: 
-                     {
-                      "TypeId": {
-                       "Id": 72,
-                       "Namespace": 17
-                      },
-                      "Body": {
-                       "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
-                       "objectGuid": "e87fc2e91c848c1a579d463de1b3bca8",
-                       "objectVersion": 1,
-                       "highestIgnoredVersion": 0
-                      }
-                     }
-      - Name: Manual_Control2
-        Type: Manual_2P_2L_Spin_L
-        Children:
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"23-SUPERIORE"}
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: VerticalLayout1
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: Label1
-                  Type: Label
-                  Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"23-SE9"}
-                  - Name: FontSize
-                    Type: BaseDataVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 22.0
-                  - Name: FontWeight
-                    Type: BaseDataVariableType
-                    DataType: FontWeightEnum
-                    ModellingRule: Optional
-                    Value: 950
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 40.0
-                - Name: LEDTopView1
-                  Type: ScaleLayout
-                  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-                  Children:
-                  - Name: FillColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    Value: "#00ff00"
-                  - Name: On
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW10.6"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: LED_x5F_Top_x5F_View_x5F_Outline
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Outline.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay.svg"
-                  - Name: fill
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1.svg"
-                  - Name: led_On1
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: led_On2
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-            - Name: VerticalLayout2
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: SpinBox1
-                  Type: SpinBox
-                  Children:
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_158"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 1
-                  - Name: MinValue
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    ModellingRule: Optional
-                  - Name: MaxValue
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    ModellingRule: Optional
-                    Value: 9999.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 20.0
-              - Name: Button2
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"INDIETRO"}
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW23.9"
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 2.0
-              - Name: Button1
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"AVANTI"}
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW23.8"
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: -3.0
-            - Name: VerticalLayout3
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-              - Name: Rectangle2
-                Type: Rectangle
-                Children:
-                - Name: LEDTopView1
-                  Type: ScaleLayout
-                  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-                  Children:
-                  - Name: FillColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    Value: "#00ff00"
-                  - Name: On
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW10.5"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: LED_x5F_Top_x5F_View_x5F_Outline
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Outline.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay.svg"
-                  - Name: fill
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1.svg"
-                  - Name: led_On1
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: led_On2
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: LibraryReference
-                    Type: ObjectLibraryReference
-                    DataType: ObjectLibraryReferenceDataType
-                    Value: 
-                     {
-                      "TypeId": {
-                       "Id": 72,
-                       "Namespace": 17
-                      },
-                      "Body": {
-                       "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
-                       "objectGuid": "e87fc2e91c848c1a579d463de1b3bca8",
-                       "objectVersion": 1,
-                       "highestIgnoredVersion": 0
-                      }
-                     }
-              - Name: Rectangle3
-                Type: Rectangle
-                Children:
-                - Name: LEDTopView1
-                  Type: ScaleLayout
-                  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-                  Children:
-                  - Name: FillColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    Value: "#00ff00"
-                  - Name: On
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW10.4"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: LED_x5F_Top_x5F_View_x5F_Outline
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Outline.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay.svg"
-                  - Name: fill
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2.svg"
-                  - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
-                    Type: Image
-                    Children:
-                    - Name: Path
-                      Type: BaseDataVariableType
-                      DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1.svg"
-                  - Name: led_On1
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: led_On2
-                    Type: Ellipse
-                    Children:
-                    - Name: BorderColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                    - Name: FillColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      Value: "#ff0000"
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../FillColor"
-                    - Name: Opacity
-                      Type: BaseVariableType
-                      DataType: Float
-                      Children:
-                      - Name: ConditionalConverter1
-                        Type: ConditionalConverter
-                        Children:
-                        - Name: Condition
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: ExpressionEvaluator1
-                            Type: ExpressionEvaluator
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../On"
-                  - Name: LibraryReference
-                    Type: ObjectLibraryReference
-                    DataType: ObjectLibraryReferenceDataType
-                    Value: 
-                     {
-                      "TypeId": {
-                       "Id": 72,
-                       "Namespace": 17
-                      },
-                      "Body": {
-                       "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
-                       "objectGuid": "e87fc2e91c848c1a579d463de1b3bca8",
-                       "objectVersion": 1,
-                       "highestIgnoredVersion": 0
-                      }
-                     }
-      - Name: HorizontalGap
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: HorizontalLayout2
-      Type: RowLayout
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: HorizontalGap
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-      - Name: Manual_1P1
-        Type: Manual_1P
-        Children:
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"23-INFERIORE"}
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: VerticalLayout1
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-            - Name: VerticalLayout2
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-              - Name: MomentaryButton2
-                Type: MomentaryButton
-                Children:
-                - Name: Active
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  AccessLevel: Read
-              - Name: Rectangle3
-                Type: Rectangle
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 20.0
-              - Name: MomentaryButton1
-                Type: MomentaryButton
-                Children:
-                - Name: Active
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  AccessLevel: Read
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ZERO"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 6.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: -1.0
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 70.0
-            - Name: VerticalLayout3
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-              - Name: Rectangle2
-                Type: Rectangle
-              - Name: Rectangle3
-                Type: Rectangle
-      - Name: Manual_1P2
-        Type: Manual_1P
-        Children:
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"23-INFERIORE"}
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: VerticalLayout1
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-            - Name: VerticalLayout2
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-              - Name: MomentaryButton2
-                Type: MomentaryButton
-                Children:
-                - Name: Active
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  AccessLevel: Read
-              - Name: Rectangle3
-                Type: Rectangle
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 20.0
-            - Name: VerticalLayout3
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-              - Name: Rectangle2
-                Type: Rectangle
-              - Name: Rectangle3
-                Type: Rectangle
-    - Name: RightMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: HorizontalGap
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: VerticalGap
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 8.0
-    - Name: BottomMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 8.0
   - Name: GridLayout1
     Type: GridLayout
     Children:
@@ -6969,7 +6205,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"APRI"}
+            Value: {"LocaleId":"it-IT","Text":"APRI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -7203,6 +6439,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -7213,6 +6458,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"it-IT","Text":"CHIUDI"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -7406,6 +6688,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -7420,43 +6711,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"CHIUDI"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -7859,7 +7113,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"APRI"}
+            Value: {"LocaleId":"it-IT","Text":"APRI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -8093,6 +7347,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -8103,6 +7366,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"it-IT","Text":"CHIUDI"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -8296,6 +7596,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -8310,43 +7619,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"CHIUDI"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -8771,6 +8043,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -8781,6 +8062,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -8974,6 +8292,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -8988,43 +8315,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -9473,6 +8763,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -9483,6 +8782,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -9676,6 +9012,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -9690,43 +9035,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -9766,10 +9074,12 @@ Children:
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
+      Value: 3
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
+      Value: 3
     - Name: ItemsHorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment

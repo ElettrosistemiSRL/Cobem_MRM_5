@@ -7444,7 +7444,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"20:MAN -- FILATO ENTRATA -- "}
+        Value: {"LocaleId":"it-IT","Text":"FILATO ENTRATA "}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -7706,7 +7706,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"21: MANUALE -- PINZA SUPERIORE--"}
+        Value: {"LocaleId":"it-IT","Text":"PINZA SUPERIORE"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -7926,7 +7926,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"25: MANUALE -- TAVOLA --"}
+        Value: {"LocaleId":"it-IT","Text":"TAVOLA"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -8146,7 +8146,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"26: MANUALE -- MONTAGGIO --"}
+        Value: {"LocaleId":"it-IT","Text":"MONTAGGIO"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -8379,7 +8379,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"31: MANUALE -- ESTRAZIONE --"}
+        Value: {"LocaleId":"it-IT","Text":"ESTRAZIONE"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -8603,7 +8603,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"33: MANUALE -- SCARTO --"}
+        Value: {"LocaleId":"it-IT","Text":"SCARTO"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -9093,7 +9093,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"90:MAN CONFEZIONATRICE "}
+        Value: {"LocaleId":"it-IT","Text":"90:MAN CONFEZIONATRICE "}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -10344,7 +10344,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"USERS"}
+        Value: {"LocaleId":"it-IT","Text":"UTENTI"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean

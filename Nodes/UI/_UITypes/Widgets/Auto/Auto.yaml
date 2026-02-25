@@ -64,7 +64,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"01-CODICE"}
+          Value: {"LocaleId":"it-IT","Text":"CODICE"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -317,7 +317,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"01_PARZIALI"}
+              Value: {"LocaleId":"it-IT","Text":"PARZIALI"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -389,7 +389,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"01_STOP A PEZZI"}
+              Value: {"LocaleId":"it-IT","Text":"STOP A PEZZI"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -481,13 +481,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"01_SCARTO GIUNTURA-ON"}
+                  Value: {"LocaleId":"it-IT","Text":"SCARTO GIUNTURA-ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"01_SCARTO GIUNTURA-OFF"}
+                  Value: {"LocaleId":"it-IT","Text":"SCARTO GIUNTURA-OFF"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -876,7 +876,7 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"01-AUTO AZZERA"}
+              Value: {"LocaleId":"it-IT","Text":"AZZERA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1063,7 +1063,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"02-CICLO AZZERAMENTO"}
+              Value: {"LocaleId":"it-IT","Text":"Ciclo Azzeramento"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1139,7 +1139,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"02-CICLO FASATURA"}
+              Value: {"LocaleId":"it-IT","Text":"Ciclo Fasatura"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1211,7 +1211,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"PER CICLO FASATURA:"}
+              Value: {"LocaleId":"it-IT","Text":"PER CICLO FASATURA TAVOLA:"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1275,7 +1275,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"- Controllare se montaggio in alto"}
+              Value: {"LocaleId":"it-IT","Text":"- Controllare se montaggio in alto"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1331,7 +1331,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"- Controllare se estrattore in alto"}
+              Value: {"LocaleId":"it-IT","Text":"- Controllare se estrattore in alto"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1387,7 +1387,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"- Inserire password manutenzione"}
+              Value: {"LocaleId":"it-IT","Text":"- Inserire password manutenzione"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1574,7 +1574,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"02-AZZERAMENTO"}
+              Value: {"LocaleId":"it-IT","Text":"AZZERAMENTO"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1682,7 +1682,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"02-FASATURA"}
+              Value: {"LocaleId":"it-IT","Text":"FASATURA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2106,7 +2106,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"02-FASATURA TAV."}
+              Value: {"LocaleId":"it-IT","Text":"FASATURA TAV."}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2296,7 +2296,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"03-MISURA mm"}
+              Value: {"LocaleId":"it-IT","Text":"MISURA mm"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2372,7 +2372,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"03-ESTRAZIONE PROF. mm"}
+              Value: {"LocaleId":"it-IT","Text":"ESTRAZIONE PROF. mm"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2444,7 +2444,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"31-ESTRAZIONE"}
+              Value: {"LocaleId":"it-IT","Text":"ESTRAZIONE"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2516,7 +2516,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"03-VELOCITA' TAVOLA"}
+              Value: {"LocaleId":"it-IT","Text":"VELOCITA' TAVOLA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2588,7 +2588,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"03-CONTROLLO MATERIALE"}
+              Value: {"LocaleId":"it-IT","Text":"CONTROLLO MATERIALE SU MONTAGGIO"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3018,7 +3018,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"L-BASSA"}
+                  Value: {"LocaleId":"it-IT","Text":"BASSA"}
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -3102,13 +3102,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"04-ESCLUSO"}
+                  Value: {"LocaleId":"it-IT","Text":"ESCLUSO"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"04-ATTIVO"}
+                  Value: {"LocaleId":"it-IT","Text":"ATTIVO"}
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -3293,7 +3293,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"04-AFFILATURA LAME"}
+              Value: {"LocaleId":"it-IT","Text":"AFFILATURA LAME"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3369,7 +3369,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"04-Dopo Tagli"}
+              Value: {"LocaleId":"it-IT","Text":"Dopo Tagli"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3441,7 +3441,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"04-Tempo Affilatura sec"}
+              Value: {"LocaleId":"it-IT","Text":"Tempo Affilatura sec"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3918,7 +3918,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"04-AFFILATURA"}
+              Value: {"LocaleId":"it-IT","Text":"AFFILATURA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -4027,7 +4027,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"04-Montaggio Difettoso >>GANCI<<"}
+          Value: {"LocaleId":"it-IT","Text":"Montaggio Difettoso >>GANCI<<"}
         - Name: TextVerticalAlignment
           Type: BaseVariableType
           DataType: TextVerticalAlignment
@@ -4080,13 +4080,13 @@ Children:
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"04-ATTIVO"}
+              Value: {"LocaleId":"it-IT","Text":"ATTIVO"}
             - Name: FalseValue
               Type: BaseDataVariableType
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"04-ESCLUSO"}
+              Value: {"LocaleId":"it-IT","Text":"ESCLUSO"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -4390,7 +4390,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"05-PRODUZIONE ORARIA"}
+              Value: {"LocaleId":"it-IT","Text":"PRODUZIONE ORARIA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -4870,7 +4870,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"SCARICO CARTONE"}
+              Value: {"LocaleId":"it-IT","Text":"SCARICO CARTONE"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4947,7 +4947,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"Quota scarico aspirazione OFF"}
+              Value: {"LocaleId":"it-IT","Text":"Quota Scarico aspiraz. OFF mm"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4994,7 +4994,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"03-ESTRAZIONE PROF. mm"}
+              Value: {"LocaleId":"it-IT","Text":"ESTRAZIONE PROF. mm"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -5775,7 +5775,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"MNU-HELP"}
+        Value: {"LocaleId":"it-IT","Text":"HELP"}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -5929,7 +5929,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"11-Tavola posizione [0..2000]"}
+              Value: {"LocaleId":"it-IT","Text":"Tavola posizione [0..2000]"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -6006,7 +6006,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"11-Traino Pinze Superiore mm"}
+              Value: {"LocaleId":"it-IT","Text":"Traino Pinze Superiore mm"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -6053,7 +6053,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"11-Traino Pinze Inferiore mm"}
+              Value: {"LocaleId":"it-IT","Text":"Traino Pinze Inferiore mm"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -6130,7 +6130,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"11-Traino Pinze Quota Indietro"}
+              Value: {"LocaleId":"it-IT","Text":"Traino Pinze Quota Indietro"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -6212,7 +6212,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"11-Traino Pinze Quota Avanti"}
+              Value: {"LocaleId":"it-IT","Text":"Traino Pinze Quota Avanti"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -6289,7 +6289,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"11-Trasporto Pinza Superiore"}
+              Value: {"LocaleId":"it-IT","Text":"Trasporto Pinza Superiore"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -6366,7 +6366,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"11-Trasporto Pinza Inferiore"}
+              Value: {"LocaleId":"it-IT","Text":"Trasporto Pinza Inferiore"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -7286,7 +7286,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"12:HELP INSACCHETTATRICE"}
+        Value: {"LocaleId":"it-IT","Text":"HELP INSACCHETTATRICE"}
       - Name: TextVerticalAlignment
         Type: BaseVariableType
         DataType: TextVerticalAlignment
@@ -7438,7 +7438,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"12-Diametro Svolgitore mm"}
+              Value: {"LocaleId":"it-IT","Text":"Diametro Svolgitore mm"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -8148,7 +8148,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"01-CODICE"}
+          Value: {"LocaleId":"it-IT","Text":"CODICE"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -8339,7 +8339,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"15_N. Bolla Lavoro"}
+              Value: {"LocaleId":"it-IT","Text":"N. Bolla Lavoro"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8416,7 +8416,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"15_Q.ta da Produrre"}
+              Value: {"LocaleId":"it-IT","Text":"Q.ta da Produrre"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8493,7 +8493,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"15_Q.ta Parziale"}
+              Value: {"LocaleId":"it-IT","Text":"Q.ta Parziale"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8575,7 +8575,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"15_Q.ta Scarti"}
+              Value: {"LocaleId":"it-IT","Text":"Q.ta Scarti"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8691,7 +8691,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"15_Stato Macchina"}
+              Value: {"LocaleId":"it-IT","Text":"Stato Macchina"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -9395,7 +9395,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"-Per eseguire la fasatura Tavola:"}
+            Value: {"LocaleId":"it-IT","Text":"-Per eseguire la fasatura Tavola:"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -9452,7 +9452,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"202-Controllare se montaggio in alto"}
+            Value: {"LocaleId":"it-IT","Text":"Controllare se montaggio in alto"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -9508,7 +9508,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"202-Controllare se estrattore in alto"}
+            Value: {"LocaleId":"it-IT","Text":"Controllare se estrattore in alto"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -9564,7 +9564,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"Inserire password manutenzione"}
+            Value: {"LocaleId":"it-IT","Text":"Inserire password manutenzione"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -9764,7 +9764,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"02-CICLO FASATURA"}
+              Value: {"LocaleId":"it-IT","Text":"Ciclo Fasatura"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -10307,7 +10307,7 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"02-FASATURA TAV."}
+              Value: {"LocaleId":"it-IT","Text":"FASATURA TAV."}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment

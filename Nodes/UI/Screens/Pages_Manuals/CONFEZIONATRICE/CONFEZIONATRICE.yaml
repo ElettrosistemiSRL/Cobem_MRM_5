@@ -18,7 +18,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"90:MAN CONFEZIONATRICE "}
+          Value: {"LocaleId":"it-IT","Text":"90:MAN CONFEZIONATRICE "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -34,7 +34,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"91:MAN CONFEZIONATRICE "}
+          Value: {"LocaleId":"it-IT","Text":"CONFEZIONATRICE"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -521,6 +521,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -724,6 +733,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -1223,6 +1241,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1426,6 +1453,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -1890,6 +1926,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2093,6 +2138,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -2563,6 +2617,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2766,6 +2829,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -3277,6 +3349,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3480,6 +3561,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -3947,6 +4037,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4150,6 +4249,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -4590,6 +4698,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4793,6 +4910,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -5248,6 +5374,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5451,6 +5586,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -5950,6 +6094,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6153,6 +6306,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -6609,6 +6771,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6812,6 +6983,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -7252,6 +7432,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -7455,6 +7644,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -7898,6 +8096,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedOpenDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED1/Visible"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -8101,6 +8308,15 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../LedCloseDesc"
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../LED2/Visible"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -8262,7 +8478,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"26: MANUALE -- MONTAGGIO --"}
+          Value: {"LocaleId":"it-IT","Text":"MONTAGGIO"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -8341,7 +8557,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"93-MODULO SALDATORE CHIUSURA SACCHETTO"}
+              Value: {"LocaleId":"it-IT","Text":"MODULO SALDATORE CHIUSURA SACCHETTO"}
           - Name: HorizontalLayout1
             Type: RowLayout
             Children:
@@ -8367,7 +8583,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"IMPOSTA"}
+                    Value: {"LocaleId":"it-IT","Text":"IMPOSTA"}
                 - Name: Label2
                   Type: Label
                   Children:
@@ -8375,7 +8591,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"ATTUALE °C"}
+                    Value: {"LocaleId":"it-IT","Text":"ATTUALE °C"}
                 - Name: Rectangle1
                   Type: Rectangle
               - Name: HorizontalLayout1
@@ -8422,7 +8638,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"START"}
+                    Value: {"LocaleId":"it-IT","Text":"START"}
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -9030,7 +9246,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"93-OK"}
+                    Value: {"LocaleId":"it-IT","Text":"OK"}
                 - Name: Label2
                   Type: Label
                   Children:
@@ -9038,7 +9254,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"93-ALM"}
+                    Value: {"LocaleId":"it-IT","Text":"ALM"}
           - Name: Label2
             Type: Label
             Children:
@@ -9046,7 +9262,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"93-IMPOSTA TEMPERATURA AMBIENTE E PREMI START.. ATTENDI FINE CALIBRAZIONE [OK- ON]"}
+              Value: {"LocaleId":"it-IT","Text":"IMPOSTA TEMPERATURA AMBIENTE E PREMI START.. ATTENDI FINE CALIBRAZIONE [OK- ON]"}
     - Name: HorizontalLayout2
       Type: RowLayout
       Children:
@@ -9088,7 +9304,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"93-MODULO SALDATORE SOTTO"}
+              Value: {"LocaleId":"it-IT","Text":"MODULO SALDATORE SOTTO"}
           - Name: HorizontalLayout1
             Type: RowLayout
             Children:
@@ -9114,7 +9330,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"IMPOSTA"}
+                    Value: {"LocaleId":"it-IT","Text":"IMPOSTA"}
                 - Name: Label2
                   Type: Label
                   Children:
@@ -9122,7 +9338,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"ATTUALE °C"}
+                    Value: {"LocaleId":"it-IT","Text":"ATTUALE °C"}
                 - Name: Rectangle1
                   Type: Rectangle
               - Name: HorizontalLayout1
@@ -9182,7 +9398,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"START"}
+                    Value: {"LocaleId":"it-IT","Text":"START"}
                   - Name: MouseClickEventHandler1
                     Type: EventHandler
                     Children:
@@ -9762,7 +9978,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"93-OK"}
+                    Value: {"LocaleId":"it-IT","Text":"OK"}
                 - Name: Label2
                   Type: Label
                   Children:
@@ -9770,7 +9986,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"93-ALM"}
+                    Value: {"LocaleId":"it-IT","Text":"ALM"}
           - Name: Label2
             Type: Label
             Children:
@@ -9778,7 +9994,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"93-IMPOSTA TEMPERATURA AMBIENTE E PREMI START.. ATTENDI FINE CALIBRAZIONE [OK- ON]"}
+              Value: {"LocaleId":"it-IT","Text":"IMPOSTA TEMPERATURA AMBIENTE E PREMI START.. ATTENDI FINE CALIBRAZIONE [OK- ON]"}
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size

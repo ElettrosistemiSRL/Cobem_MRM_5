@@ -54,7 +54,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"01-AUTO"}
+          Value: {"LocaleId":"it-IT","Text":"AUTO"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -302,7 +302,7 @@ Children:
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
-                    Value: {"NamespaceIndex":30,"TextId":"01-AUTO AZZERA"}
+                    Value: {"LocaleId":"it-IT","Text":"AZZERA"}
       - Name: 2
         Type: 02
         Children:
@@ -722,7 +722,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"03-CONTROLLO MATERIALE"}
+                    Value: {"LocaleId":"it-IT","Text":"CONTROLLO MATERIALE SU MONTAGGIO"}
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -1219,7 +1219,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"01-AUTO"}
+          Value: {"LocaleId":"it-IT","Text":"AUTO"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -1235,7 +1235,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"06-INSACCHETTATRICE"}
+          Value: {"LocaleId":"it-IT","Text":"INSACCHETTATRICE"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -1251,7 +1251,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"80-PARAMETRI -CARTONE-"}
+          Value: {"LocaleId":"it-IT","Text":"CARTONE"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId

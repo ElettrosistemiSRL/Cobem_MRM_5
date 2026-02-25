@@ -10524,7 +10524,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"CHIUDI"}
+                Value: {"LocaleId":"it-IT","Text":"CHIUDI"}
             - Name: Pair5
               Type: ValueMapPair
               ModellingRule: None
@@ -10566,7 +10566,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"SU SCARICO"}
+                Value: {"LocaleId":"it-IT","Text":"SU SCARICO"}
             - Name: Pair8
               Type: ValueMapPair
               ModellingRule: None
@@ -10580,7 +10580,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"STOP"}
+                Value: {"LocaleId":"it-IT","Text":"STOP"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -10665,7 +10665,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"AVANTI"}
+                Value: {"LocaleId":"it-IT","Text":"AVANTI"}
             - Name: Pair1
               Type: ValueMapPair
               ModellingRule: None
@@ -10721,7 +10721,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"APRI"}
+                Value: {"LocaleId":"it-IT","Text":"APRI"}
             - Name: Pair5
               Type: ValueMapPair
               ModellingRule: None
@@ -10763,7 +10763,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"SU SCARTO"}
+                Value: {"LocaleId":"it-IT","Text":"SU SCARTO"}
             - Name: Pair8
               Type: ValueMapPair
               ModellingRule: None
@@ -10777,7 +10777,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"START"}
+                Value: {"LocaleId":"it-IT","Text":"START"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size

@@ -25157,7 +25157,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"Descrizione"}
+        Value: {"LocaleId":"it-IT","Text":"Descrizione"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -25409,7 +25409,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"50: PARAMETRI -TRAINO PINZE -"}
+                Value: {"LocaleId":"it-IT","Text":"TRAINO PINZE"}
               - Name: TextColor
                 Type: BaseDataVariableType
                 DataType: Color
@@ -25512,7 +25512,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"50-VEL.MANUALE mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"VEL.MANUALE mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -25632,7 +25632,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"50-VEL.MAX mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"VEL.MAX mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -25752,7 +25752,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"50-ACC MAX ms"}
+                    Value: {"LocaleId":"it-IT","Text":"ACC MAX ms"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -25872,7 +25872,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"50-QUOTA ZERO mm"}
+                    Value: {"LocaleId":"it-IT","Text":"QUOTA ZERO mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -25992,7 +25992,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"50-QUOTA MAX   mm"}
+                    Value: {"LocaleId":"it-IT","Text":"QUOTA MAX   mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -26113,7 +26113,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"50-RANGE INNESTO CAMMA mm"}
+                    Value: {"LocaleId":"it-IT","Text":"RANGE INNESTO CAMMA mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -26242,7 +26242,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"51: PARAMETRI  -PINZA SUPERIORE -"}
+                Value: {"LocaleId":"it-IT","Text":"PINZA SUPERIORE"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -26351,7 +26351,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"51-VEL.MANUALE mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"VEL.MANUALE mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -26471,7 +26471,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"51-VEL.MAX mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"VEL.MAX mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -26591,7 +26591,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"51-ACC MAX ms"}
+                    Value: {"LocaleId":"it-IT","Text":"ACC MAX ms"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -26711,7 +26711,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"51-QUOTA ZERO mm"}
+                    Value: {"LocaleId":"it-IT","Text":"QUOTA ZERO mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -26831,7 +26831,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"51-QUOTA MAX   mm"}
+                    Value: {"LocaleId":"it-IT","Text":"QUOTA MAX   mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -26956,7 +26956,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"52: PARAMETRI  -PINZA INFERIORE -"}
+                Value: {"LocaleId":"it-IT","Text":"PINZA INFERIORE"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -27059,7 +27059,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"52-VEL.MANUALE mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"VEL.MANUALE mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -27189,7 +27189,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"52-VEL.MAX mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"VEL.MAX mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -27309,7 +27309,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"52-ACC MAX ms"}
+                    Value: {"LocaleId":"it-IT","Text":"ACC MAX ms"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -27429,7 +27429,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"52-QUOTA ZERO mm"}
+                    Value: {"LocaleId":"it-IT","Text":"QUOTA ZERO mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -27549,7 +27549,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"52-QUOTA MAX   mm"}
+                    Value: {"LocaleId":"it-IT","Text":"QUOTA MAX   mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -27791,7 +27791,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"53-VEL.MANUALE mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"VEL.MANUALE mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -27916,7 +27916,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"53-VEL.MAX mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"VEL.MAX mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -28036,7 +28036,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"53-ACC MAX ms"}
+                    Value: {"LocaleId":"it-IT","Text":"ACC MAX ms"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -28156,7 +28156,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"53-QUOTA ZERO mm"}
+                    Value: {"LocaleId":"it-IT","Text":"QUOTA ZERO mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -28276,7 +28276,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"53-QUOTA MAX   mm"}
+                    Value: {"LocaleId":"it-IT","Text":"QUOTA MAX   mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -28396,7 +28396,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"53-QUOTA INIZIO ESTAZ. mm"}
+                    Value: {"LocaleId":"it-IT","Text":"QUOTA INIZIO ESTAZ. mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -28521,7 +28521,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"54: PARAMETRI - MONTAGGIO -"}
+                Value: {"LocaleId":"it-IT","Text":"CICLI MONTAGGIO"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -28630,7 +28630,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"54-CICLO MONTAGGIO"}
+                    Value: {"LocaleId":"it-IT","Text":"CICLO MONTAGGIO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -28750,7 +28750,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"54-CICLO CAPPUCCI"}
+                    Value: {"LocaleId":"it-IT","Text":"CICLO CAPPUCCI"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -28870,7 +28870,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"54-CICLO GANCI"}
+                    Value: {"LocaleId":"it-IT","Text":"CICLO GANCI"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -28990,7 +28990,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"54-CICLO SCARICO"}
+                    Value: {"LocaleId":"it-IT","Text":"CICLO SCARICO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -29110,7 +29110,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"54-CICLO SCARTO"}
+                    Value: {"LocaleId":"it-IT","Text":"CICLO SCARTO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -29247,7 +29247,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: LocalizedText
                       ModellingRule: Optional
-                      Value: {"NamespaceIndex":30,"TextId":"54-MEM MOP"}
+                      Value: {"LocaleId":"it-IT","Text":"MEM MOP"}
                     - Name: Width
                       Type: BaseVariableType
                       DataType: Size
@@ -29321,7 +29321,7 @@ Children:
                         Type: BaseDataVariableType
                         DataType: LocalizedText
                         ModellingRule: Optional
-                        Value: {"NamespaceIndex":30,"TextId":"54-C"}
+                        Value: {"LocaleId":"it-IT","Text":"C"}
                       - Name: Width
                         Type: BaseVariableType
                         DataType: Size
@@ -29477,7 +29477,7 @@ Children:
                         Type: BaseDataVariableType
                         DataType: LocalizedText
                         ModellingRule: Optional
-                        Value: {"NamespaceIndex":30,"TextId":"54-M"}
+                        Value: {"LocaleId":"it-IT","Text":"M"}
                       - Name: Width
                         Type: BaseVariableType
                         DataType: Size
@@ -29635,7 +29635,7 @@ Children:
                         Type: BaseDataVariableType
                         DataType: LocalizedText
                         ModellingRule: Optional
-                        Value: {"NamespaceIndex":30,"TextId":"54-S"}
+                        Value: {"LocaleId":"it-IT","Text":"S"}
                       - Name: Width
                         Type: BaseVariableType
                         DataType: Size
@@ -29824,7 +29824,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: LocalizedText
                       ModellingRule: Optional
-                      Value: {"NamespaceIndex":30,"TextId":"54-MEM SCARTO"}
+                      Value: {"LocaleId":"it-IT","Text":"MEM SCARTO"}
                     - Name: Width
                       Type: BaseVariableType
                       DataType: Size
@@ -30405,7 +30405,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"54-CICLO TAVOLA"}
+                    Value: {"LocaleId":"it-IT","Text":"CICLO TAVOLA"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -30540,7 +30540,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"55: PARAMETRI - MONTAGGIO CAPPUCCI -"}
+                Value: {"LocaleId":"it-IT","Text":"MONTAGGIO CAPPUCCI"}
               - Name: TextColor
                 Type: BaseDataVariableType
                 DataType: Color
@@ -30639,7 +30639,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"55-TMR FOTO VIBRATORE ON "}
+                    Value: {"LocaleId":"it-IT","Text":"TMR FOTO VIBRATORE ON "}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -30759,7 +30759,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"55-TMR FOTO VIBRATORE OFF"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR FOTO VIBRATORE OFF"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -30879,7 +30879,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"55-TMR VIBRATORE MAX ON"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR VIBRATORE MAX ON"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -30999,7 +30999,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"55-TMR SOFFIO TRASPORTO ON"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR SOFFIO TRASPORTO ON"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -31119,7 +31119,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"55-TMR SOFFIO TRASPORTO OFF"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR SOFFIO TRASPORTO OFF"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -31239,7 +31239,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"55-TMR APPOGGIO AVANTI"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR APPOGGIO AVANTI"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -31359,7 +31359,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"55-TMR SOFFIO VIBRATORE CAPPUCCI"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR SOFFIO VIBRATORE CAPPUCCI"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -31484,7 +31484,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"56: PARAMETRI - MONTAGGIO GANCI -"}
+                Value: {"LocaleId":"it-IT","Text":"MONTAGGIO GANCI"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -31593,7 +31593,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"56-TMR FOTO VIBRATORE ON "}
+                    Value: {"LocaleId":"it-IT","Text":"TMR FOTO VIBRATORE ON "}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -31713,7 +31713,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"56-TMR FOTO VIBRATORE OFF"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR FOTO VIBRATORE OFF"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -31833,7 +31833,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"56-TMR VIBRATORE MAX ON"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR VIBRATORE MAX ON"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -31953,7 +31953,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"56-TMR SOFFIO TRASPORTO ON"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR SOFFIO TRASPORTO ON"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -32073,7 +32073,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"56-TMR SOFFIO TRASPORTO OFF"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR SOFFIO TRASPORTO OFF"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -32226,7 +32226,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"56-TMR SOFFIO VIBRATORE GANCI"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR SOFFIO VIBRATORE GANCI"}
                 - Name: SpinBox1
                   Type: SpinBox
                   Children:
@@ -32346,7 +32346,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"56-TMR ATTIVA CONTROLLO MONT.GANCI"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR ATTIVA CONTROLLO MONT.GANCI"}
                 - Name: SpinBox1
                   Type: SpinBox
                   Children:
@@ -32438,7 +32438,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"57: PARAMETRI - MONTAGGIO-"}
+                Value: {"LocaleId":"it-IT","Text":"MONTAGGIO"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -32547,7 +32547,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"57-TMR CONTRASTO APRE "}
+                    Value: {"LocaleId":"it-IT","Text":"TMR CONTRASTO FORCELLA APRE "}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -32667,7 +32667,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"57-TMR ASPIRAZIONE START"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR ASPIRAZIONE FORCELLA START"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -32787,7 +32787,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"57-TMR MONT.IN PAUSA BASSO"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR ASPIRAZIONE FORCELLA STOP"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -32907,7 +32907,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"57-TMR MONT. FORMAT.FIOCCO APRE"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR MONT. FORMAT.FIOCCO APRE"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -33027,7 +33027,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"57-TMR CHIUSURA SU MONTAGGIO"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR CHIUSURA MATERIALE SU TAVOLA"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -33147,7 +33147,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"57-TMR APERTURA CONTRASTO CAPPUCCI "}
+                    Value: {"LocaleId":"it-IT","Text":"TMR APERTURA CONTRASTO CAPPUCCI "}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -33272,7 +33272,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"58: PAR.ESTARZIONE -ESAGONO"}
+                Value: {"LocaleId":"it-IT","Text":"ESTARZIONE ESAGONO"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -33381,7 +33381,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"58-TMR FOTO VIBRATORE ON "}
+                    Value: {"LocaleId":"it-IT","Text":"TMR FOTO VIBRATORE ON "}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -33637,7 +33637,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"58-TMR FOTO VIBRATORE OFF"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR FOTO VIBRATORE OFF"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -33757,7 +33757,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"58-TMR VIBRATORE MAX ON"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR VIBRATORE MAX ON"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -33877,7 +33877,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"58-TMR ESAGONO-INSERIMENTO"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR ESAGONO-INSERIMENTO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -33997,7 +33997,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"58-TMR CASSETTO ESAGONO -APERTO"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR CASSETTO ESAGONO -APERTO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -34117,7 +34117,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"58-TMR CONTROLLO INSERIMENTO"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR CONTROLLO INSERIMENTO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -34237,7 +34237,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"58-NUMERO TENTATIVI INSERIMENTO"}
+                    Value: {"LocaleId":"it-IT","Text":"NUMERO TENTATIVI INSERIMENTO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -34362,7 +34362,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"59: PARAMETRI - TAVOLA -"}
+                Value: {"LocaleId":"it-IT","Text":"TAVOLA"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -34479,7 +34479,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"59-IMPULSI ENCODER"}
+                    Value: {"LocaleId":"it-IT","Text":"IMPULSI ENCODER"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -34599,7 +34599,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"59-IMPULSI FASATURA TACCA ZERO"}
+                    Value: {"LocaleId":"it-IT","Text":"IMPULSI FASATURA TACCA ZERO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -34724,7 +34724,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"60: PARAMETRI - GENERALI -"}
+                Value: {"LocaleId":"it-IT","Text":"PARAMETRI - GENERALI -"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -34841,7 +34841,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"60-LUNGHEZZA MIN."}
+                    Value: {"LocaleId":"it-IT","Text":"LUNGHEZZA MIN."}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -34961,7 +34961,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"60-LUNGHEZZA MAX"}
+                    Value: {"LocaleId":"it-IT","Text":"LUNGHEZZA MAX"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -35081,7 +35081,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"60-CICLO AUTOM. IN TEST"}
+                    Value: {"LocaleId":"it-IT","Text":"CICLO AUTOM. IN TEST"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -35157,13 +35157,13 @@ Children:
                         DataType: LocalizedText
                         ReferenceType: HasParameter
                         ModellingRule: Optional
-                        Value: {"NamespaceIndex":30,"TextId":"STD-ON"}
+                        Value: {"LocaleId":"it-IT","Text":"ON"}
                       - Name: FalseValue
                         Type: BaseDataVariableType
                         DataType: LocalizedText
                         ReferenceType: HasParameter
                         ModellingRule: Optional
-                        Value: {"NamespaceIndex":30,"TextId":"STD-OFF"}
+                        Value: {"LocaleId":"it-IT","Text":"OFF"}
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -35213,7 +35213,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"60-CICLI ESEGUITI "}
+                    Value: {"LocaleId":"it-IT","Text":"CICLI ESEGUITI "}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -35355,7 +35355,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"Descrizione"}
+        Value: {"LocaleId":"it-IT","Text":"Descrizione"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -35611,7 +35611,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":30,"TextId":"06-INSACCHETTATRICE"}
+                Value: {"LocaleId":"it-IT","Text":"INSACCHETTATRICE"}
               - Name: TextColor
                 Type: BaseDataVariableType
                 DataType: Color
@@ -35714,7 +35714,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"70-SVOLG.DIAM.MIN mm"}
+                    Value: {"LocaleId":"it-IT","Text":"SVOLG.DIAM.MIN mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -35876,7 +35876,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"70-SVOLG.DIAM.MAX mm"}
+                    Value: {"LocaleId":"it-IT","Text":"SVOLG.DIAM.MAX mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -36003,7 +36003,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"70-SVOLG. Y0 mm"}
+                    Value: {"LocaleId":"it-IT","Text":"SVOLG. Y0 mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -36130,7 +36130,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"70-SVOLG. ANA X0"}
+                    Value: {"LocaleId":"it-IT","Text":"SVOLG. ANA X0"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -36317,7 +36317,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"70-SVOLG. Y1 mm"}
+                    Value: {"LocaleId":"it-IT","Text":"SVOLG. Y1 mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -36444,7 +36444,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"70-SVOLG. ANA X1"}
+                    Value: {"LocaleId":"it-IT","Text":"SVOLG. ANA X1"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -36634,7 +36634,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"70-DIAMETRO mm"}
+                    Value: {"LocaleId":"it-IT","Text":"DIAMETRO mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -36763,7 +36763,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"71-SVOLG.H.SEN.ANALOGICA mm"}
+                    Value: {"LocaleId":"it-IT","Text":"SVOLG.H.SEN.ANALOGICA mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -36893,7 +36893,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"71-SVOLG.VEL.MAX BOBINA rpm"}
+                    Value: {"LocaleId":"it-IT","Text":"SVOLG.VEL.MAX BOBINA rpm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -37023,7 +37023,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"71-INSACCHETTATRICE"}
+                    Value: {"LocaleId":"it-IT","Text":"INSACCHETTATRICE"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -37105,13 +37105,13 @@ Children:
                         DataType: LocalizedText
                         ReferenceType: HasParameter
                         ModellingRule: Optional
-                        Value: {"NamespaceIndex":30,"TextId":"ATTIVA"}
+                        Value: {"LocaleId":"it-IT","Text":"ATTIVA"}
                       - Name: FalseValue
                         Type: BaseDataVariableType
                         DataType: LocalizedText
                         ReferenceType: HasParameter
                         ModellingRule: Optional
-                        Value: {"NamespaceIndex":30,"TextId":"ESCLUSA"}
+                        Value: {"LocaleId":"it-IT","Text":"ESCLUSA"}
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -37162,7 +37162,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"72-TRAINO JOG mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"TRAINO JOG mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -37292,7 +37292,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"72-TRAINO.VEL.LOW mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"TRAINO.VEL.LOW mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -37422,7 +37422,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"72-TRAINO.VEL.HV mm/s"}
+                    Value: {"LocaleId":"it-IT","Text":"TRAINO.VEL.HV mm/s"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -37553,7 +37553,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"72-TRAINO ACC/DEC sec"}
+                    Value: {"LocaleId":"it-IT","Text":"TRAINO ACC/DEC sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -37683,7 +37683,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"72-TRAINO CAMMA RICERCA TACCA mm"}
+                    Value: {"LocaleId":"it-IT","Text":"TRAINO CAMMA RICERCA TACCA mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -37813,7 +37813,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"72-TRAINO PRE-STOP VEL.ALTA SVOL mm"}
+                    Value: {"LocaleId":"it-IT","Text":"TRAINO PRE-STOP VEL.ALTA SVOL mm"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -37943,7 +37943,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"72-TMR DISTACCO CONTRASTO OFF sec "}
+                    Value: {"LocaleId":"it-IT","Text":"TMR DISTACCO CONTRASTO OFF sec "}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -38073,7 +38073,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"73-PASSO CICLO"}
+                    Value: {"LocaleId":"it-IT","Text":"PASSO CICLO"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -38203,7 +38203,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"73-ETICHETT.TMR.ON sec"}
+                    Value: {"LocaleId":"it-IT","Text":"ETICHETT.TMR.ON sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -38333,7 +38333,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"73-SALDAT.VERTIC.TMR ON sec"}
+                    Value: {"LocaleId":"it-IT","Text":"SALDAT.VERTIC.TMR ON sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -38463,7 +38463,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"73-SALDAT.ORIZ.ALTA TMR ON sec"}
+                    Value: {"LocaleId":"it-IT","Text":"SALDAT.ORIZ.ALTA TMR ON sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -38593,7 +38593,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"73-TAGLIO INSERIM. sec"}
+                    Value: {"LocaleId":"it-IT","Text":"TAGLIO INSERIM. sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -38724,7 +38724,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"74-SALD.BASSA TMR.ON sec"}
+                    Value: {"LocaleId":"it-IT","Text":"SALD.BASSA TMR.ON sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -38854,7 +38854,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"74-SALD.BAS/PUNZ. TMR.START sec"}
+                    Value: {"LocaleId":"it-IT","Text":"SALD.BAS/PUNZ. TMR.START sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -38984,7 +38984,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"74-SALD.BAS/PUNZ. TMR.ON sec"}
+                    Value: {"LocaleId":"it-IT","Text":"SALD.BAS/PUNZ. TMR.ON sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -39114,7 +39114,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"74-TEMPO ATTIVAZIONE TEMPERATURA START sec"}
+                    Value: {"LocaleId":"it-IT","Text":"TEMPO ATTIVAZIONE TEMPERATURA START sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -39247,7 +39247,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"74-TEMPO ATTIVAZIONE TEMPERATURA START sec"}
+                    Value: {"LocaleId":"it-IT","Text":"TEMPO ATTIVAZIONE TEMPERATURA START sec"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -39494,7 +39494,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"80-TMR ON ROT.PRELIEVO A-B"}
+                    Value: {"LocaleId":"it-IT","Text":"TMR ON ROT.PRELIEVO[A-B]"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -39614,7 +39614,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"80-NR.CART.SEGNAL.CARICO VUOTO[IMPOSTA]"}
+                    Value: {"LocaleId":"it-IT","Text":"NR.CART.SEGNAL.CARICO VUOTO[IMPOSTA]"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -39734,7 +39734,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"80-NR.CART.SEGNAL.CARICO VUOTO[ATTUALE]"}
+                    Value: {"LocaleId":"it-IT","Text":"NR.CART.SEGNAL.CARICO VUOTO[ATTUALE]"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -39854,7 +39854,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"80-NR.CART.SEGNAL.CARTONE PERSO[IMPOSTA]"}
+                    Value: {"LocaleId":"it-IT","Text":"NR.CART.SEGNAL.CARTONE PERSO[IMPOSTA]"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -39979,7 +39979,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"80-NR.CART.SEGNAL.CARTONE PERSO[ATTUALE]"}
+                    Value: {"LocaleId":"it-IT","Text":"NR.CART.SEGNAL.CARTONE PERSO[ATTUALE]"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
