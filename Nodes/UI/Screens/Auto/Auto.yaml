@@ -131,12 +131,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
-            - Name: SpinBox1
-              Type: SpinBox
+            - Name: TextBox2
+              Type: TextBox
               Children:
-              - Name: Value
+              - Name: Text
                 Type: BaseDataVariableType
-                DataType: Double
+                DataType: LocalizedText
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
@@ -148,6 +148,16 @@ Children:
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
+              - Name: TextVerticalAlignment
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: TextHorizontalAlignment
+                Type: BaseVariableType
+                DataType: TextHorizontalAlignment
+                ModellingRule: Optional
+                Value: 1
           - Name: HorizontalLayout1
             Type: RowLayout
             Children:

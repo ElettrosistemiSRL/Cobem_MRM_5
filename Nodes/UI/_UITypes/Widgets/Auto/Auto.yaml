@@ -69,7 +69,6 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 3
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -113,27 +112,31 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 145.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
-      - Name: SpinBox1
-        Type: SpinBox
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TextBox2
+        Type: TextBox
         Children:
-        - Name: Value
+        - Name: Text
           Type: BaseDataVariableType
-          DataType: Double
+          DataType: LocalizedText
         - Name: Width
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 80.0
-        - Name: ShowButtons
-          Type: BaseDataVariableType
-          DataType: Boolean
+          Value: 110.0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
           ModellingRule: Optional
+          Value: 2
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -144,29 +147,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 20.0
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 2
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Double
-          ModellingRule: Optional
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -165.0
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Double
-          ModellingRule: Optional
-          Value: 10000000.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
     - Name: HorizontalLayout1
       Type: RowLayout
       Children:
@@ -8173,7 +8153,6 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 3
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -8217,60 +8196,55 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 145.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
-      - Name: SpinBox1
-        Type: SpinBox
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TextBox1
+        Type: TextBox
         Children:
-        - Name: Value
+        - Name: Text
           Type: BaseDataVariableType
-          DataType: Double
+          DataType: LocalizedText
         - Name: Width
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 80.0
-        - Name: ShowButtons
-          Type: BaseDataVariableType
-          DataType: Boolean
-          ModellingRule: Optional
+          Value: 110.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 3
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 20.0
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 2
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Double
+        - Name: TextHorizontalAlignment
+          Type: BaseVariableType
+          DataType: TextHorizontalAlignment
           ModellingRule: Optional
-        - Name: LeftMargin
+          Value: 1
+        - Name: TextVerticalAlignment
+          Type: BaseVariableType
+          DataType: TextVerticalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -165.0
-        - Name: MaxValue
+          Value: 20.0
+        - Name: ValueChangeBehaviour
           Type: BaseDataVariableType
-          DataType: Double
+          DataType: ValueChangeBehaviour
           ModellingRule: Optional
-          Value: 10000000.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
     - Name: HorizontalLayout1
       Type: RowLayout
       Children:

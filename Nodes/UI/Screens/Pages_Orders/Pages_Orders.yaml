@@ -1395,12 +1395,12 @@ Children:
         Children:
         - Name: Label1
           Type: Label
-        - Name: SpinBox1
-          Type: SpinBox
+        - Name: TextBox1
+          Type: TextBox
           Children:
-          - Name: Value
+          - Name: Text
             Type: BaseDataVariableType
-            DataType: Double
+            DataType: LocalizedText
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -1504,6 +1504,17 @@ Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Double
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD_10300"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -1816,12 +1827,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
-            - Name: SpinBox1
-              Type: SpinBox
+            - Name: TextBox1
+              Type: TextBox
               Children:
-              - Name: Value
+              - Name: Text
                 Type: BaseDataVariableType
-                DataType: Double
+                DataType: LocalizedText
           - Name: HorizontalLayout1
             Type: RowLayout
             Children:
