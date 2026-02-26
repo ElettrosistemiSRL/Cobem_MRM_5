@@ -8,3 +8,6 @@ Children:
 - Name: perm_service
   Id: g=df4fa0561d48b544f0b1468c4df4c0d8
   Type: ns=1;RoleType
+- Name: perm_user
+  Id: g=a1c4166eb80858c0f78474f352b75e40
+  Type: ns=1;RoleType

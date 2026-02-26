@@ -1,4 +1,5 @@
 Name: Screens
+Id: g=ba0c6e9b0223be1c8e4bad6f9cab5206
 Type: ScreensCategoryFolder
 Children:
 - Name: Screen1
@@ -6590,6 +6591,9 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: -1.0
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
 - Name: Alarm
   Id: g=31bc8663ca61da32292d6d392cb8f9fd
   Supertype: Screen
@@ -6628,6 +6632,22 @@ Children:
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/Cobem_MRM_5/UI/Screens/Pages_Alarms/Hist"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel3
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"it-IT","Text":"STATISTICHE"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Cobem_MRM_5/UI/Screens/Pages_Alarms/ParetoData"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -6716,6 +6736,10 @@ Children:
     Type: BaseVariableType
     DataType: Size
     Value: -1.0
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 150
 - Name: Stat
   Id: g=38fe98f495388ec7c07e223e7ad04e4d
   Supertype: Screen
@@ -6980,10 +7004,19 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 160.0
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 170
 - Name: Trends
   Id: g=da4d0ae600a79f77bbd2a0ac87eb473e
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 160
 - Name: Manual
   Id: g=146d6b3d49632cdbbd0eeb525a7a3497
   Supertype: Screen
@@ -7168,6 +7201,17 @@ Children:
         - Name: Checked
           Type: BaseDataVariableType
           DataType: Boolean
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW14.0"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -9131,6 +9175,10 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "{ManualLoader}@NodeId"
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 21
 - Name: Settings
   Id: g=f7abcd4b71df672d8338741cee9686ed
   Supertype: Screen
@@ -9489,6 +9537,10 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "{SettngsLoader}@NodeId"
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: SubMenu_Parameters
       Type: SubMenuButton
       Children:
@@ -9929,6 +9981,10 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "{SettngsLoader}@NodeId"
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: SubMenu_IOList
       Type: SubMenuButton
       Children:
@@ -10386,6 +10442,15 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "{SettngsLoader}@NodeId"
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/Security/Roles/perm_admin"
     - Name: SubMenu_QReader
       Type: SubMenuButton
       Children:
@@ -10610,6 +10675,10 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "{SettngsLoader}@NodeId"
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 201
 - File: Dialogs/Dialogs.yaml
 - File: Pages_Manuals/Pages_Manuals.yaml
 - File: Pages_Alarms/Pages_Alarms.yaml

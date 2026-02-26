@@ -587,7 +587,7 @@ Children:
             DataType: Color
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: "#126447"
+            Value: "#ffffff"
     - Name: Logo
       Type: Image
       Children:
@@ -681,7 +681,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#2a3c46"
+        Value: "#406080"
       - Name: LineThickness
         Type: BaseDataVariableType
         DataType: Size
@@ -3115,6 +3115,15 @@ Children:
             - Name: Severity
               Type: PropertyType
               DataType: UInt16
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/perm_user"
     - Name: Menu_Setting
       Type: MenuButton
       Children:
@@ -3355,6 +3364,15 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/perm_service"
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
@@ -4121,6 +4139,105 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 673.0
+  - Name: ChangePageFromTag
+    Type: NetLogic
+    Children:
+    - Name: PanelLoader
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container/PanelLoader"
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{MainPanelLoader}@NodeId"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: PageChangeTag
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/Cobem_MRM_5/Model/PageNum"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Objects/Cobem_MRM_5/Model/PageNum"
+    - Name: ScreensFolder
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/Cobem_MRM_5/UI/Screens"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+    - Name: BasePageType
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/Cobem_MRM_5/UI/MyBaseScreen"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        ModellingRule: Optional
+        Value: 1
+    - Class: Method
+      Name: CreatePagesList
 - File: Screens/Screens.yaml
 - File: _UITypes/_UITypes.yaml
 - File: Keyboards/Keyboards.yaml
+- Name: MyBaseScreen
+  Id: g=d85e63d992bc53f9fb3c50e4c38700d9
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"This screen has ID:"}
+  - Name: Label2
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ScreenId"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional

@@ -87,414 +87,6 @@ Children:
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
-  - Name: VerticalLayout1
-    Type: ColumnLayout
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Visible
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-      Value: true
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: HorizontalLayout3
-      Type: RowLayout
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1280.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Label1
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"35: MANUALE -- CARTONE --"}
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 2
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 22.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 950
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-    - Name: HorizontalLayout1
-      Type: RowLayout
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: HorizontalGap
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-      - Name: Manual_2P1
-        Type: Manual_2P
-        Children:
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"CARICO CARTONI"}
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: VerticalLayout1
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-            - Name: VerticalLayout2
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 20.0
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 20.0
-              - Name: Button2
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"INDIETRO"}
-              - Name: Button1
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"AVANTI"}
-            - Name: VerticalLayout3
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-              - Name: Rectangle2
-                Type: Rectangle
-              - Name: Rectangle3
-                Type: Rectangle
-      - Name: Manual_2P2
-        Type: Manual_2P
-        Children:
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"ASPIRA FORME CARTONE"}
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: VerticalLayout1
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-            - Name: VerticalLayout2
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 20.0
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 20.0
-              - Name: Button2
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"STOP"}
-              - Name: Button1
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"START"}
-            - Name: VerticalLayout3
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-              - Name: Rectangle2
-                Type: Rectangle
-              - Name: Rectangle3
-                Type: Rectangle
-    - Name: HorizontalLayout2
-      Type: RowLayout
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: HorizontalGap
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-      - Name: Manual_2P1
-        Type: Manual_2P
-        Children:
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"ASPIRA POSIZIONE A "}
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: VerticalLayout1
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-            - Name: VerticalLayout2
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 20.0
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 20.0
-              - Name: Button2
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"STOP"}
-              - Name: Button1
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"START"}
-            - Name: VerticalLayout3
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-              - Name: Rectangle2
-                Type: Rectangle
-              - Name: Rectangle3
-                Type: Rectangle
-      - Name: Manual_2P2
-        Type: Manual_2P
-        Children:
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"ASPIRA POSIZIONE B"}
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: VerticalLayout1
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-            - Name: VerticalLayout2
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-                Children:
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 20.0
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 20.0
-              - Name: Button2
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"STOP"}
-              - Name: Button1
-                Type: Button
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"START"}
-            - Name: VerticalLayout3
-              Type: ColumnLayout
-              Children:
-              - Name: Rectangle1
-                Type: Rectangle
-              - Name: Rectangle2
-                Type: Rectangle
-              - Name: Rectangle3
-                Type: Rectangle
-    - Name: RightMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: HorizontalGap
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: VerticalGap
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 8.0
-    - Name: BottomMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 8.0
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment
@@ -630,11 +222,9 @@ Children:
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: LedCloseDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -926,11 +516,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED1/Visible"
+                Value: "../../LED1/Opacity"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1175,11 +769,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED2/Visible"
+                Value: "../../LED2/Opacity"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -1214,7 +812,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -1315,11 +913,9 @@ Children:
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: LedCloseDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -1611,11 +1207,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED1/Visible"
+                Value: "../../LED1/Opacity"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1860,11 +1460,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED2/Visible"
+                Value: "../../LED2/Opacity"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -1899,7 +1503,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -2002,11 +1606,9 @@ Children:
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: LedCloseDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -2298,11 +1900,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED1/Visible"
+                Value: "../../LED1/Opacity"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2547,11 +2153,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED2/Visible"
+                Value: "../../LED2/Opacity"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -2586,7 +2196,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -2714,11 +2324,9 @@ Children:
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: LedCloseDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -3010,11 +2618,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED1/Visible"
+                Value: "../../LED1/Opacity"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3259,11 +2871,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED2/Visible"
+                Value: "../../LED2/Opacity"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -3298,7 +2914,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -3421,11 +3037,9 @@ Children:
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: LedCloseDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -3717,11 +3331,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED1/Visible"
+                Value: "../../LED1/Opacity"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3966,11 +3584,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED2/Visible"
+                Value: "../../LED2/Opacity"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -4005,7 +3627,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -4105,11 +3727,9 @@ Children:
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: LedCloseDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -4401,11 +4021,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED1/Visible"
+                Value: "../../LED1/Opacity"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4650,11 +4274,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED2/Visible"
+                Value: "../../LED2/Opacity"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -4689,7 +4317,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -4790,11 +4418,9 @@ Children:
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: LedCloseDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -5086,11 +4712,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED1/Visible"
+                Value: "../../LED1/Opacity"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5335,11 +4965,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED2/Visible"
+                Value: "../../LED2/Opacity"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -5374,7 +5008,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -5477,11 +5111,9 @@ Children:
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: LedCloseDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "0"
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -5773,11 +5405,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED1/Visible"
+                Value: "../../LED1/Opacity"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6022,11 +5658,15 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../LED2/Visible"
+                Value: "../../LED2/Opacity"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -6061,7 +5701,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
