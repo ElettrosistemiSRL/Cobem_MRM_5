@@ -54,7 +54,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"AUTO"}
+          Value: {"NamespaceIndex":30,"TextId":"252 01-AUTO"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -131,6 +131,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":30,"TextId":"545 01-CODICE"}
             - Name: TextBox2
               Type: TextBox
               Children:
@@ -169,16 +175,34 @@ Children:
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"260 01_TOTALI"}
               - Name: Rectangle2
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"255 01_PARZIALI"}
               - Name: Rectangle3
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"259 01_STOP A PEZZI"}
               - Name: Rectangle4
                 Type: Rectangle
                 Children:
@@ -302,7 +326,7 @@ Children:
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
-                    Value: {"LocaleId":"it-IT","Text":"AZZERA"}
+                    Value: {"NamespaceIndex":30,"TextId":"253 01-AZZERA"}
       - Name: 2
         Type: 02
         Children:
@@ -342,12 +366,36 @@ Children:
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"570 PER CICLO FASATURA:"}
                 - Name: Label2
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"555 Controllare se montaggio in alto"}
                 - Name: Label3
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"556 Controllare se estrattore in alto"}
                 - Name: Label4
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"367 202-Inserire password manutenzione"}
             - Name: VerticalLayout2
               Type: ColumnLayout
               Children:
@@ -712,6 +760,11 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 18.0
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"271 03-VELOCITA' TAVOLA"}
               - Name: Rectangle5
                 Type: Rectangle
                 Children:
@@ -722,7 +775,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"CONTROLLO MATERIALE SU MONTAGGIO"}
+                    Value: {"NamespaceIndex":30,"TextId":"546 03-CONTROLLO MATERIALE"}
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -1070,18 +1123,18 @@ Children:
               - Name: Rectangle2
                 Type: Rectangle
                 Children:
-                - Name: Button1
-                  Type: Button
+                - Name: MomentaryButton1
+                  Type: MomentaryButton
                   Children:
-                  - Name: Visible
+                  - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
-                    Value: true
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW3.3"
+                    AccessLevel: Read
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"200 AFFILATURA"}
               - Name: Rectangle3
                 Type: Rectangle
           - Name: HorizontalLayout2
@@ -1219,7 +1272,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"it-IT","Text":"AUTO"}
+          Value: {"NamespaceIndex":30,"TextId":"252 01-AUTO"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -1235,7 +1288,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"it-IT","Text":"INSACCHETTATRICE"}
+          Value: {"NamespaceIndex":30,"TextId":"290 06-INSACCHETTATRICE"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -1251,7 +1304,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"it-IT","Text":"CARTONE"}
+          Value: {"NamespaceIndex":30,"TextId":"118 80-PARAMETRI -CARTONE-"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId

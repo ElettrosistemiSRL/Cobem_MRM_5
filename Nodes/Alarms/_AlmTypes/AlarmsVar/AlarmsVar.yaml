@@ -121,6 +121,11 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+      - Name: IsPull
+        Id: g=e8993e2b75cc2b0129e98783a91bf107
+        Type: BaseVariableType
+        DataType: Boolean
+        Value: true
   - Name: AlmNum
     Id: g=70edbc584dcb1c9b5575d494a0651377
     Type: BaseDataVariableType

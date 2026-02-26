@@ -54,7 +54,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"INSACCHETTATRICE"}
+          Value: {"NamespaceIndex":30,"TextId":"290 06-INSACCHETTATRICE"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -147,6 +147,11 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 8.0
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"289 06-Insacchettatrice"}
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -167,6 +172,11 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 8.0
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"291 06-Passo mm"}
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -187,6 +197,11 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 8.0
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"288 06-Foto Tacca"}
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -207,6 +222,11 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 8.0
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"292 06-Tmr Saldat. Sopra sec"}
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -227,6 +247,11 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 8.0
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"294 06-Tmr Saldat. Vertic sec"}
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -247,6 +272,11 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 8.0
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"293 06-Tmr Saldat. Sotto sec"}
                 - Name: HorizontalAlignment
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
@@ -423,6 +453,12 @@ Children:
                     Value: 3
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"285 06-Correz"}
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -1349,6 +1385,11 @@ Children:
                       DataType: Size
                       ModellingRule: Optional
                       Value: 12.0
+                    - Name: WordWrap
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: Optional
+                      Value: true
                 - Name: Rectangle2
                   Type: Rectangle
                   Children:
@@ -1410,7 +1451,6 @@ Children:
                     - Name: FontSize
                       Type: BaseDataVariableType
                       DataType: Size
-                      ModellingRule: Optional
                       Value: 12.0
                     - Name: HorizontalAlignment
                       Type: BaseVariableType
@@ -1441,7 +1481,12 @@ Children:
                       Type: BaseDataVariableType
                       DataType: LocalizedText
                       ModellingRule: Optional
-                      Value: {"LocaleId":"it-IT","Text":"IMPOSTA START"}
+                      Value: {"NamespaceIndex":30,"TextId":"310 08-IMPOSTA START"}
+                    - Name: WordWrap
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: Optional
+                      Value: true
                   - Name: VerticalAlignment
                     Type: BaseVariableType
                     DataType: VerticalAlignment
@@ -1528,7 +1573,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 14.0
+                      Value: 12.0
                     - Name: TextVerticalAlignment
                       Type: BaseVariableType
                       DataType: TextVerticalAlignment
@@ -1538,7 +1583,7 @@ Children:
                       Type: BaseVariableType
                       DataType: HorizontalAlignment
                       ModellingRule: Optional
-                      Value: 3
+                      Value: 2
                     - Name: TopMargin
                       Type: BaseVariableType
                       DataType: Size
@@ -1680,7 +1725,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"SACCHETTI VUOTI"}
+                    Value: {"NamespaceIndex":30,"TextId":"320 09-SACCHETTI VUOTI"}
               - Name: Rectangle2
                 Type: Rectangle
                 Children:
@@ -1780,6 +1825,8 @@ Children:
                 Type: RowLayout
               - Name: HorizontalLayout5
                 Type: RowLayout
+              - Name: HorizontalLayout6
+                Type: RowLayout
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -1851,7 +1898,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"CARTONE"}
+          Value: {"NamespaceIndex":30,"TextId":"118 80-PARAMETRI -CARTONE-"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -1943,7 +1990,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"SCARICO CARTONE"}
+                    Value: {"NamespaceIndex":30,"TextId":"506 SCARICO CARTONE"}
               - Name: Rectangle2
                 Type: Rectangle
                 Children:

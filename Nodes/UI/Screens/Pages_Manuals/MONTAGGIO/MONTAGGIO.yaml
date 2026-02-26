@@ -850,7 +850,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -1558,7 +1558,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -2324,7 +2324,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -3010,7 +3010,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -3754,7 +3754,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -4450,7 +4450,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -5174,7 +5174,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -5408,7 +5408,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-          - Name: ns=7;RightMargin
+          - Name: RightMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
@@ -5924,7 +5924,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -6806,7 +6806,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -7003,7 +7003,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-          - Name: ns=7;RightMargin
+          - Name: RightMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
@@ -7519,7 +7519,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -7753,7 +7753,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-          - Name: ns=7;RightMargin
+          - Name: RightMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
@@ -8269,7 +8269,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -9188,7 +9188,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -9385,7 +9385,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-          - Name: ns=7;RightMargin
+          - Name: RightMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
@@ -9905,7 +9905,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional

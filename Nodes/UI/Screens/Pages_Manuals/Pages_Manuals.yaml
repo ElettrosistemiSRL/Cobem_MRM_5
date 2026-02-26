@@ -707,7 +707,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"TAVOLA"}
+          Value: {"NamespaceIndex":30,"TextId":"25: MANUALE -- TAVOLA --"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -765,13 +765,13 @@ Children:
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"LD ZERO ON"}
+              Value: {"NamespaceIndex":30,"TextId":"LD ZERO ON"}
             - Name: FalseValue
               Type: BaseDataVariableType
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"LD ZERO OFF"}
+              Value: {"NamespaceIndex":30,"TextId":"LD ZERO OFF"}
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -919,7 +919,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"ENC REALE"}
+          Value: {"NamespaceIndex":30,"TextId":"25-ENC.REALE"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -994,7 +994,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"ENC.VAL.CALCOLATO"}
+          Value: {"NamespaceIndex":30,"TextId":"25-ENC.VAL.CALCOLATO"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -1059,7 +1059,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"ROTAZIONE"}
+              Value: {"NamespaceIndex":30,"TextId":"25-ROTAZIONE"}
           - Name: HorizontalLayout1
             Type: RowLayout
             Children:
@@ -1086,6 +1086,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Boolean
                   AccessLevel: Read
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"NamespaceIndex":30,"TextId":"207 START"}
               - Name: Rectangle3
                 Type: Rectangle
             - Name: VerticalLayout3
@@ -1402,6 +1407,11 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Boolean
                 AccessLevel: Read
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":30,"TextId":"201 CAMMA START"}
             - Name: MomentaryButton2
               Type: MomentaryButton
               Children:
@@ -1409,13 +1419,33 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Boolean
                 AccessLevel: Read
-            - Name: MomentaryButton3
-              Type: MomentaryButton
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":30,"TextId":"210 CAMMA STOP"}
+            - Name: ToggleButton1
+              Type: ToggleButton
               Children:
               - Name: Active
                 Type: BaseDataVariableType
                 DataType: Boolean
-                AccessLevel: Read
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../Active"
       - Name: Manual_2P_1LDwn1
         Type: Manual_2P_1LDwn
         Children:
@@ -1429,7 +1459,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"BLOCCA SU MONTAG"}
+              Value: {"NamespaceIndex":30,"TextId":"25-BLOCCA SU MONTAG"}
           - Name: HorizontalLayout1
             Type: RowLayout
             Children:
@@ -1450,6 +1480,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Boolean
                   AccessLevel: Read
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"NamespaceIndex":30,"TextId":"195 APRI"}
               - Name: MomentaryButton2
                 Type: MomentaryButton
                 Children:
@@ -1457,6 +1492,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Boolean
                   AccessLevel: Read
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"NamespaceIndex":30,"TextId":"196 CHIUDI"}
             - Name: VerticalLayout3
               Type: ColumnLayout
               Children:
@@ -1656,7 +1696,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"BLOCCA MATERIALE"}
+              Value: {"NamespaceIndex":30,"TextId":"25-BLOCCA MATERIALE"}
           - Name: HorizontalLayout1
             Type: RowLayout
             Children:
@@ -1677,6 +1717,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Boolean
                   AccessLevel: Read
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"NamespaceIndex":30,"TextId":"211 SU CARICO"}
               - Name: Rectangle3
                 Type: Rectangle
             - Name: VerticalLayout3
@@ -1850,7 +1895,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"SBLOCCA MATERIALE"}
+              Value: {"NamespaceIndex":30,"TextId":"25-SBLOCCA MATERIALE"}
           - Name: HorizontalLayout1
             Type: RowLayout
             Children:
@@ -1871,6 +1916,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Boolean
                   AccessLevel: Read
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"NamespaceIndex":30,"TextId":"203 SU SCARICO"}
               - Name: MomentaryButton2
                 Type: MomentaryButton
                 Children:
@@ -1878,6 +1928,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Boolean
                   AccessLevel: Read
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"NamespaceIndex":30,"TextId":"204 SU SCARTO"}
             - Name: VerticalLayout3
               Type: ColumnLayout
               Children:
@@ -2238,7 +2293,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"SALITA"}
+            Value: {"NamespaceIndex":30,"TextId":"213 SALITA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -2491,6 +2546,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":30,"TextId":"212 DISCESA"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -2707,43 +2799,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"DISCESA"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -2764,7 +2819,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -2889,7 +2944,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ZERO"}
+            Value: {"NamespaceIndex":30,"TextId":"202 ZERO"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -3142,6 +3197,47 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"it-IT","Text":"CHIUDI"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -3358,47 +3454,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"it-IT","Text":"CHIUDI"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -3419,7 +3474,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -3584,7 +3639,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"VIBRATORI"}
+            Value: {"NamespaceIndex":30,"TextId":"161 26-VIBRATORI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -3837,6 +3892,47 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"DISCESA"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -4053,47 +4149,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"DISCESA"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -4114,7 +4169,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -4251,7 +4306,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"APRI"}
+            Value: {"NamespaceIndex":30,"TextId":"195 APRI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -4504,6 +4559,47 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"DISCESA"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -4720,47 +4816,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"DISCESA"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -4781,7 +4836,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
@@ -5471,7 +5526,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: ns=7;HorizontalAlignment
+        - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional

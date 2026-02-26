@@ -64,7 +64,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"CODICE"}
+          Value: {"NamespaceIndex":30,"TextId":"545 01-CODICE"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -317,7 +317,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"PARZIALI"}
+              Value: {"NamespaceIndex":30,"TextId":"255 01_PARZIALI"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -389,7 +389,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"STOP A PEZZI"}
+              Value: {"NamespaceIndex":30,"TextId":"259 01_STOP A PEZZI"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -481,13 +481,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"SCARTO GIUNTURA-ON"}
+                  Value: {"NamespaceIndex":30,"TextId":"258 01_SCARTO GIUNTURA-ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"SCARTO GIUNTURA-OFF"}
+                  Value: {"NamespaceIndex":30,"TextId":"257 01_SCARTO GIUNTURA-OFF"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -876,7 +876,7 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"it-IT","Text":"AZZERA"}
+              Value: {"NamespaceIndex":30,"TextId":"253 01-AZZERA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1063,7 +1063,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Ciclo Azzeramento"}
+              Value: {"NamespaceIndex":30,"TextId":"262 02-CICLO AZZERAMENTO"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1139,7 +1139,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Ciclo Fasatura"}
+              Value: {"NamespaceIndex":30,"TextId":"263 02-CICLO FASATURA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1211,7 +1211,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"PER CICLO FASATURA TAVOLA:"}
+              Value: {"NamespaceIndex":30,"TextId":"570 PER CICLO FASATURA:"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1275,7 +1275,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"- Controllare se montaggio in alto"}
+              Value: {"NamespaceIndex":30,"TextId":"555 Controllare se montaggio in alto"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1331,7 +1331,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"- Controllare se estrattore in alto"}
+              Value: {"NamespaceIndex":30,"TextId":"556 Controllare se estrattore in alto"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1387,7 +1387,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"- Inserire password manutenzione"}
+              Value: {"NamespaceIndex":30,"TextId":"557 Inserire password manutenzione"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1574,7 +1574,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"AZZERAMENTO"}
+              Value: {"NamespaceIndex":30,"TextId":"261 02-AZZERAMENTO"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1682,7 +1682,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"FASATURA"}
+              Value: {"NamespaceIndex":30,"TextId":"265 02-FASATURA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2106,7 +2106,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"FASATURA TAV."}
+              Value: {"NamespaceIndex":30,"TextId":"266 02-FASATURA TAV."}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2296,7 +2296,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"MISURA mm"}
+              Value: {"NamespaceIndex":30,"TextId":"269 03-MISURA mm"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2372,7 +2372,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"ESTRAZIONE PROF. mm"}
+              Value: {"NamespaceIndex":30,"TextId":"267 03-ESTRAZIONE PROF. mm"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2444,7 +2444,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"ESTRAZIONE"}
+              Value: {"NamespaceIndex":30,"TextId":"178 31-ESTRAZIONE"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2588,7 +2588,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"CONTROLLO MATERIALE SU MONTAGGIO"}
+              Value: {"NamespaceIndex":30,"TextId":"546 03-CONTROLLO MATERIALE"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3012,13 +3012,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ALTA"}
+                  Value: {"NamespaceIndex":30,"TextId":"ALTA"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"BASSA"}
+                  Value: {"NamespaceIndex":30,"TextId":"BASSA"}
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -3102,13 +3102,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ESCLUSO"}
+                  Value: {"NamespaceIndex":30,"TextId":"278 04-ESCLUSO"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ATTIVO"}
+                  Value: {"NamespaceIndex":30,"TextId":"275 04-ATTIVO"}
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -3293,7 +3293,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"AFFILATURA LAME"}
+              Value: {"NamespaceIndex":30,"TextId":"274 04-AFFILATURA LAME"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3369,7 +3369,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Dopo Tagli"}
+              Value: {"NamespaceIndex":30,"TextId":"276 04-Dopo Tagli"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3441,7 +3441,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Tempo Affilatura sec"}
+              Value: {"NamespaceIndex":30,"TextId":"281 04-Tempo Affilatura sec"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3911,9 +3911,13 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-          - Name: Button1
-            Type: Button
+          - Name: MomentaryButton1
+            Type: MomentaryButton
             Children:
+            - Name: Active
+              Type: BaseDataVariableType
+              DataType: Boolean
+              AccessLevel: Read
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
@@ -4027,7 +4031,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"Montaggio Difettoso >>GANCI<<"}
+          Value: {"NamespaceIndex":30,"TextId":"279 04-Montaggio Difettoso >>GANCI<<"}
         - Name: TextVerticalAlignment
           Type: BaseVariableType
           DataType: TextVerticalAlignment
@@ -4080,13 +4084,13 @@ Children:
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"ATTIVO"}
+              Value: {"NamespaceIndex":30,"TextId":"275 04-ATTIVO"}
             - Name: FalseValue
               Type: BaseDataVariableType
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"ESCLUSO"}
+              Value: {"NamespaceIndex":30,"TextId":"278 04-ESCLUSO"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -4390,7 +4394,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"PRODUZIONE ORARIA"}
+              Value: {"NamespaceIndex":30,"TextId":"283 05-PRODUZIONE ORARIA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -4870,7 +4874,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"SCARICO CARTONE"}
+              Value: {"NamespaceIndex":30,"TextId":"506 SCARICO CARTONE"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4947,7 +4951,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Quota Scarico aspiraz. OFF mm"}
+              Value: {"NamespaceIndex":30,"TextId":"548 Quota scarico aspirazione OFF"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4994,7 +4998,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"ESTRAZIONE PROF. mm"}
+              Value: {"NamespaceIndex":30,"TextId":"267 03-ESTRAZIONE PROF. mm"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -5071,7 +5075,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"VELOCITÀ ESTRAZIONE   [mm/s]"}
+              Value: {"NamespaceIndex":30,"TextId":"VELOCITÀ ESTRAZIONE   [mm/s]"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -5330,13 +5334,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ON"}
+                  Value: {"NamespaceIndex":30,"TextId":"510 STD-ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"OFF"}
+                  Value: {"NamespaceIndex":30,"TextId":"318 09-OFF"}
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -5775,7 +5779,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"it-IT","Text":"HELP"}
+        Value: {"NamespaceIndex":30,"TextId":"333 11:HELP"}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -5929,7 +5933,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Tavola posizione [0..2000]"}
+              Value: {"NamespaceIndex":30,"TextId":"325 11-Tavola posizione [0..2000]"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -6006,7 +6010,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Traino Pinze Superiore mm"}
+              Value: {"NamespaceIndex":30,"TextId":"330 11-Traino Pinze Superiore mm"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -6053,7 +6057,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Traino Pinze Inferiore mm"}
+              Value: {"NamespaceIndex":30,"TextId":"327 11-Traino Pinze Inferiore mm"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -6130,7 +6134,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Traino Pinze Quota Indietro"}
+              Value: {"NamespaceIndex":30,"TextId":"329 11-Traino Pinze Quota Indietro"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -6212,7 +6216,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Traino Pinze Quota Avanti"}
+              Value: {"NamespaceIndex":30,"TextId":"328 11-Traino Pinze Quota Avanti"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -6289,7 +6293,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Trasporto Pinza Superiore"}
+              Value: {"NamespaceIndex":30,"TextId":"332 11-Trasporto Pinza Superiore"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -6366,7 +6370,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Trasporto Pinza Inferiore"}
+              Value: {"NamespaceIndex":30,"TextId":"331 11-Trasporto Pinza Inferiore"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -7286,7 +7290,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"it-IT","Text":"HELP INSACCHETTATRICE"}
+        Value: {"NamespaceIndex":30,"TextId":"349 12:HELP INSACCHETTATRICE"}
       - Name: TextVerticalAlignment
         Type: BaseVariableType
         DataType: TextVerticalAlignment
@@ -7438,7 +7442,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Diametro Svolgitore mm"}
+              Value: {"NamespaceIndex":30,"TextId":"347 12-Diametro Svolgitore mm"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -8148,7 +8152,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"CODICE"}
+          Value: {"NamespaceIndex":30,"TextId":"545 01-CODICE"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -8339,7 +8343,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"N. Bolla Lavoro"}
+              Value: {"NamespaceIndex":30,"TextId":"549 15_N. Bolla Lavoro"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8416,7 +8420,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Q.ta da Produrre"}
+              Value: {"NamespaceIndex":30,"TextId":"550 15_Q.ta da Produrre"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8493,7 +8497,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Q.ta Parziale"}
+              Value: {"NamespaceIndex":30,"TextId":"551 15_Q.ta Parziale"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8575,7 +8579,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Q.ta Scarti"}
+              Value: {"NamespaceIndex":30,"TextId":"552 15_Q.ta Scarti"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8691,7 +8695,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Stato Macchina"}
+              Value: {"NamespaceIndex":30,"TextId":"553 15_Stato Macchina"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -9281,1077 +9285,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 3
-- Name: _202_fasatura_tavola
-  Id: g=3f7e87adddb44bb1b5138fd158afaa65
-  Supertype: Rectangle
-  ReferenceType: HasComponent
-  Children:
-  - Name: Width
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 530.0
-  - Name: Height
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 360.0
-  - Name: FillColor
-    Type: BaseDataVariableType
-    DataType: Color
-    ModellingRule: Optional
-    Value: "#0fafff53"
-  - Name: HorizontalAlignment
-    Type: BaseVariableType
-    DataType: HorizontalAlignment
-    ModellingRule: Optional
-    Value: 3
-  - Name: VerticalAlignment
-    Type: BaseVariableType
-    DataType: VerticalAlignment
-    ModellingRule: Optional
-    Value: 3
-  - Name: VerticalLayout1
-    Type: ColumnLayout
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: HorizontalLayout2
-      Type: RowLayout
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalLayout1
-        Type: ColumnLayout
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: Label1
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"-Per eseguire la fasatura Tavola:"}
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: TextVerticalAlignment
-            Type: BaseVariableType
-            DataType: TextVerticalAlignment
-            ModellingRule: Optional
-            Value: 1
-          - Name: TextHorizontalAlignment
-            Type: BaseVariableType
-            DataType: TextHorizontalAlignment
-            ModellingRule: Optional
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 40.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 90.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 5.0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-        - Name: Label2
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Controllare se montaggio in alto"}
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: TextVerticalAlignment
-            Type: BaseVariableType
-            DataType: TextVerticalAlignment
-            ModellingRule: Optional
-            Value: 1
-          - Name: TextHorizontalAlignment
-            Type: BaseVariableType
-            DataType: TextHorizontalAlignment
-            ModellingRule: Optional
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 40.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 90.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-        - Name: Label3
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Controllare se estrattore in alto"}
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: TextVerticalAlignment
-            Type: BaseVariableType
-            DataType: TextVerticalAlignment
-            ModellingRule: Optional
-            Value: 1
-          - Name: TextHorizontalAlignment
-            Type: BaseVariableType
-            DataType: TextHorizontalAlignment
-            ModellingRule: Optional
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 40.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 90.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-        - Name: Label4
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Inserire password manutenzione"}
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: TextVerticalAlignment
-            Type: BaseVariableType
-            DataType: TextVerticalAlignment
-            ModellingRule: Optional
-            Value: 1
-          - Name: TextHorizontalAlignment
-            Type: BaseVariableType
-            DataType: TextHorizontalAlignment
-            ModellingRule: Optional
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 40.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 90.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-      - Name: VerticalLayout2
-        Type: ColumnLayout
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
-    - Name: HorizontalLayout1
-      Type: RowLayout
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: VerticalLayout1
-        Type: ColumnLayout
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 150.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalGap
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 16.0
-        - Name: BottomMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: Rectangle2
-          Type: Rectangle
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-        - Name: Rectangle3
-          Type: Rectangle
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Ciclo Fasatura"}
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: TextVerticalAlignment
-              Type: BaseVariableType
-              DataType: TextVerticalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 20.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 20.0
-            - Name: FontWeight
-              Type: BaseDataVariableType
-              DataType: FontWeightEnum
-              ModellingRule: Optional
-              Value: 800
-        - Name: Rectangle4
-          Type: Rectangle
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-      - Name: Visible
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: true
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalLayout2
-        Type: ColumnLayout
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalGap
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 16.0
-        - Name: BottomMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: Rectangle2
-          Type: Rectangle
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-          - Name: User
-            Type: Panel
-            Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 120.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 30.0
-            - Name: Icon
-              Type: Image
-              Children:
-              - Name: Path
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Children:
-                - Name: KeyValueConverter1
-                  Type: ValueMapConverter
-                  Children:
-                  - Name: Source
-                    Type: BaseDataVariableType
-                    DataType: BaseDataType
-                    ReferenceType: HasSource
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "{Session}/User@BrowseName"
-                  - Name: ns=5;Pairs
-                    Type: BaseObjectType
-                    Children:
-                    - Name: Pair
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: String
-                        Value: "Mario Rossi"
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: ResourceUri
-                        Value: "ns=30;%PROJECTDIR%/Graphics/icon_operator_white.svg"
-                    - Name: Pair1
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: String
-                        Value: "John Doe"
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: ResourceUri
-                        Value: "ns=30;%PROJECTDIR%/Graphics/icon_admin_white.svg"
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 2
-              - Name: DynamicColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#f0f0f0"
-            - Name: Description
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 80.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-              - Name: Name
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "{Session}/User@BrowseName"
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                - Name: FontWeight
-                  Type: BaseDataVariableType
-                  DataType: FontWeightEnum
-                  ModellingRule: Optional
-                  Value: 400
-                - Name: FontFamily
-                  Type: BaseDataVariableType
-                  DataType: Font
-                  ModellingRule: Optional
-                  Value: "Barlow Black"
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#ffffff"
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Login
-              Type: Button
-              Children:
-              - Name: Appearance
-                Type: BaseVariableType
-                DataType: String
-                ModellingRule: Optional
-                Value: "transparent"
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 2
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-              - Name: MouseClickEventHandler1
-                Type: EventHandler
-                Children:
-                - Name: ListenEventType
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-                - Name: MethodsToCall
-                  Type: BaseObjectType
-                  Children:
-                  - Name: MethodContainer1
-                    Type: BaseObjectType
-                    Children:
-                    - Name: ns=5;ObjectPointer
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: "/Objects/Commands/UICommands"
-                      Children:
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: "/Types/ObjectTypes/BaseObjectType"
-                    - Name: ns=5;Method
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "OpenDialog"
-                    - Name: InputArguments
-                      Type: BaseObjectType
-                      Children:
-                      - Name: Dialog
-                        Type: BaseDataVariableType
-                        DataType: NodeId
-                        Description: {"NamespaceIndex":7,"TextId":"OpenDialogDialogDescription"}
-                        Value: "/Objects/Cobem_MRM_5/UI/Screens/Dialogs/LoginDialog"
-                      - Name: AliasNode
-                        Type: BaseDataVariableType
-                        DataType: NodeId
-                        Description: {"NamespaceIndex":7,"TextId":"OpenDialogAliasNodeDescription"}
-                        ValueRank: ScalarOrOneDimension
-                      - Name: ParentItem
-                        Type: BaseDataVariableType
-                        DataType: NodeId
-                        Description: {"NamespaceIndex":7,"TextId":"OpenDialogParentItemDescription"}
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../..@NodeId"
-                          Children:
-                          - Name: Mode
-                            Type: BaseVariableType
-                            DataType: DynamicLinkMode
-                            ModellingRule: Optional
-                            Value: 2
-                    - Name: OutputArguments
-                      Type: BaseObjectType
-                      Children:
-                      - Name: DialogNodeId
-                        Type: BaseDataVariableType
-                        DataType: NodeId
-                        Description: {"NamespaceIndex":7,"TextId":"OpenDialogDialogNodeIdDescription"}
-                - Name: EventArguments
-                  Type: MouseClickEvent
-                  Children:
-                  - Name: EventId
-                    Type: PropertyType
-                    DataType: ByteString
-                  - Name: EventType
-                    Type: PropertyType
-                    DataType: NodeId
-                  - Name: SourceNode
-                    Type: PropertyType
-                    DataType: NodeId
-                  - Name: SourceName
-                    Type: PropertyType
-                    DataType: String
-                  - Name: Time
-                    Type: PropertyType
-                    DataType: UtcTime
-                  - Name: ReceiveTime
-                    Type: PropertyType
-                    DataType: UtcTime
-                  - Name: Message
-                    Type: PropertyType
-                    DataType: LocalizedText
-                  - Name: Severity
-                    Type: PropertyType
-                    DataType: UInt16
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"it-IT","Text":""}
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 10.0
-            - Name: BottomMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-            - Name: RightMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 2
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-        - Name: HorizontalLayout1
-          Type: RowLayout
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: SpinBox1
-            Type: SpinBox
-            Children:
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Double
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 60.0
-            - Name: ShowButtons
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: Optional
-            - Name: Visible
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: Optional
-              Value: true
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 10.0
-            - Name: RightMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 20.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 8.0
-            - Name: BottomMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 8.0
-            - Name: InputBoxStyle
-              Type: BaseDataVariableType
-              DataType: String
-              ModellingRule: Optional
-              Value: "InputBoxParametri"
-            - Name: Editable
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: Optional
-            - Name: MinValue
-              Type: BaseDataVariableType
-              DataType: Double
-              ModellingRule: Optional
-            - Name: MaxValue
-              Type: BaseDataVariableType
-              DataType: Double
-              ModellingRule: Optional
-              Value: 100.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: -1.0
-          - Name: MomentaryButton1
-            Type: MomentaryButton
-            Children:
-            - Name: Active
-              Type: BaseDataVariableType
-              DataType: Boolean
-              AccessLevel: Read
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"it-IT","Text":"FASATURA TAV."}
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 10.0
-            - Name: RightMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 20.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 4.0
-            - Name: BottomMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 4.0
-            - Name: Enabled
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Session}/Roles/perm_admin"
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size

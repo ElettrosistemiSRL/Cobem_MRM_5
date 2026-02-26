@@ -18,6 +18,9 @@ Children:
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
 - File: DTW/DTW.yaml
 - Name: DTD_1210
   Type: ModbusTag
