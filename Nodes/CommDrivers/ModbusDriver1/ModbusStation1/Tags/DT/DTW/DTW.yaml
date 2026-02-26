@@ -2513,3 +2513,14 @@ Children:
   - Name: MemoryArea
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
+- Name: DT_Prova
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 110
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32

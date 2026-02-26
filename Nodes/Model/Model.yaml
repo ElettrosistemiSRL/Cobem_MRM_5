@@ -28,7 +28,7 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           ReferenceType: HasParameter
-          Value: "{0} | {1}"
+          Value: "{0}>0 | {1}>0 | {2}>0 | {3}>0 | {4}>0"
         - Name: ns=5;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
@@ -37,7 +37,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../Alarms/_AlmTypes/AlarmsVar/ALM0/Active"
+            Value: "../../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5"
         - Name: ns=5;Source1
           Type: BaseDataVariableType
           DataType: BaseDataType
@@ -46,7 +46,34 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../Alarms/_AlmTypes/AlarmsVar/ALM1/Active"
+            Value: "../../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6"
+        - Name: ns=5;Source2
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7"
+        - Name: ns=5;Source3
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8"
+        - Name: ns=5;Source4
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW9"
 - Name: NomeLinea
   Id: g=d6a09172b4f0ee118a3476922b130b14
   Type: BaseDataVariableType

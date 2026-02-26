@@ -363,7 +363,7 @@ Children:
               DataType: String
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "({0} - 1) * 3 + 1"
+              Value: "({0}) * 3 + 1"
             - Name: ns=5;Source0
               Id: g=6e4ce6834cdc197246fcf50a27112db7
               Type: BaseDataVariableType

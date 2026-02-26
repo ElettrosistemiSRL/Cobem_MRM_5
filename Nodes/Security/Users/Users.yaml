@@ -111,3 +111,64 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[123,61,228,96,82,111,180,171,39,42,85,104,96,105,233,50,191,112,200,116,95,118,93,81,45,140,50,192,81,215,118,42],"Salt":[190,201,236,251,8,247,253,66,212,166,223,182,207,242,143,229,249,253,16,207,52,194,147,9,16,83,177,136,90,109,94,143]}}]
+- Name: Mario
+  Id: g=af1dd8e7289b5c69f432bee46000e6d7
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=afedbb55e6ed488787a75a0078a9db95
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=ad954750279fb7624ba92d224b688d1c
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [250,179,19,205,193,197,39,44,117,56,70,100,46,85,192,185,202,49,47,69,25,62,197,52,178,141,116,216,224,195,21,204],
+         "Salt": [137,46,166,244,136,168,126,27,37,12,145,50,244,10,173,137,161,36,74,254,0,235,208,236,235,172,20,82,89,56,93,96]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=b30476f1350e4cc6de0fdf9cfafe94db
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2026-02-26T09:29:35.1564319"
+    - Name: History
+      Id: g=5d2783d7214015e9a4d17466d3c317b9
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[250,179,19,205,193,197,39,44,117,56,70,100,46,85,192,185,202,49,47,69,25,62,197,52,178,141,116,216,224,195,21,204],"Salt":[137,46,166,244,136,168,126,27,37,12,145,50,244,10,173,137,161,36,74,254,0,235,208,236,235,172,20,82,89,56,93,96]}}]
+  - Name: LocaleId
+    Id: g=34501bba833f47e9bbd29aa61c3d29b0
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "hu-HU"
+  - Name: MeasurementSystem
+    Id: g=4ad2771dad33f80faf916addb0a6f2d7
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Name: Domain
+    Id: g=cb47eb5cccdd7a613f1cff5f455f2564
+    Type: BaseVariableType
+    DataType: String
+    ReferenceType: HasProperty
+  - Class: Reference
+    Type: HasGroup
+    Target: g=00ede4771a7aad468f723427bfc0b0da

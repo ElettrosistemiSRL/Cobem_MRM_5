@@ -10712,22 +10712,45 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 2
-      - Name: MomentaryButton3
-        Type: MomentaryButton
+      - Name: ToggleButton1
+        Type: ToggleButton
         Children:
         - Name: Active
           Type: BaseDataVariableType
           DataType: Boolean
-          AccessLevel: Read
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"MomentaryButton1"}
-        - Name: HorizontalAlignment
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Active"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: {"NamespaceIndex":30,"TextId":"510 STD-ON"}
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: {"NamespaceIndex":30,"TextId":"318 09-OFF"}
+        - Name: VerticalAlignment
           Type: BaseVariableType
-          DataType: HorizontalAlignment
+          DataType: VerticalAlignment
           ModellingRule: Optional
+          Value: 2
         - Name: Height
           Type: BaseVariableType
           DataType: Size
@@ -10743,20 +10766,23 @@ Children:
           DataType: FontWeightEnum
           ModellingRule: Optional
           Value: 950
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 2
         - Name: Width
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 90.0
+          Value: 80.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
 - Name: Manual_1P_1S_1LC
   Id: g=dad7d4308a5bf6a4f9271bceea5a7802
   Supertype: Rectangle
