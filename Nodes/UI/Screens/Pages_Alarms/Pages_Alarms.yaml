@@ -3132,7 +3132,7 @@ Children:
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"SELECT ConditionName, COUNT(*) AS ActiveCount FROM {#tableName:sql_identifier} WHERE ActiveState_Id=1 AND LocalTime BETWEEN {#from:sql_literal} AND {#to:sql_literal} GROUP BY ConditionName ORDER BY ActiveCount DESC"}
+          Value: {"LocaleId":"it-IT","Text":"SELECT ConditionName, COUNT(*) AS ActiveCount FROM {#tableName:sql_identifier} WHERE ActiveState_Id=1 AND LocalTime BETWEEN {#from:sql_literal} AND {#to:sql_literal} GROUP BY ConditionName ORDER BY ActiveCount DESC"}
         - Name: ns=5;Sourcefrom
           Type: BaseDataVariableType
           DataType: BaseDataType

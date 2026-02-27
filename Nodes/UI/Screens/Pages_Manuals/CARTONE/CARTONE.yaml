@@ -185,17 +185,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW4.6"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -875,17 +864,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW11.7"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -1566,17 +1544,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW11.7"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -2287,17 +2254,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW11.7"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -3690,17 +3646,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.13"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4380,17 +4325,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW4.6"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -5071,17 +5005,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW10.15"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean

@@ -1301,6 +1301,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
+    - Name: Opacity
+      Type: BaseVariableType
+      DataType: Float
+      ModellingRule: Optional
+      Value: 100.0
   - Name: fill
     Type: Ellipse
     Children:
@@ -1366,6 +1371,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
+    - Name: Opacity
+      Type: BaseVariableType
+      DataType: Float
+      ModellingRule: Optional
+      Value: 100.0
   - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
     Type: Image
     Children:

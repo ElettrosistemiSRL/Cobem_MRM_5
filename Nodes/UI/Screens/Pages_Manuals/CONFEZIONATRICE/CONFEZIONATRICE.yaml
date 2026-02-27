@@ -542,6 +542,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"ABBASSA"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -762,43 +799,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ABBASSA"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -915,17 +915,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW10.15"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -1269,6 +1258,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"CHIUDE"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -1489,43 +1515,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDE"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -1620,17 +1609,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.2"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -1961,6 +1939,47 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -2181,47 +2200,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -2316,17 +2294,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.9"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -2660,6 +2627,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -2880,43 +2884,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -3058,17 +3025,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.5"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -3398,6 +3354,47 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"ABBASSA"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -3618,47 +3615,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ABBASSA"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -3753,17 +3709,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.7"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4093,6 +4038,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"CHIUDE"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -4313,43 +4295,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDE"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -4422,17 +4367,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.6"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4761,6 +4695,47 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -4981,47 +4956,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -5105,17 +5039,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.3"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -5445,6 +5368,43 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -5665,43 +5625,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -5832,17 +5755,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.4"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -6171,6 +6083,47 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"ABBASSA"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -6391,47 +6344,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ABBASSA"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -6515,17 +6427,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.10"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -7184,17 +7085,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.8"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -7856,17 +7746,6 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.11"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -8722,7 +8601,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"START"}
+                    Value: {"NamespaceIndex":30,"TextId":"207 START"}
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -8741,6 +8620,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Boolean
                     ModellingRule: Optional
+                    Value: true
                   - Name: Opacity
                     Type: BaseVariableType
                     DataType: Float

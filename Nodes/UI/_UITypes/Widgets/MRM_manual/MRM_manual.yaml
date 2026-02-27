@@ -15603,7 +15603,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: None
-                Value: "#075982"
+                Value: "#0ff709"
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -15987,7 +15987,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: None
-                Value: "#075982"
+                Value: "#0ff709"
     - Name: VerticalLayout2
       Type: ColumnLayout
       Children:
@@ -17314,3 +17314,339 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 4.0
+- Name: RoundLEDTopView
+  Id: g=eadcab0c12ec4f728cd40bd6d9787f33
+  Supertype: ScaleLayout
+  ReferenceType: HasComponent
+  Children:
+  - Name: FillColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#0087ff"
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 30.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 30.0
+  - Name: Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Outline
+    Type: Image
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=30;%PROJECTDIR%/res/Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Outline.svg"
+  - Name: Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Overlay_x5F_2
+    Type: Image
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=30;%PROJECTDIR%/res/Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Overlay_x5F_2.svg"
+  - Name: Fill_Color
+    Type: Ellipse
+    Children:
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -1.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 2.5071001052856445
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 2.4149999618530273
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.170000076293945
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.170000076293945
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#0087ff80"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../FillColor"
+  - Name: Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Overlay_x5F_off
+    Type: Image
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=30;%PROJECTDIR%/res/Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Overlay_x5F_off.svg"
+    - Name: Opacity
+      Type: BaseVariableType
+      DataType: Float
+      Value: 100.0
+      Children:
+      - Name: ConditionalConverter1
+        Type: ConditionalConverter
+        Children:
+        - Name: Condition
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ReferenceType: HasSource
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "{0}"
+            - Name: ns=7;Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../On"
+        - Name: TrueValue
+          Type: BaseDataVariableType
+          DataType: Float
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+        - Name: FalseValue
+          Type: BaseDataVariableType
+          DataType: Float
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: 100.0
+  - Name: Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Overlay_x5F_1
+    Type: Image
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=30;%PROJECTDIR%/res/Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Overlay_x5F_1.svg"
+  - Name: Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Overlay_x5F_on
+    Type: Image
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=30;%PROJECTDIR%/res/Bulb_x5F_LED_x5F_Top_x5F_View_x5F_Overlay_x5F_on.svg"
+    - Name: Opacity
+      Type: BaseVariableType
+      DataType: Float
+      Children:
+      - Name: ConditionalConverter1
+        Type: ConditionalConverter
+        Children:
+        - Name: Condition
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ReferenceType: HasSource
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "{0}"
+            - Name: ns=7;Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../On"
+        - Name: TrueValue
+          Type: BaseDataVariableType
+          DataType: Float
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: 100.0
+        - Name: FalseValue
+          Type: BaseDataVariableType
+          DataType: Float
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+  - Name: LED
+    Type: Ellipse
+    Children:
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -1.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#0087ff4c"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../On"
+    - Name: Opacity
+      Type: BaseVariableType
+      DataType: Float
+      Children:
+      - Name: ConditionalConverter1
+        Type: ConditionalConverter
+        Children:
+        - Name: Condition
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ReferenceType: HasSource
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "{0}"
+            - Name: ns=7;Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../On"
+        - Name: TrueValue
+          Type: BaseDataVariableType
+          DataType: Float
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: 100.0
+        - Name: FalseValue
+          Type: BaseDataVariableType
+          DataType: Float
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+  - Name: OriginalWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 30.0
+  - Name: OriginalHeight
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 30.0
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
+       "objectGuid": "62c9cd9cec839382a5509975063f9a8a",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

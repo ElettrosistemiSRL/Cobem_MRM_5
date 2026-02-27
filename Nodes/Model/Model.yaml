@@ -389,3 +389,58 @@ Children:
       - Name: Severity
         Type: PropertyType
         DataType: UInt16
+- Name: AnalogVariable1
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Type: BaseDataVariableType
+      DataType: Double
+  - Name: EngineeringUnitConverter1
+    Type: EUConverter
+    Children:
+    - Name: Source
+      Type: BaseDataVariableType
+      DataType: Number
+      ReferenceType: HasSource
+      Value: {"Type":11,"Body":0.0}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_250"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: RawMin
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+    - Name: RawMax
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 10.0
+    - Name: ScaledMin
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+    - Name: ScaledMax
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 1.0
+    - Name: Mode
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2

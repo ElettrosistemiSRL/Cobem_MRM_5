@@ -25558,14 +25558,33 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Double
                     Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_250"
+                    - Name: ExpressionEvaluator1
+                      Type: ExpressionEvaluator
                       Children:
+                      - Name: Expression
+                        Type: BaseDataVariableType
+                        DataType: String
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "{0}"
+                      - Name: ns=5;Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: Mode
+                            Type: BaseVariableType
+                            DataType: DynamicLinkMode
+                            ModellingRule: Optional
+                            Value: 2
                       - Name: Mode
-                        Type: BaseVariableType
+                        Type: PropertyType
                         DataType: DynamicLinkMode
+                        ReferenceType: HasComponent
                         ModellingRule: Optional
                         Value: 2
                   - Name: Width
@@ -25591,6 +25610,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
+                    Value: -1.0
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -25608,6 +25628,17 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
+                    Value: -8.0
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "f1"
+                  - Name: Increment
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    ModellingRule: Optional
+                    Value: 0.1
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -25711,6 +25742,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
+                    Value: -1.0
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -25728,6 +25760,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
+                    Value: -8.0
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "f1"
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
