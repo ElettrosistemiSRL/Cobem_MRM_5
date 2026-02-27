@@ -2282,24 +2282,34 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-        - Name: Button2
-          Type: Button
+        - Name: MomentaryButton2
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW20.1"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"NamespaceIndex":30,"TextId":"197 INDIETRO"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
@@ -2315,43 +2325,49 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 950
-        - Name: Button1
-          Type: Button
+        - Name: MomentaryButton1
+          Type: MomentaryButton
           Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW20.1"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"it-IT","Text":"Button1"}
+            Value: {"NamespaceIndex":30,"TextId":"197 INDIETRO"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 200.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 70.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 22.0
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 950
       - Name: VerticalLayout3
         Type: ColumnLayout
         Children:

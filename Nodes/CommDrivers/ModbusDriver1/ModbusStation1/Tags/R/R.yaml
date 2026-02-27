@@ -1036,7 +1036,7 @@ Children:
   - Name: NumCoil
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 960
+    Value: 3008
   - Name: NumDiscreteInput
     Type: BaseDataVariableType
     DataType: UInt16
