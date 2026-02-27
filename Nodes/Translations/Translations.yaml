@@ -529,7 +529,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [530,6],
+    "Dimensions": [528,6],
     "Body": [
      "","it-IT","en-US","hu-HU","tr-TR","fr-FR",
      "60: PARAMETRI - GENERALI -","PARAMETRI - GENERALI -","GENERAL PARAMETERS","PARAMÉT. - ÁLTALÁN. -","PARAMETRELER - GENEL -","PARAMÈTRES GÉNÉRAUX",
@@ -652,7 +652,7 @@ Children:
      "80-VIDEO MAN [VIBRATORE CAPPUCCI -START]","NR.CART.SEGNAL.CARICO VUOTO[IMPOSTA]","EMPTY LOAD SIGNAL [SET]","ÜRES KARTON JELZÉS [BEÁLLÍT]","BOŞ KARTON SİNYALİ [AYAR]","SIGNAL CHARGE VIDE [SET]",
      "20:MAN -- FILATO ENTRATA --","FILATO ENTRATA","YARN INLET","FONAL BEMENET","GİRİŞ İPLİĞİ","ENTRÉE FIL",
      "20-EV. MATERIALE","EV. MATERIALE","MATERIAL SOLENOID VALVE","EV. ANYAG","EV. MALZEME","EV. MATÉRIEL",
-     "20-MOTORE LAMIERA","20-MOTORE LAMIERA","SHEET METAL MOTOR","20-LEMEZTEK. MOT.","20-MOTORLU SAYFA","MOTEUR TÔLE",
+     "20-MOTORE LAMIERA","MOTORE LAMIERA","SHEET METAL MOTOR","LEMEZTEK. MOT.","MOTORLU SAYFA","MOTEUR TÔLE",
      "21: MANUALE -- PINZA SUPERIORE--","PINZA SUPERIORE","UPPER GRIPPER","FELSŐ FOGÓ","ÜST TUTUCU","PINCE SUPÉRIEURE",
      "21-AFFILATURA","AFFILATURA","SHARPENING","ÉLEZÉS","BİLEME","AFFÛTAGE",
      "21-PINZA","PINZA","GRIPPER","FOGÓ","TUTUCU","PINCE",
@@ -1011,8 +1011,6 @@ Children:
      "552 15_Q.ta Scarti","Q.ta Scarti","Reject Qty","Selejt mennyiség","Iskarta Miktarı","Qté Rebuts",
      "553 15_Stato Macchina","Stato Macchina","Machine Status","Gépállapot","Makine Durumu","État Machine",
      "554 -Per eseguire la fasatura Tavola:","-Per eseguire la fasatura Tavola:","-To execute table phasing:","-Az asztal fázisba állításához:","-Tabla fazlamayı gerçekleştirmek için:","-Pour exécuter le calage Table:",
-     "555 Controllare se montaggio in alto","Controllare se montaggio in alto","Check if assembly is up","\"Ellenőrizze"," hogy a szerelés fent van-e\"","Montajın üstte olduğunu kontrol edin",
-     "556 Controllare se estrattore in alto","Controllare se estrattore in alto","Check if extractor is up","\"Ellenőrizze"," hogy a kihúzó fent van-e\"","Çıkarıcının üstte olduğunu kontrol edin",
      "557 Inserire password manutenzione","Inserire password manutenzione","Enter maintenance password","Karbantartási jelszó megadása","Bakım şifresini girin","Entrer mot de passe maintenance",
      "558 Produzione","Produzione","Production","Termelés","Üretim","Production",
      "559 08-ATTUALE","ATTUALE °C","ACTUAL °C","AKTUÁLIS °C","AKTUEL °C","ACTUEL °C",

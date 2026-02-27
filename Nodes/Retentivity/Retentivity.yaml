@@ -73,30 +73,6 @@ Children:
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
-    - Name: MES
-      Type: NodePointer
-      DataType: NodeId
-      Value: {"IdType":2,"Id":"9f81c6243cae60088438da1c87ef6c63","Namespace":30}
-      Children:
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-      - Name: NodeClass
-        Type: PropertyType
-        DataType: NodePointerNodeClass
-        Value: 2
-    - Name: IP
-      Type: NodePointer
-      DataType: NodeId
-      Value: {"IdType":2,"Id":"e06262d3b4dcc83cd44641f8eba324b6","Namespace":30}
-      Children:
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-      - Name: NodeClass
-        Type: PropertyType
-        DataType: NodePointerNodeClass
-        Value: 2
   - Name: WriteDelay
     Type: BaseDataVariableType
     DataType: Duration

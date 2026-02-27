@@ -263,7 +263,7 @@ Children:
       DataType: Color
       ModellingRule: Optional
   - Name: Produzione Oraria
-    Type: 05
+    Type: Auto_05
     Children:
     - Name: VerticalLayout1
       Type: ColumnLayout
@@ -608,7 +608,7 @@ Children:
               - Name: Rectangle6
                 Type: Rectangle
       - Name: 1
-        Type: 05
+        Type: Auto_05
         Children:
         - Name: VerticalLayout1
           Type: ColumnLayout

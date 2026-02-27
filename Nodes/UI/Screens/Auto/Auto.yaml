@@ -121,7 +121,7 @@ Children:
         ModellingRule: Optional
         Value: 8.0
       - Name: 1
-        Type: 01
+        Type: Auto_01
         Children:
         - Name: VerticalLayout1
           Type: ColumnLayout
@@ -328,7 +328,7 @@ Children:
                     DataType: LocalizedText
                     Value: {"NamespaceIndex":30,"TextId":"253 01-AZZERA"}
       - Name: 2
-        Type: 02
+        Type: Auto_02
         Children:
         - Name: VerticalLayout1
           Type: ColumnLayout
@@ -379,7 +379,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"555 Controllare se montaggio in alto"}
+                    Value: {"NamespaceIndex":30,"TextId":"366 202-Controllare se montaggio in alto"}
                 - Name: Label3
                   Type: Label
                   Children:
@@ -387,7 +387,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"556 Controllare se estrattore in alto"}
+                    Value: {"NamespaceIndex":30,"TextId":"365 202-Controllare se estrattore in alto"}
                 - Name: Label4
                   Type: Label
                   Children:
@@ -705,7 +705,7 @@ Children:
         ModellingRule: Optional
         Value: 8.0
       - Name: 1
-        Type: 03
+        Type: Auto_03
         Children:
         - Name: VerticalLayout1
           Type: ColumnLayout
@@ -953,7 +953,7 @@ Children:
                 ModellingRule: Optional
                 Value: 8.0
       - Name: 2
-        Type: 04
+        Type: Auto_04
         Children:
         - Name: VerticalLayout1
           Type: ColumnLayout
