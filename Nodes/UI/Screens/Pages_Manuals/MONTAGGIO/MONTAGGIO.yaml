@@ -66,7 +66,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"it-IT","Text":"MANUALE -- MONTAGGIO / CAPPUCCI --"}
+          Value: {"NamespaceIndex":30,"TextId":"164 28: MANUALE -- MONTAGGIO / CAPPUCCI --"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId

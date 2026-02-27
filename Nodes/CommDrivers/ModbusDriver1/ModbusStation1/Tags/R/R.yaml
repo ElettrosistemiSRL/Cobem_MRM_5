@@ -1139,7 +1139,6 @@ Children:
     DataType: ModbusMemoryArea
     Value: 1
 - Name: RW152
-  Id: g=a9865c1c059bc37ad2c0f1f55d831250
   Type: ModbusTag
   DataType: UInt16
   Children:
