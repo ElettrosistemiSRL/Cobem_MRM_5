@@ -18,7 +18,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"it-IT","Text":"CARTONE"}
+          Value: {"NamespaceIndex":30,"TextId":"118 80-PARAMETRI -CARTONE-"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -34,7 +34,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"it-IT","Text":"CARTONE 2"}
+          Value: {"NamespaceIndex":30,"TextId":"219 36:MANUALE CARTONE"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
