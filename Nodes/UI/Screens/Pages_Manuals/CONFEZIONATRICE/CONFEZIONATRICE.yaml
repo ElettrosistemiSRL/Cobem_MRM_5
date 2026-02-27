@@ -6855,6 +6855,57 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 102.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"CHIUDE"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -7061,57 +7112,6 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../LED2/Opacity"
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 10.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDE"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -7523,6 +7523,47 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -7743,47 +7784,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
@@ -8195,6 +8195,47 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
+        - Name: Chiudi
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../BtnClose"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#e4e4e4"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -8415,47 +8456,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 102.0
-        - Name: Chiudi
-          Type: MomentaryButton
-          Children:
-          - Name: Active
-            Type: BaseDataVariableType
-            DataType: Boolean
-            AccessLevel: Read
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../BtnClose"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#e4e4e4"
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../BtnCloseLamp"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
         - Name: Rectangle1
