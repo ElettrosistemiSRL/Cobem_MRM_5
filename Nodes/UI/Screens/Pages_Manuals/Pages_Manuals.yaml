@@ -126,9 +126,32 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW4.6"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW4.7"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: EnLedOpen
         Type: BaseDataVariableType
         DataType: Boolean
@@ -814,9 +837,31 @@ Children:
       - Name: EnLedOpen
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW4.0"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: EnLedClose
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW4.1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: EnSpin
         Type: BaseDataVariableType
         DataType: Boolean
@@ -1858,6 +1903,35 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: -5.0
+                - Name: BackgroundColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#e4e4e4"
+                  Children:
+                  - Name: ConditionalConverter1
+                    Type: ConditionalConverter
+                    Children:
+                    - Name: Condition
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW2.9"
+                    - Name: TrueValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#00ff00"
+                    - Name: FalseValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#e4e4e4"
               - Name: Rectangle3
                 Type: Rectangle
             - Name: VerticalLayout3
@@ -2212,6 +2286,35 @@ Children:
                 DataType: LocalizedText
                 ModellingRule: Optional
                 Value: {"NamespaceIndex":30,"TextId":"201 CAMMA START"}
+              - Name: BackgroundColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#e4e4e4"
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW24.8"
+                  - Name: TrueValue
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: "#0ff709"
+                  - Name: FalseValue
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: "#e4e4e4"
             - Name: MomentaryButton2
               Type: MomentaryButton
               Children:
@@ -2235,12 +2338,52 @@ Children:
                 DataType: LocalizedText
                 ModellingRule: Optional
                 Value: {"NamespaceIndex":30,"TextId":"210 CAMMA STOP"}
+              - Name: BackgroundColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#e4e4e4"
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW24.9"
+                  - Name: TrueValue
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: "#0ff709"
+                  - Name: FalseValue
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: "#e4e4e4"
             - Name: ToggleButton1
               Type: ToggleButton
               Children:
               - Name: Active
                 Type: BaseDataVariableType
                 DataType: Boolean
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW252.0"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
               - Name: Text
                 Type: BaseDataVariableType
                 DataType: LocalizedText
@@ -2257,6 +2400,35 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "../../../Active"
+              - Name: BackgroundColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#e4e4e4"
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW252.0"
+                  - Name: TrueValue
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: "#0ff709"
+                  - Name: FalseValue
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: "#e4e4e4"
       - Name: Manual_2P_1LDwn1
         Type: Manual_2P_1LDwn
         Children:
@@ -2307,6 +2479,35 @@ Children:
                   DataType: LocalizedText
                   ModellingRule: Optional
                   Value: {"NamespaceIndex":30,"TextId":"195 APRI"}
+                - Name: BackgroundColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#e4e4e4"
+                  Children:
+                  - Name: ConditionalConverter1
+                    Type: ConditionalConverter
+                    Children:
+                    - Name: Condition
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW24.4"
+                    - Name: TrueValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#0ff709"
+                    - Name: FalseValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#e4e4e4"
               - Name: MomentaryButton2
                 Type: MomentaryButton
                 Children:
@@ -2330,6 +2531,40 @@ Children:
                   DataType: LocalizedText
                   ModellingRule: Optional
                   Value: {"NamespaceIndex":30,"TextId":"196 CHIUDI"}
+                - Name: BackgroundColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#e4e4e4"
+                  Children:
+                  - Name: ConditionalConverter1
+                    Type: ConditionalConverter
+                    Children:
+                    - Name: Condition
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW24.5"
+                    - Name: TrueValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#0ff709"
+                    - Name: FalseValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#e4e4e4"
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 2.0
             - Name: VerticalLayout3
               Type: ColumnLayout
               Children:
@@ -2577,6 +2812,35 @@ Children:
                   DataType: LocalizedText
                   ModellingRule: Optional
                   Value: {"NamespaceIndex":30,"TextId":"211 SU CARICO"}
+                - Name: BackgroundColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#e4e4e4"
+                  Children:
+                  - Name: ConditionalConverter1
+                    Type: ConditionalConverter
+                    Children:
+                    - Name: Condition
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW24.2"
+                    - Name: TrueValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#0ff709"
+                    - Name: FalseValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#e4e4e4"
               - Name: Rectangle3
                 Type: Rectangle
             - Name: VerticalLayout3
@@ -2798,6 +3062,35 @@ Children:
                   DataType: LocalizedText
                   ModellingRule: Optional
                   Value: {"NamespaceIndex":30,"TextId":"203 SU SCARICO"}
+                - Name: BackgroundColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#e4e4e4"
+                  Children:
+                  - Name: ConditionalConverter1
+                    Type: ConditionalConverter
+                    Children:
+                    - Name: Condition
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW24.6"
+                    - Name: TrueValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#0ff709"
+                    - Name: FalseValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#e4e4e4"
               - Name: MomentaryButton2
                 Type: MomentaryButton
                 Children:
@@ -2821,6 +3114,35 @@ Children:
                   DataType: LocalizedText
                   ModellingRule: Optional
                   Value: {"NamespaceIndex":30,"TextId":"204 SU SCARTO"}
+                - Name: BackgroundColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#e4e4e4"
+                  Children:
+                  - Name: ConditionalConverter1
+                    Type: ConditionalConverter
+                    Children:
+                    - Name: Condition
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW24.2"
+                    - Name: TrueValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#0ff709"
+                    - Name: FalseValue
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "#e4e4e4"
             - Name: VerticalLayout3
               Type: ColumnLayout
               Children:
@@ -3118,6 +3440,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW31.0"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -3776,6 +4109,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW31.2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4476,6 +4820,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW31.0"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -5150,6 +5505,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW31.2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean

@@ -1011,12 +1011,12 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 16.0
+                    Value: 14.0
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 10.0
+                    Value: 8.0
                 - Name: CHIUSURA
                   Type: ToggleButton
                   Children:
@@ -1060,12 +1060,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 10.0
+                    Value: 8.0
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 16.0
+                    Value: 14.0
                 - Name: VERTICALE
                   Type: ToggleButton
                   Children:
@@ -1114,7 +1114,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 10.0
+                    Value: 8.0
                 - Name: ALTA_BASSA
                   Type: ToggleButton
                   Children:
@@ -1158,12 +1158,12 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 16.0
+                    Value: 14.0
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 10.0
+                    Value: 8.0
                 - Name: EUROSLOT
                   Type: ToggleButton
                   Children:
@@ -1207,12 +1207,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 10.0
+                    Value: 8.0
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 16.0
+                    Value: 14.0
                 - Name: RINFORZO
                   Type: ToggleButton
                   Children:
@@ -1262,7 +1262,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 8.0
+                      Value: 16.0
                 - Name: Rectangle2
                   Type: Rectangle
                   Children:
@@ -1379,7 +1379,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 8.0
+                      Value: 16.0
                     - Name: FontSize
                       Type: BaseDataVariableType
                       DataType: Size
@@ -1466,7 +1466,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 8.0
+                      Value: 16.0
                     - Name: VerticalAlignment
                       Type: BaseVariableType
                       DataType: VerticalAlignment
@@ -1588,7 +1588,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 8.0
+                      Value: 16.0
                     - Name: VerticalAlignment
                       Type: BaseVariableType
                       DataType: VerticalAlignment
@@ -2010,8 +2010,6 @@ Children:
                 Type: Rectangle
               - Name: Rectangle6
                 Type: Rectangle
-              - Name: Rectangle7
-                Type: Rectangle
             - Name: VerticalLayout2
               Type: ColumnLayout
               Children:
@@ -2114,8 +2112,6 @@ Children:
               - Name: HorizontalLayout5
                 Type: RowLayout
               - Name: HorizontalLayout6
-                Type: RowLayout
-              - Name: HorizontalLayout7
                 Type: RowLayout
       - Name: Manual_Gen1
         Type: Manual_Gen1

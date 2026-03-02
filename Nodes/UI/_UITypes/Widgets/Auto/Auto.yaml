@@ -1,7 +1,7 @@
 Name: Auto
 Type: FolderType
 Children:
-- Name: 01
+- Name: Auto_01
   Id: g=7db042ef16778ea1e135ba301ca4ffc6
   Supertype: Rectangle
   ReferenceType: HasComponent
@@ -241,7 +241,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":""}
+              Value: {"NamespaceIndex":30,"TextId":"260 01_TOTALI"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -926,7 +926,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
-- Name: 02
+- Name: Auto_02
   Id: g=9e2a1234ff76c6cbc607bc419eaf1ea7
   Supertype: Rectangle
   ReferenceType: HasComponent
@@ -1275,7 +1275,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"555 Controllare se montaggio in alto"}
+              Value: {"NamespaceIndex":30,"TextId":"366 202-Controllare se montaggio in alto"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1331,7 +1331,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"556 Controllare se estrattore in alto"}
+              Value: {"NamespaceIndex":30,"TextId":"365 202-Controllare se estrattore in alto"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1387,7 +1387,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"557 Inserire password manutenzione"}
+              Value: {"NamespaceIndex":30,"TextId":"367 202-Inserire password manutenzione"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2159,7 +2159,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 10.0
-- Name: 03
+- Name: Auto_03
   Id: g=f4850589e87781b859675810b9338eb8
   Supertype: Rectangle
   ReferenceType: HasComponent
@@ -3156,7 +3156,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-- Name: 04
+- Name: Auto_04
   Id: g=3f23626e9d868e3d39dbe9b979bd321c
   Supertype: Rectangle
   ReferenceType: HasComponent
@@ -4111,7 +4111,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 20.0
-- Name: 05
+- Name: Auto_05
   Id: g=b1dc6e393b9bbe1ec7341e032bc451cb
   Supertype: Rectangle
   ReferenceType: HasComponent
@@ -5184,45 +5184,6 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 3
-        - Name: Rectangle7
-          Type: Rectangle
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -5661,29 +5622,6 @@ Children:
             ModellingRule: Optional
             Value: 3
         - Name: HorizontalLayout6
-          Type: RowLayout
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-        - Name: HorizontalLayout7
           Type: RowLayout
           Children:
           - Name: Width
