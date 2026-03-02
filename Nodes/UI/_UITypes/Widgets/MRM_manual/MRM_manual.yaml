@@ -15429,37 +15429,75 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-    - Name: SpinBox1
-      Type: SpinBox
+    - Name: SpinBoxES1
+      Type: SpinBoxES1
       Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Double
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../ScaleVar"
+      - Name: ScaleFactor
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.10000000149011612
+      - Name: InputRaw
+        Type: BaseDataVariableType
+        DataType: Int32
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Spin"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: ScaleVar
+        Type: BaseDataVariableType
+        DataType: Float
+        Children:
+        - Name: LinearConverter1
+          Type: LinearConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: Number
+            ReferenceType: HasSource
+            Value: {"Type":11,"Body":0.0}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../InputRaw"
+          - Name: Slope
+            Type: BaseDataVariableType
+            DataType: Double
+            ReferenceType: HasParameter
+            Value: 0.1
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../ScaleFactor"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 160.0
-      - Name: Editable
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-      - Name: LeftMargin
+      - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-      - Name: TopMargin
+        Value: 28.0
+      - Name: VerticalAlignment
         Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 2.0
-      - Name: ShowButtons
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
+        DataType: VerticalAlignment
         ModellingRule: Optional
         Value: 2
       - Name: Visible
@@ -15471,11 +15509,11 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../EnSpin"
-      - Name: Height
+      - Name: HorizontalAlignment
         Type: BaseVariableType
-        DataType: Size
+        DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 28.0
+        Value: 2
   - Name: GridLayout1
     Type: GridLayout
     Children:
@@ -16260,11 +16298,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../..@BrowseName"
+      Value: {"LocaleId":"it-IT","Text":"label"}
     - Name: Width
       Type: BaseVariableType
       DataType: Size

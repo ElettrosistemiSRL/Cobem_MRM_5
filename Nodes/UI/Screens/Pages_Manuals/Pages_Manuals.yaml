@@ -177,12 +177,56 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: SpinBox1
-          Type: SpinBox
+        - Name: SpinBoxES1
+          Type: SpinBoxES1
           Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../ScaleVar"
+          - Name: ScaleFactor
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.10000000149011612
+          - Name: InputRaw
+            Type: BaseDataVariableType
+            DataType: Int32
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Spin"
+          - Name: ScaleVar
+            Type: BaseDataVariableType
+            DataType: Float
+            Children:
+            - Name: LinearConverter1
+              Type: LinearConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: Number
+                ReferenceType: HasSource
+                Value: {"Type":11,"Body":0.0}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../InputRaw"
+              - Name: Slope
+                Type: BaseDataVariableType
+                DataType: Double
+                ReferenceType: HasParameter
+                Value: 0.1
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../ScaleFactor"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -758,11 +802,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../..@BrowseName"
+          Value: {"NamespaceIndex":30,"TextId":"20-MOTORE LAMIERA"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -879,12 +919,56 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: SpinBox1
-          Type: SpinBox
+        - Name: SpinBoxES1
+          Type: SpinBoxES1
           Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../ScaleVar"
+          - Name: ScaleFactor
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.10000000149011612
+          - Name: InputRaw
+            Type: BaseDataVariableType
+            DataType: Int32
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Spin"
+          - Name: ScaleVar
+            Type: BaseDataVariableType
+            DataType: Float
+            Children:
+            - Name: LinearConverter1
+              Type: LinearConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: Number
+                ReferenceType: HasSource
+                Value: {"Type":11,"Body":0.0}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../InputRaw"
+              - Name: Slope
+                Type: BaseDataVariableType
+                DataType: Double
+                ReferenceType: HasParameter
+                Value: 0.1
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../ScaleFactor"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -924,7 +1008,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"it-IT","Text":"START"}
+            Value: {"NamespaceIndex":30,"TextId":"195 APRI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1200,7 +1284,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"it-IT","Text":"STOP"}
+            Value: {"NamespaceIndex":30,"TextId":"196 CHIUDI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1448,11 +1532,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../..@BrowseName"
+          Value: {"NamespaceIndex":30,"TextId":"20-EV. MATERIALE"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3454,6 +3534,17 @@ Children:
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW31.0"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: EnLedOpen
         Type: BaseDataVariableType
         DataType: Boolean
@@ -3464,6 +3555,7 @@ Children:
       - Name: EnSpin
         Type: BaseDataVariableType
         DataType: Boolean
+        Value: true
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
@@ -3478,12 +3570,56 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: SpinBox1
-          Type: SpinBox
+        - Name: SpinBoxES1
+          Type: SpinBoxES1
           Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../ScaleVar"
+          - Name: ScaleFactor
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.10000000149011612
+          - Name: InputRaw
+            Type: BaseDataVariableType
+            DataType: Int32
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Spin"
+          - Name: ScaleVar
+            Type: BaseDataVariableType
+            DataType: Float
+            Children:
+            - Name: LinearConverter1
+              Type: LinearConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: Number
+                ReferenceType: HasSource
+                Value: {"Type":11,"Body":0.0}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../InputRaw"
+              - Name: Slope
+                Type: BaseDataVariableType
+                DataType: Double
+                ReferenceType: HasParameter
+                Value: 0.1
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../ScaleFactor"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -4047,11 +4183,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../..@BrowseName"
+          Value: {"NamespaceIndex":30,"TextId":"177 31: MANUALE -- ESTRAZIONE --"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4146,12 +4278,56 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: SpinBox1
-          Type: SpinBox
+        - Name: SpinBoxES1
+          Type: SpinBoxES1
           Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../ScaleVar"
+          - Name: ScaleFactor
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.10000000149011612
+          - Name: InputRaw
+            Type: BaseDataVariableType
+            DataType: Int32
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Spin"
+          - Name: ScaleVar
+            Type: BaseDataVariableType
+            DataType: Float
+            Children:
+            - Name: LinearConverter1
+              Type: LinearConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: Number
+                ReferenceType: HasSource
+                Value: {"Type":11,"Body":0.0}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../InputRaw"
+              - Name: Slope
+                Type: BaseDataVariableType
+                DataType: Double
+                ReferenceType: HasParameter
+                Value: 0.1
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../ScaleFactor"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -4719,11 +4895,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../..@BrowseName"
+          Value: {"NamespaceIndex":30,"TextId":"177 31: MANUALE -- ESTRAZIONE --"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4847,7 +5019,7 @@ Children:
       - Name: LedOpenDesc
         Type: BaseDataVariableType
         DataType: String
-        Value: "F11B"
+        Value: "FT11"
       - Name: LedCloseDesc
         Type: BaseDataVariableType
         DataType: String
@@ -4859,12 +5031,56 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: SpinBox1
-          Type: SpinBox
+        - Name: SpinBoxES1
+          Type: SpinBoxES1
           Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../ScaleVar"
+          - Name: ScaleFactor
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.10000000149011612
+          - Name: InputRaw
+            Type: BaseDataVariableType
+            DataType: Int32
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Spin"
+          - Name: ScaleVar
+            Type: BaseDataVariableType
+            DataType: Float
+            Children:
+            - Name: LinearConverter1
+              Type: LinearConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: Number
+                ReferenceType: HasSource
+                Value: {"Type":11,"Body":0.0}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../InputRaw"
+              - Name: Slope
+                Type: BaseDataVariableType
+                DataType: Double
+                ReferenceType: HasParameter
+                Value: 0.1
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../ScaleFactor"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -4904,7 +5120,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"161 26-VIBRATORI"}
+            Value: {"NamespaceIndex":30,"TextId":"199 ESAGONO"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5432,11 +5648,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../..@BrowseName"
+          Value: {"NamespaceIndex":30,"TextId":"161 26-VIBRATORI"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5544,12 +5756,56 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: SpinBox1
-          Type: SpinBox
+        - Name: SpinBoxES1
+          Type: SpinBoxES1
           Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../ScaleVar"
+          - Name: ScaleFactor
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.10000000149011612
+          - Name: InputRaw
+            Type: BaseDataVariableType
+            DataType: Int32
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Spin"
+          - Name: ScaleVar
+            Type: BaseDataVariableType
+            DataType: Float
+            Children:
+            - Name: LinearConverter1
+              Type: LinearConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: Number
+                ReferenceType: HasSource
+                Value: {"Type":11,"Body":0.0}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../InputRaw"
+              - Name: Slope
+                Type: BaseDataVariableType
+                DataType: Double
+                ReferenceType: HasParameter
+                Value: 0.1
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../ScaleFactor"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -6117,11 +6373,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../..@BrowseName"
+          Value: {"NamespaceIndex":30,"TextId":"182 32-CASSETTO ESAGONO"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6237,12 +6489,56 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 414.0
-        - Name: SpinBox1
-          Type: SpinBox
+        - Name: SpinBoxES1
+          Type: SpinBoxES1
           Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../ScaleVar"
+          - Name: ScaleFactor
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.10000000149011612
+          - Name: InputRaw
+            Type: BaseDataVariableType
+            DataType: Int32
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Spin"
+          - Name: ScaleVar
+            Type: BaseDataVariableType
+            DataType: Float
+            Children:
+            - Name: LinearConverter1
+              Type: LinearConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: Number
+                ReferenceType: HasSource
+                Value: {"Type":11,"Body":0.0}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../InputRaw"
+              - Name: Slope
+                Type: BaseDataVariableType
+                DataType: Double
+                ReferenceType: HasParameter
+                Value: 0.1
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../ScaleFactor"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -6749,6 +7045,10 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../LED2/Opacity"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -6814,11 +7114,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../..@BrowseName"
+          Value: {"LocaleId":"it-IT","Text":"label"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size

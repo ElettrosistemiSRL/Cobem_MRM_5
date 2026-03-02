@@ -75,7 +75,7 @@ Children:
   - Name: NumRegister
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 330
+    Value: 331
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -102,7 +102,7 @@ Children:
   - Name: NumRegister
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 332
+    Value: 333
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -129,7 +129,7 @@ Children:
   - Name: NumRegister
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 334
+    Value: 335
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -156,7 +156,7 @@ Children:
   - Name: NumRegister
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 336
+    Value: 337
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -750,7 +750,7 @@ Children:
   - Name: NumRegister
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 350
+    Value: 351
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -804,7 +804,7 @@ Children:
   - Name: NumRegister
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 338
+    Value: 353
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode
@@ -939,7 +939,7 @@ Children:
   - Name: NumRegister
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 376
+    Value: 373
   - Name: ArrayUpdateMode
     Type: BaseDataVariableType
     DataType: TagArrayUpdateMode

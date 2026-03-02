@@ -6981,11 +6981,11 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../ScaleVar"
-    - Name: Variable1
+    - Name: ScaleFactor
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.10000000149011612
-    - Name: Variable2
+    - Name: InputRaw
       Type: BaseDataVariableType
       DataType: Int32
       Children:
@@ -7035,7 +7035,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../Variable2"
+            Value: "../../../InputRaw"
         - Name: Slope
           Type: BaseDataVariableType
           DataType: Double
@@ -7045,7 +7045,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../Variable1"
+            Value: "../../../ScaleFactor"
     - Name: Format
       Type: BaseDataVariableType
       DataType: String
