@@ -7,3 +7,180 @@ Children:
 - File: Auto/Auto.yaml
 - File: Auto_Insacchettatrice/Auto_Insacchettatrice.yaml
 - File: UserEditor/UserEditor.yaml
+- Name: SpinBox2
+  Id: g=ac08479e43d4a6c3bcf4d99d4a742558
+  Supertype: Panel
+  Description: {"LocaleId":"it-IT","Text":""}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 80.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 40.0
+  - Name: SpinBox1
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ScaleVar"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: ShowButtons
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: Format
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "f1"
+  - Name: ScaleVar
+    Type: BaseDataVariableType
+    DataType: Float
+    Children:
+    - Name: LinearConverter1
+      Type: LinearConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: Number
+        ReferenceType: HasSource
+        Value: {"Type":11,"Body":0.0}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../RawVar"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Slope
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        Value: 0.1
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../ScaleFactor"
+      - Name: Intercept
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+      - Name: Mode
+        Type: PropertyType
+        DataType: DynamicLinkMode
+        ReferenceType: HasComponent
+        ModellingRule: Optional
+        Value: 2
+  - Name: RawVar
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: ScaleFactor
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 1.0
+- Name: SpinBoxES1
+  Id: g=cf0f3a13c7c485d3e96b04ad1bde82ca
+  Supertype: SpinBox
+  ReferenceType: HasComponent
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../ScaleVar"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 80.0
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Format
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
+    Value: "d1"
+  - Name: ScaleVar
+    Type: BaseDataVariableType
+    DataType: Float
+    Children:
+    - Name: LinearConverter1
+      Type: LinearConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: Number
+        ReferenceType: HasSource
+        Value: {"Type":11,"Body":0.0}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Variable2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Slope
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        Value: 0.1
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Variable1"
+      - Name: Intercept
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+      - Name: Mode
+        Type: PropertyType
+        DataType: DynamicLinkMode
+        ReferenceType: HasComponent
+        ModellingRule: Optional
+        Value: 2

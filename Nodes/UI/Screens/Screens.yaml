@@ -6914,6 +6914,87 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 253.0
+  - Name: SpinBoxES2
+    Type: SpinBoxES1
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../ScaleVar"
+    - Name: Variable1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.10000000149011612
+    - Name: Variable2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_250"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 760.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 170.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 68.0
+    - Name: ScaleVar
+      Type: BaseDataVariableType
+      DataType: Float
+      Children:
+      - Name: LinearConverter1
+        Type: LinearConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: Number
+          ReferenceType: HasSource
+          Value: {"Type":11,"Body":0.0}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../Variable2"
+        - Name: Slope
+          Type: BaseDataVariableType
+          DataType: Double
+          ReferenceType: HasParameter
+          Value: 0.1
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../Variable1"
+    - Name: Format
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "d1"
 - Name: Alarm
   Id: g=31bc8663ca61da32292d6d392cb8f9fd
   Supertype: Screen

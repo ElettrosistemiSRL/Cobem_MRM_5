@@ -3797,16 +3797,27 @@ Children:
       Type: BaseDataVariableType
       DataType: Double
       Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/Cobem_MRM_5/Model/AnalogVariable1"
+      - Name: Pippo1
+        Type: Pippo
         Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: Number
+          ReferenceType: HasSource
+          Value: {"Type":11,"Body":0.0}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Variable1
+          Type: BaseDataVariableType
+          DataType: Float
     - Name: Width
       Type: BaseVariableType
       DataType: Size

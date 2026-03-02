@@ -389,20 +389,10 @@ Children:
       - Name: Severity
         Type: PropertyType
         DataType: UInt16
-- Name: AnalogVariable1
-  Type: AnalogItemType
+- Name: LTD_250
+  Type: BaseDataVariableType
   DataType: Float
   Children:
-  - Name: EURange
-    Type: RangeType
-    DataType: Range
-    Children:
-    - Name: Low
-      Type: BaseDataVariableType
-      DataType: Double
-    - Name: High
-      Type: BaseDataVariableType
-      DataType: Double
   - Name: EngineeringUnitConverter1
     Type: EUConverter
     Children:
