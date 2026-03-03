@@ -105,92 +105,20 @@ Children:
     Type: BaseDataVariableType
     DataType: Float
     Value: 1.0
-- Name: SpinBoxES1
-  Id: g=cf0f3a13c7c485d3e96b04ad1bde82ca
-  Supertype: SpinBox
-  Description: {"LocaleId":"it-IT","Text":"Spinbox con conversione da int a float"}
-  ReferenceType: HasComponent
-  Children:
-  - Name: Value
-    Type: BaseDataVariableType
-    DataType: Double
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "../ScaleVar"
-      Children:
-      - Name: Mode
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        ModellingRule: Optional
-        Value: 2
-  - Name: Width
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 80.0
-  - Name: ScaleFactor
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.10000000149011612
-  - Name: InputRaw
-    Type: BaseDataVariableType
-    DataType: Int32
-  - Name: Format
-    Type: BaseDataVariableType
-    DataType: String
-    ModellingRule: Optional
-    Value: "d1"
-  - Name: ScaleVar
-    Type: BaseDataVariableType
-    DataType: Float
-    Children:
-    - Name: LinearConverter1
-      Type: LinearConverter
-      Children:
-      - Name: Source
-        Type: BaseDataVariableType
-        DataType: Number
-        ReferenceType: HasSource
-        Value: {"Type":11,"Body":0.0}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../InputRaw"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Slope
-        Type: BaseDataVariableType
-        DataType: Double
-        ReferenceType: HasParameter
-        Value: 0.1
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../ScaleFactor"
-      - Name: Intercept
-        Type: BaseDataVariableType
-        DataType: Double
-        ReferenceType: HasParameter
-        ModellingRule: Optional
-      - Name: Mode
-        Type: PropertyType
-        DataType: DynamicLinkMode
-        ReferenceType: HasComponent
-        ModellingRule: Optional
-        Value: 2
-  - Name: ShowButtons
-    Type: BaseDataVariableType
-    DataType: Boolean
-    ModellingRule: Optional
-  - Name: TopMargin
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "ae043d55e4bed5ee2b6c54be4236aab2",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

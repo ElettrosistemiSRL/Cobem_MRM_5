@@ -160,7 +160,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Motore
+    - Name: Motore_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -892,6 +892,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"160 26-MOTORE"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -902,7 +915,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Vibratore
+    - Name: Vibratore_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -1648,6 +1661,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"161 26-VIBRATORI"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1716,7 +1742,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Vert_Form_Fiocco
+    - Name: VertFormFiocco_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -2460,6 +2486,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"163 27-VERT.FORM.FIOCCO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2470,7 +2509,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Formatura_Fiocco
+    - Name: Formatura Fiocco_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -3202,6 +3241,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"162 27-FORMATURA FIOCCO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3270,7 +3322,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Cassetto_Cappucci
+    - Name: Cassetto Cappucci_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -4015,6 +4067,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"166 28-CASSETTO CAPPUCCI"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4025,7 +4090,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Contrasto
+    - Name: Contrasto_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -4745,6 +4810,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"167 28-CONTRASTO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4783,7 +4861,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
-    - Name: Appoggio
+    - Name: Appoggio_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -5515,6 +5593,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"165 28-APPOGGIO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5555,7 +5646,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Cappucci
+    - Name: Cappucci_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -6313,6 +6404,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"206 CAPPUCCI"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6323,7 +6427,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Sollev_Montaggio
+    - Name: Sollev Montaggio_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -7241,6 +7345,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"171 29-SOLLEV.MONTAGGIO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -7279,7 +7396,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
-    - Name: Sollev_Montaggio_
+    - Name: Sollev Montaggio_2
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -8011,6 +8128,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"171 29-SOLLEV.MONTAGGIO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -8051,7 +8181,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Contrasto
+    - Name: Contrasto_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -8783,6 +8913,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"174 30-CONTRASTO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -8793,7 +8936,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Aspirazione
+    - Name: Aspirazione_2
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -9524,6 +9667,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"173 30-ASPIRAZIONE"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -9562,7 +9718,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
-    - Name: Soffio
+    - Name: Soffio_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -10277,6 +10433,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"473 L-SOFFIO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size

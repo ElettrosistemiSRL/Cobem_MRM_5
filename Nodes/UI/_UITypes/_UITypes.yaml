@@ -4,3 +4,19 @@ Children:
 - File: Components/Components.yaml
 - File: Widgets/Widgets.yaml
 - File: Dialogs/Dialogs.yaml
+- Name: ns=17;LibraryReference
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 17
+    },
+    "Body": {
+     "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+     "objectGuid": "d6b254105c8a89f0ccbd6bdd2fd36962",
+     "objectVersion": 1,
+     "highestIgnoredVersion": 0
+    }
+   }

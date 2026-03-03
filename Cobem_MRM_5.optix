@@ -122,10 +122,10 @@ Project:
    Module: FTOptix.Modbus.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 70190
-  Objects: 14522
-  ObjectTypes: 133
-  Variables: 55519
+  TotalNodeCount: 67518
+  Objects: 14123
+  ObjectTypes: 121
+  Variables: 53258
   VariableTypes: 0
   DataTypes: 0
   Methods: 16

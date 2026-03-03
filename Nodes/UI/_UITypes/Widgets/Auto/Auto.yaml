@@ -9237,3 +9237,19 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+- Name: ns=17;LibraryReference
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 17
+    },
+    "Body": {
+     "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+     "objectGuid": "8504f4b4867cd34c5a030f9657654437",
+     "objectVersion": 1,
+     "highestIgnoredVersion": 0
+    }
+   }

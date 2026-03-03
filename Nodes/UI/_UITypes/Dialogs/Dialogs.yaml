@@ -209,3 +209,20 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "bf0f14afdfee5e836f04c956761d4ca0",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

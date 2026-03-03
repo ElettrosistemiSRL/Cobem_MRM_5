@@ -516,6 +516,23 @@ Children:
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "e7346c9024f752c3ed89dfe7b1f3fd5f",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
 - Name: SubMenuButton
   Id: g=b965f9d9f355a7f89bcd7076375b98f3
   Supertype: Panel
@@ -963,6 +980,23 @@ Children:
         DataType: DynamicLinkMode
         ModellingRule: Optional
         Value: 2
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "69c5d84c2043950a199c02b30161c04d",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
 - Name: ControlliCiclo
   Id: g=5f3dd901eb8e27a7dda05c14c3a4401b
   Supertype: ColumnLayout
@@ -1258,6 +1292,23 @@ Children:
     Type: BaseVariableType
     DataType: Float
     Value: 100.0
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "ccaad4e6b2b8e5838d8a227c1d5f447f",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
 - Name: LED
   Id: g=a8f213cfca32d68a351592a932324169
   Supertype: ScaleLayout
@@ -1603,8 +1654,8 @@ Children:
        "Namespace": 17
       },
       "Body": {
-       "libraryGuid": "6a4021ca58e255b991b746496c395233",
-       "objectGuid": "fe90edc4a8ec0a421ba4589aa7ab12e7",
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "2eaa40a279d10fdf71b512bd7d80247f",
        "objectVersion": 1,
        "highestIgnoredVersion": 0
       }
@@ -2019,6 +2070,23 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../..@BrowseName"
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "282752bf5a1f8f32dfb9685b1887eaed",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
 - Name: ImpulseButton
   Id: g=e0d327b62f5422fb41123bf8c3f64875
   Supertype: Button
@@ -2057,6 +2125,23 @@ Children:
     DataType: Boolean
     ModellingRule: Optional
     Value: true
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "fd13a9efb0cff1569b0dc959dcdaa33c",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
 - Name: ProgressDelayedButton
   Id: g=a578858cd9b3ed52d98da156f6ffe40c
   Supertype: Panel
@@ -2530,8 +2615,8 @@ Children:
        "Namespace": 17
       },
       "Body": {
-       "libraryGuid": "6a4021ca58e255b991b746496c395233",
-       "objectGuid": "5a7eba69d16186d137b2c86630eb62cb",
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "665af5fe6cec6a3f10dfdb56a9c15117",
        "objectVersion": 1,
        "highestIgnoredVersion": 0
       }
@@ -2935,3 +3020,126 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "39825d52a81cc50ddbc7a51c00a488e5",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: SpinBoxES1
+  Id: g=cf0f3a13c7c485d3e96b04ad1bde82ca
+  Supertype: SpinBox
+  Description: {"LocaleId":"it-IT","Text":"Spinbox con conversione da int a float"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../ScaleVar"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 80.0
+  - Name: ScaleFactor
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.10000000149011612
+  - Name: InputRaw
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Format
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
+    Value: "d1"
+  - Name: ScaleVar
+    Type: BaseDataVariableType
+    DataType: Float
+    Children:
+    - Name: LinearConverter1
+      Type: LinearConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: Number
+        ReferenceType: HasSource
+        Value: {"Type":11,"Body":0.0}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../InputRaw"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Slope
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        Value: 0.1
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../ScaleFactor"
+      - Name: Intercept
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+      - Name: Mode
+        Type: PropertyType
+        DataType: DynamicLinkMode
+        ReferenceType: HasComponent
+        ModellingRule: Optional
+        Value: 2
+  - Name: ShowButtons
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+  - Name: TopMargin
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "5ab7e53f32a65181e65bbeae7a222120",
+       "objectGuid": "5d78f2bfc7a4261acc83a641daf497a9",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

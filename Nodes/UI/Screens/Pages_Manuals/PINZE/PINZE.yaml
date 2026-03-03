@@ -142,7 +142,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Pinza
+    - Name: Pinza_
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -874,6 +874,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"21-PINZA"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1604,6 +1617,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"21-TAGLIO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1691,7 +1717,7 @@ Children:
               ReferenceType: HasParameter
               ModellingRule: Optional
               Value: "#e4e4e4"
-    - Name: Taglio
+    - Name: Taglio_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -2394,6 +2420,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"21-TAGLIO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -2404,7 +2443,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Trasporto
+    - Name: Trasporto_
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -3169,6 +3208,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"21-TRASPORTO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3237,7 +3289,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Pinza
+    - Name: Pinza_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -3970,6 +4022,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"21-PINZA"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3980,7 +4045,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Taglio
+    - Name: Taglio_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -4777,6 +4842,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"21-TAGLIO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4787,7 +4865,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Taglio_
+    - Name: Taglio_2
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -5519,6 +5597,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"21-TAGLIO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5529,7 +5620,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Trasporto
+    - Name: Trasporto_2
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -6294,6 +6385,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"21-TRASPORTO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6362,7 +6466,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Inferiore
+    - Name: Inferiore_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -7318,6 +7422,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"23-INFERIORE"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -7328,7 +7445,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Superiore
+    - Name: Superiore_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -8284,6 +8401,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"23-SUPERIORE"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -8294,7 +8424,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Inferiore_
+    - Name: Inferiore_2
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -9006,6 +9136,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"23-INFERIORE"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -9016,7 +9159,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Superiore_
+    - Name: Superiore_2
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -9723,6 +9866,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"23-SUPERIORE"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size

@@ -127,7 +127,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Carico_Cartoni
+    - Name: Carico Cartoni_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -847,6 +847,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"190 35-CARICO CARTONI"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -857,7 +870,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Aspira Form Cartone
+    - Name: Aspira Form Cartone_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -1591,6 +1604,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"457 ASPIRA FORM.CARTONE"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1601,7 +1627,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Aspira Posizione A
+    - Name: Aspira Posizione A_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -2321,6 +2347,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"188 35-ASPIRA POSIZIONE A"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2331,7 +2370,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Aspira Posizione B
+    - Name: Aspira Posizione B_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -3051,6 +3090,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"189 35-ASPIRA POSIZIONE B"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3134,7 +3186,7 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: ["430","430"]
-    - Name: Rotazione_Gruppo
+    - Name: Rotazione Gruppo_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -3854,6 +3906,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"193 36-ROTAZIONE GRUPPO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3864,7 +3929,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Estraz_Formaz
+    - Name: Estraz Formaz_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -4584,6 +4649,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"ESTRAZIONE/FORMAZIONE"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4594,7 +4672,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Spintore_Orizz
+    - Name: Spintore Orizz_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -5314,6 +5392,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"194 36-SPINTORE ORIZZONTALE"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5324,7 +5415,7 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
-    - Name: Guida_Scorrim
+    - Name: Guida Scorrim_1
       Type: Manual_Gen
       Children:
       - Name: BtnOpen
@@ -6044,6 +6135,19 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"192 36-GUIDA SCORRIMENTO"}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../..@BrowseName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
