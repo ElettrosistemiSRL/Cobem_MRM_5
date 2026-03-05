@@ -154,7 +154,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW30.2"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.0"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -168,7 +168,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW30.3"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.1"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -213,9 +213,31 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.13"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.12"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: EnLedOpen
         Type: BaseDataVariableType
         DataType: Boolean
@@ -329,7 +351,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ALZA"}
+            Value: {"NamespaceIndex":30,"TextId":"246 ALZA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -605,7 +627,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ABBASSA"}
+            Value: {"NamespaceIndex":30,"TextId":"247 ABBASSA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -866,7 +888,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -887,7 +909,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW30.6"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.3"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -901,7 +923,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW30.10"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.4"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -929,7 +951,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW34.13"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/I/XW34.12"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -968,6 +990,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.13"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -975,7 +1008,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW11.0"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.4"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -1104,7 +1137,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"APRE"}
+            Value: {"NamespaceIndex":30,"TextId":"207 START"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1380,7 +1413,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDE"}
+            Value: {"NamespaceIndex":30,"TextId":"202 ZERO"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1641,7 +1674,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1721,12 +1754,24 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
       - Name: EnLedOpen
         Type: BaseDataVariableType
         DataType: Boolean
+        Value: true
       - Name: EnLedClose
         Type: BaseDataVariableType
         DataType: Boolean
@@ -1838,7 +1883,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"AVANTI"}
+            Value: {"NamespaceIndex":30,"TextId":"248 RUOTA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -2379,7 +2424,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2459,6 +2504,18 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.9"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -2578,7 +2635,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"APRE"}
+            Value: {"NamespaceIndex":30,"TextId":"207 START"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -2872,6 +2929,10 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -3115,7 +3176,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3242,6 +3303,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.5"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -3358,7 +3430,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ALZA"}
+            Value: {"NamespaceIndex":30,"TextId":"198 AVANTI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -3899,7 +3971,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3930,17 +4002,6 @@ Children:
       - Name: BtnClose
         Type: BaseDataVariableType
         DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW30.10"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: LedOpen
         Type: BaseDataVariableType
         DataType: Boolean
@@ -3979,6 +4040,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.7"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4095,7 +4167,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"APRE"}
+            Value: {"NamespaceIndex":30,"TextId":"198 AVANTI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -4371,7 +4443,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDE"}
+            Value: {"NamespaceIndex":30,"TextId":"196 CHIUDI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -4389,6 +4461,10 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -4632,7 +4708,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4690,6 +4766,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.6"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4805,7 +4892,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"AVANTI"}
+            Value: {"NamespaceIndex":30,"TextId":"198 AVANTI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5346,7 +5433,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5415,6 +5502,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -5531,7 +5629,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"APRE"}
+            Value: {"NamespaceIndex":30,"TextId":"198 AVANTI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5807,7 +5905,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
+            Value: {"NamespaceIndex":30,"TextId":"196 CHIUDI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5825,6 +5923,10 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -6068,7 +6170,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6184,6 +6286,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -6299,7 +6412,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ALZA"}
+            Value: {"NamespaceIndex":30,"TextId":"195 APRI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -6840,7 +6953,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6861,7 +6974,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.13"
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.12"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -6909,6 +7022,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.10"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -7025,7 +7149,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"APRE"}
+            Value: {"NamespaceIndex":30,"TextId":"207 START"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -7333,6 +7457,10 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../BtnCloseLamp"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:
@@ -7562,7 +7690,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -7620,6 +7748,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.8"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -7735,7 +7874,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"AVANTI"}
+            Value: {"NamespaceIndex":30,"TextId":"207 START"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -8276,7 +8415,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -8334,6 +8473,17 @@ Children:
       - Name: BtnOpenLamp
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Q/YW34.11"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: BtnCloseLamp
         Type: BaseDataVariableType
         DataType: Boolean
@@ -8449,7 +8599,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"APRE"}
+            Value: {"NamespaceIndex":30,"TextId":"207 START"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -8990,7 +9140,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -9177,254 +9327,234 @@ Children:
               Children:
               - Name: Rectangle1
                 Type: Rectangle
-              - Name: HorizontalLayout2
-                Type: RowLayout
-                Children:
-                - Name: Label1
-                  Type: Label
-                  Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"249 IMPOSTA"}
-                - Name: Label2
-                  Type: Label
-                  Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"305 08-ATTUALE °C"}
-                - Name: Rectangle1
-                  Type: Rectangle
               - Name: HorizontalLayout1
                 Type: RowLayout
                 Children:
-                - Name: SpinBoxES1
-                  Type: SpinBoxES1
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
                   Children:
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Double
+                  - Name: Label1
+                    Type: Label
                     Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../ScaleVar"
-                  - Name: ScaleFactor
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Value: 0.10000000149011612
-                  - Name: InputRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"NamespaceIndex":30,"TextId":"249 IMPOSTA"}
+                    - Name: LeftMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                  - Name: SpinBoxES1
+                    Type: SpinBoxES1
                     Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1312"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
                       Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: ScaleVar
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../ScaleVar"
+                    - Name: ScaleFactor
+                      Type: BaseDataVariableType
+                      DataType: Float
+                      Value: 1.0
+                    - Name: InputRaw
+                      Type: BaseDataVariableType
+                      DataType: Int32
                       Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1312"
                         Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                - Name: SpinBoxES2
-                  Type: SpinBoxES1
-                  Children:
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../ScaleVar"
-                  - Name: ScaleFactor
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Value: 0.10000000149011612
-                  - Name: InputRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1220"
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ScaleVar
+                      Type: BaseDataVariableType
+                      DataType: Float
                       Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: ScaleVar
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
-                      Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
+                      - Name: LinearConverter1
+                        Type: LinearConverter
                         Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                - Name: Button1
-                  Type: Button
-                  Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: Number
+                          ReferenceType: HasSource
+                          Value: {"Type":11,"Body":0.0}
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../InputRaw"
+                        - Name: Slope
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          ReferenceType: HasParameter
+                          Value: 0.1
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../ScaleFactor"
+                    - Name: Format
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ModellingRule: Optional
+                      Value: "n6"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"207 START"}
-                  - Name: TopMargin
+                  - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: -6.0
-                  - Name: BottomMargin
+                    Value: 200.0
+                  - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                  - Name: RightMargin
+                    Value: 240.0
+                - Name: VerticalLayout2
+                  Type: ColumnLayout
+                  Children:
+                  - Name: Label2
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"NamespaceIndex":30,"TextId":"305 08-ATTUALE °C"}
+                  - Name: SpinBoxES2
+                    Type: SpinBoxES1
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../ScaleVar"
+                    - Name: ScaleFactor
+                      Type: BaseDataVariableType
+                      DataType: Float
+                      Value: 1.0
+                    - Name: InputRaw
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1220"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ScaleVar
+                      Type: BaseDataVariableType
+                      DataType: Float
+                      Children:
+                      - Name: LinearConverter1
+                        Type: LinearConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: Number
+                          ReferenceType: HasSource
+                          Value: {"Type":11,"Body":0.0}
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../InputRaw"
+                        - Name: Slope
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          ReferenceType: HasParameter
+                          Value: 0.1
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../ScaleFactor"
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                    - Name: Format
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ModellingRule: Optional
+                      Value: "n6"
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalGap
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 16.0
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 30.0
-                  - Name: Visible
+                    Value: 200.0
+                - Name: ToggleButton1
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
                     Type: BaseDataVariableType
                     DataType: Boolean
-                    ModellingRule: Optional
-                    Value: true
-                  - Name: Opacity
-                    Type: BaseVariableType
-                    DataType: Float
-                    ModellingRule: Optional
-                    Value: 100.0
-                  - Name: MouseClickEventHandler1
-                    Type: EventHandler
                     Children:
-                    - Name: ListenEventType
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-                    - Name: MethodsToCall
-                      Type: BaseObjectType
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.15"
                       Children:
-                      - Name: MethodContainer1
-                        Type: BaseObjectType
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: BackgroundColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#e4e4e4"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
                         Children:
-                        - Name: ns=5;ObjectPointer
-                          Type: NodePointer
-                          DataType: NodeId
-                          Value: "/Objects/Commands/VariableCommands"
-                          Children:
-                          - Name: Kind
-                            Type: PropertyType
-                            DataType: NodeId
-                            Value: "/Types/ObjectTypes/BaseObjectType"
-                        - Name: ns=5;Method
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "ToggleBit"
-                        - Name: InputArguments
-                          Type: BaseObjectType
-                          Children:
-                          - Name: VariableToModify
-                            Type: BaseDataVariableType
-                            DataType: VariablePointer
-                            Description: {"NamespaceIndex":5,"TextId":"ToggleBitVariableToModifyDescription"}
-                            Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32"
-                          - Name: ArrayIndex
-                            Type: BaseDataVariableType
-                            DataType: UInt32
-                            Description: {"NamespaceIndex":5,"TextId":"ToggleBitArrayIndexDescription"}
-                            ValueRank: ScalarOrOneDimension
-                          - Name: BitIndex
-                            Type: BaseDataVariableType
-                            DataType: UInt32
-                            Description: {"NamespaceIndex":5,"TextId":"ToggleBitBitIndexDescription"}
-                            ValueRank: ScalarOrOneDimension
-                            Value: 14
-                    - Name: EventArguments
-                      Type: MouseClickEvent
-                      Children:
-                      - Name: EventId
-                        Type: PropertyType
-                        DataType: ByteString
-                      - Name: EventType
-                        Type: PropertyType
-                        DataType: NodeId
-                      - Name: SourceNode
-                        Type: PropertyType
-                        DataType: NodeId
-                      - Name: SourceName
-                        Type: PropertyType
-                        DataType: String
-                      - Name: Time
-                        Type: PropertyType
-                        DataType: UtcTime
-                      - Name: ReceiveTime
-                        Type: PropertyType
-                        DataType: UtcTime
-                      - Name: Message
-                        Type: PropertyType
-                        DataType: LocalizedText
-                      - Name: Severity
-                        Type: PropertyType
-                        DataType: UInt16
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW62.4"
               - Name: Rectangle3
                 Type: Rectangle
             - Name: VerticalLayout1
               Type: ColumnLayout
               Children:
               - Name: Rectangle1
-                Type: Rectangle
-              - Name: Rectangle3
                 Type: Rectangle
               - Name: Rectangle2
                 Type: Rectangle
@@ -10013,230 +10143,216 @@ Children:
               Children:
               - Name: Rectangle1
                 Type: Rectangle
-              - Name: HorizontalLayout2
-                Type: RowLayout
-                Children:
-                - Name: Label1
-                  Type: Label
-                  Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"249 IMPOSTA"}
-                - Name: Label2
-                  Type: Label
-                  Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"250 ATTUALE °C"}
-                - Name: Rectangle1
-                  Type: Rectangle
               - Name: HorizontalLayout1
                 Type: RowLayout
                 Children:
-                - Name: SpinBoxES1
-                  Type: SpinBoxES1
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
                   Children:
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Double
+                  - Name: Label1
+                    Type: Label
                     Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../ScaleVar"
-                  - Name: ScaleFactor
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Value: 0.10000000149011612
-                  - Name: InputRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"NamespaceIndex":30,"TextId":"249 IMPOSTA"}
+                  - Name: SpinBoxES1
+                    Type: SpinBoxES1
                     Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1314"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
                       Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: ScaleVar
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../ScaleVar"
+                    - Name: ScaleFactor
+                      Type: BaseDataVariableType
+                      DataType: Float
+                      Value: 1.0
+                    - Name: InputRaw
+                      Type: BaseDataVariableType
+                      DataType: Int32
                       Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1314"
                         Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                - Name: SpinBoxES2
-                  Type: SpinBoxES1
-                  Children:
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../ScaleVar"
-                  - Name: ScaleFactor
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Value: 0.10000000149011612
-                  - Name: InputRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1222"
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ScaleVar
+                      Type: BaseDataVariableType
+                      DataType: Float
                       Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: ScaleVar
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
-                      Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
+                      - Name: LinearConverter1
+                        Type: LinearConverter
                         Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                - Name: Button1
-                  Type: Button
-                  Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"START"}
-                  - Name: MouseClickEventHandler1
-                    Type: EventHandler
-                    Children:
-                    - Name: ListenEventType
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-                    - Name: MethodsToCall
-                      Type: BaseObjectType
-                      Children:
-                      - Name: MethodContainer1
-                        Type: BaseObjectType
-                        Children:
-                        - Name: ns=5;ObjectPointer
-                          Type: NodePointer
-                          DataType: NodeId
-                          Value: "/Objects/Commands/VariableCommands"
-                          Children:
-                          - Name: Kind
-                            Type: PropertyType
-                            DataType: NodeId
-                            Value: "/Types/ObjectTypes/BaseObjectType"
-                        - Name: ns=5;Method
+                        - Name: Source
                           Type: BaseDataVariableType
-                          DataType: String
-                          Value: "ToggleBit"
-                        - Name: InputArguments
-                          Type: BaseObjectType
+                          DataType: Number
+                          ReferenceType: HasSource
+                          Value: {"Type":11,"Body":0.0}
                           Children:
-                          - Name: VariableToModify
-                            Type: BaseDataVariableType
-                            DataType: VariablePointer
-                            Description: {"NamespaceIndex":5,"TextId":"ToggleBitVariableToModifyDescription"}
-                            Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32"
-                          - Name: ArrayIndex
-                            Type: BaseDataVariableType
-                            DataType: UInt32
-                            Description: {"NamespaceIndex":5,"TextId":"ToggleBitArrayIndexDescription"}
-                            ValueRank: ScalarOrOneDimension
-                          - Name: BitIndex
-                            Type: BaseDataVariableType
-                            DataType: UInt32
-                            Description: {"NamespaceIndex":5,"TextId":"ToggleBitBitIndexDescription"}
-                            ValueRank: ScalarOrOneDimension
-                            Value: 15
-                    - Name: EventArguments
-                      Type: MouseClickEvent
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../InputRaw"
+                        - Name: Slope
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          ReferenceType: HasParameter
+                          Value: 0.1
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../ScaleFactor"
+                    - Name: Format
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ModellingRule: Optional
+                      Value: "n6"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 200.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 240.0
+                - Name: VerticalLayout2
+                  Type: ColumnLayout
+                  Children:
+                  - Name: Label2
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"NamespaceIndex":30,"TextId":"250 ATTUALE °C"}
+                  - Name: SpinBoxES2
+                    Type: SpinBoxES1
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
                       Children:
-                      - Name: EventId
-                        Type: PropertyType
-                        DataType: ByteString
-                      - Name: EventType
-                        Type: PropertyType
-                        DataType: NodeId
-                      - Name: SourceNode
-                        Type: PropertyType
-                        DataType: NodeId
-                      - Name: SourceName
-                        Type: PropertyType
-                        DataType: String
-                      - Name: Time
-                        Type: PropertyType
-                        DataType: UtcTime
-                      - Name: ReceiveTime
-                        Type: PropertyType
-                        DataType: UtcTime
-                      - Name: Message
-                        Type: PropertyType
-                        DataType: LocalizedText
-                      - Name: Severity
-                        Type: PropertyType
-                        DataType: UInt16
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../ScaleVar"
+                    - Name: ScaleFactor
+                      Type: BaseDataVariableType
+                      DataType: Float
+                      Value: 1.0
+                    - Name: InputRaw
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_1222"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ScaleVar
+                      Type: BaseDataVariableType
+                      DataType: Float
+                      Children:
+                      - Name: LinearConverter1
+                        Type: LinearConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: Number
+                          ReferenceType: HasSource
+                          Value: {"Type":11,"Body":0.0}
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../InputRaw"
+                        - Name: Slope
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          ReferenceType: HasParameter
+                          Value: 0.1
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../ScaleFactor"
+                    - Name: Format
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ModellingRule: Optional
+                      Value: "n6"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 200.0
+                - Name: ToggleButton1
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.15"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: BackgroundColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#e4e4e4"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW62.7"
               - Name: Rectangle3
                 Type: Rectangle
             - Name: VerticalLayout1
               Type: ColumnLayout
               Children:
               - Name: Rectangle1
-                Type: Rectangle
-              - Name: Rectangle3
                 Type: Rectangle
               - Name: Rectangle2
                 Type: Rectangle
@@ -10752,7 +10868,11 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"IMPOSTA TEMPERATURA AMBIENTE E PREMI START.. ATTENDI FINE CALIBRAZIONE [OK- ON]"}
+              Value: {"NamespaceIndex":30,"TextId":"IMPOSTA TEMPERATURA AMBIENTE E PREMI START.. ATTENDI FINE CALIBRAZIONE [OK- ON]"}
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size

@@ -815,7 +815,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1558,7 +1558,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1948,7 +1948,7 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 8.0
-      - Name: Manual_Camma1
+      - Name: Rotazione
         Type: Manual_Camma
         Children:
         - Name: VerticalLayout1
@@ -2421,6 +2421,11 @@ Children:
                     ReferenceType: HasParameter
                     ModellingRule: Optional
                     Value: "#e4e4e4"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 10.0
             - Name: MomentaryButton2
               Type: MomentaryButton
               Children:
@@ -2535,7 +2540,7 @@ Children:
                     ReferenceType: HasParameter
                     ModellingRule: Optional
                     Value: "#e4e4e4"
-      - Name: Manual_2P_1LDwn1
+      - Name: Blocca su montaggio
         Type: Manual_2P_1LDwn
         Children:
         - Name: VerticalLayout1
@@ -2868,7 +2873,7 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 8.0
-      - Name: Manual_1P_1L1
+      - Name: Blocca materiale
         Type: Manual_1P_1L
         Children:
         - Name: VerticalLayout1
@@ -3118,7 +3123,7 @@ Children:
                      }
               - Name: Rectangle3
                 Type: Rectangle
-      - Name: Manual_2P_1LDwn1
+      - Name: Sblocca materiale
         Type: Manual_2P_1LDwn
         Children:
         - Name: VerticalLayout1
@@ -4222,7 +4227,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4947,7 +4952,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5713,7 +5718,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6451,7 +6456,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6678,6 +6683,19 @@ Children:
             Type: BaseVariableType
             DataType: Float
             ModellingRule: Optional
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
         - Name: VerticalLayout1
           Type: ColumnLayout
           Children:
@@ -7204,7 +7222,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../../../VerticalGap@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -7215,6 +7233,61 @@ Children:
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
+        - Name: Visible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
+      - Name: Label2
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":30,"TextId":"186 33-SCARTO"}
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 414.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: Visible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TextHorizontalAlignment
+          Type: BaseVariableType
+          DataType: TextHorizontalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: TextVerticalAlignment
+          Type: BaseVariableType
+          DataType: TextVerticalAlignment
+          ModellingRule: Optional
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 22.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 4.0
     - Name: HorizontalGap
       Type: BaseDataVariableType
       DataType: Size
@@ -7223,7 +7296,6 @@ Children:
     - Name: VerticalGap
       Type: BaseDataVariableType
       DataType: Size
-      ModellingRule: Optional
       Value: 8.0
     - Name: HorizontalAlignment
       Type: BaseVariableType

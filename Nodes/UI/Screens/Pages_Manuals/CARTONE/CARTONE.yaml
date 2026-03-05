@@ -322,7 +322,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"it-IT","Text":"APRI"}
+            Value: {"NamespaceIndex":30,"TextId":"198 AVANTI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -598,7 +598,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"it-IT","Text":"CHIUDI"}
+            Value: {"NamespaceIndex":30,"TextId":"197 INDIETRO"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -859,7 +859,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1065,7 +1065,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"START"}
+            Value: {"NamespaceIndex":30,"TextId":"207 START"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1087,7 +1087,6 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 4.0
           - Name: RightMargin
             Type: BaseVariableType
             DataType: Size
@@ -1355,7 +1354,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"STOP"}
+            Value: {"NamespaceIndex":30,"TextId":"208 STOP"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1616,7 +1615,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2359,7 +2358,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3102,7 +3101,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3918,7 +3917,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4661,7 +4660,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5404,7 +5403,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5610,7 +5609,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"APRE"}
+            Value: {"NamespaceIndex":30,"TextId":"195 APRI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5886,7 +5885,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
+            Value: {"NamespaceIndex":30,"TextId":"196 CHIUDI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -6147,7 +6146,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../..@BrowseName"
+                Value: "../../../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size

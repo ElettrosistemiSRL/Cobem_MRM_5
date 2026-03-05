@@ -241,31 +241,30 @@ Children:
             - Name: ns=5;Method
               Type: BaseDataVariableType
               DataType: String
-              Value: "SetBit"
+              Value: "Set"
             - Name: InputArguments
               Type: BaseObjectType
               Children:
               - Name: VariableToModify
                 Type: BaseDataVariableType
                 DataType: VariablePointer
-                Description: {"NamespaceIndex":5,"TextId":"SetBitVariableToModifyDescription"}
-                Value: {"IdType":2,"Id":"c2ddaa550d997707bde5b57c36563090","Namespace":30}
+                Description: {"NamespaceIndex":5,"TextId":"SetVariableToModifyDescription"}
+                Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW4"
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: Boolean
-                Description: {"NamespaceIndex":5,"TextId":"SetBitValueDescription"}
-                Value: true
+                DataType: UInt16
+                Description: {"NamespaceIndex":5,"TextId":"SetValueDescription"}
+                Value: 1
               - Name: ArrayIndex
                 Type: BaseDataVariableType
                 DataType: UInt32
-                Description: {"NamespaceIndex":5,"TextId":"SetBitArrayIndexDescription"}
+                Description: {"NamespaceIndex":5,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
-              - Name: BitIndex
-                Type: BaseDataVariableType
-                DataType: UInt32
-                Description: {"NamespaceIndex":5,"TextId":"SetBitBitIndexDescription"}
-                ValueRank: ScalarOrOneDimension
-                Value: 1
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW4.0"
         - Name: EventArguments
           Type: MouseDownEvent
           Children:
@@ -318,30 +317,29 @@ Children:
             - Name: ns=5;Method
               Type: BaseDataVariableType
               DataType: String
-              Value: "SetBit"
+              Value: "Set"
             - Name: InputArguments
               Type: BaseObjectType
               Children:
               - Name: VariableToModify
                 Type: BaseDataVariableType
                 DataType: VariablePointer
-                Description: {"NamespaceIndex":5,"TextId":"SetBitVariableToModifyDescription"}
-                Value: {"IdType":2,"Id":"c2ddaa550d997707bde5b57c36563090","Namespace":30}
+                Description: {"NamespaceIndex":5,"TextId":"SetVariableToModifyDescription"}
+                Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW4"
               - Name: Value
                 Type: BaseDataVariableType
-                DataType: Boolean
-                Description: {"NamespaceIndex":5,"TextId":"SetBitValueDescription"}
+                DataType: UInt16
+                Description: {"NamespaceIndex":5,"TextId":"SetValueDescription"}
               - Name: ArrayIndex
                 Type: BaseDataVariableType
                 DataType: UInt32
-                Description: {"NamespaceIndex":5,"TextId":"SetBitArrayIndexDescription"}
+                Description: {"NamespaceIndex":5,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
-              - Name: BitIndex
-                Type: BaseDataVariableType
-                DataType: UInt32
-                Description: {"NamespaceIndex":5,"TextId":"SetBitBitIndexDescription"}
-                ValueRank: ScalarOrOneDimension
-                Value: 1
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW4.0"
         - Name: EventArguments
           Type: MouseUpEvent
           Children:

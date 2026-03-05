@@ -3567,133 +3567,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-        - Name: HorizontalLayout2
-          Type: RowLayout
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Label1"}
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 18.0
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 20.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 120.0
-            - Name: TextHorizontalAlignment
-              Type: BaseVariableType
-              DataType: TextHorizontalAlignment
-              ModellingRule: Optional
-              Value: 1
-          - Name: Label2
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Label1"}
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 120.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 18.0
-            - Name: TextHorizontalAlignment
-              Type: BaseVariableType
-              DataType: TextHorizontalAlignment
-              ModellingRule: Optional
-              Value: 1
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: Rectangle1
-            Type: Rectangle
-            Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 2
-            - Name: FillColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-            - Name: BorderColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-          - Name: HorizontalGap
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -3710,145 +3583,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 50.0
+            Value: 100.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: SpinBoxES1
-            Type: SpinBoxES1
-            Children:
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Double
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../ScaleVar"
-            - Name: ScaleFactor
-              Type: BaseDataVariableType
-              DataType: Float
-              Value: 0.10000000149011612
-            - Name: InputRaw
-              Type: BaseDataVariableType
-              DataType: Int32
-            - Name: ScaleVar
-              Type: BaseDataVariableType
-              DataType: Float
-              Children:
-              - Name: LinearConverter1
-                Type: LinearConverter
-                Children:
-                - Name: Source
-                  Type: BaseDataVariableType
-                  DataType: Number
-                  ReferenceType: HasSource
-                  Value: {"Type":11,"Body":0.0}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../InputRaw"
-                - Name: Slope
-                  Type: BaseDataVariableType
-                  DataType: Double
-                  ReferenceType: HasParameter
-                  Value: 0.1
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../ScaleFactor"
-          - Name: SpinBoxES2
-            Type: SpinBoxES1
-            Children:
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Double
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../ScaleVar"
-            - Name: ScaleFactor
-              Type: BaseDataVariableType
-              DataType: Float
-              Value: 0.10000000149011612
-            - Name: InputRaw
-              Type: BaseDataVariableType
-              DataType: Int32
-            - Name: ScaleVar
-              Type: BaseDataVariableType
-              DataType: Float
-              Children:
-              - Name: LinearConverter1
-                Type: LinearConverter
-                Children:
-                - Name: Source
-                  Type: BaseDataVariableType
-                  DataType: Number
-                  ReferenceType: HasSource
-                  Value: {"Type":11,"Body":0.0}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../InputRaw"
-                - Name: Slope
-                  Type: BaseDataVariableType
-                  DataType: Double
-                  ReferenceType: HasParameter
-                  Value: 0.1
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../ScaleFactor"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#eb001b"
-          - Name: Button1
-            Type: Button
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"Button1"}
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 200.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 70.0
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 2
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 22.0
-            - Name: FontWeight
-              Type: BaseDataVariableType
-              DataType: FontWeightEnum
-              ModellingRule: Optional
-              Value: 950
           - Name: HorizontalGap
             Type: BaseDataVariableType
             DataType: Size
@@ -3859,6 +3599,349 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 5.0
+          - Name: VerticalLayout1
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"it-IT","Text":"Label1"}
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 18.0
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 120.0
+              - Name: TextHorizontalAlignment
+                Type: BaseVariableType
+                DataType: TextHorizontalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: TextVerticalAlignment
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+            - Name: SpinBoxES1
+              Type: SpinBoxES1
+              Children:
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Double
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../ScaleVar"
+              - Name: ScaleFactor
+                Type: BaseDataVariableType
+                DataType: Float
+                Value: 0.10000000149011612
+              - Name: InputRaw
+                Type: BaseDataVariableType
+                DataType: Int32
+              - Name: ScaleVar
+                Type: BaseDataVariableType
+                DataType: Float
+                Children:
+                - Name: LinearConverter1
+                  Type: LinearConverter
+                  Children:
+                  - Name: Source
+                    Type: BaseDataVariableType
+                    DataType: Number
+                    ReferenceType: HasSource
+                    Value: {"Type":11,"Body":0.0}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../InputRaw"
+                  - Name: Slope
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    ReferenceType: HasParameter
+                    Value: 0.1
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../ScaleFactor"
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 160.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalGap
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 16.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 4.0
+          - Name: VerticalLayout2
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Label2
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"it-IT","Text":"Label1"}
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 120.0
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 18.0
+              - Name: TextHorizontalAlignment
+                Type: BaseVariableType
+                DataType: TextHorizontalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: TextVerticalAlignment
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+            - Name: SpinBoxES2
+              Type: SpinBoxES1
+              Children:
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Double
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../ScaleVar"
+              - Name: ScaleFactor
+                Type: BaseDataVariableType
+                DataType: Float
+                Value: 0.10000000149011612
+              - Name: InputRaw
+                Type: BaseDataVariableType
+                DataType: Int32
+              - Name: ScaleVar
+                Type: BaseDataVariableType
+                DataType: Float
+                Children:
+                - Name: LinearConverter1
+                  Type: LinearConverter
+                  Children:
+                  - Name: Source
+                    Type: BaseDataVariableType
+                    DataType: Number
+                    ReferenceType: HasSource
+                    Value: {"Type":11,"Body":0.0}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../InputRaw"
+                  - Name: Slope
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    ReferenceType: HasParameter
+                    Value: 0.1
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../ScaleFactor"
+              - Name: TextColor
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#eb001b"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 160.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 4.0
+            - Name: VerticalGap
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 16.0
+          - Name: ToggleButton1
+            Type: ToggleButton
+            Children:
+            - Name: Active
+              Type: BaseDataVariableType
+              DataType: Boolean
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"NamespaceIndex":30,"TextId":"207 START"}
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 2
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 22.0
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 950
+            - Name: BackgroundColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#e4e4e4"
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#00ff00"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#e4e4e4"
         - Name: Rectangle3
           Type: Rectangle
           Children:
@@ -3936,36 +4019,6 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-        - Name: Rectangle3
-          Type: Rectangle
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
         - Name: Rectangle2
           Type: Rectangle
           Children:
@@ -3978,7 +4031,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 60.0
+            Value: 100.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -4032,12 +4085,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 40.0
+              Value: 50.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 20.0
+              Value: 25.0
             - Name: Rectangle_x5F_LED_x5F_Outline
               Type: Image
               Children:
@@ -4435,7 +4488,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 10.0
+              Value: 8.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 24.0
           - Name: RectangleLED2
             Type: ScaleLayout
             WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -4476,12 +4534,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 40.0
+              Value: 50.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 20.0
+              Value: 25.0
             - Name: Rectangle_x5F_LED_x5F_Outline
               Type: Image
               Children:
@@ -4878,7 +4936,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 10.0
+              Value: 8.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -4892,6 +4950,11 @@ Children:
               DataType: VerticalAlignment
               ModellingRule: Optional
               Value: 1
+            - Name: BottomMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 16.0
           - Name: Label1
             Type: Label
             Children:
@@ -4904,7 +4967,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 50.0
+              Value: 60.0
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -4915,6 +4978,11 @@ Children:
               DataType: FontWeightEnum
               ModellingRule: Optional
               Value: 950
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 24.0
           - Name: Label2
             Type: Label
             Children:
@@ -4932,7 +5000,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 50.0
+              Value: 60.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -4943,6 +5011,15 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 20.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: BottomMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 16.0
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -5985,7 +6062,7 @@ Children:
           DataType: String
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: " Left_Of( {0} , \"_\" )"
+          Value: "left_of (_){0}"
         - Name: ns=5;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
@@ -5994,7 +6071,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../..@BrowseName"
+            Value: "../../../..@DisplayName"
     - Name: Width
       Type: BaseVariableType
       DataType: Size
