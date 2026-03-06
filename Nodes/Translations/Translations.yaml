@@ -169,17 +169,20 @@ Children:
     "Dimensions": [301,6],
     "Body": [
      "","it-IT","en-US","hu-HU","fr-FR","tr-TR",
+     "ALM0_MESSAGGIO","A00 ERR.INIZIALIZ-HSC TAVOLA","","","","",
+     "ALM0_CAUSA","","","","","",
+     "ALM0_SOLUZIONE","","","","","",
      "ALM1_MESSAGGIO","A01 MANCANZA ARIA","","","","",
      "ALM1_CAUSA","","","","","",
      "ALM1_SOLUZIONE","","","","","",
      "ALM2_MESSAGGIO","A02 AZ4A TRAINO PINZE INFERIORE","","","","",
      "ALM2_CAUSA","","","","","",
      "ALM2_SOLUZIONE","","","","","",
-     "ALM3_CAUSA","","","","","",
      "ALM3_MESSAGGIO","A03 AZ4B TRAINO PINZE SUPERIORE","","","","",
+     "ALM3_CAUSA","","","","","",
      "ALM3_SOLUZIONE","","","","","",
-     "ALM4_CAUSA","","","","","",
      "ALM4_MESSAGGIO","A04 AZ2 TRAS.PINZA SUP.NON PRONTO","","","","",
+     "ALM4_CAUSA","","","","","",
      "ALM4_SOLUZIONE","","","","","",
      "ALM5_MESSAGGIO","A05 AZ2 TRASP.PINZA SUP.ALLARME","","","","",
      "ALM5_CAUSA","","","","","",
@@ -465,10 +468,7 @@ Children:
      "ALM98_SOLUZIONE","","","","","",
      "ALM99_MESSAGGIO","","","","","",
      "ALM99_CAUSA","","","","","",
-     "ALM99_SOLUZIONE","","","","","",
-     "ALM0_CAUSA","","","","","",
-     "ALM0_SOLUZIONE","","","","","",
-     "ALM0_MESSAGGIO","A00 ERR.INIZIALIZ-HSC TAVOLA","","","",""
+     "ALM99_SOLUZIONE","","","","",""
     ]
    }
 - Name: ImportAndExportTranslations
@@ -529,7 +529,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [535,6],
+    "Dimensions": [538,6],
     "Body": [
      "","it-IT","en-US","hu-HU","tr-TR","fr-FR",
      "60: PARAMETRI - GENERALI -","PARAMETRI - GENERALI -","GENERAL PARAMETERS","PARAMÉT. - ÁLTALÁN. -","PARAMETRELER - GENEL -","PARAMÈTRES GÉNÉRAUX",
@@ -1065,6 +1065,9 @@ Children:
      "CONFEZIONATRICE 1","CONFEZIONATRICE 1","PACKAGING 1","CSOMAGOLÓGÉP 1","PAKETLEME 1","EMBALLEUSE 1",
      "CONFEZIONATRICE 2","CONFEZIONATRICE 2","PACKAGING 2","CSOMAGOLÓGÉP 2","PAKETLEME 2","EMBALLEUSE 2",
      "CONFEZIONATRICE 3","CONFEZIONATRICE 3","PACKAGING 3","CSOMAGOLÓGÉP 3","PAKETLEME 3","EMBALLEUSE 3",
-     "CALIBRAZIONE","CALIBRAZIONE","CALIBRATION","KALIBRÁLÁS","KALİBRASYON","CALIBRAGE"
+     "CALIBRAZIONE","CALIBRAZIONE","CALIBRATION","KALIBRÁLÁS","KALİBRASYON","CALIBRAGE",
+     "CARICO CAPPUCCI","CARICO CAPP.","","","","",
+     "SOLLEVAMENTO CAPPUCCI","SOLLEVAMENTO CAPP.","CAPS. LOAD.","KUP. EMELÉS","KAP. KALDIRMA","LEV. BOUCHONS",
+     "PINZE/TRAINO","PINZE/TRAINO","GRIP./PULL.","MEGF./VONT.","TUT./ÇEK.","PINC./TRACT."
     ]
    }

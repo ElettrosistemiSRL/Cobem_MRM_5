@@ -3143,3 +3143,115 @@ Children:
        "highestIgnoredVersion": 0
       }
      }
+  - Name: InputMinRaw
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: InputMaxRaw
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 99999
+  - Name: ScaleMin
+    Type: BaseDataVariableType
+    DataType: Float
+    Children:
+    - Name: LinearConverter1
+      Type: LinearConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: Number
+        ReferenceType: HasSource
+        Value: {"Type":11,"Body":0.0}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../InputMinRaw"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Slope
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        Value: 0.1
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../ScaleFactor"
+      - Name: Intercept
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+      - Name: Mode
+        Type: PropertyType
+        DataType: DynamicLinkMode
+        ReferenceType: HasComponent
+        ModellingRule: Optional
+        Value: 2
+  - Name: ScaleMax
+    Type: BaseDataVariableType
+    DataType: Float
+    Children:
+    - Name: LinearConverter1
+      Type: LinearConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: Number
+        ReferenceType: HasSource
+        Value: {"Type":11,"Body":0.0}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../InputMaxRaw"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Slope
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        Value: 0.1
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../ScaleFactor"
+      - Name: Intercept
+        Type: BaseDataVariableType
+        DataType: Double
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+      - Name: Mode
+        Type: PropertyType
+        DataType: DynamicLinkMode
+        ReferenceType: HasComponent
+        ModellingRule: Optional
+        Value: 2
+  - Name: MinValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../ScaleMin"
+  - Name: MaxValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 100.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../ScaleMax"
