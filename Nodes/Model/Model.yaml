@@ -244,26 +244,6 @@ Children:
     Type: BaseVariableType
     DataType: NodePath
     Value: "../SignalAlm"
-- Name: LinguaAllarmi
-  Type: BaseDataVariableType
-  DataType: LocaleId
-  Value: "it-IT"
-- Name: TestAlm1
-  Type: BaseDataVariableType
-  DataType: Boolean
-  Children:
-  - Name: DynamicLink
-    Type: DynamicLink
-    DataType: NodePath
-    Value: "../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW0.0"
-    Children:
-    - Name: Mode
-      Type: BaseVariableType
-      DataType: DynamicLinkMode
-      Value: 2
-- Name: TestAlm2
-  Type: BaseDataVariableType
-  DataType: Boolean
 - Name: Input_MRM_type_
   Id: g=8793ce42e0f6a0e053a440992a678ea3
   Supertype: BaseObjectType
@@ -433,4 +413,18 @@ Children:
       Type: PropertyType
       DataType: DynamicLinkMode
       ReferenceType: HasComponent
+      Value: 2
+- Name: RW_Write
+  Id: g=40f58492ec4cb16de4a15374c327f4fd
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW152"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
       Value: 2

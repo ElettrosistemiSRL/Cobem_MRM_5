@@ -106,21 +106,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=559d6bac5bc1be8c9eeffa5862f5fc1c
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=991cc02847646b9c10368a067b067a8a
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=c9dcfac8eb0e801dbb5085182c5055f3
+              Id: g=47a0c1ce24f2b96ec6bc8d3f0c30db51
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=c8b7e643975ab0d3637d0beaf94ac5f5
+                Id: g=bfb18d812fd4355eeaea4fb83bd5e316
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
       - Name: IsPull
         Id: g=e8993e2b75cc2b0129e98783a91bf107
         Type: BaseVariableType
@@ -255,21 +255,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=85e2b2ca7db3cb2c3bf7cb819c224c18
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=82c3adc71acdaf047df7f610f606f669
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=1c2debba6321228d5c5d46080d6218f8
+              Id: g=415e5df2cb34919bdbbd67e97b968b55
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=5b1c35850b621d2cedf45ad3e0daec01
+                Id: g=9d3fafc200240bf94ec1e7ccde392f3b
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=3dba8d03227e4f751484b9df75c14832
     Type: BaseDataVariableType
@@ -399,21 +399,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=8d881e109a464626484e3546865b1e57
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=7592683da0a309e4ddb7f601891029c6
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=9d264e68fd6d2789e0bc7c96dbf170ae
+              Id: g=e48b382118d0254f34ff0bd1d9cca173
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=a086d3ab3a277fd5fb85ba33e380183b
+                Id: g=5fd1194e834b90dd088cbe151f2ba721
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=7f88f86bfdab7b0c838a4c720b9c32b2
     Type: BaseDataVariableType
@@ -543,21 +543,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=c0f912e2230279b3ec28fd92ed2de796
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=9e71258d243e2e77480ac7dc3339a8f2
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=31df629cef002ee9ad0fb24f7aa2689b
+              Id: g=5e33443e78475a4b1cece8717d9e1510
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=17973675fd516f53641286644f0f39ca
+                Id: g=598567bcef7beee6ae35fb1f99548f3e
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=0ae20216d779bb25a110e2e2c0d57a6a
     Type: BaseDataVariableType
@@ -687,21 +687,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=8677f62752a22e0fef58697fa80bc32f
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=23a144573eecb877e9026799e49c338b
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=5eecd9c0d68faef35f2b453a33640dd5
+              Id: g=920fc0e7dfa21e53cb35fbc6272e84be
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=8519be399e90d04132d4cdb2a5d85f88
+                Id: g=1c53a6ab5741af856febc7bf7316fc3e
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=c6ab1c84c2ea97bb6aa81359292f8f90
     Type: BaseDataVariableType
@@ -831,21 +831,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=df4fcf177c1db49d1ac51eaa9875acc0
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=3855dc54c9d59319682e8e26149fe3d0
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=219100ffb4efa5f69f6e0cb8a373375d
+              Id: g=e78b23004206e89b6d4dde4c619be9d4
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=a43bbed2b99649065165a6871b56dab8
+                Id: g=91e7322082e88647f0ad136f25c207b5
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=b9d334ad35d9bdd85c24e27b0b95bccd
     Type: BaseDataVariableType
@@ -975,21 +975,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=2c93ce43028594908d9f8ae169f8202d
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=223fc21d5881accbb4b1d2d501451305
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=2fe7cbcb1fd1c53923875a36f64bf0bf
+              Id: g=99e39d8af60c06de50a91f5fbee8cd7a
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=77e25034604f152ddf815f21d6c48310
+                Id: g=27402fc5facb88f98d31153e43f93fbe
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=1ee910f7aa9fd955f1907f8fcc5f1f9b
     Type: BaseDataVariableType
@@ -1119,21 +1119,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=863cb6b03fbdb0839d0353b591391015
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=08fd269a1a1cd40d71e066f4f7c331e4
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=9754eea525517c1198440b3efc6a7487
+              Id: g=bd014c8d84a75fd69570b2b1ec1715fa
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=ab7a314d2b8db903610a38a41ab4317e
+                Id: g=ac3e9455f20c6731de9061df6c746bee
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=3337ba3974534a31827dac3abe9ab737
     Type: BaseDataVariableType
@@ -1263,21 +1263,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=c633ee101ae26d2f04c6f52f65187889
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=64c7764ea98fa6d28f8d40828a73e040
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=62e51482e70ec1a7cda35665ce6047e9
+              Id: g=39e3432ffb9bf269270552608e7df8b5
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=74fa893a6e4feb27a48a7e79e80cb168
+                Id: g=fff9f89e3acd6621acb7528deb7cfbe8
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=6f1026048e2c50c5076fae9ebbfae7e2
     Type: BaseDataVariableType
@@ -1407,21 +1407,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=3cf41bf14541ec8df83454d25de1bb45
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=96ca69d57472b15c6861b546057546a7
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=066846d90f8b3d5e097d0a409993f324
+              Id: g=a67b7470ac0ac81e6de577950efcbf7e
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=70be6b6d916c93a5b08c109cfaffe461
+                Id: g=073b73d2d5c4e40943e4bc7d90e45ccf
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=5702aefc6828b526c9e44de52af7896e
     Type: BaseDataVariableType
@@ -1551,21 +1551,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=0f41108064c9c2055620b744e97ccb94
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=7c00a4133a71b827945acae5b13b4872
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=954a20637d4aaf4be99d2128309e25cf
+              Id: g=1d6004f837729e9dfc23510d16307f95
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=1553b390c3497ddc9997b3b1591aee35
+                Id: g=6d2ec6adeb7fc575a182f4ea362c0139
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=ac97644b061df4c2b6839a3fcf95ce76
     Type: BaseDataVariableType
@@ -1695,21 +1695,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=e00dfc459b5b6a6c2bf6f23cbfbc5666
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=800e3b9600afdfc2961472c3360c5bdd
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=75e1a2f554c1d6d9138c019bd0228071
+              Id: g=1ba8b9700d5fa814e66b7142db7d379c
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=09279befd119d8d3a2c6c29a1b1d0457
+                Id: g=7d97cdd3028db463fdd089cbaf8fd820
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=d18f9f1503cf2506a0b99af853e21354
     Type: BaseDataVariableType
@@ -1839,21 +1839,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=5c0e9190f60e6773316a995a1419bc32
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=4509b5dc5c2b616a8fb9de24c7313d2a
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=5e77934e880e7f05b659c44413e72178
+              Id: g=64eb07073809bb95a9d6ecaabd8963a7
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=5908ecb76f98d7ce3c34e0df2c4f7a74
+                Id: g=2a0900a0cf04e88014bf636be218825b
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=ec76f97186485680a946b6d379fe5209
     Type: BaseDataVariableType
@@ -1983,21 +1983,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=525b4d3d054fe5401fbc999ba690ca8d
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=6e6bc0c6f5ac9f19bc1c91d5f3cd242d
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=ef1e1d422cdbda24013f686702519924
+              Id: g=6c8a48fa60a5465dc106b3e0406658e8
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=808f88605c589924468b7943df0e0590
+                Id: g=2aae3ed240934f050e83034ecb7aed33
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=0b8c67e0728697de2995c27f0316f2a8
     Type: BaseDataVariableType
@@ -2127,21 +2127,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=b6b42175aa0d1d81dbc29819de25e638
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=b5071190133ad07497059f2e16e50e95
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=7dfd94cdb2f77a6c3883d394eed02ab8
+              Id: g=4c492d6de20ba64d6e4182f6ed7c16e7
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=12f048f73cdb34388de936caf487eb45
+                Id: g=0182d0c06ea3b98722091529ee0aa03a
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=65b0512a9d586c6068a513df98117b10
     Type: BaseDataVariableType
@@ -2271,21 +2271,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=ba7d17d82b3f7d07ef2ff0b95f7eb4a9
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=0cc8bec3b863c468dc0f2ff1180e565a
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=e0276cca8212c207a21d1f0a641e8b04
+              Id: g=197d7977b0e2d826d075766c8ea3cbfb
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=b59ea413f8391d1710e4c9c4c87f704e
+                Id: g=49b97f2ee39a5344931de17a4bcd9bae
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=eda8d6ad40e5d9b6dde877a0bc176b13
     Type: BaseDataVariableType
@@ -2415,21 +2415,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=f67e6f14026db7d9ac31373a4773d5b8
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=fb198568bfe597fb84d7f1b0aff3d507
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=72273c825e9af656d1551baaeba91b35
+              Id: g=404aab5107a9242ca14b7b272a8f2d49
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=15728f6891b638b390c691a2423a134c
+                Id: g=f951fa1a4bba3664a7869a3d97480a1f
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=adcb96b817d25b998eb3598bfaa62c64
     Type: BaseDataVariableType
@@ -2559,21 +2559,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=18a43b579194420567690428e5e80633
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=3513db85f63df1a12321df7e7406f580
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=e3342e738cdcb8d5bf0749da4dd546bb
+              Id: g=477bf73ef82552aa20db2af8d54e5d42
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=5055d5a10d5821eac3c6c0ace02c539a
+                Id: g=18d60dd1e49662949afcb34ddb43efd8
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=6c2856c096b5bfb3affd9aafcb72285d
     Type: BaseDataVariableType
@@ -2703,21 +2703,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=c2c6e5d2c4beaf374cf69838bb7c5fbb
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=e2b166fdc93805aeec723d0e34dd24a7
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=3fb0d045c7fa6af5fa08426352badf85
+              Id: g=e89badf1153fc8d7204353a23469ecb4
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=c59a94161ec636f7211a07375d9b9959
+                Id: g=ddf924677ad6a0c28745983ca3ffe2a3
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=066731b9d28493c1a777b7b3e01ebfc4
     Type: BaseDataVariableType
@@ -2847,21 +2847,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=e43b272ac407184ee7dbc8f055f98d3b
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=65e39cb3fdeaedbc515c3e5949f0b194
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=fa9640473ca4c455e7b9f57693bda62f
+              Id: g=9cba00d81a76a6bd0bcbdd98b135dcea
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=4296276416e1bc2b0d44d0aa78bc2a44
+                Id: g=e3442ef67c7e40b8a2179d25b57a762a
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=a9c730de3f6bacac0bfe014a933a5962
     Type: BaseDataVariableType
@@ -2991,21 +2991,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=d38d4f7152cbc4a13389308a95488609
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=8903d4597b07b64474f6445092e987bd
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=b364e4774ea531dd025f4868bbb1cf52
+              Id: g=a29c27304052484ad3809b91c08f02c9
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=b43f541f8fcd7c3061d53aa24943cc93
+                Id: g=428903c92d2ad0e621d7699e5cd4b1d5
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=6c94583f2e4499201b4bb2a9c0c35914
     Type: BaseDataVariableType
@@ -3135,21 +3135,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=c30d005bb105c6bbf66359dbbbbe4496
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=ce30f3f8d3f18d8567a05fd61502d75c
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=61c144eb6dc342f71728c8dbe9caa0c0
+              Id: g=9a5b064e2e437f76028d945db78f7f94
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=75bc45a0e0fe11b6ed858946618f59aa
+                Id: g=3ec84c45a5862beaa64c9891d655028e
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=4e82a1a43b8ea4ddc085291c4356f5e1
     Type: BaseDataVariableType
@@ -3279,21 +3279,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=c92bffffe0302b49120e7545b0da711a
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=a788c83916a187b09a458369388d5e94
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=386a43b3736a5e4899887f020928d99a
+              Id: g=209fc3890f5c73e8ce34a9ea4c1616f8
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=35853a90b6baa8c0c8264a0dce9ea304
+                Id: g=4844fbf073bcdd9f51ef8c51ffa48050
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=aa378d97d88a7b2a68939a007d3f2df8
     Type: BaseDataVariableType
@@ -3423,21 +3423,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=53c763620092918c81f10a4f9ce0b54c
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=330bff6eb8534a9bb042bd6f64a03d5e
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=96d3ac7701a6a76cb13ee097ec7c2259
+              Id: g=4a38dc1967c17734decbde8b8f638d7c
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=2214c01f748a65db2b8d90351b1628aa
+                Id: g=ee43d5048d7aeee4b9c93103f23a2ad0
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=dae3257c617c76256d3d0211ce828437
     Type: BaseDataVariableType
@@ -3567,21 +3567,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=b7f205a3622f6784408ae1cb4f126f71
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=37b62c88a719ddc54236743f0c025cf4
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=7cc8b4db1aa77289029e8dcbdb391a50
+              Id: g=52176856cd05cfb76ee68967af91357e
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=8598058df6a6b4a90189d2aacaaf94b5
+                Id: g=8d4f73761d6bc9f71749fdcf38da2991
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=5ba8c2d5c388e422a2aab781d6ce6a51
     Type: BaseDataVariableType
@@ -3711,21 +3711,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=88d012869fcdc9212aee197c5e192e6c
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=f2fe03e4e5cb6a074e42e6ff189d4cd1
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=c615fb9e5f9181754f15b7e4c799691e
+              Id: g=a35e384ef687b74d051e398e1987d11f
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=c07189df72503d0fc6902a2f68690e4e
+                Id: g=81314c25da2a7cf8b4669f086b7c170b
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=d32cc793e81958276e5df811b6e56019
     Type: BaseDataVariableType
@@ -3855,21 +3855,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=474a9cfaaf6577f2d4e7d90001aab7a1
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=bf81b1ea1d95173032c0f2da191a56f7
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=7b1593d7031d92679ac19d7dbcb601a4
+              Id: g=de88c3591ad44b37f40e6745e23b499b
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=1f16cc685a601b85bfa67a3616c8ea4b
+                Id: g=3ea077e978418a1690de307bcdff4f72
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=796ea83416a0a578b54a47ee4fba3311
     Type: BaseDataVariableType
@@ -3999,21 +3999,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=665a07562697881ccc06d2068b4c50a9
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=38a89cbfe46711a82a8020a7b12bd0f6
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=7ad9065ed0300c7480914d8ddc7f9e72
+              Id: g=669cc09e6ad81c03bdc8b2fd1cb8bb07
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=1376f780f4690e4c1115aba80410fab4
+                Id: g=ba0169cb9fdd422caf9ff6eed7c1928e
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=d251d2f63674526e222d8aeb7de4f61c
     Type: BaseDataVariableType
@@ -4143,21 +4143,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=02bb65ed7e199f6aff6e50b09e76fcfb
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=6a5565cc38fb6aa82f81cada65171afd
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=c56eaaf66ca3bc471119a27afd2ce7f4
+              Id: g=859a1439c6dbce75ec82a3e52a01c79d
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=07c46008a1917cca392024e10b58da94
+                Id: g=060c0e2e1e7c5e8d204019d2bdbcf243
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=c2d41e81a85b90b7be6d50c411057c86
     Type: BaseDataVariableType
@@ -4287,21 +4287,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=f9148f1c2c731881c89b5ad9a4a57e11
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=91658c0c0f196866c5aba861dd19792a
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=cf5199a0c8010a94a286053cbab8b51f
+              Id: g=e30f2d81f5506541cab45c9a37c18bcf
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=e635063d0a3709dc046995b412733e23
+                Id: g=56c8a1e79ab5ce72ce0cdbf42892b1ec
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=cfb93519b1722e9cc131e31f204e356d
     Type: BaseDataVariableType
@@ -4431,21 +4431,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=28a2e2de1abf8d182e33a2f7a1724ce2
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=ae5561446fbb371aa443e114a184d8af
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=3ec329d7509ccdcc629ffa07a7dad596
+              Id: g=3a851247b6a8de0438af488501c31896
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=89e4e72cf0e8852e13302a4f06629260
+                Id: g=c4a940ff9d5d4c6273c17cf80aa8d7b0
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=899b204c606706c88bb71c37b131e37c
     Type: BaseDataVariableType
@@ -4575,21 +4575,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=ccf561876cfc5aa415e8aa2b20c37f84
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=6c471f374c00b0e7232902fbeb788082
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=c6d9b78a7ca10e5dafbb888c209ce590
+              Id: g=81ce6573837d5e3af202c43e48153b8a
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=4a606a546ba5f36dc40851a71cb674c6
+                Id: g=0cf4cccc6996c595f264539e67a78a57
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=961b5f2a99f1e1e2336d9c9956749dcb
     Type: BaseDataVariableType
@@ -4719,21 +4719,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=dadf4f78439e2b12306e1877448ff7f6
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=10912d367c2e5ace408c49cad58df120
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=e4513c6f578590c64676b2a6ceed0563
+              Id: g=fac65231681a9b6ca90feea5e9cf3397
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=7ae1272a88abc289185b74bf003fc272
+                Id: g=442fcb31cb32adb0781345fb9e65d0b0
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=e8b24d2623fa36eb5c3c8ceb454c1d6d
     Type: BaseDataVariableType
@@ -4863,21 +4863,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=9d826c05955753a1187d38323860902a
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=ba017083e44d9db71ed4baed7faa1b4b
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=2650c15ca8cc791d391bec39f20cd681
+              Id: g=56aac4e00900dea1c4e2aebc5983cf0c
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=12e32be111586d78a9bd19127e87b349
+                Id: g=caa560fdda0f3436b0932d5d401c1388
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=07df37787ff74e0a528947087bfd196f
     Type: BaseDataVariableType
@@ -5007,21 +5007,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=c7f50a83e02ffc9b1fa37e2764907ef0
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=24ec63735272c27928e69d147a5e9c40
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=02f9fead963d0d617ac7f112aeaf222a
+              Id: g=e49b0f6d4b313e47a28243ed41789d1e
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=e33a7b3fb955d22761ccb2e1b1f6c531
+                Id: g=d84971ea8a50a048f6b72acdf7de6153
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=357486be46a5bf3f968a42a99a91a52d
     Type: BaseDataVariableType
@@ -5151,21 +5151,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=0f96f5d254da4846db34b7c6776564f0
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=f0e6eee7f8f6454c8e03ffc9b4596f44
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=76fa38d16dd6457550169dcde502639f
+              Id: g=f6594396bba33cb84227a62538f83a5a
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=4749bf453d180ad1db39580a7b841e5b
+                Id: g=dcd743e85768698b652545eb01545895
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=82a299164485b4010b6e7cf365b3b18e
     Type: BaseDataVariableType
@@ -5295,21 +5295,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=a154f1b8d8eb6fad7acf405c3902db9f
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=8311fd4743040d25a8c5f92ae3d1fc19
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=ce8cd704fe9153ff4d1553a1911c342c
+              Id: g=54e7ae7cb1634db9ee865ead14486031
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=08ea9f21fae28fe414613a2b72bf60a9
+                Id: g=f9655298bd3e76b9f52faf685f2089e9
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=9a0410df208477e056f7bf1fd79f3a6a
     Type: BaseDataVariableType
@@ -5439,21 +5439,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=e5b1eab21f2d1a64e6ded154988474d1
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=30ab4845c8b624561acb8355ab29b7d9
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=c466b41076ade85d29ca8d9af21975f3
+              Id: g=920692d7ab1af2d6da5e3d0409bf9ac3
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=e939c80217bbcc5d96959cf1a59c3c28
+                Id: g=afe76f32b30b500bfe9c1a4ee3d1d992
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=ff1ba42aeb7c15f3b07936a791574aab
     Type: BaseDataVariableType
@@ -5583,21 +5583,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=6187b5e4dbb4a240353ff98252ffd27d
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=2e6599bb1ce5949a0257f5e316d5accb
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=7c1d6aaa205104b1bcddadad222b25bc
+              Id: g=166e3b45aa058f6855985d6d96dcb2d8
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=e4bfc740ad13bf179dad65925df2f319
+                Id: g=6e6200ed06c4ff18726f5f427d07e030
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=1ba315c388e2a46691e089ba28c19e72
     Type: BaseDataVariableType
@@ -5727,21 +5727,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=680c545e9a4c1c6aad5969a37d8f6734
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=3d4c93b60c706c141809a8602244b5ec
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=5259e7515480b5621910ec2e51a7ee1c
+              Id: g=6e5621110b0abc60df20900f3abcb386
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=af7525912780ee2187573035d6bf6bc6
+                Id: g=dab822399f77b64773c5b2cfdc8d56de
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=ebd4a189650e2713151d67be68a54784
     Type: BaseDataVariableType
@@ -5871,21 +5871,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=626b7d51e3494ba18eb531b61a1ebc89
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=0a668b237b46bc9e4e7d47f09fb8831f
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=c3b51aceb89ca941aa94f4f5fcad9fdc
+              Id: g=88b844303fbac9300d4c67adb4916bf9
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=395ee547d33fa887ce3335f53f257b5a
+                Id: g=93e130815be1d9451ea0df492ea96849
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=a852f8fc2eaa03b044d9c239832908d7
     Type: BaseDataVariableType
@@ -6015,21 +6015,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=a3cfa898323b344bfd1eaf9df226d7b3
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=396c351a8780f40d9f39230bf6ceb297
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=333407908ae541dceef080a869db3c52
+              Id: g=a12159421a16b3e832cebc12ebd3ce92
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=b2ebc30f9140d5611ecd3d1c925e7032
+                Id: g=02f7c30adbccda785bf8d1292218a4a9
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=f8a292fd1b80aece1b7497dbe946198b
     Type: BaseDataVariableType
@@ -6159,21 +6159,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=7e7199e5c1326a880d49bb22df2853f2
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=e3621d9692a8bee36d6a823aac04d886
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=8747c935d17750dc501b75777be28f2f
+              Id: g=e8b0172d5f629cb5477c93c71d965e2a
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=d6d60f847ffad160d3bb17f4af87b26e
+                Id: g=3d0d711cc849143183552bd4c387762a
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=57013e3fc1ff2c3a5c30b303a4ab6456
     Type: BaseDataVariableType
@@ -6303,21 +6303,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=61b5775e1f109b480321a2ec938da0d4
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=f9b76fdf36d4962f058bc1493d7cf0d3
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=47e3a39b5bd7b5da05c6e02b6ae6d446
+              Id: g=f5efbda3d0c1c4623e2e1730e186d156
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=72e8328d50ab003ee134b9bb36c9f8a8
+                Id: g=6c8bb3b9fdef8ddc01acc916e18e8829
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=967ef0625aabd46c48a41a2fcfb48325
     Type: BaseDataVariableType
@@ -6447,21 +6447,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=53ce5f02aa315ee60b551015b64a3623
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=c9b9ac5787cd35499c3d9f392fca21a8
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=5bdcfe376cfa6427b96c7407319b8c41
+              Id: g=084633ec1a8398ed6a7f60baccf0bb3b
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=b8d3e47e09643d0c49f0cef922e7ef5f
+                Id: g=1013c4fe5e5fe0ee03dbb1cbb0ac99ec
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=0856728f446afc7e46061ca0329769fe
     Type: BaseDataVariableType
@@ -6591,21 +6591,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=498b1c013e4c11a4f5889de8ad01d14c
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=f8901afb86cc39b0d08004bae1a422d6
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=8cbae6a195713a467f7c409e968a414c
+              Id: g=a25efaca58c94beb6d89f224165c9bda
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=f13f4127c551e2efbbc6c2693b6c57b9
+                Id: g=5bafca5241b643ebaaa038079e3a9539
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=42bd5af06f0394d8be6e4b2e5a2a48d5
     Type: BaseDataVariableType
@@ -6735,21 +6735,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=e75ca800369763d52dd788686b1a841c
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=1a97325676a8164d0b21f95f630ababa
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=ccee1c6ef356edeba16bcc6cdd2d3ead
+              Id: g=d7ef6676649b73b98b61bc2be1caccd9
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=359a1f31638be2a3d8ad03a1ef1aabde
+                Id: g=d602f1928f716df0ff0daf9bfce829c9
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=25f3f105a4ae59e934e2ef301d653f0b
     Type: BaseDataVariableType
@@ -6879,21 +6879,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=b4b4264fe055716338ff3385b2b14624
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=181421627baaf099551bb99911fdfe55
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=21a721b4659def081685973e9df62c81
+              Id: g=6c785cb53c5888de7c99e2464d9bec51
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=c5d3f1090d4445a1aaf28c2d3125cc2d
+                Id: g=a203fdf7847bab1a7e4ec660bb57cc92
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=129f949f400994f598846ee972c6e761
     Type: BaseDataVariableType
@@ -7023,21 +7023,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=24971fac270c687df3beffb6198e5187
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=fa9769c7c13ffbf0b4519a8572d03b05
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=df4b801fb8d6ed19710c3868f5cd33dd
+              Id: g=31c34dc8ad4cb83ea3b2038f8b6474e1
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=03540971be24340cb950ad882b46d5a5
+                Id: g=a4412d0432c7650a6f9e37d11d8c4431
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=38d62b1e75ba2fe171a772cb528a3982
     Type: BaseDataVariableType
@@ -7167,21 +7167,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=756642baf13223ed8c28202a0c72a866
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=0589ffdc8fded0cf9a48245b435baada
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=6f29e2185320314e38c9068cc15f7cb1
+              Id: g=776de4a84fc70aeaf4b2eb2040d64fae
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=d19d927c552a1189816a8bcc18e11a29
+                Id: g=21256519a8ef1449d6141425bbfc3e1c
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=e5c81dc898e398005afc33349ff134d6
     Type: BaseDataVariableType
@@ -7311,21 +7311,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=7bfa2f5bbc43a6baaf3ce3be314b992f
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=0fbe8e2705e7f57a22362c9df410ca23
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=53a82e1c562684e24a4ba18bde4f8a30
+              Id: g=215cae71649e350b7877b4bffbc635ae
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=649c9888e5fce9b243d74683f72b508d
+                Id: g=c17ae47df1c596304c82e04fc174b0f0
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=97829f98d2abdd884a0120d09df818ab
     Type: BaseDataVariableType
@@ -7455,21 +7455,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=92b7bfe9b7bb200f2dd7bb6726f8e719
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=737c8f00c6a491265d8d7a5da739e035
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=1c904ec0bb5e41d611dbbfa305b77cd8
+              Id: g=91cb583fba846fca785433bfeff427dc
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=ce693b6638438749b1539483adff9990
+                Id: g=83bc4762797c0ebbc4d716eccb44bce9
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=ce3f7c26bf37a34c971bca6f779436ef
     Type: BaseDataVariableType
@@ -7599,21 +7599,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=bdfd96c969ccf22135b5abb27f95ad7d
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=240106754a1886daf83c6425fb1b916b
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=1ef12486bdfc88a092664a2dada87d38
+              Id: g=a21cc610fc4366723ac4795b2ff90c8c
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=5533402f238d6fe78b800cc217d0d585
+                Id: g=ffbb9067627375e6518616f977947fd1
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=4ead5bbd13e4a53840a7bc98aea3b2cb
     Type: BaseDataVariableType
@@ -7743,21 +7743,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=daccc81dd70ae5eeb8a0db3ccfdf3239
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=fa2dfda16538318d6f98f1903ed3b08a
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=3cca1aa0fb12ae65f259b81435029999
+              Id: g=091c8984183c3efcb0435514ea61e127
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=cf6d6876dd5de3d956ac354cee06896b
+                Id: g=a3330b1cdaee837a1ad2ea187c62d6af
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=093ff179d4b7bdaeaff624da38ef8944
     Type: BaseDataVariableType
@@ -7887,21 +7887,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=df221b1afbdbe153c9af16906efa3a92
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=a93ebd4c2987c939748f3efe2903f493
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=a5a28cc9de0bce299ce6858e62b97540
+              Id: g=8dd39adcb011a9ac05bafb063fa00609
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=1aab6778ebc934ecb10aa82fe4ed4fc8
+                Id: g=bd74456ab58a33f582b0871f1f558070
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=5ca9cc4e4380a33af24017232e159797
     Type: BaseDataVariableType
@@ -8031,21 +8031,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=c38a3f22208ae60cafd6d5a602f9586b
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=a113df4d83b324548347be90ec96520a
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=73da38b03309fdeb98534ea5c52dfa89
+              Id: g=6845e5ead89ba701aeb294ccd9c4d98c
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=130c62c396dcdfa1f570215707d5aec5
+                Id: g=d418d9c7b59195dc4578561accb26057
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=8e04717a66cdf5d51ddeccd92bd275b1
     Type: BaseDataVariableType
@@ -8175,21 +8175,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=53af830b6b631cb89aed52fdbb4f5244
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=1671fd9823c4f4b626e215072a263d7f
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=32b0eb30da9657e4a70627c1d7832cfc
+              Id: g=9ebd66ac6e0c54ea046721ac0c35b6a2
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=ca8735cec6544ec8a6c17616d5cf1a0d
+                Id: g=69139029e4031f118fa7f2f16f3aa094
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=9bcf8766b8242c1da461ef31055d4fb9
     Type: BaseDataVariableType
@@ -8319,21 +8319,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=8ec843cb71061ae99bd63cb2a6b8e710
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=182cbb467f3c84b5525cae471bc27522
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=a63cb5f31c714b91fca143179adc5b58
+              Id: g=4a22670fd4952cf8fa1dbac331323333
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=7b680de5f1e46a9d0bfcaffea013fad8
+                Id: g=7e45a358f678b7fe2d0a2f45fa020d91
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=27101b80b353d7a40a4d530be5a86ef4
     Type: BaseDataVariableType
@@ -8463,21 +8463,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=8b99022dc620d4b789501f95ef8a4873
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=64a7117b317efca73a44fd1fa79993bd
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=2e73ac6b0453c7229147ea6ac42952ab
+              Id: g=d99958d25156d68ce0f1bfbef5861528
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=b8fa988bf1e0796a2c32827d77c1ea52
+                Id: g=2d053742daa19b0419881b6fd990bb12
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=c3cf15a661394c8f7bbfeae6d647ccdb
     Type: BaseDataVariableType
@@ -8607,21 +8607,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=6ca7d0153d093071e879f864ed1486f6
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=69cf8ccaa8c5f75dd4a6646c3354a913
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=5eefac3f96c8d372f490805bc333fae9
+              Id: g=5360102e9a13ea3b910723bc238757d2
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=da8340c25ad6adbff4cf5f3fa9a28c8d
+                Id: g=9b10bd3395afb8b915b7576d76420b55
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=a31f5dc7c7c7b0fc261b867540098b60
     Type: BaseDataVariableType
@@ -8751,21 +8751,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=d8a0b57215b0fdb83a9ca665500e9723
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=bc6f133d96e426ea57f363c1c0e55fa1
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=aadf131c5b6ef19f3070c982bdbc17ae
+              Id: g=897a065374fb907d7a85a56babc88a6f
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=666eabb45c39d393c0050d4d9f5ca412
+                Id: g=ed6bf7343a863609f995626d191867ba
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=56e8080a3d046ec75f86076498a38b0c
     Type: BaseDataVariableType
@@ -8895,21 +8895,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=491df881577e0ca06a40e4f55891aa05
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=7a44dde6a2c5574cb9676a63683f3dcc
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=0cd33b801bdb25e7360e9e229d270a77
+              Id: g=fe42b1e5cf506d95772bb0ed0fc7d1e5
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=5efa76cb0d5b4a91f9b85aebccdb757e
+                Id: g=793fd1490e4783684bfcb27c75dbbf2f
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=4c6b2dccf430438729f01ef6cfc4e79e
     Type: BaseDataVariableType
@@ -9039,21 +9039,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=a61fe9c286382feb40cd5aa09bbc2d90
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=28643a08e5f2d18876694c20a8666eef
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=1ec9363f64fa2d31758a3163e0275f7e
+              Id: g=c66b43054afadaecfcb80f9b7ee93753
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=c2f0f4b74691e114e18a5e4c11c8d616
+                Id: g=d5bb84c6c58a6ce2c909fcf18e85af64
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=4096de13057398236f2d66304320b3cb
     Type: BaseDataVariableType
@@ -9183,21 +9183,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=0e3cc3973fff1ed96046cd73988bd140
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=0156f7c361b62173f2e9bada0b4cd5f8
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=f08fe3365a877c7e8e3063ccb3a4cf77
+              Id: g=8c4d9cfbc8dbc4d0d36a469235542db8
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=68db4770393150fedea05d12cac1964b
+                Id: g=462e64c447d42d0415b5f8f3669d3962
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=f1fe464b00f49007cf818de93c16379c
     Type: BaseDataVariableType
@@ -9327,21 +9327,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=33df68a5b2282df668279df80e5378a9
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=8cfbd8c67862eac0f9300e1e79285fe4
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=a5fa42ebac6ec146ff874c0745e63d60
+              Id: g=ff54f98d00f42f50fa2cf7ae730c2d72
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=52cda6b26a9ad1b5a06b4d51fb110bda
+                Id: g=e002f488a228f27cb722b3f8d78374cb
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=28e9853791f537eed8d65634720401d6
     Type: BaseDataVariableType
@@ -9471,21 +9471,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=19bedf402c5f90b1106e0fc7a2eb91fa
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=6f95cd0e14b1f4a745c0335643558432
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=ee461dafe786030bcafe8d122907d6c7
+              Id: g=40ce57a13aaa66b87c445ec69dcf9ea4
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=c043d8b36cecb58a9d22220802ab1776
+                Id: g=6d5ad9d60690d067802b5dc4f94a1e27
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=1882717c8e25999c595c0a01b84c45ea
     Type: BaseDataVariableType
@@ -9615,21 +9615,21 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=48e97904b354072e1186eb93af54626a
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=187a3f8c94d5edca121991b45c586aa8
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=31b90ed9653b277abc883b155333cfa9
+              Id: g=7a6bad8d18d5fb31d724086fbec7d9fb
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=a4fd6396b7a376ce0acde3894561a3e0
+                Id: g=b4a2635627e15e8fd92cd4e937a0a04e
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
   - Name: AlmNum
     Id: g=ed505654a35dc2b625c68f8bff963fce
     Type: BaseDataVariableType

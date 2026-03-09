@@ -243,29 +243,6 @@ Children:
     DataType: LocalizedText
     ModellingRule: Optional
     Value: {"LocaleId":"it-IT","Text":" "}
-- Name: ArrayAlm_Import
-  Id: g=b6802d9f2f32eab4f89f59ca1bde1c4a
-  Type: NetLogic
-  Description: {"LocaleId":"en-US","Text":""}
-  Children:
-  - Name: BehaviourStartPriority
-    Id: g=a64a4562bdfbeaea1f00f19c4ed3e356
-    Type: BehaviourStartPriorityVariableType
-    DataType: Byte
-    Value: 180
-  - Name: CSVPath
-    Id: g=de10ab8a387045e4d2ce681e3cbad02f
-    Type: BaseDataVariableType
-    DataType: AbsoluteResourceUri
-    Value: "file:///Z:/VIRTUAL_SHARE/ARCHIVI_PROGRAMMI/CHEDDITE/10907/DOC/IMPORT/Allarmi.csv"
-  - Name: CharacterSeparator
-    Id: g=9a862a2e01fc158c9e8cca92471a0369
-    Type: BaseDataVariableType
-    DataType: String
-    Value: ";"
-  - Class: Method
-    Name: Method1
-    Id: g=d53f458fc5bc835f5c0c2420c14f87e6
 - Name: ImgAlm
   Id: g=f5894be0d563ff0fd5f6330659a844f2
   Supertype: OffNormalAlarmController
@@ -395,69 +372,30 @@ Children:
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
-          - Name: KeyValueConverter1
-            Id: g=8e25cc572c969de914ca047872ff350d
-            Type: ValueMapConverter
+          - Name: CurrentLang1
+            Id: g=de88058aaec41af31a4ff29520565ee9
+            Type: CurrentLang
             Children:
             - Name: Source
-              Id: g=ec2f2b88b0c623a3ee83a3e8ba80b6ef
+              Id: g=6ce61f2c9fe0f028ba75dcef0dc18e05
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
-                Id: g=58e1e700ecccc8012993da8b82f478b8
+                Id: g=83f6eb90c9a2d39abd5fd6d2d06fc17d
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Cobem_MRM_5/Model/LinguaAllarmi"
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
                 Children:
                 - Name: IsPull
-                  Id: g=6ba7f2c713773a8cef48e269e27a069e
+                  Id: g=02620fafedda554ffc55eb2c3f51a5f7
                   Type: BaseVariableType
                   DataType: Boolean
                   ModellingRule: Optional
                   Value: true
-            - Name: ns=5;Pairs
-              Id: g=59ca5ef62f83e3624ad8e35502a56ba6
-              Type: BaseObjectType
-              ModellingRule: None
-              Children:
-              - Name: Pair
-                Id: g=e9eab7be3971d463dcd9a4731c88885b
-                Type: ValueMapPair
-                ModellingRule: None
-                Children:
-                - Name: Key
-                  Id: g=3e895657228b8158ad0a94cfedea1eb0
-                  Type: BaseDataVariableType
-                  DataType: LocaleId
-                  ModellingRule: None
-                  Value: "it-IT"
-                - Name: Value
-                  Id: g=3dfeafc150eea201b22992bdf583098a
-                  Type: BaseDataVariableType
-                  DataType: String
-                  ModellingRule: None
-                  Value: "1"
-              - Name: Pair1
-                Id: g=3ce528e503babfd04382fc569b443d9d
-                Type: ValueMapPair
-                ModellingRule: None
-                Children:
-                - Name: Key
-                  Id: g=2f3bad95610fb37ccdcbb181d6d09aea
-                  Type: BaseDataVariableType
-                  DataType: LocaleId
-                  ModellingRule: None
-                  Value: "en-US"
-                - Name: Value
-                  Id: g=c27e16dd0e3fcfc9061553d94eb49f1a
-                  Type: BaseDataVariableType
-                  DataType: String
-                  ModellingRule: None
-                  Value: "2"
             - Name: IsPull
-              Id: g=68d7df6e4618759f6886de1f9a1c4ae8
+              Id: g=32944ca0616db391c3c57aa868267743
               Type: PropertyType
               DataType: Boolean
               ReferenceType: HasComponent
@@ -491,3 +429,25 @@ Children:
           DataType: NodePath
           Value: "../../..@BrowseName"
 - File: AlarmsVar/AlarmsVar.yaml
+- Name: ArrayAlm_Import
+  Id: g=b6802d9f2f32eab4f89f59ca1bde1c4a
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=a64a4562bdfbeaea1f00f19c4ed3e356
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Id: g=de10ab8a387045e4d2ce681e3cbad02f
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///Z:/VIRTUAL_SHARE/ARCHIVI_PROGRAMMI/CHEDDITE/10907/DOC/IMPORT/Allarmi.csv"
+  - Name: CharacterSeparator
+    Id: g=9a862a2e01fc158c9e8cca92471a0369
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Class: Method
+    Name: Method1
+    Id: g=d53f458fc5bc835f5c0c2420c14f87e6

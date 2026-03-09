@@ -1,50 +1,91 @@
 Name: Converters
 Type: ConvertersCategoryFolder
 Children:
-- Name: Pippo
-  Id: g=f17dffe9632557b6b388a2867a5bf4d0
-  Supertype: LinearConverter
+- Name: CurrentLang
+  Id: g=dc3935597021da4770a95a9ffc810e1f
+  Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
   - Name: Source
     Type: BaseDataVariableType
-    DataType: Number
+    DataType: BaseDataType
     ReferenceType: HasSource
-    Value: {"Type":11,"Body":0.0}
-  - Name: Variable1
-    Type: BaseDataVariableType
-    DataType: Float
-  - Name: Slope
-    Type: BaseDataVariableType
-    DataType: Double
-    ReferenceType: HasParameter
-    ModellingRule: Optional
-    Value: 0.1
+  - Name: ns=5;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "it-IT"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 1
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "en-US"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 2
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "hu-HU"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 3
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "tr-TR"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 4
+    - Name: Pair4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "fr-FR"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 5
   - Name: Mode
     Type: PropertyType
     DataType: DynamicLinkMode
     ReferenceType: HasComponent
     ModellingRule: Optional
-    Value: 2
-- Name: ExpressionEvaluator1
-  Id: g=3eb02711a65647ccfa8eb5f6cbe3bf6a
-  Supertype: ExpressionEvaluator
-  ReferenceType: HasComponent
-  Children:
-  - Name: Expression
-    Type: BaseDataVariableType
-    DataType: String
-    ReferenceType: HasParameter
-    ModellingRule: Optional
-  - Name: Variable1
-    Type: BaseDataVariableType
-    DataType: Int32
-  - Name: Variable2
-    Type: BaseDataVariableType
-    DataType: Float
-  - Name: Mode
-    Type: PropertyType
-    DataType: DynamicLinkMode
-    ReferenceType: HasComponent
-    ModellingRule: Optional
-    Value: 2

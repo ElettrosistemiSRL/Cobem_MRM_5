@@ -2089,8 +2089,8 @@ Children:
                         DataType: BaseDataType
                         ReferenceType: HasSource
                         Children:
-                        - Name: KeyValueConverter1
-                          Type: ValueMapConverter
+                        - Name: CurrentLang1
+                          Type: CurrentLang
                           Children:
                           - Name: Source
                             Type: BaseDataVariableType
@@ -2100,39 +2100,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "{Session}/ActualLocaleId"
-                          - Name: ns=5;Pairs
-                            Type: BaseObjectType
-                            ModellingRule: None
-                            Children:
-                            - Name: Pair
-                              Type: ValueMapPair
-                              ModellingRule: None
-                              Children:
-                              - Name: Key
-                                Type: BaseDataVariableType
-                                DataType: LocaleId
-                                ModellingRule: None
-                                Value: "it-IT"
-                              - Name: Value
-                                Type: BaseDataVariableType
-                                DataType: String
-                                ModellingRule: None
-                                Value: "1"
-                            - Name: Pair1
-                              Type: ValueMapPair
-                              ModellingRule: None
-                              Children:
-                              - Name: Key
-                                Type: BaseDataVariableType
-                                DataType: LocaleId
-                                ModellingRule: None
-                                Value: "en-US"
-                              - Name: Value
-                                Type: BaseDataVariableType
-                                DataType: String
-                                ModellingRule: None
-                                Value: "2"
+                              Value: "{Session}/ActualLanguage"
             - Name: TextVerticalAlignment
               Type: BaseVariableType
               DataType: TextVerticalAlignment
@@ -2371,8 +2339,8 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: KeyValueConverter1
-                      Type: ValueMapConverter
+                    - Name: CurrentLang1
+                      Type: CurrentLang
                       Children:
                       - Name: Source
                         Type: BaseDataVariableType
@@ -2382,32 +2350,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{Session}/ActualLocaleId"
-                      - Name: ns=5;Pairs
-                        Type: BaseObjectType
-                        Children:
-                        - Name: Pair
-                          Type: ValueMapPair
-                          Children:
-                          - Name: Key
-                            Type: BaseDataVariableType
-                            DataType: LocaleId
-                            Value: "it-IT"
-                          - Name: Value
-                            Type: BaseDataVariableType
-                            DataType: Int16
-                            Value: 1
-                        - Name: Pair1
-                          Type: ValueMapPair
-                          Children:
-                          - Name: Key
-                            Type: BaseDataVariableType
-                            DataType: LocaleId
-                            Value: "en-US"
-                          - Name: Value
-                            Type: BaseDataVariableType
-                            DataType: Int16
-                            Value: 2
+                          Value: "{Session}/ActualLanguage"
                   - Name: ns=5;Source0
                     Type: BaseDataVariableType
                     DataType: BaseDataType
@@ -2663,8 +2606,8 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: KeyValueConverter1
-                      Type: ValueMapConverter
+                    - Name: CurrentLang1
+                      Type: CurrentLang
                       Children:
                       - Name: Source
                         Type: BaseDataVariableType
@@ -2674,32 +2617,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{Session}/ActualLocaleId"
-                      - Name: ns=5;Pairs
-                        Type: BaseObjectType
-                        Children:
-                        - Name: Pair
-                          Type: ValueMapPair
-                          Children:
-                          - Name: Key
-                            Type: BaseDataVariableType
-                            DataType: LocaleId
-                            Value: "it-IT"
-                          - Name: Value
-                            Type: BaseDataVariableType
-                            DataType: Int16
-                            Value: 1
-                        - Name: Pair1
-                          Type: ValueMapPair
-                          Children:
-                          - Name: Key
-                            Type: BaseDataVariableType
-                            DataType: LocaleId
-                            Value: "en-US"
-                          - Name: Value
-                            Type: BaseDataVariableType
-                            DataType: Int16
-                            Value: 2
+                          Value: "{Session}/ActualLanguage"
                   - Name: ns=5;Source0
                     Type: BaseDataVariableType
                     DataType: BaseDataType

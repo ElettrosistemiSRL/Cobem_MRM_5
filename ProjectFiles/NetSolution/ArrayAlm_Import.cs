@@ -3,26 +3,20 @@ using System;
 using UAManagedCore;
 using OpcUa = UAManagedCore.OpcUa;
 using FTOptix.UI;
-using FTOptix.NativeUI;
 using FTOptix.HMIProject;
-using FTOptix.System;
 using FTOptix.NetLogic;
-using FTOptix.OmronFins;
-using FTOptix.Retentivity;
+using FTOptix.NativeUI;
+using FTOptix.WebUI;
 using FTOptix.CoreBase;
+using FTOptix.EventLogger;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.Modbus;
+using FTOptix.System;
+using FTOptix.Retentivity;
+using FTOptix.Alarm;
 using FTOptix.CommunicationDriver;
 using FTOptix.Core;
-using FTOptix.Alarm;
-using FTOptix.EventLogger;
-using FTOptix.Store;
-using FTOptix.SQLiteStore;
-using FTOptix.OmronEthernetIP;
-using FTOptix.OPCUAServer;
-using FTOptix.OPCUAClient;
-using FTOptix.WebUI;
-using FTOptix.Modbus;
-using FTOptix.MelsecFX3U;
-using FTOptix.MelsecQ;
 #endregion
 
 public class ArrayAlm_Import : BaseNetLogic

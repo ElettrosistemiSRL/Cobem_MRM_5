@@ -55,13 +55,13 @@ Children:
     DataType: Boolean
     ReferenceType: HasProperty
     Value: true
-- Name: Variables
+- Name: NomeLineaRetentivityStorage
   Type: RetentivityStorage
   Children:
   - Name: Nodes
     Type: BaseObjectType
     Children:
-    - Name: NomeLinea
+    - Name: Node1
       Type: NodePointer
       DataType: NodeId
       Value: "/Objects/Cobem_MRM_5/Model/NomeLinea"

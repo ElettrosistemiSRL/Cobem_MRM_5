@@ -13,6 +13,7 @@ using FTOptix.Recipe;
 using FTOptix.Modbus;
 using FTOptix.MelsecFX3U;
 using FTOptix.MelsecQ;
+using FTOptix.UI;
 #endregion
 
 public class ImportAndExportTranslations : BaseNetLogic

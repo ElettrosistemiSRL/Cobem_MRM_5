@@ -5,6 +5,7 @@ using UAManagedCore;
 using FTOptix.OPCUAServer;
 using FTOptix.MelsecFX3U;
 using FTOptix.MelsecQ;
+using FTOptix.UI;
 #endregion
 
 public class ChildrenCounter : BaseNetLogic

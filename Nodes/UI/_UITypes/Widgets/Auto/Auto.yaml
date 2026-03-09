@@ -1240,7 +1240,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"570 PER CICLO FASATURA:"}
+              Value: {"NamespaceIndex":30,"TextId":"570 CICLO FASATURA:"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment

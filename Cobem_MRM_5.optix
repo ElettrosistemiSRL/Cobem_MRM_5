@@ -122,15 +122,15 @@ Project:
    Module: FTOptix.Modbus.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 71450
-  Objects: 14581
-  ObjectTypes: 122
-  Variables: 56731
+  TotalNodeCount: 70270
+  Objects: 14232
+  ObjectTypes: 126
+  Variables: 55888
   VariableTypes: 0
   DataTypes: 0
-  Methods: 16
-  References: 875
+  Methods: 24
+  References: 881
   ReferenceTypes: 0
-  Files: 71
+  Files: 75
  Nodes:
  - File: Nodes/Cobem_MRM_5.yaml

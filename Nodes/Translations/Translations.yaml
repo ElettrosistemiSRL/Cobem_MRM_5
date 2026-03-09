@@ -1,6 +1,56 @@
 Name: Translations
 Type: TranslationsCategoryFolder
 Children:
+- Name: ImportAndExportTranslations
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/Users/userE/Documents/Rockwell Automation/FactoryTalk Optix/Projects/Cobem_MRM_5/ProjectFiles/ALLARMI.csv"
+  - Class: Method
+    Name: ExportTranslations
+  - Class: Method
+    Name: ImportTranslations
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cobem_MRM_5/Translations/AlmDictionary"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: NodeClass
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
 - Name: LocalizationDictionary
   Type: LocalizationDictionary
   DataType: String
@@ -12,17 +62,17 @@ Children:
     "Dimensions": [144,8],
     "Body": [
      "","it-IT","en-US","hu-HU","fr-FR","tr-TR","hu-HU (OK)","tr-TR (OK)",
-     "Reboot","Reboot","","","","","","",
-     "Mask","Mask","","","","","","",
-     "Apply","Apply","Apply","","","","","",
-     "RebootToCommitChanges","Reboot to commit changes","","","","","","",
-     "DHCPClientEnabled","DHCP client enabled","","","","","","",
-     "DNS2","DNS 2","","","","","","",
-     "IPAddress","IP address","","","","","","",
-     "DNS1","DNS 1","","","","","","",
-     "LAN","LAN","","","","","","",
-     "WAN","WAN","","","","","","",
-     "DefaultGateway","Default gateway","","","","","","",
+     "Reboot","Reboot","Reboot","","Redémarrer","","","",
+     "Mask","Mask","Mask","","Masque","","","",
+     "Apply","Apply","Apply","","Appliquer","","","",
+     "RebootToCommitChanges","Reboot to commit changes","Reboot to commit changes","","Redémarrez pour valider les modifications","","","",
+     "DHCPClientEnabled","DHCP client enabled","DHCP client enabled","","Client DHCP activé","","","",
+     "DNS2","DNS 2","DNS 2","","DNS 2","","","",
+     "IPAddress","IP address","IP address","","Adresse IP","","","",
+     "DNS1","DNS 1","DNS 1","","DNS 1","","","",
+     "LAN","LAN","LAN","","LAN","","","",
+     "WAN","WAN","WAN","","WAN","","","",
+     "DefaultGateway","Default gateway","Default gateway","","Passerelle par défaut","","","",
      "ApplicationName","Application name","","","","","","",
      "DeviceName","Device name","","","","","","",
      "ProductName","Product name","","","","","","",
@@ -52,29 +102,29 @@ Children:
      "RemoteNTPServer","Remote NTP server","","","","","","",
      "LocalNTPServerInterfaces","Local NTP server interfaces","","","","","","",
      "DateAndTime","Date and time","","","","","","",
-     "AssistancePanelTitle","Assistance","","","","","","",
-     "FTRemoteAccessConnection","FT Remote Access connection","","","","","","",
-     "RegisterToDomainString","To connect, add your device in FT Remote Access.","","","","","","",
-     "Connecting"," Connecting","","","","","","",
-     "Name","Name","Nome","","","","","",
-     "RegisterToDomainPassword","Password:","","","","","","",
-     "RequestsUnavailable","Assistance requests are unavailable for this device while disconnected.","","","","","","",
-     "Disconnected","Disconnected ","","","","","","",
-     "Description","Description","Descrizione","","","","","",
-     "Yes","Yes","","","","","","",
-     "ContactInformation","Contact information","","","","","","",
-     "No","No","","","","","","",
-     "RequestAssistance","Request Assistance ","","","","","","",
-     "AssistanceRequested"," Assistance Requested","","","","","","",
-     "FillOutFieldsMessage","Fill out all fields to submit a request.","","","","","","",
-     "RequestsDisabled","Assistance requests are disabled for this device. Please contact your system administrator.","","","","","","",
-     "ConnectionPanelTitleAsterisk","Connection *","","","","","","",
-     "ConnectionPanelTitle","Connection","","","","","","",
-     "FTRemoteAccessRuntimeVersion","FT Remote Access runtime version","","","","","","",
-     "RemoteConnections","Remote connections","","","","","","",
-     "Connected"," Connected","","","","","","",
-     "AllowUserToConnect","Allow user \"{0}\" from IP address {1} to connect?","","","","","","",
-     "RegisterToDomainDeviceID","Device ID:","","","","","","",
+     "AssistancePanelTitle","Assistance","Assistance","","Assistance","","","",
+     "FTRemoteAccessConnection","FT Remote Access connection","FT Remote Access connection","","Connexion à FT Remote Access","","","",
+     "RegisterToDomainString","To connect, add your device in FT Remote Access.","To connect, add your device in FT Remote Access.","","Pour vous connecter, ajoutez votre dispositif dans FT Remote Access.","","","",
+     "Connecting"," Connecting"," Connecting",""," Connexion","","","",
+     "Name","Name","Nome","","Nom","","","",
+     "RegisterToDomainPassword","Password:","Password:","","Mot de passe :","","","",
+     "RequestsUnavailable","Assistance requests are unavailable for this device while disconnected.","Assistance requests are unavailable for this device while disconnected.","","Les demandes d’assistance ne sont pas disponibles pour ce dispositif lorsqu’il est déconnecté.","","","",
+     "Disconnected","Disconnected ","Disconnected ","","Déconnecté ","","","",
+     "Description","Description","Descrizione","","Description","","","",
+     "Yes","Yes","Yes","","Oui","","","",
+     "ContactInformation","Contact information","Contact information","","Coordonnées","","","",
+     "No","No","No","","Non","","","",
+     "RequestAssistance","Request Assistance ","Request Assistance ","","Demander une assistance ","","","",
+     "AssistanceRequested"," Assistance Requested"," Assistance Requested",""," Assistance demandée","","","",
+     "FillOutFieldsMessage","Fill out all fields to submit a request.","Fill out all fields to submit a request.","","Remplissez tous les champs pour envoyer une demande.","","","",
+     "RequestsDisabled","Assistance requests are disabled for this device. Please contact your system administrator.","Assistance requests are disabled for this device. Please contact your system administrator.","","Les demandes d’assistance sont désactivées pour ce dispositif. Veuillez contacter votre administrateur système.","","","",
+     "ConnectionPanelTitleAsterisk","Connection *","Connection *","","Connexion *","","","",
+     "ConnectionPanelTitle","Connection","Connection","","Connexion","","","",
+     "FTRemoteAccessRuntimeVersion","FT Remote Access runtime version","FT Remote Access runtime version","","Version d’exécution de FT Remote Access","","","",
+     "RemoteConnections","Remote connections","Remote connections","","Connexion à distance","","","",
+     "Connected"," Connected"," Connected",""," Connecté","","","",
+     "AllowUserToConnect","Allow user \"{0}\" from IP address {1} to connect?","Allow user \"{0}\" from IP address {1} to connect?","","Autoriser l’utilisateur \"{0}\" avec l’adresse IP {1} à se connecter ?","","","",
+     "RegisterToDomainDeviceID","Device ID:","Device ID:","","ID du dispositif :","","","",
      "Main","Main","Principale","","","","","",
      "Machine","Machine","Macchina","","","","","",
      "Zone 5","Zone 5","Zona 5","","","","","",
@@ -168,13 +218,13 @@ Children:
     "Type": 12,
     "Dimensions": [301,6],
     "Body": [
-     "","it-IT","en-US","hu-HU","fr-FR","tr-TR",
+     "","it-IT","en-US","hu-HU","tr-TR","fr-FR",
      "ALM0_MESSAGGIO","A00 ERR.INIZIALIZ-HSC TAVOLA","","","","",
      "ALM0_CAUSA","","","","","",
      "ALM0_SOLUZIONE","","","","","",
      "ALM1_MESSAGGIO","A01 MANCANZA ARIA","","","","",
-     "ALM1_CAUSA","","","","","",
-     "ALM1_SOLUZIONE","","","","","",
+     "ALM1_CAUSA","test causa 1","","","","",
+     "ALM1_SOLUZIONE","test soluzione 1","","","","",
      "ALM2_MESSAGGIO","A02 AZ4A TRAINO PINZE INFERIORE","","","","",
      "ALM2_CAUSA","","","","","",
      "ALM2_SOLUZIONE","","","","","",
@@ -202,7 +252,7 @@ Children:
      "ALM10_MESSAGGIO","A10 INV5_6_8+SM1 ALLARME TERMICO","","","","",
      "ALM10_CAUSA","","","","","",
      "ALM10_SOLUZIONE","","","","","",
-     "ALM11_MESSAGGIO","A11 ROTTURA CINGHIA TRAINO PINZE","","","","",
+     "ALM11_MESSAGGIO","11 - EMERGENZA SPORTELLI APERTI","","","","",
      "ALM11_CAUSA","","","","","",
      "ALM11_SOLUZIONE","","","","","",
      "ALM12_MESSAGGIO","A12 ENC.TAVOLA [CONTEGGIO]","","","","",
@@ -471,56 +521,6 @@ Children:
      "ALM99_SOLUZIONE","","","","",""
     ]
    }
-- Name: ImportAndExportTranslations
-  Type: NetLogic
-  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-  Children:
-  - Name: BehaviourStartPriority
-    Type: BehaviourStartPriorityVariableType
-    DataType: Byte
-    Value: 180
-  - Name: CSVPath
-    Type: BaseDataVariableType
-    DataType: AbsoluteResourceUri
-    Value: "file:///C:/Users/userE/Documents/Rockwell Automation/FactoryTalk Optix/Projects/Cobem_MRM_5/ProjectFiles/ALLARMI.csv"
-  - Class: Method
-    Name: ExportTranslations
-  - Class: Method
-    Name: ImportTranslations
-  - Name: CharacterSeparator
-    Type: BaseDataVariableType
-    DataType: String
-    Value: ","
-  - Name: WrapFields
-    Type: BaseDataVariableType
-    DataType: Boolean
-  - Name: LocalizationDictionary
-    Type: NodePointer
-    DataType: NodeId
-    Value: "/Objects/Cobem_MRM_5/Translations/AlmDictionary"
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-    - Name: NodeClass
-      Type: PropertyType
-      DataType: NodePointerNodeClass
-  - Name: ns=17;LibraryReference
-    Type: ObjectLibraryReference
-    DataType: ObjectLibraryReferenceDataType
-    Value: 
-     {
-      "TypeId": {
-       "Id": 72,
-       "Namespace": 17
-      },
-      "Body": {
-       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
-       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
-       "objectVersion": 1,
-       "highestIgnoredVersion": 0
-      }
-     }
 - Name: TestiCobem
   Type: LocalizationDictionary
   DataType: String
@@ -1024,7 +1024,7 @@ Children:
      "567 ESCLUSA","ESCLUSA","EXCLUDED","KIZÁRVA","DEVRE DIŞI","EXCLUE",
      "568 ALLARMI ATTUALI","ALLARMI ATTUALI","CURRENT ALARMS","AKTUÁLIS RIASZTÁSOK","GÜNCEL ALARMLAR","ALARMES ACTUELLES",
      "569 STORICO ALLARMI","STORICO ALLARMI","ALARM HISTORY","RIASZTÁSI ELŐZMÉNYEK","ALARM GEÇMİŞİ","HISTORIQUE ALARMES",
-     "570 PER CICLO FASATURA:","PER CICLO FASATURA TAVOLA:","FOR TABLE PHASING CYCLE:","AZ ASZTAL FÁZISCILKUSÁHOZ:","TABLA FAZLAMA EVRİMİ İÇİN:","POUR CYCLE CALAGE TABLE:",
+     "570 CICLO FASATURA:","CICLO FASATURA TAVOLA:","TABLE PHASING CYCLE:","ASZTAL FÁZISCILKUSÁHOZ:","TABLA FAZLAMA EVRİMİ:","CYCLE CALAGE TABLE:",
      "ALTA","ALTA","HIGH","MAGAS","YÜKSEK","HAUTE",
      "BASSA","BASSA","LOW","ALACSONY","DÜŞÜK","BASSE",
      "VELOCITÀ ESTRAZIONE   [mm/s]","VELOCITÀ ESTRAZIONE   [mm/s]","EXTRACTION SPEED [mm/s]","KIVONÁSI SEBESSÉG [mm/s]","EKSTRAKSİYON HIZI [mm/s]","VITESSE EXTRACTION [mm/s]",
@@ -1037,7 +1037,6 @@ Children:
      "Help","Help","Help","Súgó","Yardım","Aide",
      "Puls-Allarme","Allarmi","Alarms","Riasztás","Alarm","Alarme",
      "Puls- Main","Main","Main","Fő","Ana","Principal",
-     "60.+C SLV KR2 SALDAT.ALTA NON PRONTA","","","","","",
      "54-M","M","M","M","M","M",
      "86 58: PAR.ESTARZIONE -ESAGONO","ESTARZIONE ESAGONO","HEXAGON EXTRACTION","HATSZÖG KIVÉTEL","ALTIGEN ÇIKARMA","EXTRACTION HEXAGONE",
      "22-AFFILATURA","AFFILATURA","SHARPENING","ÉLEZÉS","BİLEME","AFFÛTAGE",
@@ -1068,6 +1067,7 @@ Children:
      "CALIBRAZIONE","CALIBRAZIONE","CALIBRATION","KALIBRÁLÁS","KALİBRASYON","CALIBRAGE",
      "CARICO CAPPUCCI","CARICO CAPP.","","","","",
      "SOLLEVAMENTO CAPPUCCI","SOLLEVAMENTO CAPP.","CAPS. LOAD.","KUP. EMELÉS","KAP. KALDIRMA","LEV. BOUCHONS",
-     "PINZE/TRAINO","PINZE/TRAINO","GRIP./PULL.","MEGF./VONT.","TUT./ÇEK.","PINC./TRACT."
+     "PINZE/TRAINO","PINZE/TRAINO","GRIP./PULL.","MEGF./VONT.","TUT./ÇEK.","PINC./TRACT.",
+     "335 110-TURCO","TURCO","TURKISH","TÖRÖK","TÜRKÇE",""
     ]
    }

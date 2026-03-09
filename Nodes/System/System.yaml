@@ -2,6 +2,7 @@ Name: System
 Type: SystemCategoryFolder
 Children:
 - Name: System
+  Id: g=a5c9bf0eef6724d1166dabf5d38faa11
   Type: System
   Children:
   - Name: NetworkInterfaces
@@ -178,3 +179,269 @@ Children:
   - Class: Reference
     Target: ns=15;i=100
     Direction: Forward
+- Name: FTRemoteAccess
+  Id: g=5c4d019bb1d05e3b53b683d34b4e085f
+  Type: FTRemoteAccess
+  Children:
+  - Name: RuntimeVersion
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: ServerConnection
+    Type: BaseDataVariableType
+    DataType: ServerConnectionEnum
+    AccessLevel: Read
+  - Name: RegisteredToDomain
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: AssistanceRequestMode
+    Type: BaseDataVariableType
+    DataType: AssistanceRequestModeEnum
+    AccessLevel: Read
+  - Name: AssistanceRequested
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RemoteConnectionCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: AnonymousId
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: AnonymousPassword
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Class: Reference
+    Target: ns=15;i=71
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=73
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=75
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=78
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=99
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=90
+    Direction: Forward
+  - Name: RemoteConnectionRequestEventHandler
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/RemoteConnectionRequestEvent"
+    - Name: MethodsToCall
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainerFTRemoteAccessWidgetUsername
+        Type: BaseObjectType
+        Children:
+        - Name: ObjectPointer
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Commands/VariableCommands"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+        - Name: Method
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Set"
+        - Name: InputArguments
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Value: "/Objects/Cobem_MRM_5/System/FTRemoteAccess/FTRemoteAccessWidgetUsername"
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Cobem_MRM_5/System/FTRemoteAccess/RemoteConnectionRequestEventHandler/EventArguments/Username"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ArrayIndex
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ValueRank: ScalarOrOneDimension
+      - Name: MethodContainerFTRemoteAccessWidgetIPAddress
+        Type: BaseObjectType
+        Children:
+        - Name: ObjectPointer
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Commands/VariableCommands"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+        - Name: Method
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Set"
+        - Name: InputArguments
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Value: "/Objects/Cobem_MRM_5/System/FTRemoteAccess/FTRemoteAccessWidgetIPAddress"
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Cobem_MRM_5/System/FTRemoteAccess/RemoteConnectionRequestEventHandler/EventArguments/IpAddress"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ArrayIndex
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ValueRank: ScalarOrOneDimension
+      - Name: MethodContainerFTRemoteAccessWidgetSupervisorId
+        Type: BaseObjectType
+        Children:
+        - Name: ObjectPointer
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Commands/VariableCommands"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+        - Name: Method
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Set"
+        - Name: InputArguments
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Value: "/Objects/Cobem_MRM_5/System/FTRemoteAccess/FTRemoteAccessWidgetSupervisorId"
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: ByteString
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Cobem_MRM_5/System/FTRemoteAccess/RemoteConnectionRequestEventHandler/EventArguments/SupervisorId"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ArrayIndex
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ValueRank: ScalarOrOneDimension
+      - Name: MethodContainerFTRemoteAccessWidgetConnectionPending
+        Type: BaseObjectType
+        Children:
+        - Name: ObjectPointer
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Commands/VariableCommands"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+        - Name: Method
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Set"
+        - Name: InputArguments
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Value: "/Objects/Cobem_MRM_5/System/FTRemoteAccess/FTRemoteAccessWidgetConnectionPending"
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: ArrayIndex
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ValueRank: ScalarOrOneDimension
+    - Name: EventArguments
+      Type: RemoteConnectionRequestEvent
+      Children:
+      - Name: SupervisorId
+        Id: g=f6faa0b5510c4d9d654934c49396cf71
+        Type: BaseDataVariableType
+        DataType: ByteString
+      - Name: Username
+        Id: g=63fe3a8183526aa5853fa543856f51bf
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: IpAddress
+        Id: g=c947297a5e61d4c30dbba0f296142488
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: EventId
+        Type: PropertyType
+        DataType: ByteString
+      - Name: EventType
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceNode
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceName
+        Type: PropertyType
+        DataType: String
+      - Name: Time
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: ReceiveTime
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: Message
+        Type: PropertyType
+        DataType: LocalizedText
+      - Name: Severity
+        Type: PropertyType
+        DataType: UInt16
+  - Name: FTRemoteAccessWidgetUsername
+    Id: g=8fa7c977c8dd408aa0d59516f3219325
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: FTRemoteAccessWidgetIPAddress
+    Id: g=52234f1bd82e4d44bbb3275906eccce8
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: FTRemoteAccessWidgetSupervisorId
+    Id: g=a9d87de43c6d4426b68a7d06cf677602
+    Type: BaseDataVariableType
+    DataType: ByteString
+  - Name: FTRemoteAccessWidgetConnectionPending
+    Id: g=6f6662e1af754a56b13ae03fc750e5cb
+    Type: BaseDataVariableType
+    DataType: Boolean
