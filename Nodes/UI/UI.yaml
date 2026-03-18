@@ -3384,7 +3384,7 @@ Children:
                         DataType: String
                         ReferenceType: HasParameter
                         ModellingRule: Optional
-                        Value: "{0} = {1}"
+                        Value: "{0} == {1}"
                       - Name: ns=5;Source0
                         Type: BaseDataVariableType
                         DataType: BaseDataType
@@ -3393,7 +3393,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{MainPanelLoader}/CurrentPanel@DisplayName"
+                          Value: "{MainPanelLoader}/CurrentPanel@BrowseName"
                       - Name: ns=5;Source1
                         Type: BaseDataVariableType
                         DataType: BaseDataType
@@ -3402,13 +3402,60 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "/Objects/Cobem_MRM_5/UI/Screens/Manual@DisplayName"
+                          Value: "/Objects/Cobem_MRM_5/UI/Screens/Manual@BrowseName"
                   - Name: TrueValue
                     Type: BaseDataVariableType
                     DataType: Int32
                     ReferenceType: HasParameter
-                    ModellingRule: Optional
                     Value: 21
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: ExpressionEvaluator1
+                          Type: ExpressionEvaluator
+                          Children:
+                          - Name: Expression
+                            Type: BaseDataVariableType
+                            DataType: String
+                            ReferenceType: HasParameter
+                            ModellingRule: Optional
+                            Value: "{0} == {1}"
+                          - Name: ns=5;Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "{ManualLoader}/CurrentPanel@BrowseName"
+                          - Name: ns=5;Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Cobem_MRM_5/UI/Screens/Pages_Manuals/CONFEZIONATRICE/Confezionatrice@BrowseName"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Int32
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: 91
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Int32
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: 21
                   - Name: FalseValue
                     Type: BaseDataVariableType
                     DataType: Int32

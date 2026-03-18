@@ -10266,6 +10266,50 @@ Children:
               - Name: HorizontalLayout1
                 Type: RowLayout
                 Children:
+                - Name: ToggleButton1
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.15"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: BackgroundColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#e4e4e4"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW62.4"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 200.0
                 - Name: VerticalLayout1
                   Type: ColumnLayout
                   Children:
@@ -10433,7 +10477,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 240.0
+                    Value: 20.0
                 - Name: VerticalLayout2
                   Type: ColumnLayout
                   Children:
@@ -10607,40 +10651,6 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 200.0
-                - Name: ToggleButton1
-                  Type: ToggleButton
-                  Children:
-                  - Name: Active
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.15"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: BackgroundColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    Value: "#e4e4e4"
-                    Children:
-                    - Name: ConditionalConverter1
-                      Type: ConditionalConverter
-                      Children:
-                      - Name: Condition
-                        Type: BaseDataVariableType
-                        DataType: Boolean
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW62.4"
               - Name: Rectangle3
                 Type: Rectangle
             - Name: VerticalLayout1
@@ -11238,6 +11248,49 @@ Children:
               - Name: HorizontalLayout1
                 Type: RowLayout
                 Children:
+                - Name: ToggleButton1
+                  Type: ToggleButton
+                  Children:
+                  - Name: Active
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.15"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: BackgroundColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#e4e4e4"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW62.7"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 200.0
                 - Name: VerticalLayout1
                   Type: ColumnLayout
                   Children:
@@ -11401,7 +11454,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 240.0
+                    Value: 20.0
                 - Name: VerticalLayout2
                   Type: ColumnLayout
                   Children:
@@ -11561,40 +11614,6 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 200.0
-                - Name: ToggleButton1
-                  Type: ToggleButton
-                  Children:
-                  - Name: Active
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.15"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: BackgroundColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    Value: "#e4e4e4"
-                    Children:
-                    - Name: ConditionalConverter1
-                      Type: ConditionalConverter
-                      Children:
-                      - Name: Condition
-                        Type: BaseDataVariableType
-                        DataType: Boolean
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW62.7"
               - Name: Rectangle3
                 Type: Rectangle
             - Name: VerticalLayout1
@@ -12139,3 +12158,8 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1060.0
