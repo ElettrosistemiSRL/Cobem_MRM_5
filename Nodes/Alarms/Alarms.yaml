@@ -3,3 +3,4 @@ Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
 Children:
 - File: _AlmTypes/_AlmTypes.yaml
+- File: AlarmsVar/AlarmsVar.yaml

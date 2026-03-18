@@ -394,15 +394,12 @@ Children:
       Type: RemoteConnectionRequestEvent
       Children:
       - Name: SupervisorId
-        Id: g=f6faa0b5510c4d9d654934c49396cf71
         Type: BaseDataVariableType
         DataType: ByteString
       - Name: Username
-        Id: g=63fe3a8183526aa5853fa543856f51bf
         Type: BaseDataVariableType
         DataType: String
       - Name: IpAddress
-        Id: g=c947297a5e61d4c30dbba0f296142488
         Type: BaseDataVariableType
         DataType: String
       - Name: EventId

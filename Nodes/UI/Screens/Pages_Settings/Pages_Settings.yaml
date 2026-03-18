@@ -23347,7 +23347,7 @@ Children:
     - Name: Path
       Type: BaseDataVariableType
       DataType: ResourceUri
-      Value: "ns=30;%PROJECTDIR%/Graphics/Logo_cobem.png"
+      Value: "ns=30;%PROJECTDIR%/Graphics/logo_borghi.svg"
     - Name: Width
       Type: BaseVariableType
       DataType: Size

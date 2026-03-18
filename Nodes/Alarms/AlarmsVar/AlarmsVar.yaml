@@ -52,7 +52,7 @@ Children:
       Id: g=32805ae7ce08c404ff2a4aff93c117a9
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.0"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.0"
       Children:
       - Name: Mode
         Id: g=fd55d730430553698b990378f43ca117
@@ -201,7 +201,7 @@ Children:
       Id: g=b5e331ea7dd2b864a9ae58f43188f926
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.1"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.1"
       Children:
       - Name: Mode
         Id: g=854924de6bd79f69888a41c598adb5cf
@@ -345,7 +345,7 @@ Children:
       Id: g=8f66136df67a80304777cec50e7ce348
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.2"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.2"
       Children:
       - Name: Mode
         Id: g=24200582df4e882d7bac79d6335c2e0e
@@ -489,7 +489,7 @@ Children:
       Id: g=00930d31e35f810271c717783afeac01
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.3"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.3"
       Children:
       - Name: Mode
         Id: g=71e45600340ef8f6d3567ba22ce07624
@@ -633,7 +633,7 @@ Children:
       Id: g=1f8e42f782df4155ac1c84d248a65aa3
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.4"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.4"
       Children:
       - Name: Mode
         Id: g=9b2cff880c331e5827fdbaaddffbb95a
@@ -777,7 +777,7 @@ Children:
       Id: g=a28dbae69a9a929dd37bc2f09efae3f4
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.5"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.5"
       Children:
       - Name: Mode
         Id: g=656746273da34e71465ecd15dd523936
@@ -921,7 +921,7 @@ Children:
       Id: g=3a41a2a2017defa78d384910adef7352
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.6"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.6"
       Children:
       - Name: Mode
         Id: g=b591eb7e1cf3da8620154963c5fef891
@@ -1065,7 +1065,7 @@ Children:
       Id: g=e11cbb8607c0fda6b65e4a354ff67b23
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.7"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.7"
       Children:
       - Name: Mode
         Id: g=a324489e7e2ef2b2b419f0b7a9515dc3
@@ -1209,7 +1209,7 @@ Children:
       Id: g=7dd08df095d65282f417351227aff6d8
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.8"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.8"
       Children:
       - Name: Mode
         Id: g=8f90661ac4cc70bb0f3b7f65374f5bc0
@@ -1353,7 +1353,7 @@ Children:
       Id: g=518b590136ff3fae9da771186b508046
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.9"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.9"
       Children:
       - Name: Mode
         Id: g=b1ca407b9ceb5bf9c1ad8befb551d41e
@@ -1497,7 +1497,7 @@ Children:
       Id: g=4b57101a4430d2903c393cfe9ace5500
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.10"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.10"
       Children:
       - Name: Mode
         Id: g=719ea9e74f0a8ace4e5093fa38892ed0
@@ -1641,7 +1641,7 @@ Children:
       Id: g=818691358e393ad105cef7bd6bb2a3b0
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.11"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.11"
       Children:
       - Name: Mode
         Id: g=14be8872125562d4546818ef302d1af1
@@ -1785,7 +1785,7 @@ Children:
       Id: g=edbca7742e65eb4f8ce125023d94ad83
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.12"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.12"
       Children:
       - Name: Mode
         Id: g=38aa56d7eee8bf7fd075adb77a7224cc
@@ -1929,7 +1929,7 @@ Children:
       Id: g=ebfdb7124e7eba0722f580cfc0d40e94
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.13"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.13"
       Children:
       - Name: Mode
         Id: g=e66449c9fc4b46c80e395d3149d66507
@@ -2073,7 +2073,7 @@ Children:
       Id: g=8630dbc009b445ddbb7fc29711b9e548
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.14"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.14"
       Children:
       - Name: Mode
         Id: g=d1c8e8c35362fe2ae9d2c2fc038bdd55
@@ -2217,7 +2217,7 @@ Children:
       Id: g=8e123c4eb14b7a8fc3fefb3d7af2cf5c
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.15"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW5.15"
       Children:
       - Name: Mode
         Id: g=ba7d09707f3ce526ed9ec5e9e874086e
@@ -2361,7 +2361,7 @@ Children:
       Id: g=e086cf9abe5bc6c5f45b18d1dfd42a2c
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.0"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.0"
       Children:
       - Name: Mode
         Id: g=02f14d8b320343c77befa990b9cb5122
@@ -2505,7 +2505,7 @@ Children:
       Id: g=8e1e357038b166f654561c71be0aa39a
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.1"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.1"
       Children:
       - Name: Mode
         Id: g=056a8ff9426f9e84126930f367c2ddd2
@@ -2649,7 +2649,7 @@ Children:
       Id: g=2101965a9b688f4472d36d2b877d41d9
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.2"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.2"
       Children:
       - Name: Mode
         Id: g=3a6b0e82c9e23582126832db8359d3ff
@@ -2793,7 +2793,7 @@ Children:
       Id: g=e0a041c303a61a83dde816e0059ac586
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.3"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.3"
       Children:
       - Name: Mode
         Id: g=a8712e6ef0b8ddcfa086299dad93b766
@@ -2937,7 +2937,7 @@ Children:
       Id: g=160a21429ed1d99820817b239eece6e3
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.4"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.4"
       Children:
       - Name: Mode
         Id: g=5cfe076055c839d4695b1b11f785eda1
@@ -3081,7 +3081,7 @@ Children:
       Id: g=acc36bdcaeed25490f1fe2ae9d69048a
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.5"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.5"
       Children:
       - Name: Mode
         Id: g=4e35664b203855bf510bbb81cc9d57bf
@@ -3225,7 +3225,7 @@ Children:
       Id: g=271156130d31b887db672f74c90fb2c4
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.6"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.6"
       Children:
       - Name: Mode
         Id: g=dd70e8de85139baeb4e07a820eb57a2f
@@ -3369,7 +3369,7 @@ Children:
       Id: g=732222b3a3b3ad2f728ec73f1e557157
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.7"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.7"
       Children:
       - Name: Mode
         Id: g=9276314eb26911337a098eb986b2f3f3
@@ -3513,7 +3513,7 @@ Children:
       Id: g=5d35777fb1f4e9e88de9db5efec6e473
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.8"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.8"
       Children:
       - Name: Mode
         Id: g=6b4fabd59c9dc53cf5ccdd2f6843255a
@@ -3657,7 +3657,7 @@ Children:
       Id: g=71e5550befa62874a92adc1db6b58834
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.9"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.9"
       Children:
       - Name: Mode
         Id: g=5b71f89e2ef8ca3ed20cc976e9351fa6
@@ -3801,7 +3801,7 @@ Children:
       Id: g=4d7d0dd7363989d30960a5fa2c07d511
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.10"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.10"
       Children:
       - Name: Mode
         Id: g=d459cca3e97913231f3dd04d6e176b69
@@ -3945,7 +3945,7 @@ Children:
       Id: g=ca9e04279bb123a7a907eabbfd3c3ab9
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.11"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.11"
       Children:
       - Name: Mode
         Id: g=db59363c4de9c66251db6df877c7c3c1
@@ -4089,7 +4089,7 @@ Children:
       Id: g=a3161b608129c2a2f34c8df083b7b79f
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.12"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.12"
       Children:
       - Name: Mode
         Id: g=4144b2be381eca68732bb8a73fc9183b
@@ -4233,7 +4233,7 @@ Children:
       Id: g=5cbde5d50ce91741dec7f10364d6772e
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.13"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.13"
       Children:
       - Name: Mode
         Id: g=d10e6b8e6d6137f3d36ccc942529fbec
@@ -4377,7 +4377,7 @@ Children:
       Id: g=33b5e73a4dd1df186bdf7aae178050ad
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.14"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.14"
       Children:
       - Name: Mode
         Id: g=559bc9fc3c8ceecfe07fa44aa4807b1a
@@ -4521,7 +4521,7 @@ Children:
       Id: g=13529cd0774090ce7086410f1b1b639a
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.15"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW6.15"
       Children:
       - Name: Mode
         Id: g=04c5226d0dabd7e5309d03a33d6d65cd
@@ -4665,7 +4665,7 @@ Children:
       Id: g=e6c3120b87b48cbbc0bdfdb269f4f6f3
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.0"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.0"
       Children:
       - Name: Mode
         Id: g=89e0095a7ade1f3807795b7ec1174f42
@@ -4809,7 +4809,7 @@ Children:
       Id: g=5f651e7b78580172ef8f7afdd0c845bd
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.1"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.1"
       Children:
       - Name: Mode
         Id: g=ec7c15d011f0caaf613b1aefc54afcc2
@@ -4953,7 +4953,7 @@ Children:
       Id: g=5c9738301369feaede7bb98c58b0c560
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.2"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.2"
       Children:
       - Name: Mode
         Id: g=e09b7b663512ffc33b7cbfed4d872e60
@@ -5097,7 +5097,7 @@ Children:
       Id: g=6fe2fe8938f6e24cc8f75130d1c13bde
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.3"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.3"
       Children:
       - Name: Mode
         Id: g=204f7b415ece2586afae32e3bd9dd84b
@@ -5241,7 +5241,7 @@ Children:
       Id: g=70db615354aeb29b2428f635b582d210
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.4"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.4"
       Children:
       - Name: Mode
         Id: g=25ec1fc479a3ff6fa5c7726cd14da5f1
@@ -5385,7 +5385,7 @@ Children:
       Id: g=073309f648369a97414fbfa4e394c9f0
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.5"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.5"
       Children:
       - Name: Mode
         Id: g=b1109181a1a33ce7deda305f65193a5c
@@ -5529,7 +5529,7 @@ Children:
       Id: g=fc0df247c491e3adb39584d75df7c669
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.6"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.6"
       Children:
       - Name: Mode
         Id: g=b6c2bc8bb3ec4a2d42db8ddbfd965232
@@ -5673,7 +5673,7 @@ Children:
       Id: g=c4970488a9a2c6ee9224c64b2287d60b
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.7"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.7"
       Children:
       - Name: Mode
         Id: g=ef72e4c9e5a7fe9d27abcd26cbc0c739
@@ -5817,7 +5817,7 @@ Children:
       Id: g=cccb8ad6e67d887aec718795034ad016
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.8"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.8"
       Children:
       - Name: Mode
         Id: g=93ff6e359c3115ef1902eb386da6eb8c
@@ -5961,7 +5961,7 @@ Children:
       Id: g=99b0b1d0ee77d15881177097a82533cd
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.9"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.9"
       Children:
       - Name: Mode
         Id: g=9ce40390be7e83d884841d275125046c
@@ -6105,7 +6105,7 @@ Children:
       Id: g=5af431f6bfce74725419338d5fd1ca06
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.10"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.10"
       Children:
       - Name: Mode
         Id: g=7e641623ce34da2db543b279514f20e5
@@ -6249,7 +6249,7 @@ Children:
       Id: g=c46b91556014b1c455a25e93f3c6fb5b
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.11"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.11"
       Children:
       - Name: Mode
         Id: g=1597f23726cc448dbc6ec2e884e8eff8
@@ -6393,7 +6393,7 @@ Children:
       Id: g=ad30e4008c9a38c1b9171a9a1b49b4d8
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.12"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.12"
       Children:
       - Name: Mode
         Id: g=0c0d07727dae23d3c3fa96a084aa87c8
@@ -6537,7 +6537,7 @@ Children:
       Id: g=ba20dd366e9b7bd0aff3024a5b8c85ef
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.13"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.13"
       Children:
       - Name: Mode
         Id: g=3089c331ed0efe03f49a0e59e11f74d5
@@ -6681,7 +6681,7 @@ Children:
       Id: g=527fa4102231e777bcace92befc0ba66
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.14"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.14"
       Children:
       - Name: Mode
         Id: g=7d90eb2ec404db66c1640912fef80a18
@@ -6825,7 +6825,7 @@ Children:
       Id: g=334961ecc3693a90acc5e5eaba85dbd9
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.15"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW7.15"
       Children:
       - Name: Mode
         Id: g=722e4cfdc1b07cfccc99b9ed43884321
@@ -6969,7 +6969,7 @@ Children:
       Id: g=8e893436eb800c9207a30cad1026bb21
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.0"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.0"
       Children:
       - Name: Mode
         Id: g=b7e861126f4929b6f8565b0d3f4154cf
@@ -7113,7 +7113,7 @@ Children:
       Id: g=a4be7404963831f06f7b758d85824617
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.1"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.1"
       Children:
       - Name: Mode
         Id: g=622e6ac21306f94c8024a6435b469655
@@ -7257,7 +7257,7 @@ Children:
       Id: g=cd47ced01ab620c074e8e111ad2aa8e8
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.2"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.2"
       Children:
       - Name: Mode
         Id: g=b29f457eafddbfb4c29b72ead73b1b26
@@ -7401,7 +7401,7 @@ Children:
       Id: g=609298bac680f3acff5f983842f028e7
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.3"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.3"
       Children:
       - Name: Mode
         Id: g=c3e71819fef208cc4acbe6a4132d1dda
@@ -7545,7 +7545,7 @@ Children:
       Id: g=f6fa8aa4af4c4286eacfd09daac64046
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.4"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.4"
       Children:
       - Name: Mode
         Id: g=360fe568c113e87992f126918e792d0c
@@ -7689,7 +7689,7 @@ Children:
       Id: g=24c54630f59a3f28756e4349b7d410b4
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.5"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.5"
       Children:
       - Name: Mode
         Id: g=043261faef6243e5e1b7d6739188620e
@@ -7833,7 +7833,7 @@ Children:
       Id: g=7e38c872a0393dd8eb860c3da6f52a3a
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.6"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.6"
       Children:
       - Name: Mode
         Id: g=9c88f725b091b78f503a4bf63ec8e6ad
@@ -7977,7 +7977,7 @@ Children:
       Id: g=a357cd88ad7ca37a85f01e90ce5bfe93
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.7"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.7"
       Children:
       - Name: Mode
         Id: g=f31e939d54032cea21ef2074791308ea
@@ -8121,7 +8121,7 @@ Children:
       Id: g=3f5a95d8b144c9de996299d7985d3a2f
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.8"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.8"
       Children:
       - Name: Mode
         Id: g=b80fbf6486986b2ab11328d3e9987e71
@@ -8265,7 +8265,7 @@ Children:
       Id: g=fee43a1da72bae2e7303f4acfbbfdc9b
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.9"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.9"
       Children:
       - Name: Mode
         Id: g=43f939b32307fd4503f95eb27b661fec
@@ -8409,7 +8409,7 @@ Children:
       Id: g=88358c9c5173b39a8104dfea95963c43
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.10"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.10"
       Children:
       - Name: Mode
         Id: g=f28e151b2872140f29292bf26accaec9
@@ -8553,7 +8553,7 @@ Children:
       Id: g=85363864e379ed38b780e19e1672db8b
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.11"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.11"
       Children:
       - Name: Mode
         Id: g=0fc282e58da22636cb26ed4d18c38dd7
@@ -8697,7 +8697,7 @@ Children:
       Id: g=a9f8d39abeedf92d57dca0f9fdf909a0
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.12"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.12"
       Children:
       - Name: Mode
         Id: g=4ce2327fd078b8f5621615cf87b338fa
@@ -8841,7 +8841,7 @@ Children:
       Id: g=104229500f0e8b15daf84fddb7863baf
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.13"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.13"
       Children:
       - Name: Mode
         Id: g=873292e101d6e3c6bcf804ae9c38a15d
@@ -8985,7 +8985,7 @@ Children:
       Id: g=4aaebbb3934587033cd3c1feebfac9bb
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.14"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.14"
       Children:
       - Name: Mode
         Id: g=cbf78b49cd52651d7e1c6fae9d9ada98
@@ -9129,7 +9129,7 @@ Children:
       Id: g=dbe2a8b02ddaf1b3c94871ca9757c0f4
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.15"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW8.15"
       Children:
       - Name: Mode
         Id: g=99d7adcbc50f0f2b6218a7b567230db9
@@ -9273,7 +9273,7 @@ Children:
       Id: g=bccda39c591e65e2e62e8aaafe4518f5
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW9.0"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW9.0"
       Children:
       - Name: Mode
         Id: g=aebdd336a2af2abbd3a5b7c102b4cb5b
@@ -9417,7 +9417,7 @@ Children:
       Id: g=dadc76ba6c11dcfe8619b149a7c26a0f
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW9.1"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW9.1"
       Children:
       - Name: Mode
         Id: g=5a01b55b6694677d31dad3f8cbea72a2
@@ -9561,7 +9561,7 @@ Children:
       Id: g=6b9b8f01bba3183b205c7d12e5e2d8df
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW9.2"
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW9.2"
       Children:
       - Name: Mode
         Id: g=e766136375ed87e54f449c442f6d828c

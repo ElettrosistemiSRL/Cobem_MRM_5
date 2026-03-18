@@ -219,7 +219,7 @@ Children:
     "Dimensions": [301,6],
     "Body": [
      "","it-IT","en-US","hu-HU","tr-TR","fr-FR",
-     "ALM0_MESSAGGIO","A00 ERR.INIZIALIZ-HSC TAVOLA","","","","",
+     "ALM0_MESSAGGIO","A00 ERRORE TEST ALLARME MOLTO LUNGO DA VEDERE .INIZIALIZ-HSC TAVOLA","","","","",
      "ALM0_CAUSA","","","","","",
      "ALM0_SOLUZIONE","","","","","",
      "ALM1_MESSAGGIO","A01 MANCANZA ARIA","","","","",
@@ -252,7 +252,7 @@ Children:
      "ALM10_MESSAGGIO","A10 INV5_6_8+SM1 ALLARME TERMICO","","","","",
      "ALM10_CAUSA","","","","","",
      "ALM10_SOLUZIONE","","","","","",
-     "ALM11_MESSAGGIO","11 - EMERGENZA SPORTELLI APERTI","","","","",
+     "ALM11_MESSAGGIO","TEST ALLARME CON MESSAGGIO MOLTO LUNGO PER PROVARE COME VIENE","","","","",
      "ALM11_CAUSA","","","","","",
      "ALM11_SOLUZIONE","","","","","",
      "ALM12_MESSAGGIO","A12 ENC.TAVOLA [CONTEGGIO]","","","","",
@@ -529,7 +529,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [538,6],
+    "Dimensions": [539,6],
     "Body": [
      "","it-IT","en-US","hu-HU","tr-TR","fr-FR",
      "60: PARAMETRI - GENERALI -","PARAMETRI - GENERALI -","GENERAL PARAMETERS","PARAMÉT. - ÁLTALÁN. -","PARAMETRELER - GENEL -","PARAMÈTRES GÉNÉRAUX",
@@ -1068,6 +1068,7 @@ Children:
      "CARICO CAPPUCCI","CARICO CAPP.","","","","",
      "SOLLEVAMENTO CAPPUCCI","SOLLEVAMENTO CAPP.","CAPS. LOAD.","KUP. EMELÉS","KAP. KALDIRMA","LEV. BOUCHONS",
      "PINZE/TRAINO","PINZE/TRAINO","GRIP./PULL.","MEGF./VONT.","TUT./ÇEK.","PINC./TRACT.",
-     "335 110-TURCO","TURCO","TURKISH","TÖRÖK","TÜRKÇE",""
+     "335 110-TURCO","TURCO","TURKISH","TÖRÖK","TÜRKÇE","",
+     "Bilancia","Bilancia","Scale","Mérleg","Terazi","Balance"
     ]
    }
