@@ -2486,7 +2486,6 @@ Children:
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
 - Name: DT_102
-  Id: g=1a90832e11adcc7d5675769490f892f1
   Type: ModbusTag
   DataType: Int16
   Children:

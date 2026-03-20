@@ -459,15 +459,15 @@ Children:
      "ALM79_MESSAGGIO","","","","","",
      "ALM79_CAUSA","","","","","",
      "ALM79_SOLUZIONE","","","","","",
-     "ALM80_MESSAGGIO","","","","","",
-     "ALM80_CAUSA","","","","","",
-     "ALM80_SOLUZIONE","","","","","",
-     "ALM81_MESSAGGIO","","","","","",
-     "ALM81_CAUSA","","","","","",
-     "ALM81_SOLUZIONE","","","","","",
-     "ALM82_MESSAGGIO","","","","","",
-     "ALM82_CAUSA","","","","","",
-     "ALM82_SOLUZIONE","","","","","",
+     "ALM80_MESSAGGIO","TEST MSG 80","","","","",
+     "ALM80_CAUSA","CAUSA 80","","","","",
+     "ALM80_SOLUZIONE","SOLUZIONE 80","","","","",
+     "ALM81_MESSAGGIO","TEST MSG 81","","","","",
+     "ALM81_CAUSA","CAUSA 81","","","","",
+     "ALM81_SOLUZIONE","SOLUZIONE 81","","","","",
+     "ALM82_MESSAGGIO","TEST MSG 82","","","","",
+     "ALM82_CAUSA","CAUSA 82","","","","",
+     "ALM82_SOLUZIONE","SOLUZIONE 82","","","","",
      "ALM83_MESSAGGIO","","","","","",
      "ALM83_CAUSA","","","","","",
      "ALM83_SOLUZIONE","","","","","",
@@ -529,7 +529,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [539,6],
+    "Dimensions": [540,6],
     "Body": [
      "","it-IT","en-US","hu-HU","tr-TR","fr-FR",
      "60: PARAMETRI - GENERALI -","PARAMETRI - GENERALI -","GENERAL PARAMETERS","PARAMÉT. - ÁLTALÁN. -","PARAMETRELER - GENEL -","PARAMÈTRES GÉNÉRAUX",
@@ -1069,6 +1069,7 @@ Children:
      "SOLLEVAMENTO CAPPUCCI","SOLLEVAMENTO CAPP.","CAPS. LOAD.","KUP. EMELÉS","KAP. KALDIRMA","LEV. BOUCHONS",
      "PINZE/TRAINO","PINZE/TRAINO","GRIP./PULL.","MEGF./VONT.","TUT./ÇEK.","PINC./TRACT.",
      "335 110-TURCO","TURCO","TURKISH","TÖRÖK","TÜRKÇE","",
-     "Bilancia","Bilancia","Scale","Mérleg","Terazi","Balance"
+     "Bilancia","Bilancia","Scale","Mérleg","Terazi","Balance",
+     "APRI","APRI","","","",""
     ]
    }

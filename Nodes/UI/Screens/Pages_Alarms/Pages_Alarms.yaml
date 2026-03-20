@@ -205,30 +205,25 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=30;%PROJECTDIR%/Graphics/AlmImg/1.jpg"
               Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
+              - Name: StringFormatter1
+                Type: StringFormatter
                 Children:
-                - Name: DynamicLinkFormatter
-                  Type: StringFormatter
+                - Name: Format
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"","Text":"{0:filepath}"}
+                - Name: ns=5;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
                   Children:
-                  - Name: Format
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ReferenceType: HasParameter
-                    ModellingRule: Optional
-                    Value: {"LocaleId":"","Text":"%PROJECTDIR%\\Graphics\\AlmImg\\{0}.jpg"}
-                  - Name: ns=5;Source0
-                    Type: BaseDataVariableType
-                    DataType: BaseDataType
-                    ReferenceType: HasSource
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../../../../../../../../../Alias1/AlmNum"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../ImgUri"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -1187,6 +1182,28 @@ Children:
         DataType: Boolean
         ModellingRule: Optional
         Value: true
+  - Name: ImgUri
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: {"LocaleId":"it-IT","Text":"%PROJECTDIR%\\Graphics\\AlmImg\\{0}.jpg"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Alias1}/AlmNum"
 - Name: Actual
   Id: g=fa78a4b89bb74e24465b919fbb49e059
   Supertype: Screen
