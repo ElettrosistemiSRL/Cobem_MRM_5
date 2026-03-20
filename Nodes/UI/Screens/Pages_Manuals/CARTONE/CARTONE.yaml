@@ -129,6 +129,7 @@ Children:
       Value: ["430","430"]
     - Name: Carico Cartoni_1
       Type: Manual_Gen
+      DisplayName: {"NamespaceIndex":30,"TextId":"190 35-CARICO CARTONI"}
       Children:
       - Name: BtnOpen
         Type: BaseDataVariableType
@@ -926,18 +927,10 @@ Children:
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"190 35-CARICO CARTONI"}
           Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../..@DisplayName"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -950,6 +943,7 @@ Children:
           Value: 2
     - Name: Aspira Form Cartone_1
       Type: Manual_Gen
+      DisplayName: {"NamespaceIndex":30,"TextId":"457 ASPIRA FORM.CARTONE"}
       Children:
       - Name: BtnOpen
         Type: BaseDataVariableType
@@ -1760,18 +1754,10 @@ Children:
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"457 ASPIRA FORM.CARTONE"}
           Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../..@DisplayName"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1784,6 +1770,7 @@ Children:
           Value: 2
     - Name: Aspira Posizione A_1
       Type: Manual_Gen
+      DisplayName: {"NamespaceIndex":30,"TextId":"188 35-ASPIRA POSIZIONE A"}
       Children:
       - Name: BtnOpen
         Type: BaseDataVariableType
@@ -2581,18 +2568,10 @@ Children:
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"188 35-ASPIRA POSIZIONE A"}
           Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../..@DisplayName"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2605,6 +2584,7 @@ Children:
           Value: 2
     - Name: Aspira Posizione B_1
       Type: Manual_Gen
+      DisplayName: {"NamespaceIndex":30,"TextId":"189 35-ASPIRA POSIZIONE B"}
       Children:
       - Name: BtnOpen
         Type: BaseDataVariableType
@@ -3402,18 +3382,10 @@ Children:
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"189 35-ASPIRA POSIZIONE B"}
           Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../..@DisplayName"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3499,6 +3471,7 @@ Children:
       Value: ["430","430"]
     - Name: Rotazione Gruppo_1
       Type: Manual_Gen
+      DisplayName: {"NamespaceIndex":30,"TextId":"193 36-ROTAZIONE GRUPPO"}
       Children:
       - Name: BtnOpen
         Type: BaseDataVariableType
@@ -4296,18 +4269,10 @@ Children:
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"193 36-ROTAZIONE GRUPPO"}
           Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../..@DisplayName"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4320,6 +4285,7 @@ Children:
           Value: 2
     - Name: Estraz Formaz_1
       Type: Manual_Gen
+      DisplayName: {"NamespaceIndex":30,"TextId":"ESTRAZIONE/FORMAZIONE"}
       Children:
       - Name: BtnOpen
         Type: BaseDataVariableType
@@ -5117,18 +5083,10 @@ Children:
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"ESTRAZIONE/FORMAZIONE"}
           Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../..@DisplayName"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5141,6 +5099,7 @@ Children:
           Value: 2
     - Name: Spintore Orizz_1
       Type: Manual_Gen
+      DisplayName: {"NamespaceIndex":30,"TextId":"194 36-SPINTORE ORIZZONTALE"}
       Children:
       - Name: BtnOpen
         Type: BaseDataVariableType
@@ -5938,18 +5897,10 @@ Children:
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"194 36-SPINTORE ORIZZONTALE"}
           Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../..@DisplayName"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5962,6 +5913,7 @@ Children:
           Value: 2
     - Name: Guida Scorrim_1
       Type: Manual_Gen
+      DisplayName: {"NamespaceIndex":30,"TextId":"192 36-GUIDA SCORRIMENTO"}
       Children:
       - Name: BtnOpen
         Type: BaseDataVariableType
@@ -6759,18 +6711,10 @@ Children:
           DataType: LocalizedText
           Value: {"NamespaceIndex":30,"TextId":"192 36-GUIDA SCORRIMENTO"}
           Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../..@DisplayName"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../..@DisplayName"
         - Name: Width
           Type: BaseVariableType
           DataType: Size

@@ -32129,7 +32129,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 350.0
+                Value: 450.0
               - Name: HorizontalAlignment
                 Type: BaseVariableType
                 DataType: HorizontalAlignment
@@ -33648,6 +33648,466 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_337"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: ScaleVar
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Children:
+                    - Name: LinearConverter1
+                      Type: LinearConverter
+                      Children:
+                      - Name: Source
+                        Type: BaseDataVariableType
+                        DataType: Number
+                        ReferenceType: HasSource
+                        Value: {"Type":11,"Body":0.0}
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../InputRaw"
+                      - Name: Slope
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        ReferenceType: HasParameter
+                        Value: 0.1
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../ScaleFactor"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 160.0
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 2
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
+                  - Name: BottomMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "d2"
+                  - Name: InputMinRaw
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                  - Name: InputMaxRaw
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 99999
+                  - Name: ScaleMin
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Children:
+                    - Name: LinearConverter1
+                      Type: LinearConverter
+                      Children:
+                      - Name: Source
+                        Type: BaseDataVariableType
+                        DataType: Number
+                        ReferenceType: HasSource
+                        Value: {"Type":11,"Body":0.0}
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../InputMinRaw"
+                      - Name: Slope
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        ReferenceType: HasParameter
+                        Value: 0.1
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../ScaleFactor"
+                  - Name: ScaleMax
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Children:
+                    - Name: LinearConverter1
+                      Type: LinearConverter
+                      Children:
+                      - Name: Source
+                        Type: BaseDataVariableType
+                        DataType: Number
+                        ReferenceType: HasSource
+                        Value: {"Type":11,"Body":0.0}
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../InputMaxRaw"
+                      - Name: Slope
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        ReferenceType: HasParameter
+                        Value: 0.1
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../ScaleFactor"
+                  - Name: MinValue
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../ScaleMin"
+                  - Name: MaxValue
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Value: 100.0
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../ScaleMax"
+              - Name: HorizontalLayout8
+                Type: Panel
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"it-IT","Text":"TMR RITARDO START TRAMOGGIA VIBRATORE"}
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 80.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: BottomMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                - Name: SpinBoxES1
+                  Type: SpinBoxES1
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../ScaleVar"
+                  - Name: ScaleFactor
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 0.009999999776482582
+                  - Name: InputRaw
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_328"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: ScaleVar
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Children:
+                    - Name: LinearConverter1
+                      Type: LinearConverter
+                      Children:
+                      - Name: Source
+                        Type: BaseDataVariableType
+                        DataType: Number
+                        ReferenceType: HasSource
+                        Value: {"Type":11,"Body":0.0}
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../InputRaw"
+                      - Name: Slope
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        ReferenceType: HasParameter
+                        Value: 0.1
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../ScaleFactor"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 160.0
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 2
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
+                  - Name: BottomMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "d2"
+                  - Name: InputMinRaw
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                  - Name: InputMaxRaw
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 99999
+                  - Name: ScaleMin
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Children:
+                    - Name: LinearConverter1
+                      Type: LinearConverter
+                      Children:
+                      - Name: Source
+                        Type: BaseDataVariableType
+                        DataType: Number
+                        ReferenceType: HasSource
+                        Value: {"Type":11,"Body":0.0}
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../InputMinRaw"
+                      - Name: Slope
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        ReferenceType: HasParameter
+                        Value: 0.1
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../ScaleFactor"
+                  - Name: ScaleMax
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Children:
+                    - Name: LinearConverter1
+                      Type: LinearConverter
+                      Children:
+                      - Name: Source
+                        Type: BaseDataVariableType
+                        DataType: Number
+                        ReferenceType: HasSource
+                        Value: {"Type":11,"Body":0.0}
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../InputMaxRaw"
+                      - Name: Slope
+                        Type: BaseDataVariableType
+                        DataType: Double
+                        ReferenceType: HasParameter
+                        Value: 0.1
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../ScaleFactor"
+                  - Name: MinValue
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../ScaleMin"
+                  - Name: MaxValue
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Value: 100.0
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../ScaleMax"
+              - Name: HorizontalLayout9
+                Type: Panel
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"it-IT","Text":"TMR RITARDO FERMATA TRAMOGGIA"}
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 80.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: BottomMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                - Name: SpinBoxES1
+                  Type: SpinBoxES1
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../ScaleVar"
+                  - Name: ScaleFactor
+                    Type: BaseDataVariableType
+                    DataType: Float
+                    Value: 0.009999999776482582
+                  - Name: InputRaw
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTW/DT_329"
                       Children:
                       - Name: Mode
                         Type: BaseVariableType

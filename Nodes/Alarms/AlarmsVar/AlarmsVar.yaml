@@ -9655,3 +9655,281 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
+- Name: ALM67
+  Id: g=22b67907cf6c86aabf69907467f51970
+  Type: ImgAlm
+  Children:
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=803d9c3b38a4b5089b1d5c36f38d4bda
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f43a528bdfd81ed7027361314e9c9b10
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=aa24c34fea9c0ef7e8adea1c7bbb8351
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW9.3"
+      Children:
+      - Name: Mode
+        Id: g=5525670a2a6fdec1c3dddde4edd17228
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0b51340c1e09983cdc5621d7f78fefbc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Message
+    Id: g=d989e377a528e03752ede0c138904568
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Children:
+    - Name: DynamicLink
+      Id: g=bd4e300a2850484c120c0b0166b619d8
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Id: g=a14bc1582c3808417954a8722a58048f
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=0945ee9a9c52d5fbc9b30b95c93a91b5
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=4cfee838432b837e105f66605168cb62
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Id: g=cb43f97a04a7f1a60c8d88738206c276
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=7bda316b1c827c6b0d64212663f81a87
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../AlmNum"
+        - Name: Source1
+          Id: g=cbf12f09c5cdc2b4707a77fad47770b2
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: CurrentLang1
+            Id: g=8bc5bd7ffcf11868262eea9b0d2da1cd
+            Type: CurrentLang
+            Children:
+            - Name: Source
+              Id: g=8c7e2382ce3a5f995e95f37b8ab2bca4
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=12be05159ec6b828191821af88525849
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
+  - Name: AlmNum
+    Id: g=884f5a17702652c73e05fd0e7311a997
+    Type: BaseDataVariableType
+    DataType: Int16
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=e2efca87829b8f0f45c88e7b682e0a23
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Id: g=1d79bd4cc6d4bdfa8c6b5b944f61b190
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=d8e3a51a35324096e2b96bd45cae1063
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"
+- Name: ALM68
+  Id: g=a1d8c4d799d97bee1f7b258455559091
+  Type: ImgAlm
+  Children:
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=d67a0d9ff5a3ed544c41b265ec1e5408
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=250b8780b7239956217e376b302d95d2
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=13956f92708b551d6c908876e8e64b36
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW9.4"
+      Children:
+      - Name: Mode
+        Id: g=a0f1a11685ed2f55640dab0cad3d6685
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7e03f1fe0d64e455476a379459f507df
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Message
+    Id: g=cfa402c0b53be799e9070756bacea6f2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Children:
+    - Name: DynamicLink
+      Id: g=7984b55a90e5ba6a33d168d35f66b753
+      Type: DynamicLink
+      DataType: NodePath
+      Children:
+      - Name: DynamicLinkFormatter
+        Id: g=8055d54080f22da244fd363b73fbbedd
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=0073a681f5bff13a8090cbd2e088ef4b
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=2d3361e82d57f31b499f3d94b9fe16c6
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Id: g=d5cc478e2db00ab891e1b7be5e0821c9
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=7b596ec61142a0ab075f5c253d93c2db
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../AlmNum"
+        - Name: Source1
+          Id: g=50547dd389798f6dfa95e753d8bbd50e
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: CurrentLang1
+            Id: g=84504015e23ae117702368d2c3274aff
+            Type: CurrentLang
+            Children:
+            - Name: Source
+              Id: g=129519e835fc0866ec49a4cd4b5208de
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=3977aca1634f809254b1d88c2f7ac793
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Cobem_MRM_5/Security/Users/USER/Language"
+  - Name: AlmNum
+    Id: g=881eba1f0ac8d309b7293516371eb505
+    Type: BaseDataVariableType
+    DataType: Int16
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=514acf6e404ef101dbd0f5dddc0ea398
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Source0
+        Id: g=0f7bfb576da8291ebf3c073cea88da65
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=679dfdf1f194e9843e80546b27b1587d
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../..@BrowseName"

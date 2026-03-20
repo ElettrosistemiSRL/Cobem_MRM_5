@@ -3587,7 +3587,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"514 STS-02>FASATURA"}
+                Value: {"NamespaceIndex":30,"TextId":"515 STS-02>STOP DA CONTEGGIO PEZZI"}
             - Name: Pair3
               Type: ValueMapPair
               ModellingRule: None
@@ -3741,7 +3741,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":30,"TextId":"526 STS-13>CICLO SACCHETTI VUOTI ATTIVO"}
+                Value: {"NamespaceIndex":30,"TextId":"542 STS13>FASATURA TAVOLA"}
             - Name: Pair14
               Type: ValueMapPair
               ModellingRule: None
