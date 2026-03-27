@@ -11116,7 +11116,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.15"
+                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/R/RW32.14"
                       Children:
                       - Name: Mode
                         Type: BaseVariableType
