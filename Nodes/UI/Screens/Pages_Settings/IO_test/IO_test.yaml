@@ -23353,7 +23353,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"SLV"}
+              Value: {"LocaleId":"it-IT","Text":"SLV"}
         - Name: HorizontalLayout1
           Type: RowLayout
           Children:

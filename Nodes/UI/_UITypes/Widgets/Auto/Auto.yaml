@@ -2661,7 +2661,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"it-IT","Text":"VELOCITA' TAVOLA"}
+              Value: {"NamespaceIndex":30,"TextId":"271 03-VELOCITA' TAVOLA"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment

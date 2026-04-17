@@ -264,7 +264,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"it-IT","Text":"STATISTICHE"}
+          Value: {"NamespaceIndex":30,"TextId":"STATISTICHE"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -1579,7 +1579,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"PESO ATTUALE [g]"}
+          Value: {"NamespaceIndex":30,"TextId":"PESO ATTUALE [g]"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1740,7 +1740,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"CONTROLLO PESATURA"}
+          Value: {"NamespaceIndex":30,"TextId":"CONTROLLO PESATURA"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1781,7 +1781,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"ZERO"}
+          Value: {"NamespaceIndex":30,"TextId":"202 ZERO"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -2388,7 +2388,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"IMPOSTA PESO MOP [g]"}
+          Value: {"NamespaceIndex":30,"TextId":"IMPOSTA PESO MOP [g]"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2489,7 +2489,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"TOLLERANZA [g]"}
+          Value: {"NamespaceIndex":30,"TextId":"TOLLERANZA [g]"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2728,7 +2728,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"PESO CONTROLLO [g]"}
+          Value: {"NamespaceIndex":30,"TextId":"PESO CONTROLLO [g]"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -2769,7 +2769,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"MIN"}
+          Value: {"NamespaceIndex":30,"TextId":"MIN"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3011,7 +3011,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"MAX"}
+          Value: {"NamespaceIndex":30,"TextId":"MAX"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3264,7 +3264,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"CAMPIONATURA DOPO N° PEZZI"}
+          Value: {"NamespaceIndex":30,"TextId":"CAMPIONATURA DOPO N° PEZZI"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3305,7 +3305,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"ACT"}
+          Value: {"NamespaceIndex":30,"TextId":"ACT"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3547,7 +3547,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"SET"}
+          Value: {"NamespaceIndex":30,"TextId":"SET"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3823,7 +3823,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"ALLARME TOLLERANZA PESO AMMISSIBILE DOPO N° PEZZI"}
+          Value: {"NamespaceIndex":30,"TextId":"ALLARME TOLLERANZA PESO AMMISSIBILE DOPO N° PEZZI"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3869,7 +3869,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"ACT"}
+          Value: {"NamespaceIndex":30,"TextId":"ACT"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4111,7 +4111,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"SET"}
+          Value: {"NamespaceIndex":30,"TextId":"SET"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -4394,7 +4394,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"it-IT","Text":"TOLLERANZA PESO AMMISSIBILE [g]"}
+          Value: {"NamespaceIndex":30,"TextId":"TOLLERANZA PESO AMMISSIBILE [g]"}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -7600,7 +7600,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"IO_List"}
+        Value: {"LocaleId":"it-IT","Text":"IO List"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -7833,7 +7833,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":30,"TextId":"RemoteConnections"}
+        Value: {"LocaleId":"it-IT","Text":"Remote connections"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean

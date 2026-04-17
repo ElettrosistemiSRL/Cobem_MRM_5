@@ -27,7 +27,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"DHCPClientEnabled"}
+      Value: {"LocaleId":"it-IT","Text":"DHCP client enabled"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -45,7 +45,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"IPAddress"}
+      Value: {"LocaleId":"it-IT","Text":"IP address"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -97,7 +97,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"Mask"}
+      Value: {"LocaleId":"it-IT","Text":"Mask"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -172,7 +172,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"DefaultGateway"}
+        Value: {"LocaleId":"it-IT","Text":"Default gateway"}
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
@@ -225,7 +225,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"DNS1"}
+      Value: {"LocaleId":"it-IT","Text":"DNS 1"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -277,7 +277,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"DNS2"}
+      Value: {"LocaleId":"it-IT","Text":"DNS 2"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -358,7 +358,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"DHCPClientEnabled"}
+      Value: {"LocaleId":"it-IT","Text":"DHCP client enabled"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -376,7 +376,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"IPAddress"}
+      Value: {"LocaleId":"it-IT","Text":"IP address"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -433,7 +433,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"Mask"}
+      Value: {"LocaleId":"it-IT","Text":"Mask"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -518,7 +518,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"DefaultGateway"}
+        Value: {"LocaleId":"it-IT","Text":"Default gateway"}
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
@@ -571,7 +571,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"DNS1"}
+      Value: {"LocaleId":"it-IT","Text":"DNS 1"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -628,7 +628,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"DNS2"}
+      Value: {"LocaleId":"it-IT","Text":"DNS 2"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size

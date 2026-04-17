@@ -1335,7 +1335,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"Confirm All"}
+        Value: {"LocaleId":"it-IT","Text":"Confirm All"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -1674,7 +1674,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"Name"}
+            Value: {"LocaleId":"it-IT","Text":"Name"}
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
@@ -1706,44 +1706,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
-        - Name: Zone
-          Type: DataGridColumn
-          Children:
-          - Name: Title
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"Zone"}
-          - Name: Width
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: 100.0
-          - Name: Visible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-          - Name: HeaderAlignment
-            Type: BaseDataVariableType
-            DataType: TextHorizontalAlignment
-            Value: 1
-          - Name: ContentAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: OrderBy
-            Type: BaseDataVariableType
-            DataType: NodePath
-            Value: "{Item}/Group"
-          - Name: DataItemTemplate
-            Type: DataGridLabelItemTemplate
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Item}/Group"
         - Name: Message
           Type: DataGridColumn
           Children:
@@ -1942,7 +1904,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"it-IT","Text":"Ok"}
+            Value: {"NamespaceIndex":30,"TextId":"245 93-OK"}
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
@@ -2323,7 +2285,7 @@ Children:
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"SELECT ActiveState_Id, EnabledState_Id, AckedState_Id, ConfirmedState_Id, ConditionName, SourceName, {1:sql_identifier} AS Message, Severity, LocalTime FROM {0:sql_identifier} ORDER BY LocalTime DESC"}
+          Value: {"LocaleId":"it-IT","Text":"SELECT ActiveState_Id, EnabledState_Id, AckedState_Id, ConfirmedState_Id, ConditionName, SourceName, {1:sql_identifier} AS Message, Severity, LocalTime FROM {0:sql_identifier} ORDER BY LocalTime DESC"}
         - Name: Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
@@ -2413,7 +2375,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"Name"}
+          Value: {"LocaleId":"it-IT","Text":"Name"}
         - Name: Width
           Type: BaseDataVariableType
           DataType: Size
@@ -2449,7 +2411,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"SourceName"}
+          Value: {"LocaleId":"it-IT","Text":"Source Variable"}
         - Name: Width
           Type: BaseDataVariableType
           DataType: Size
@@ -2605,7 +2567,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"Acked"}
+          Value: {"LocaleId":"it-IT","Text":"Acked"}
         - Name: Width
           Type: BaseDataVariableType
           DataType: Size
@@ -2689,7 +2651,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"Confirmed"}
+          Value: {"LocaleId":"it-IT","Text":"Confirmed"}
         - Name: Width
           Type: BaseDataVariableType
           DataType: Size
@@ -3134,7 +3096,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Alarm BrowseName"}
+          Value: {"NamespaceIndex":30,"TextId":"Alarm BrowseName"}
         - Name: Width
           Type: BaseDataVariableType
           DataType: Size
@@ -3173,7 +3135,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Active count"}
+          Value: {"NamespaceIndex":30,"TextId":"Active count"}
         - Name: Width
           Type: BaseDataVariableType
           DataType: Size

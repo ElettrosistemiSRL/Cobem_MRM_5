@@ -108,7 +108,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"FTRemoteAccessRuntimeVersion"}
+            Value: {"LocaleId":"it-IT","Text":"FT Remote Access runtime version"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -213,7 +213,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"RemoteConnections"}
+            Value: {"LocaleId":"it-IT","Text":"Remote connections"}
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -336,7 +336,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"FTRemoteAccessConnection"}
+        Value: {"LocaleId":"it-IT","Text":"FT Remote Access connection"}
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -411,18 +411,18 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
-            Value: {"NamespaceIndex":30,"TextId":"Connected"}
+            Value: {"LocaleId":"it-IT","Text":" Connected"}
           - Name: FalseValue
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"Connecting"}
+            Value: {"LocaleId":"it-IT","Text":" Connecting"}
       - Name: UncheckedText
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"Disconnected"}
+        Value: {"LocaleId":"it-IT","Text":"Disconnected "}
       - Name: ModifiedValueHandler1
         Type: EventHandler
         Children:
@@ -953,7 +953,7 @@ Children:
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"AllowUserToConnect"}
+            Value: {"LocaleId":"it-IT","Text":"Allow user \"{0}\" from IP address {1} to connect?"}
           - Name: ns=5;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
@@ -1034,7 +1034,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"Yes"}
+          Value: {"LocaleId":"it-IT","Text":"Yes"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -1132,7 +1132,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"No"}
+          Value: {"LocaleId":"it-IT","Text":"No"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -1285,7 +1285,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"RegisterToDomainString"}
+        Value: {"LocaleId":"it-IT","Text":"To connect, add your device in FT Remote Access."}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1351,7 +1351,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"RegisterToDomainDeviceID"}
+            Value: {"LocaleId":"it-IT","Text":"Device ID:"}
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -1389,7 +1389,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"RegisterToDomainPassword"}
+            Value: {"LocaleId":"it-IT","Text":"Password:"}
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -1735,7 +1735,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"Name"}
+        Value: {"LocaleId":"it-IT","Text":"Name"}
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -1824,7 +1824,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"ContactInformation"}
+        Value: {"LocaleId":"it-IT","Text":"Contact information"}
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -1914,7 +1914,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"Description"}
+        Value: {"LocaleId":"it-IT","Text":"Description"}
       - Name: ContentType
         Type: BaseVariableType
         DataType: InputTypeEnum
@@ -2023,12 +2023,12 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"RequestAssistance"}
+          Value: {"LocaleId":"it-IT","Text":"Request Assistance "}
         - Name: CheckedText
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"AssistanceRequested"}
+          Value: {"LocaleId":"it-IT","Text":" Assistance Requested"}
         - Name: RequestAssistanceSwitchLogic
           Type: NetLogic
           Children:
@@ -2237,7 +2237,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"FillOutFieldsMessage"}
+          Value: {"LocaleId":"it-IT","Text":"Fill out all fields to submit a request."}
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -2386,13 +2386,13 @@ Children:
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"RequestsDisabled"}
+          Value: {"LocaleId":"it-IT","Text":"Assistance requests are disabled for this device. Please contact your system administrator."}
         - Name: FalseValue
           Type: BaseDataVariableType
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"RequestsUnavailable"}
+          Value: {"LocaleId":"it-IT","Text":"Assistance requests are unavailable for this device while disconnected."}
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment

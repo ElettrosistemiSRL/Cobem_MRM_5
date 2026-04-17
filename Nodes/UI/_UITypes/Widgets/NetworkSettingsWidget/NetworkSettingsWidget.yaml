@@ -36,7 +36,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"LAN"}
+          Value: {"LocaleId":"it-IT","Text":"LAN"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -52,7 +52,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"WAN"}
+          Value: {"LocaleId":"it-IT","Text":"WAN"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -233,7 +233,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"Reboot"}
+        Value: {"LocaleId":"it-IT","Text":"Reboot"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -332,7 +332,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"Apply"}
+        Value: {"LocaleId":"it-IT","Text":"Apply"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -457,7 +457,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"RebootToCommitChanges"}
+        Value: {"LocaleId":"it-IT","Text":"Reboot to commit changes"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size

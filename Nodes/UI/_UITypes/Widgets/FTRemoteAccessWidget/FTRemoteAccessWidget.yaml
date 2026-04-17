@@ -86,13 +86,13 @@ Children:
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"ConnectionPanelTitleAsterisk"}
+              Value: {"LocaleId":"it-IT","Text":"Connection *"}
             - Name: FalseValue
               Type: BaseDataVariableType
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"ConnectionPanelTitle"}
+              Value: {"LocaleId":"it-IT","Text":"Connection"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -117,7 +117,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"AssistancePanelTitle"}
+          Value: {"LocaleId":"it-IT","Text":"Assistance"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId

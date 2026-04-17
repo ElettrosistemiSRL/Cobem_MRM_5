@@ -1695,7 +1695,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"it-IT","Text":"Auto"}
+        Value: {"NamespaceIndex":30,"TextId":"Auto"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -2432,7 +2432,7 @@ Children:
       - Name: PageName
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"it-IT","Text":"Pesatura"}
+        Value: {"NamespaceIndex":30,"TextId":"Pesatura"}
       - Name: PageSelected
         Type: BaseDataVariableType
         DataType: Boolean
@@ -3797,7 +3797,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"LocaleId":"it-IT","Text":"17>CARTONE PERSO"}
+                Value: {"NamespaceIndex":30,"TextId":"17>CARTONE PERSO"}
             - Name: Pair18
               Type: ValueMapPair
               ModellingRule: None

@@ -8366,7 +8366,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"23-SE9"}
+          Value: {"LocaleId":"it-IT","Text":"SE9"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -9351,7 +9351,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"AVANTI"}
+            Value: {"NamespaceIndex":30,"TextId":"198 AVANTI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -10156,7 +10156,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"AVANTI"}
+            Value: {"NamespaceIndex":30,"TextId":"198 AVANTI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color

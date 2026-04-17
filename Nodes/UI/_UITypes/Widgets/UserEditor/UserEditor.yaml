@@ -300,7 +300,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"Create"}
+          Value: {"LocaleId":"it-IT","Text":"Crea"}
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
@@ -402,7 +402,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":30,"TextId":"Delete"}
+          Value: {"LocaleId":"it-IT","Text":"Elimina"}
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
@@ -615,7 +615,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"EmptyUserList"}
+      Value: {"LocaleId":"it-IT","Text":"Nessun utente nell'elenco"}
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -788,7 +788,7 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"Name"}
+              Value: {"LocaleId":"it-IT","Text":"Name"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1044,7 +1044,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"Password"}
+              Value: {"LocaleId":"it-IT","Text":"Password"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1223,7 +1223,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"Locale:"}
+              Value: {"LocaleId":"it-IT","Text":"Impostazioni locali:"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1466,7 +1466,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"CannotCreateUserWithEmptyUsername"}
+                  Value: {"LocaleId":"it-IT","Text":"Impossibile creare un utente con nome utente vuoto"}
               - Name: Pair2
                 Type: ValueMapPair
                 ModellingRule: None
@@ -1480,7 +1480,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"UnableToGetUsers"}
+                  Value: {"LocaleId":"it-IT","Text":"Impossibile ottenere gli utenti"}
               - Name: Pair3
                 Type: ValueMapPair
                 ModellingRule: None
@@ -1494,7 +1494,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"UserNotFound"}
+                  Value: {"LocaleId":"it-IT","Text":"Utente non trovato"}
               - Name: Pair4
                 Type: ValueMapPair
                 ModellingRule: None
@@ -1508,7 +1508,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"PasswordAlreadyUsed"}
+                  Value: {"LocaleId":"it-IT","Text":"Password già utilizzata in passato"}
               - Name: Pair5
                 Type: ValueMapPair
                 ModellingRule: None
@@ -1522,7 +1522,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"PasswordChangedTooRecently"}
+                  Value: {"LocaleId":"it-IT","Text":"Password cambiata troppo recentemente"}
               - Name: Pair6
                 Type: ValueMapPair
                 ModellingRule: None
@@ -1536,7 +1536,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"PasswordTooShort"}
+                  Value: {"LocaleId":"it-IT","Text":"Password troppo corta"}
               - Name: Pair7
                 Type: ValueMapPair
                 ModellingRule: None
@@ -1550,7 +1550,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"UserNotFound"}
+                  Value: {"LocaleId":"it-IT","Text":"Utente non trovato"}
               - Name: Pair8
                 Type: ValueMapPair
                 ModellingRule: None
@@ -1564,7 +1564,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"UnsupportedOperation"}
+                  Value: {"LocaleId":"it-IT","Text":"Operazione non supportata"}
               - Name: Pair9
                 Type: ValueMapPair
                 ModellingRule: None
@@ -1578,7 +1578,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"ChangesAppliedSuccessfully"}
+                  Value: {"LocaleId":"it-IT","Text":"Modifiche applicate correttamente"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -1633,7 +1633,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"Apply"}
+            Value: {"LocaleId":"it-IT","Text":"Apply"}
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -2299,7 +2299,7 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"Name"}
+              Value: {"LocaleId":"it-IT","Text":"Name"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2450,7 +2450,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"Password"}
+              Value: {"LocaleId":"it-IT","Text":"Password"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2626,7 +2626,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":30,"TextId":"Locale:"}
+              Value: {"LocaleId":"it-IT","Text":"Impostazioni locali:"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2839,7 +2839,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"CannotCreateUserWithEmptyUsername"}
+                  Value: {"LocaleId":"it-IT","Text":"Impossibile creare un utente con nome utente vuoto"}
               - Name: Pair2
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2853,7 +2853,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"UnableToGetUsers"}
+                  Value: {"LocaleId":"it-IT","Text":"Impossibile ottenere gli utenti"}
               - Name: Pair3
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2867,7 +2867,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"PasswordTooShort"}
+                  Value: {"LocaleId":"it-IT","Text":"Password troppo corta"}
               - Name: Pair4
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2881,7 +2881,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"UnsupportedOperation"}
+                  Value: {"LocaleId":"it-IT","Text":"Operazione non supportata"}
               - Name: Pair5
                 Type: ValueMapPair
                 ModellingRule: None
@@ -2895,7 +2895,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":30,"TextId":"UsernameAlreadyExists"}
+                  Value: {"LocaleId":"it-IT","Text":"Nome utente già esistente"}
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -2946,7 +2946,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"Apply"}
+            Value: {"LocaleId":"it-IT","Text":"Apply"}
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -3110,7 +3110,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":30,"TextId":"Cancel"}
+            Value: {"LocaleId":"it-IT","Text":"Annulla"}
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -3517,7 +3517,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"Groups"}
+      Value: {"LocaleId":"it-IT","Text":"Gruppi"}
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -3685,7 +3685,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":30,"TextId":"Roles"}
+      Value: {"LocaleId":"it-IT","Text":"Ruoli"}
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment

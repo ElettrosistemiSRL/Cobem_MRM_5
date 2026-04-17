@@ -1061,7 +1061,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Passo Ciclo:"}
+        Value: {"NamespaceIndex":30,"TextId":"Passo Ciclo:"}
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
@@ -1198,7 +1198,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"it-IT","Text":"STOP"}
+      Value: {"NamespaceIndex":30,"TextId":"208 STOP"}
     - Name: BackgroundColor
       Type: BaseDataVariableType
       DataType: Color
@@ -1254,7 +1254,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"it-IT","Text":"START"}
+      Value: {"NamespaceIndex":30,"TextId":"207 START"}
     - Name: BackgroundColor
       Type: BaseDataVariableType
       DataType: Color

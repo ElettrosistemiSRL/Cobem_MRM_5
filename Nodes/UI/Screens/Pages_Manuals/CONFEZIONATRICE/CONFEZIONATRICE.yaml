@@ -66,7 +66,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"it-IT","Text":"RECUPERO"}
+          Value: {"NamespaceIndex":30,"TextId":"RECUPERO"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -2396,7 +2396,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+            Value: {"NamespaceIndex":30,"TextId":"197 INDIETRO"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -3219,7 +3219,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
+            Value: {"NamespaceIndex":30,"TextId":"196 CHIUDI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -4085,7 +4085,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ABBASSA"}
+            Value: {"NamespaceIndex":30,"TextId":"ABBASSA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5689,7 +5689,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+            Value: {"NamespaceIndex":30,"TextId":"197 INDIETRO"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -7351,7 +7351,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"ABBASSA"}
+            Value: {"NamespaceIndex":30,"TextId":"ABBASSA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -8173,7 +8173,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDE"}
+            Value: {"NamespaceIndex":30,"TextId":"462 L-CHIUDE"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -8955,7 +8955,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+            Value: {"NamespaceIndex":30,"TextId":"197 INDIETRO"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -9751,7 +9751,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"CHIUDI"}
+            Value: {"NamespaceIndex":30,"TextId":"196 CHIUDI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -10107,7 +10107,7 @@ Children:
       Value: 2
     - Name: RecuperoFilm
       Type: Manual_Gen
-      DisplayName: {"LocaleId":"it-IT","Text":"RECUPERO FILM"}
+      DisplayName: {"NamespaceIndex":30,"TextId":"RECUPERO FILM"}
       Children:
       - Name: BtnOpen
         Type: BaseDataVariableType
@@ -10410,7 +10410,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"it-IT","Text":"FILM A"}
+            Value: {"NamespaceIndex":30,"TextId":"FILM A"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -10686,7 +10686,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"it-IT","Text":"FILM B"}
+            Value: {"NamespaceIndex":30,"TextId":"FILM B"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -12001,7 +12001,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"OK"}
+                    Value: {"NamespaceIndex":30,"TextId":"245 93-OK"}
                 - Name: Label2
                   Type: Label
                   Children:
@@ -12009,7 +12009,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"ALM"}
+                    Value: {"NamespaceIndex":30,"TextId":"ALM"}
           - Name: Label2
             Type: Label
             Children:
@@ -12964,7 +12964,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"OK"}
+                    Value: {"NamespaceIndex":30,"TextId":"245 93-OK"}
                 - Name: Label2
                   Type: Label
                   Children:
@@ -12972,7 +12972,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"ALM"}
+                    Value: {"NamespaceIndex":30,"TextId":"ALM"}
           - Name: Label2
             Type: Label
             Children:

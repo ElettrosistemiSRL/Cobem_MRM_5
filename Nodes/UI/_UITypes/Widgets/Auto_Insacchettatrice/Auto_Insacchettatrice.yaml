@@ -632,7 +632,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"566 ATTIVA"}
+                  Value: {"NamespaceIndex":30,"TextId":"284 06-ATTIVA"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -914,7 +914,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"NamespaceIndex":30,"TextId":"509 STD-OFF"}
+                  Value: {"NamespaceIndex":30,"TextId":"318 09-OFF"}
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -3687,13 +3687,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ON"}
+                  Value: {"NamespaceIndex":30,"TextId":"510 STD-ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"OFF"}
+                  Value: {"NamespaceIndex":30,"TextId":"318 09-OFF"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3857,13 +3857,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ON"}
+                  Value: {"NamespaceIndex":30,"TextId":"510 STD-ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"OFF"}
+                  Value: {"NamespaceIndex":30,"TextId":"318 09-OFF"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -4037,13 +4037,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ON"}
+                  Value: {"NamespaceIndex":30,"TextId":"510 STD-ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"OFF"}
+                  Value: {"NamespaceIndex":30,"TextId":"318 09-OFF"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -4207,13 +4207,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ON"}
+                  Value: {"NamespaceIndex":30,"TextId":"510 STD-ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"OFF"}
+                  Value: {"NamespaceIndex":30,"TextId":"318 09-OFF"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -4377,13 +4377,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ON"}
+                  Value: {"NamespaceIndex":30,"TextId":"510 STD-ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"OFF"}
+                  Value: {"NamespaceIndex":30,"TextId":"318 09-OFF"}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -7266,13 +7266,13 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"ON"}
+                  Value: {"NamespaceIndex":30,"TextId":"510 STD-ON"}
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"it-IT","Text":"OFF"}
+                  Value: {"NamespaceIndex":30,"TextId":"318 09-OFF"}
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment

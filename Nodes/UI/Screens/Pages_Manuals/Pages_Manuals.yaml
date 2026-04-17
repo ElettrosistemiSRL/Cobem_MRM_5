@@ -345,7 +345,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"AVANTI"}
+            Value: {"NamespaceIndex":30,"TextId":"198 AVANTI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -621,7 +621,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"INDIETRO"}
+            Value: {"NamespaceIndex":30,"TextId":"197 INDIETRO"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5123,7 +5123,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"it-IT","Text":"CHIUDI"}
+            Value: {"NamespaceIndex":30,"TextId":"196 CHIUDI"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5973,7 +5973,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"DISCESA"}
+            Value: {"NamespaceIndex":30,"TextId":"212 DISCESA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -6782,7 +6782,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"DISCESA"}
+            Value: {"NamespaceIndex":30,"TextId":"212 DISCESA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -7323,7 +7323,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"SALITA"}
+            Value: {"NamespaceIndex":30,"TextId":"213 SALITA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -7840,7 +7840,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"DISCESA"}
+            Value: {"NamespaceIndex":30,"TextId":"212 DISCESA"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color

@@ -26,7 +26,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"it-IT","Text":"ABILITA"}
+        Value: {"NamespaceIndex":30,"TextId":"ABILITA"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -52,7 +52,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":30,"TextId":"DESCRIPTION"}
+        Value: {"LocaleId":"it-IT","Text":"DESCRIPTION"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -79,7 +79,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"it-IT","Text":"TEMPO"}
+        Value: {"NamespaceIndex":30,"TextId":"TEMPO"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -106,7 +106,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"it-IT","Text":"PARAMETRO"}
+        Value: {"NamespaceIndex":30,"TextId":"PARAMETRO"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -33817,7 +33817,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"TMR RITARDO START TRAMOGGIA VIBRATORE"}
+                    Value: {"NamespaceIndex":30,"TextId":"TMR RITARDO START TRAMOGGIA VIBRATORE"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -34047,7 +34047,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"it-IT","Text":"TMR RITARDO FERMATA TRAMOGGIA"}
+                    Value: {"NamespaceIndex":30,"TextId":"TMR RITARDO FERMATA TRAMOGGIA"}
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -50366,7 +50366,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"AssistancePanelTitle"}
+            Value: {"LocaleId":"it-IT","Text":"Assistance"}
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
@@ -50481,7 +50481,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"LAN"}
+            Value: {"LocaleId":"it-IT","Text":"LAN"}
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
@@ -50497,7 +50497,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"WAN"}
+            Value: {"LocaleId":"it-IT","Text":"WAN"}
           - Name: Panel
             Type: NodePointer
             DataType: NodeId

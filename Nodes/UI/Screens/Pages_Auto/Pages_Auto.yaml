@@ -4506,7 +4506,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: LocalizedText
                       ModellingRule: Optional
-                      Value: {"LocaleId":"it-IT","Text":"ATTUALE °C"}
+                      Value: {"NamespaceIndex":30,"TextId":"ATTUALE °C"}
                     - Name: FontSize
                       Type: BaseDataVariableType
                       DataType: Size
