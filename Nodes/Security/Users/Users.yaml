@@ -52,19 +52,31 @@ Children:
   - Class: Reference
     Type: HasGroup
     Target: g=00ede4771a7aad468f723427bfc0b0da
+  - Name: LocaleId
+    Id: g=56fe9ce7200124e233c22a1186a14f4d
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: MeasurementSystem
+    Id: g=929e43f089136b4876ec33b789a3867c
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
 - Name: Borghi
-  Id: g=56e19950bf4d50a4c39096f5aec84fd4
+  Id: g=c75905d39b45141e481374c9d3566fc0
   Type: UserType
   Children:
   - Name: Password
-    Id: g=b30e5952259f1298d17eda7cd0de65d8
+    Id: g=56490e2363dba4a4f06ac606b98ff55c
     Type: Password
     DataType: Password
     ReferenceType: HasProperty
     AccessLevel: Read
     Children:
     - Name: Hash
-      Id: g=bb5bb23adf8dd946ae755283c467ff6c
+      Id: g=d1a32a37aed96c8bafa1fde44b03f50d
       Type: PropertyType
       DataType: PasswordHash
       AccessLevel: Read
@@ -75,24 +87,47 @@ Children:
          "Namespace": 1
         },
         "Body": {
-         "Hash": [247,29,4,157,2,125,137,72,128,117,195,18,174,41,0,101,136,57,240,52,84,1,113,121,19,46,68,231,245,195,173,235],
-         "Salt": [52,79,23,96,117,124,65,171,191,88,67,235,125,43,69,44,195,188,183,253,113,177,129,224,104,147,235,32,106,158,110,165]
+         "Hash": [147,241,118,227,200,213,148,5,67,153,199,240,173,101,204,30,161,62,100,103,93,226,187,104,199,89,243,254,192,58,99,113],
+         "Salt": [220,244,241,191,224,201,140,41,150,0,104,21,105,200,79,215,50,113,210,33,38,104,183,52,63,48,68,121,21,89,210,48]
         }
        }
     - Name: ChangeTimestamp
-      Id: g=d0be76c61a36e16bc0c38999728f362c
+      Id: g=a1de030bec0090920b543652998b3677
       Type: PropertyType
       DataType: UtcTime
       AccessLevel: Read
-      Value: "2026-03-06T09:02:16.3963337"
+      Value: "2026-04-21T10:29:13.6457141"
     - Name: History
-      Id: g=980a3538c9154d946f3d0122203b8fb4
+      Id: g=d60496ed385d96fa892b159a3ad819a0
       Type: PropertyType
       DataType: PasswordHash
       AccessLevel: Read
       ValueRank: OneDimension
       ArrayDimensions: [0]
-      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[247,29,4,157,2,125,137,72,128,117,195,18,174,41,0,101,136,57,240,52,84,1,113,121,19,46,68,231,245,195,173,235],"Salt":[52,79,23,96,117,124,65,171,191,88,67,235,125,43,69,44,195,188,183,253,113,177,129,224,104,147,235,32,106,158,110,165]}}]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[147,241,118,227,200,213,148,5,67,153,199,240,173,101,204,30,161,62,100,103,93,226,187,104,199,89,243,254,192,58,99,113],"Salt":[220,244,241,191,224,201,140,41,150,0,104,21,105,200,79,215,50,113,210,33,38,104,183,52,63,48,68,121,21,89,210,48]}}]
+  - Name: LocaleId
+    Id: g=027103a37e852090d69c1dbeccbb8328
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=2c17e10ce4ca8760f7d23588710db354
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=ae1a72386c9dcae15adde4e6f56abb32
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Name: Domain
+    Id: g=92e29831b379981b2f372ec44e1aa6d5
+    Type: BaseVariableType
+    DataType: String
+    ReferenceType: HasProperty
   - Class: Reference
     Type: HasGroup
     Target: g=a64ffce9869f9ee6e6c4cb22ba2e73ad
@@ -105,7 +140,7 @@ Children:
     Type: BaseVariableType
     DataType: LocaleId
     ReferenceType: HasProperty
-    Value: "it-IT"
+    Value: "en-US"
   - Name: Password
     Id: g=231ab6d040b18aa56f3f128163b1afb7
     Type: Password
@@ -148,7 +183,7 @@ Children:
     Type: BaseVariableType
     DataType: LocaleId
     ReferenceType: HasProperty
-    Value: "it-IT"
+    Value: "en-US"
   - Name: MeasurementSystem
     Id: g=b2cbd9cd216e2f12540681a14b5c14df
     Type: BaseVariableType
