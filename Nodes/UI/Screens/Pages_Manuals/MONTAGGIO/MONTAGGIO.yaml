@@ -50,7 +50,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"CARICO CAPPUCCI"}
+          Value: {"NamespaceIndex":30,"TextId":"CARICO CAPP. 1"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -66,7 +66,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":30,"TextId":"SOLLEVAMENTO CAPPUCCI"}
+          Value: {"NamespaceIndex":30,"TextId":"CARICO CAPP. 2"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -6115,7 +6115,7 @@ Children:
           Value: 2
     - Name: Blocca materiale
       Type: Manual_1P_1L
-      DisplayName: {"NamespaceIndex":30,"TextId":"25-BLOCCA MATERIALE"}
+      DisplayName: {"NamespaceIndex":30,"TextId":"NASTRO RIEMPI VIBRATORE CAPPUCCI"}
       Children:
       - Name: VerticalLayout1
         Type: ColumnLayout
@@ -6132,6 +6132,16 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../..@DisplayName"
+          - Name: WordWrap
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: true
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
         - Name: HorizontalLayout1
           Type: RowLayout
           Children:
@@ -7037,6 +7047,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../BtnCloseLamp"
+          - Name: MinHoldTime
+            Type: BaseDataVariableType
+            DataType: Duration
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
         - Name: VerticalLayout2
           Type: ColumnLayout
           Children:

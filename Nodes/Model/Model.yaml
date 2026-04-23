@@ -325,3 +325,40 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- Name: Scaled_DT302
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: LinearConverter1
+    Type: LinearConverter
+    Children:
+    - Name: Source
+      Type: BaseDataVariableType
+      DataType: Number
+      ReferenceType: HasSource
+      Value: {"Type":11,"Body":0.0}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_302"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Slope
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 0.01
+    - Name: Intercept
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: -100.0
+    - Name: Mode
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2

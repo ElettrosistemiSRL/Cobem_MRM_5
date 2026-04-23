@@ -83,12 +83,16 @@ Children:
         Type: BaseDataVariableType
         DataType: FontWeightEnum
         ModellingRule: Optional
-        Value: 950
+        Value: 400
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 40.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: HorizontalLayout1
       Type: RowLayout
       Children:
@@ -877,7 +881,7 @@ Children:
         Type: BaseDataVariableType
         DataType: FontWeightEnum
         ModellingRule: Optional
-        Value: 950
+        Value: 400
       - Name: Height
         Type: BaseVariableType
         DataType: Size
@@ -2097,7 +2101,7 @@ Children:
         Type: BaseDataVariableType
         DataType: FontWeightEnum
         ModellingRule: Optional
-        Value: 950
+        Value: 400
       - Name: Height
         Type: BaseVariableType
         DataType: Size
@@ -3433,7 +3437,7 @@ Children:
         Type: BaseDataVariableType
         DataType: FontWeightEnum
         ModellingRule: Optional
-        Value: 950
+        Value: 400
       - Name: Height
         Type: BaseVariableType
         DataType: Size

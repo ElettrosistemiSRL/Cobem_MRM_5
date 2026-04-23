@@ -793,6 +793,11 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 18.0
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"NamespaceIndex":30,"TextId":"178 31-ESTRAZIONE"}
               - Name: Rectangle4
                 Type: Rectangle
                 Children:
@@ -1144,8 +1149,8 @@ Children:
               - Name: HorizontalLayout3
                 Type: RowLayout
                 Children:
-                - Name: SpinBoxES2
-                  Type: SpinBoxES1
+                - Name: SpinBox2
+                  Type: SpinBox
                   Children:
                   - Name: Value
                     Type: BaseDataVariableType
@@ -1154,131 +1159,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "../ScaleVar"
-                  - Name: ScaleFactor
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Value: 0.10000000149011612
-                  - Name: InputRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_302"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: ScaleVar
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
-                      Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                  - Name: InputMinRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Value: 10000
-                  - Name: InputMaxRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Value: 20000
-                  - Name: ScaleMin
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
-                      Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputMinRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                  - Name: ScaleMax
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
-                      Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputMaxRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                  - Name: MinValue
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../ScaleMin"
-                  - Name: MaxValue
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    Value: 100.0
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../ScaleMax"
+                      Value: "/Objects/Cobem_MRM_5/Model/Scaled_DT302"
               - Name: HorizontalLayout4
                 Type: RowLayout
                 Children:
@@ -2357,7 +2238,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 8.0
+                    Value: 23.0
                   - Name: RightMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -3221,6 +3102,10 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 140.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4001,7 +3886,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"NamespaceIndex":30,"TextId":"304 08-ALTA/BASSA"}
+                    Value: {"NamespaceIndex":30,"TextId":"BASSA"}
                 - Name: ALTA_BASSA
                   Type: ToggleButton
                   Children:
@@ -4121,19 +4006,6 @@ Children:
               - Name: Rectangle6
                 Type: Rectangle
                 Children:
-                - Name: Label1
-                  Type: Label
-                  Children:
-                  - Name: LeftMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 8.0
-                  - Name: FontSize
-                    Type: BaseDataVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 14.0
                 - Name: RINFORZO
                   Type: ToggleButton
                   Children:
@@ -4184,6 +4056,19 @@ Children:
                           Type: DynamicLink
                           DataType: NodePath
                           Value: "../../../Active"
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 14.0
             - Name: Rectangle1
               Type: Rectangle
               Children:
@@ -4374,6 +4259,11 @@ Children:
                   Type: Rectangle
                 - Name: Rectangle4
                   Type: Rectangle
+                  Children:
+                  - Name: Visible
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: Optional
             - Name: Rectangle3
               Type: Rectangle
               Children:
@@ -4480,6 +4370,11 @@ Children:
                   Type: Rectangle
                 - Name: Rectangle6
                   Type: Rectangle
+                  Children:
+                  - Name: Visible
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: Optional
                 - Name: BottomMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -5241,8 +5136,8 @@ Children:
               - Name: HorizontalLayout4
                 Type: RowLayout
                 Children:
-                - Name: SpinBoxES1
-                  Type: SpinBoxES1
+                - Name: SpinBox2
+                  Type: SpinBox
                   Children:
                   - Name: Value
                     Type: BaseDataVariableType
@@ -5251,131 +5146,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "../ScaleVar"
-                  - Name: ScaleFactor
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Value: 0.10000000149011612
-                  - Name: InputRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Cobem_MRM_5/CommDrivers/ModbusDriver1/ModbusStation1/Tags/DT/DTD/DTD_302"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
-                  - Name: ScaleVar
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
-                      Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                  - Name: InputMinRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Value: 10000
-                  - Name: InputMaxRaw
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Value: 20000
-                  - Name: ScaleMin
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
-                      Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputMinRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                  - Name: ScaleMax
-                    Type: BaseDataVariableType
-                    DataType: Float
-                    Children:
-                    - Name: LinearConverter1
-                      Type: LinearConverter
-                      Children:
-                      - Name: Source
-                        Type: BaseDataVariableType
-                        DataType: Number
-                        ReferenceType: HasSource
-                        Value: {"Type":11,"Body":0.0}
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../InputMaxRaw"
-                      - Name: Slope
-                        Type: BaseDataVariableType
-                        DataType: Double
-                        ReferenceType: HasParameter
-                        Value: 0.1
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../ScaleFactor"
-                  - Name: MinValue
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../ScaleMin"
-                  - Name: MaxValue
-                    Type: BaseDataVariableType
-                    DataType: Double
-                    Value: 100.0
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../ScaleMax"
+                      Value: "/Objects/Cobem_MRM_5/Model/Scaled_DT302"
               - Name: HorizontalLayout5
                 Type: RowLayout
               - Name: HorizontalLayout6

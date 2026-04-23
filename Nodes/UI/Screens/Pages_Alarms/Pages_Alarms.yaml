@@ -463,6 +463,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
+              Value: 8.0
             - Name: BottomMargin
               Type: BaseVariableType
               DataType: Size
@@ -750,7 +751,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 14.0
+              Value: 16.0
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
@@ -1017,7 +1018,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 14.0
+              Value: 16.0
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size

@@ -148,7 +148,7 @@ Children:
                 DataType: String
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "{0} == \"USER\""
+                Value: "{0} == \"Operator\""
               - Name: ns=5;Source0
                 Type: BaseDataVariableType
                 DataType: BaseDataType
@@ -336,7 +336,7 @@ Children:
                 DataType: String
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "{0} == \"USER\""
+                Value: "{0} == \"Operator\""
               - Name: ns=5;Source0
                 Type: BaseDataVariableType
                 DataType: BaseDataType
@@ -497,7 +497,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -4.0
+        Value: 15.0
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -529,7 +529,7 @@ Children:
                 DataType: String
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "{0} == \"USER\""
+                Value: "{0} == \"Operator\""
               - Name: ns=5;Source0
                 Type: BaseDataVariableType
                 DataType: BaseDataType

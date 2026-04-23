@@ -137,6 +137,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#e4e4e4"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 400
     - Name: InputBoxParametriGreen
       Type: InputBoxStyle
       Children:
@@ -148,6 +152,36 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#7affb5"
+    - Name: InputBoxBilanciaGreen
+      Type: InputBoxStyle
+      Children:
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#26fe58"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 400
+    - Name: InputBoxBilanciaRed
+      Type: InputBoxStyle
+      Children:
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ed5252"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 400
   - Name: SwitchStyles
     Type: BaseObjectType
     Children:
@@ -305,7 +339,7 @@ Children:
   - Name: StartingUser
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cobem_MRM_5/Security/Users/USER"
+    Value: "/Objects/Cobem_MRM_5/Security/Users/Operator"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -356,7 +390,7 @@ Children:
   - Name: StartingUser
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cobem_MRM_5/Security/Users/Admin"
+    Value: "/Objects/Cobem_MRM_5/Security/Users/Operator"
     Children:
     - Name: Kind
       Type: PropertyType
